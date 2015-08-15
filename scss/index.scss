@@ -35,13 +35,12 @@
 
 .banner-left-form, .banner-right-media {
   border: 1px solid #eee;
-  img {
-    width: 100%;
-  }
 }
 
 .banner-left-form {
+  padding: 0 15/$global-font-size + em 10/$global-font-size + em;
   .form-tab {
+    margin: 0 -15/$global-font-size + em;
     position: relative;
     border-bottom: 2px solid $highlightColor;
     .arrows-down {
@@ -66,13 +65,13 @@
     }
   }
   .form-state {
-    margin: 15/$global-font-size + em 15/$global-font-size + em 10/$global-font-size + em;
+    margin: 10/$global-font-size + em 0;
     line-height: 27/$global-font-size + em;
     text-align: center;
     background-color: #f6f6f6;
     em {
       color: $highlightColor;
-      font-size: 18/$global-font-size + em;;
+      font-size: 18/$global-font-size + em;
     }
   }
   .form_line {
@@ -102,10 +101,23 @@
     P { @include text-truncate; }
   }
   .form-bottom p {
-    margin-bottom: 6/$global-font-size + em;;
+    margin-bottom: 4/$global-font-size + em;;
   }
 }
 
+.banner-right-media {
+  img {
+    width: 100%;
+  }
+  .banner-bottom {
+    @include clearfix();
+    a {
+      float: left;
+      width: percentage(1/3);
+      & + a { border-left: 1px solid $gray-lighter; }
+    }
+  }
+}
 
 .index-hot {
   @include clearfix();

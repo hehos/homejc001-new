@@ -10,72 +10,76 @@
 <div class="container">
     <!--  begin 头部banner  -->
     <div class="banner row">
-        <div class="banner-left-form col-xl-3">
-            <div class="form-tab row">
-                <ul class="row">
-                    <li class="col-xl-3 on">
-                        <a href="">免费<br/>量房</a>
-                        <i class="arrows-down icon-sort-down"></i>
-                    </li>
-                    <li class="col-xl-3">
-                        <a href="">免费<br/>设计报价</a>
-                        <i class="arrows-down icon-sort-down"></i>
-                    </li>
-                    <li class="col-xl-3">
-                        <a href="">免费<br/>监理</a>
-                        <i class="arrows-down icon-sort-down"></i>
-                    </li>
-                    <li class="col-xl-3">
-                        <a href="">安装满意<br/>再付款</a>
-                        <i class="arrows-down icon-sort-down"></i>
-                    </li>
-                </ul>
-            </div>
-            <div class="form-state">
-                <p>今日 <em>888</em> 户业主已报名</p>
-            </div>
-            <div class="form-cont">
-                <div class="form-hd">
-                    <p style="display: block;">10秒登记，免费获取3份专业设计方案</p>
-                    <p style="display: none;">3套报价对比，获取更靠谱方案，拒绝超预算</p>
-                    <p style="display: none;">专业监理免费上门，按照行业标准严格验收</p>
-                    <p style="display: none;">免费检测15大项30小项，全面检测房屋质量</p>
+        <div class="col-xl-3">
+            <div class="banner-left-form">
+                <div class="form-tab">
+                    <ul class="row">
+                        <li class="col-xl-3 on">
+                            <a href="">免费<br/>量房</a>
+                            <i class="arrows-down icon-sort-down"></i>
+                        </li>
+                        <li class="col-xl-3">
+                            <a href="">免费<br/>设计报价</a>
+                            <i class="arrows-down icon-sort-down"></i>
+                        </li>
+                        <li class="col-xl-3">
+                            <a href="">免费<br/>监理</a>
+                            <i class="arrows-down icon-sort-down"></i>
+                        </li>
+                        <li class="col-xl-3">
+                            <a href="">安装满意<br/>再付款</a>
+                            <i class="arrows-down icon-sort-down"></i>
+                        </li>
+                    </ul>
                 </div>
-                <div class="form_line">
-                    <input class="form-control" type="text" placeholder="您的称呼"/>
+                <div class="form-state">
+                    <p>今日 <em>888</em> 户业主已报名</p>
                 </div>
-                <div class="form_line">
-                    <input class="form-control"  type="text" placeholder="您的电话"/>
+                <div class="form-cont">
+                    <div class="form-hd">
+                        <p style="display: block;">10秒登记，免费获取3份专业设计方案</p>
+                        <p style="display: none;">3套报价对比，获取更靠谱方案，拒绝超预算</p>
+                        <p style="display: none;">专业监理免费上门，按照行业标准严格验收</p>
+                        <p style="display: none;">免费检测15大项30小项，全面检测房屋质量</p>
+                    </div>
+                    <div class="form_line">
+                        <input class="form-control" type="text" placeholder="您的称呼"/>
+                    </div>
+                    <div class="form_line">
+                        <input class="form-control"  type="text" placeholder="您的电话"/>
+                    </div>
+                    <div class="form_line city">
+                        <select class="form-control" name="" id="">
+                            <option value="">四川</option>
+                            <option value="">重庆</option>
+                        </select>
+                        <select class="form-control" name="" id="">
+                            <option value="">成都</option>
+                            <option value="">绵阳</option>
+                        </select>
+                    </div>
+                    <div class="form_line">
+                        <button class="form-control form-control-lg" >立即预约</button>
+                    </div>
                 </div>
-                <div class="form_line city">
-                    <select class="form-control" name="" id="">
-                        <option value="">四川</option>
-                        <option value="">重庆</option>
-                    </select>
-                    <select class="form-control" name="" id="">
-                        <option value="">成都</option>
-                        <option value="">绵阳</option>
-                    </select>
+                <div class="form-bottom">
+                    <p>风投C轮投资2亿美金，互联网装修领导者</p>
+                    <p>更专业的装修服务平台，800万业主的共同选择</p>
                 </div>
-                <div class="form_line">
-                    <button class="form-control form-control-lg" >立即预约</button>
-                </div>
-            </div>
-            <div class="form-bottom">
-                <p>风投C轮投资2亿美金，互联网装修领导者</p>
-                <p>更专业的装修服务平台，800万业主的共同选择</p>
             </div>
         </div>
-        <div class="banner-right-media col-xl-9">
-            <div class="banner-slider">
-                <a style="" href=""><img src="../img/banner1.png" alt=""/></a>
-                <a style="display: none;" href=""><img src="" alt=""/></a>
-                <a style="display: none;" href=""><img src="" alt=""/></a>
-            </div>
-            <div class="banner-bottom row">
-                <a class="col-xl-4" href=""><img src="../img/zuianquan.png" alt=""/></a>
-                <a class="col-xl-4" href=""><img src="../img/baozhiliang.png" alt=""/></a>
-                <a class="col-xl-4" href=""><img src="../img/baoshouhou.png" alt=""/></a>
+        <div class="col-xl-9">
+            <div class="banner-right-media">
+                <div class="banner-slider">
+                    <a style="" href=""><img src="../img/banner1.png" alt=""/></a>
+                    <a style="display: none;" href=""><img src="" alt=""/></a>
+                    <a style="display: none;" href=""><img src="" alt=""/></a>
+                </div>
+                <div class="banner-bottom">
+                    <a href=""><img src="../img/zuianquan.png" alt=""/></a>
+                    <a href=""><img src="../img/baozhiliang.png" alt=""/></a>
+                    <a href=""><img src="../img/baoshouhou.png" alt=""/></a>
+                </div>
             </div>
         </div>
     </div>

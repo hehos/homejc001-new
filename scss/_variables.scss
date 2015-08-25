@@ -1,10 +1,16 @@
+@import "../bootstrap4/scss/variables";
+
 // Color
 //
-// 各种主题颜色的定义
-
-
-
+// theme color var
 
 $activeColor:                   #bd0401;
 $highlightColor:                #91b81d;
 
+
+// gray
+$gray-border:                   #ddd;
+
+
+// font-size
+$global-font-size:                14;

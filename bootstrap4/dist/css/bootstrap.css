@@ -384,14 +384,14 @@ blockquote {
 }
 
 a {
-  color: #0275d8;
+  color: #373a3c;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #014c8c;
-  text-decoration: underline;
+  color: #373a3c;
+  text-decoration: none;
 }
 
 a:focus {
@@ -2768,7 +2768,7 @@ fieldset[disabled] .btn-danger-outline:hover {
 
 .btn-link {
   font-weight: normal;
-  color: #0275d8;
+  color: #373a3c;
   border-radius: 0;
 }
 
@@ -2792,8 +2792,8 @@ fieldset[disabled] .btn-link {
 
 .btn-link:focus,
 .btn-link:hover {
-  color: #014c8c;
-  text-decoration: underline;
+  color: #373a3c;
+  text-decoration: none;
   background-color: transparent;
 }
 
@@ -4028,7 +4028,7 @@ input[type="button"].btn-block {
   padding: .5rem .75rem;
   margin-left: -1px;
   line-height: 1.5;
-  color: #0275d8;
+  color: #373a3c;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -4051,7 +4051,7 @@ input[type="button"].btn-block {
 .pagination > li > a:hover,
 .pagination > li > span:focus,
 .pagination > li > span:hover {
-  color: #014c8c;
+  color: #373a3c;
   background-color: #eceeef;
   border-color: #ddd;
 }

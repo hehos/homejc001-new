@@ -1,0 +1,267 @@
+@import "variables";
+@import "../bootstrap4/scss/mixins";
+
+// nav
+$activeColor: $activeColor;
+.nav-base,
+.nav-haslogo {
+  @include clearfix();
+  .nav-item {
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+  }
+  a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.nav-base-wrap {
+  margin-top: 15px;
+  border-bottom: 2px solid $activeColor;
+}
+.nav-base {
+  .nav-item {
+    width: 1 / 7 * 100%;
+    line-height: 2.6em;
+    font-size: 1.15em;
+    &:before {
+      content: "";
+      height: 1em;
+      float: right;
+      margin-top: (2.6em-1em)/2;
+      border-left: 1px solid #ddd;
+    }
+    &:last-child:before { display: none; }
+    &:hover, &.on {
+      background-color: $activeColor;
+      color: #fff;
+      outline: 1px solid $activeColor;
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  /* subnav begin*/
+  .has-subnav {
+    .glyphicon {
+      font-size: 1rem;
+      margin-left: .5em;
+    }
+    &:hover .subnav {
+      display: block;
+    }
+  }
+  .subnav {
+    display: none;
+    position: absolute;
+    left: 50%;
+    z-index: 1000;
+    width: 100%;
+    margin-left: -50%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    background-color: lighten($activeColor, 5%);
+    li {
+      line-height: 2em;
+      padding-left: .25em;
+      padding-right: .25em;
+      &:hover {
+        background-color: darken($activeColor, 10%);
+      }
+    }
+  }
+  /* subnav end*/
+}
+
+
+// bar
+// title
+.title-bar {
+  $height: 2.6em;
+
+  @include clearfix();
+  line-height: $height;
+  // clear frame style
+  .title, .subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "microsoft yahei", simsun;
+  }
+  .title,
+  .subtitle {
+    float: left;
+    line-height: inherit;
+  }
+  .subtitle,
+  .title-nav,
+  .other-info { padding-left: 1.5em; }
+  .title-nav {
+  @include clearfix();
+    li {
+      float: left;
+      padding: 0 ;
+    }
+    em {
+      padding: 0 1em;
+      line-height: .9em;
+      font-family: "\5b8b\4f53";
+      color: $gray-light;
+    }
+  }
+  .title {
+    font-size: 20em/14;
+    font-weight: 400;
+  }
+  .subtitle {
+    font-size: 16em/14;
+  }
+  .more {
+    float: right;
+    padding-left: 1em;
+    color: $gray-light;
+    i {
+      margin-left: .2em;
+      font-size: 1.2em;
+      vertical-align: middle;
+    }
+  }
+  .other-info {
+    color: $gray-light;
+    font-size: 12em/14;
+    line-height: $height;
+    margin-top: $height*(14-12)/12;
+  }
+}
+
+// media
+
+.media-base,
+.media-circle,
+.media-goods,
+.media-goods2,
+.media-newsitem,
+.media-firmitem,
+.media-big-img {
+  margin-bottom: 20px;
+  position: relative;
+  /* clear bootstrap style and add property */
+  .thumbnail {
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .tran-layer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 .6em;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .6);
+    a:hover { color: inherit; }
+  }
+
+  p, h4, h5, h6 { margin: 0; }
+  p {
+    margin-bottom: .3em;
+    color: $gray;
+  }
+  h4, h5, h6 { font-size: inherit; }
+  .media-title {
+    display: block;
+    line-height: 1.4;
+//    a:hover { color: $activeColor; }
+  }
+  .media-time, .time { color: $gray-light; }
+}
+
+
+.media-base {
+  .media-title {
+    @include text-truncate();
+    line-height: 2;
+  }
+}
+
+.media-big-img {
+  .media-cont {
+    position: relative;
+    padding: 20/$global-font-size + em;
+    &.tran-layer {
+      position: absolute;
+      p {
+        color: $gray-light;
+      }
+    }
+  }
+
+  .media-title {
+    font-size: 24/$global-font-size + em;
+  }
+  p {
+    color: $gray-light;
+  }
+  .btn-link {
+    position: absolute;
+    top: 10/$global-font-size + em;
+    right: 5/$global-font-size + em;
+  }
+}
+
+.media-txt-list {
+  .thumbnail {
+    float: left;
+    margin-right: 1em;
+  }
+  .media-cont {
+    a { display: block;
+      line-height: 1.9;
+    }
+  }
+}
+
+// tabs
+
+
+.tabs-base,
+.tabs-nav1,
+.tabs-nav2,
+.tabs-nav3 {
+  @include clearfix();
+
+  > li {
+    float: left;
+    text-align: center;
+    line-height: 3em;
+    & > a {
+      display: block;
+      font-size: 16em/14;
+      font-family: "Microsoft YaHei", tahoma, arial, simsun;
+      &:before {
+        content: "";
+      }
+
+    }
+    + li a { margin-left: -1px; }
+  }
+}
+
+.tabs-nav1 {
+  > li {
+    width: percentage(1/3);
+    > a {
+      border: 1px solid $gray-border;
+    }
+    &.on, &:hover {
+      > a { border-bottom-color: transparent; }
+    }
+  }
+}

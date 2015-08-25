@@ -1,5 +1,5 @@
 <div id="header">
-    <div id="header-top">
+    <div class="header-top">
         <div class="container">
             <div class="header-top-left">
                 <ul class="attention-ways">
@@ -21,31 +21,33 @@
         </div>
     </div>
     <div class="header-center">
-        <div class="container row">
+        <div class="container">
             <div class="header-logo">
-                <a href=""><img src="" alt=""/></a>
+                <a class="logo" href=""><img src="../img/logo.png" alt=""/></a>
                 <h3>一站式全屋家居定制平台<br/><a href="http://home.jc001.cn">http://home.jc001.cn</a></h3>
             </div>
             <div class="header-search">
                 <form action="">
-                    <div class="header-select">
-                        <a class="header-select-sort" href="">装修公司</a>
-                        <ul>
-                            <li><a href="">效果图</a></li>
-                            <li><a href="">家居建材</a></li>
-                            <li><a href="">家居产品</a></li>
-                        </ul>
+                    <div class="header-search-box">
+                        <div class="header-select">
+                            <a class="header-select-sort" href="">装修公司</a>
+                            <ul>
+                                <li><a href="">效果图</a></li>
+                                <li><a href="">家居建材</a></li>
+                                <li><a href="">家居产品</a></li>
+                            </ul>
+                        </div>
+                        <input type="text"/>
+                        <span class="header-search-input-text">挑选您心仪的公司</span>
+                        <button>搜索</button>
                     </div>
-                    <input type="text"/>
-                    <span class="header-search-input-text">挑选您心仪的公司</span>
-                    <button>搜索</button>
                 </form>
             </div>
         </div>
     </div>
     <div class="header-bottom nav-base-wrap">
         <div class="container">
-            <ul class="header-nav nav-base">
+            <ul class="header-nav nav-base row">
                 <li class="nav-item on"><a href="">首页</a></li>
                 <li class="nav-item"><a href="">定制家居</a></li>
                 <li class="nav-item has-subnav">

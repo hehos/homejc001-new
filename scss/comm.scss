@@ -5,6 +5,17 @@
 // header, footer
 $headerTopFontSize: 12;
 #header { margin-bottom: 15/$headerTopFontSize + em; }
+#header {
+  .has-subnav, .header-select {
+    i { margin-left: 8/$global-font-size + em; }
+    .icon-angle-up { display: none; }
+    &:hover {
+      .icon-angle-up { display: inline-block; }
+      .icon-angle-down { display: none; }
+    }
+  }
+}
+
 .header-top {
   font-size: ($headerTopFontSize/$global-font-size) + em;
   line-height: 30/$headerTopFontSize + em;
@@ -122,6 +133,15 @@ $headerTopFontSize: 12;
       padding: ((34-20)/2)/$global-font-size + em  10/$global-font-size + em;
     }
     input, button { border: none; }
+  }
+}
+
+.header-bottom {
+  .container { position: relative; }
+  .right-collect {
+    position: absolute;
+    bottom: 8/$global-font-size + em;
+    right: 10/$global-font-size + em;
   }
 }
 

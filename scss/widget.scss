@@ -115,11 +115,11 @@ $activeColor: $activeColor;
     }
   }
   .title {
-    font-size: 20em/14;
+    font-size: (20/14) + em;
     font-weight: 400;
   }
   .subtitle {
-    font-size: 16em/14;
+    font-size: (16/14) + em;
   }
   .more {
     float: right;
@@ -133,7 +133,7 @@ $activeColor: $activeColor;
   }
   .other-info {
     color: $gray-light;
-    font-size: 12em/14;
+    font-size: (12/14) + em;
     line-height: $height;
     margin-top: $height*(14-12)/12;
   }
@@ -198,7 +198,7 @@ $activeColor: $activeColor;
     &.tran-layer {
       position: absolute;
       p {
-        color: $gray-light;
+        color: $gray;
       }
     }
   }
@@ -212,7 +212,7 @@ $activeColor: $activeColor;
   .btn-link {
     position: absolute;
     top: 10/$global-font-size + em;
-    right: 5/$global-font-size + em;
+    right: 15/$global-font-size + em;
   }
 }
 
@@ -243,7 +243,7 @@ $activeColor: $activeColor;
     line-height: 3em;
     & > a {
       display: block;
-      font-size: 16em/14;
+      font-size: (16/14) + em;
       font-family: "Microsoft YaHei", tahoma, arial, simsun;
       &:before {
         content: "";

@@ -152,12 +152,12 @@
 }
 /* line 117, ../scss/widget.scss */
 .title-bar .title {
-  font-size: 20em/14;
+  font-size: 1.42857em;
   font-weight: 400;
 }
 /* line 121, ../scss/widget.scss */
 .title-bar .subtitle {
-  font-size: 16em/14;
+  font-size: 1.14286em;
 }
 /* line 124, ../scss/widget.scss */
 .title-bar .more {
@@ -174,7 +174,7 @@
 /* line 134, ../scss/widget.scss */
 .title-bar .other-info {
   color: #818a91;
-  font-size: 12em/14;
+  font-size: 0.85714em;
   line-height: 2.6em;
   margin-top: 0.43333em;
 }
@@ -338,7 +338,7 @@
 }
 /* line 200, ../scss/widget.scss */
 .media-big-img .media-cont.tran-layer p {
-  color: #818a91;
+  color: #55595c;
 }
 /* line 206, ../scss/widget.scss */
 .media-big-img .media-title {
@@ -352,7 +352,7 @@
 .media-big-img .btn-link {
   position: absolute;
   top: 0.71429em;
-  right: 0.35714em;
+  right: 1.07143em;
 }
 
 /* line 220, ../scss/widget.scss */
@@ -399,7 +399,7 @@
 .tabs-nav2 > li > a,
 .tabs-nav3 > li > a {
   display: block;
-  font-size: 16em/14;
+  font-size: 1.14286em;
   font-family: "Microsoft YaHei", tahoma, arial, simsun;
 }
 /* line 248, ../scss/widget.scss */

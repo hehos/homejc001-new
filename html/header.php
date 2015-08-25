@@ -30,7 +30,7 @@
                 <form action="">
                     <div class="header-search-box">
                         <div class="header-select">
-                            <a class="header-select-sort" href="">装修公司</a>
+                            <a class="header-select-sort" href="">装修公司<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                             <ul>
                                 <li><a href="">效果图</a></li>
                                 <li><a href="">家居建材</a></li>
@@ -51,7 +51,7 @@
                 <li class="nav-item on"><a href="">首页</a></li>
                 <li class="nav-item"><a href="">定制家居</a></li>
                 <li class="nav-item has-subnav">
-                    <a href="">效果图</a>
+                    <a href="">效果图<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">
                         <li><a href="">家居美图</a></li>
                         <li><a href="">家居美图</a></li>
@@ -59,21 +59,21 @@
                     </ol>
                 </li>
                 <li class="nav-item has-subnav">
-                    <a href="">装修攻略<i class=""></i></a>
+                    <a href="">装修攻略<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">
                         <li><a href="">装修日记</a></li>
                         <li><a href="">学装修</a></li>
                     </ol>
                 </li>
                 <li class="nav-item has-subnav">
-                    <a href="">找装修<i class=""></i></a>
+                    <a href="">找装修<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">
                         <li><a href="">装修公司</a></li>
                         <li><a href="">设计师</a></li>
                     </ol>
                 </li>
                 <li class="nav-item has-subnav">
-                    <a href="">找产品<i class=""></i></a>
+                    <a href="">找产品<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">
                         <li><a href="">家居</a></li>
                         <li><a href="">家具</a></li>
@@ -81,7 +81,7 @@
                 </li>
             </ul>
             <div class="right-collect">
-                <a href=""><img src="" alt=""/></a>
+                <a href=""><img src="../img/top-nav-icon.png" alt=""/></a>
             </div>
         </div>
     </div>

@@ -8,6 +8,8 @@ ul, ol, li {
 }
 i, cite, em, var, address, dfn { font-style: normal; }
 a { color: inherit; }
+a:hover { color: inherit; }
+img { max-width: 100%; }
 
 body .container {
   width: 1200px;

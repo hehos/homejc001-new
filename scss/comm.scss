@@ -1,6 +1,18 @@
 @import "variables";
 @import "../bootstrap4/scss/mixins";
 
+$myicon-spacing: 5px;
+$myicon-layout: vertical;
+$myicon-sprite-dimensions: true;
+
+@import "compass";
+@import "myicon/*.png";
+@include all-myicon-sprites;
+
+[class*=myicon] {
+  display: inline-block;
+}
+
 
 // header, footer
 $headerTopFontSize: 12;
@@ -19,7 +31,7 @@ $headerTopFontSize: 12;
 .header-top {
   font-size: ($headerTopFontSize/$global-font-size) + em;
   line-height: 30/$headerTopFontSize + em;
-  background-color: #f9f9f9;
+  background-color: $gray-lightest;
   border-bottom: 1px solid #ddd;
   color: #999;
 }
@@ -122,6 +134,7 @@ $headerTopFontSize: 12;
     }
     button {
       right: 0;
+      height: 34/$global-font-size + em;
       width: 80/$global-font-size + em;
       background-color: $activeColor;
       color: #fff;
@@ -137,10 +150,13 @@ $headerTopFontSize: 12;
 }
 
 .header-bottom {
-  .container { position: relative; }
+  .container {
+    position: relative;
+    background-color: lighten($gray-lightest, 1%);
+  }
   .right-collect {
     position: absolute;
-    bottom: 8/$global-font-size + em;
+    bottom: 5/$global-font-size + em;
     right: 10/$global-font-size + em;
   }
 }

@@ -142,6 +142,8 @@
         </div>
         <div class="hot-conts">
             <div class="hot-cates">
+                <span class="left-btn">&lt;</span>
+                <span class="right-btn">&gt;</span>
                 <div class="hot-cate">
                     <div class="media-big-img hot-item">
                         <a href="" class="thumbnail">
@@ -298,7 +300,7 @@
             <div class="xiaoguo-bigimg">
                 <div class="media-big-img xiaoguo-item">
                     <a href="" class="thumbnail">
-                        <img src="../img/temp-img/good-big.png" alt=""/>
+                        <img style="width: 463px; height: 340px" src="../img/temp-img/good-big.png" alt=""/>
                     </a>
                     <div class="media-cont tran-layer">
                         <h4 class="media-title"><a href="">中式设计</a></h4>
@@ -310,19 +312,19 @@
                 <div class="smallimg-left">
                     <div class="media-base xiaoguo-item colspan2">
                         <a href="" class="thumbnail">
-                            <img src="../img/temp-img/good1.png" alt=""/>
+                            <img style="width: 480px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
                         </a>
                         <h4 class="media-title tran-layer"><a href="">标题</a></h4>
                     </div>
                     <div class="media-base xiaoguo-item">
                         <a href="" class="thumbnail">
-                            <img src="../img/temp-img/good1.png" alt=""/>
+                            <img style="width: 200px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
                         </a>
                         <h4 class="media-title tran-layer"><a href="">标题</a></h4>
                     </div>
                     <div class="media-base xiaoguo-item">
                         <a href="" class="thumbnail">
-                            <img src="../img/temp-img/good1.png" alt=""/>
+                            <img style="width: 200px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
                         </a>
                         <h4 class="media-title tran-layer"><a href="">标题</a></h4>
                     </div>
@@ -330,12 +332,47 @@
                 <div class="smallimg-right">
                     <div class="media-base xiaoguo-item rowspan2">
                         <a href="" class="thumbnail">
-                            <img src="../img/temp-img/good1.png" alt=""/>
+                            <img style="width: 223px; height: 340px;" src="../img/temp-img/good1.png" alt=""/>
                         </a>
                         <h4 class="media-title tran-layer"><a href="">标题</a></h4>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="xiaoguo-cate">
+            <span class="title">美好家的空间</span>
+            <ul>
+                <li><a href="">
+                        <span class="myicon-xiaoguo-cate1"></span><br/><div>客厅</span>
+                </a></li>
+                <li><a href="">
+                        <span class="myicon-xiaoguo-cate2"></span><br/><span>卧室</span>
+                    </a></li>
+                <li><a href="">
+                        <span class="myicon-xiaoguo-cate3"></span><br/><span>餐厅</span>
+                    </a></li>
+                <li><a href="">
+                        <span class="myicon-xiaoguo-cate4"></span><br/><span>厨房</span>
+                    </a></li>
+                <li><a href="">
+                        <span class="myicon-xiaoguo-cate5"></span><br/><span>浴室</span>
+                    </a></li>
+                <li><a href="">
+                        <span class="myicon-xiaoguo-cate6"></span><br/><span>书房</span>
+                    </a></li>
+                <li><a href="">
+                        <span class="myicon-xiaoguo-cate7"></span><br/><span>儿童房</span>
+                    </a></li>
+                <li><a href="">
+                        <span class="myicon-xiaoguo-cate8"></span><br/><span>阳台</span>
+                    </a></li>
+                <li><a href="">
+                        <span class="myicon-xiaoguo-cate9"></span><br/><span>玄关</span>
+                    </a></li>
+                <li><a href="">
+                        <span class="myicon-xiaoguo-cate10"></span><br/><span>庭院</span>
+                    </a></li>
+            </ul>
         </div>
     </div>
     <!--  end 装修效果图  -->

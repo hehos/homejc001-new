@@ -1,0 +1,27 @@
+{
+  "name": "homejc001-new",
+  "version": "1.0.0",
+  "description": "家具网新版",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:synchronizingtheworld/homejc001-new.git"
+  },
+  "author": "hehui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synchronizingtheworld/homejc001-new/issues"
+  },
+  "homepage": "https://github.com/synchronizingtheworld/homejc001-new",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-simple-compass": "^0.1.1",
+    "gulp-sourcemaps": "^1.5.2"
+  }
+}

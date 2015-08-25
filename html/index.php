@@ -349,7 +349,7 @@
                 <div class="gonglue-cont-item col-xl-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/装修知识.png" alt=""/></a>
+                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -361,7 +361,7 @@
                 <div class="gonglue-cont-item col-xl-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/装修知识.png" alt=""/></a>
+                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -373,7 +373,7 @@
                 <div class="gonglue-cont-item col-xl-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/装修知识.png" alt=""/></a>
+                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -387,7 +387,7 @@
                 <div class="gonglue-cont-item col-xl-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/装修知识.png" alt=""/></a>
+                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -399,7 +399,7 @@
                 <div class="gonglue-cont-item col-xl-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/装修知识.png" alt=""/></a>
+                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -411,7 +411,7 @@
                 <div class="gonglue-cont-item col-xl-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/装修知识.png" alt=""/></a>
+                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>

@@ -490,11 +490,17 @@
   width: 16.66667%;
   margin-left: -1px;
   margin-top: -1px;
+  text-align: center;
+  padding: 0.71429em;
   border-left: 1px dashed #eceeef;
   border-top: 1px dashed #eceeef;
 }
+/* line 347, ../scss/index.scss */
+.brand-cont .title {
+  margin-top: 0.57143em;
+}
 
-/* line 348, ../scss/index.scss */
+/* line 353, ../scss/index.scss */
 .links-tab {
   border-bottom: 1px solid #eceeef;
 }
@@ -507,31 +513,31 @@
 .links-tab:after {
   clear: both;
 }
-/* line 351, ../scss/index.scss */
+/* line 356, ../scss/index.scss */
 .links-tab ul {
   float: left;
 }
-/* line 354, ../scss/index.scss */
+/* line 359, ../scss/index.scss */
 .links-tab li {
   width: auto;
   margin-right: 0.71429em;
   margin-bottom: -1px;
 }
-/* line 359, ../scss/index.scss */
+/* line 364, ../scss/index.scss */
 .links-tab li.on a, .links-tab li:hover a {
   border-bottom-color: #fff;
 }
-/* line 361, ../scss/index.scss */
+/* line 366, ../scss/index.scss */
 .links-tab li > a {
   padding: 0 1.42857em;
 }
-/* line 365, ../scss/index.scss */
+/* line 370, ../scss/index.scss */
 .links-tab span {
   float: left;
   line-height: 3em;
 }
 
-/* line 370, ../scss/index.scss */
+/* line 375, ../scss/index.scss */
 .links-cont {
   padding-top: 0.57143em;
 }
@@ -544,7 +550,7 @@
 .links-cont ul:after {
   clear: both;
 }
-/* line 373, ../scss/index.scss */
+/* line 378, ../scss/index.scss */
 .links-cont li {
   float: left;
   line-height: 1;
@@ -552,7 +558,7 @@
   margin: 0.57143em 0;
   border-right: 1px solid #eceeef;
 }
-/* line 379, ../scss/index.scss */
+/* line 384, ../scss/index.scss */
 .links-cont li:last-child {
   border-right: none;
 }

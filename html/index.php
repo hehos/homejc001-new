@@ -472,18 +472,54 @@
         </div>
         <div class="brand-cont">
             <ul class="clearfix">
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
-                <li><a href=""><img src="../img/temp-img/pingpai.png" alt=""/></a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                    <div class="title">红参</div>
+                    </a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                        <div class="title">红参</div>
+                    </a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                        <div class="title">红参</div>
+                    </a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                        <div class="title">红参</div>
+                    </a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                        <div class="title">红参</div>
+                    </a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                        <div class="title">红参</div>
+                    </a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                        <div class="title">红参</div>
+                    </a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                        <div class="title">红参</div>
+                    </a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                        <div class="title">红参</div>
+                    </a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                        <div class="title">红参</div>
+                    </a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                        <div class="title">红参</div>
+                    </a></li>
+                <li>
+                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                        <div class="title">红参</div>
+                    </a></li>
             </ul>
         </div>
     </div>

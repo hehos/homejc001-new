@@ -339,8 +339,13 @@
     width: percentage(1/6);
     margin-left: -1px;
     margin-top: -1px;
+    text-align: center;
+    padding: 10/$global-font-size + em;
     border-left: 1px dashed $gray-lighter;
     border-top: 1px dashed $gray-lighter;
+  }
+  .title {
+    margin-top: 8/$global-font-size + em;
   }
 }
 

@@ -40,3 +40,8 @@ body .container {
 h1, .h1, h2, .h2, h3, .h3 {
   margin-bottom: 0;
 }
+
+/* line 23, ../scss/global.scss */
+.form-control {
+  border-width: 1px;
+}

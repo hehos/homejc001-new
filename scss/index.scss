@@ -63,7 +63,7 @@
       display: none;
       position: absolute;
       left: 50%;
-      bottom: -.4em;
+      bottom: -.5em;
       margin-left: -.4em;
       font-size: 1.5em;
       color: $highlightColor;
@@ -149,9 +149,13 @@
     text-transform: capitalize;
   }
   li {
+    > a {
+      border-color: $gray-lighter;
+      border-bottom: none;
+      color: $gray;
+    }
     &:hover, &.on {
-      background-color: lighten($gray-light, 30%);
-      color: #fff;
+      background-color: lighten($gray-light, 40%);
     }
   }
 }
@@ -213,12 +217,17 @@
       margin-right: 10/$global-font-size + em;
     }
     .media-cont {
-      padding: 6/$global-font-size + em 0;
+      padding: 10/$global-font-size + em 0;
     }
-    h4 { color: #000; }
+    h4 {
+      color: #000;
+      font-size: 1.2em;
+      font-family: "Microsoft Yahei", Tahoma, Arial, Helvetica, STHeiti;
+    }
     .link-text {
       color: $highlightColor;
-      font-family: Arial, Helvetica, sans-serif;;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: .8em;
     }
   }
 }
@@ -408,3 +417,4 @@
     &:last-child { border-right: none; }
   }
 }
+

@@ -5,8 +5,16 @@
     <link rel="stylesheet" href="../css/index.css"/>
 </head>
 <body>
-<?php include "header.php"; ?>
 
+<!-- 预约成功弹出提示 -->
+<?php //include "popup-yuyue-succeed.php"; ?>
+<!-- 弹出表单 -->
+<?php include "popup-form-yuyue.php"; ?>
+<div id="mask"></div>
+
+
+
+<?php include "header.php"; ?>
 <div class="container">
     <!--  begin 头部banner  -->
     <div class="index-banner row">
@@ -149,9 +157,9 @@
     <div class="index-hot row">
         <div class="hot-tab">
             <ul class="tabs-nav1">
-                <li class="on"><a href="">厨柜厨具 <span>cupboard</span></a></li>
-                <li><a href="">实木门窗 <span>gate</span></a></li>
-                <li><a href="">定制衣柜 <span>floor</span></a></li>
+                <li class="on"><a href="javascript:void(0);">厨柜厨具 <span>cupboard</span></a></li>
+                <li><a href="javascript:void(0);">实木门窗 <span>gate</span></a></li>
+                <li><a href="javascript:void(0);">定制衣柜 <span>floor</span></a></li>
             </ul>
         </div>
         <div class="hot-conts">

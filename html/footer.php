@@ -20,4 +20,5 @@
     </div>
 </div>
 
+<script src="../js/comm.js"></script>
 <script src="../js/HotSlider.js"></script>

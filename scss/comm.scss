@@ -9,7 +9,8 @@ $myicon-sprite-dimensions: true;
 @import "myicon/*.png";
 @include all-myicon-sprites;
 
-[class*=myicon] {
+[class^="myicon-"],
+[class*=" myicon-"] {
   display: inline-block;
 }
 
@@ -206,4 +207,83 @@ $headerTopFontSize: 12;
 #footer .footer-copyright {
   color: #666;
   line-height: 2.2;
+}
+
+
+// popup
+$poput-z-index: 10000;
+[class^="popup-"],
+[class*=" popup-"],
+#mask { position: fixed; }
+
+#mask { z-index: $poput-z-index; }
+[class^="popup-"],
+[class*=" popup-"] {
+  z-index: $poput-z-index + 1;
+
+  left: 50%;
+  top: 50%;
+
+  padding: 1em 1.5em;
+  .close {
+    z-index: $poput-z-index + 2;
+    position: absolute;
+    right: .4em;
+    top: .4em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+
+    font-size: 1.5em;
+    font-family: sans-serif;
+  }
+}
+#mask {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: .6;
+  background-color: #000;
+}
+
+
+.popup-yuyue-succeed {
+  margin-left: -400px;
+  margin-top: -350px;
+  img {
+    width: 100%;
+  }
+  .close {
+    background-color: $gray-lightest;
+  }
+}
+
+.popup-form-yuyue {
+  width: 400px;
+  min-height: 340px;
+  margin-left: -200px;
+  margin-top: -170px;
+  background-color: $body-bg;
+  .form-hd, .form-ft { text-align: center; }
+  .form-hd {
+    font-size: 1.2em;
+    font-family: "Microsoft Yahei", Tahoma, Arial, Helvetica, STHeiti;
+  }
+  .form-hd, .input-line {
+    margin-bottom: 1.2em;
+  }
+
+  // clear bootstrpat
+  .input-group {
+    border: 1px solid lighten($gray-light, 25%);
+  }
+  .input-group-addon { background-color: transparent; }
+  .input-group-addon, .form-control { border: none; }
+  .input-group-addon {
+    width: 20%;
+    padding: 0 .75rem;
+  }
+
 }

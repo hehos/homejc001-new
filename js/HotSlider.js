@@ -67,6 +67,12 @@ HotSlider.prototype.eventBind = function() {
     $(".hot-cates .left-btn").click(function() {
         other.prev();
     });
+    $(".hot-tab li").click(function() {
+        other.activeIdx = jQuery.inArray(this,  $(".hot-tab li"));
+        other.switchRun();
+        $(".hot-tab li").removeClass("on");
+        $(this).addClass("on");
+    });
 }
 
 

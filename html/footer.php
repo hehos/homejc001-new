@@ -19,3 +19,5 @@
         <div id="qun" class=""></div>
     </div>
 </div>
+
+<script src="../js/HotSlider.js"></script>

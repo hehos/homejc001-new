@@ -56,6 +56,20 @@
                         <option value="">成都</option>
                         <option value="">绵阳</option>
                     </select>
+                    <select class="form-control" name="" id="">
+                        <option value="">锦江区</option>
+                        <option value="">金牛区</option>
+                    </select>
+                </div>
+                <div class="form_line city col-2">
+                    <select class="form-control" name="" id="">
+                        <option value="">四川</option>
+                        <option value="">重庆</option>
+                    </select>
+                    <select class="form-control" name="" id="">
+                        <option value="">成都</option>
+                        <option value="">绵阳</option>
+                    </select>
                 </div>
                 <div class="form_line">
                     <button class="form-control form-control-lg" >立即预约</button>
@@ -150,7 +164,7 @@
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
-                            <h4 class="media-title"><a href="">实木定制木柜</a></h4>
+                            <h4 class="media-title"><a href="">实木定制木柜1</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="btn-link" href="">约我 <br/><i class=" icon-angle-down"></i></a>
                         </div>
@@ -160,7 +174,7 @@
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
-                            <h4 class="media-title"><a href="">实木定制木柜</a></h4>
+                            <h4 class="media-title"><a href="">实木定制木柜1</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="btn-link" href="">约我 <br/><i class=" icon-angle-down"></i></a>
                         </div>
@@ -170,39 +184,7 @@
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
-                            <h4 class="media-title"><a href="">实木定制木柜</a></h4>
-                            <p>价格区间：1580-1980元/延米</p>
-                            <a class="btn-link" href="">约我 <br/><i class=" icon-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="hot-cate" style="display: none;">
-                    <div class="media-big-img hot-item">
-                        <a href="" class="thumbnail">
-                            <img src="../img/temp-img/good2.png" alt=""/>
-                        </a>
-                        <div class="media-cont tran-layer">
-                            <h4 class="media-title"><a href="">实木定制木柜</a></h4>
-                            <p>价格区间：1580-1980元/延米</p>
-                            <a class="btn-link" href="">约我 <br/><i class=" icon-angle-down"></i></a>
-                        </div>
-                    </div>
-                    <div class="media-big-img hot-item">
-                        <a href="" class="thumbnail">
-                            <img src="../img/temp-img/good2.png" alt=""/>
-                        </a>
-                        <div class="media-cont tran-layer">
-                            <h4 class="media-title"><a href="">实木定制木柜</a></h4>
-                            <p>价格区间：1580-1980元/延米</p>
-                            <a class="btn-link" href="">约我 <br/><i class=" icon-angle-down"></i></a>
-                        </div>
-                    </div>
-                    <div class="media-big-img hot-item">
-                        <a href="" class="thumbnail">
-                            <img src="../img/temp-img/good2.png" alt=""/>
-                        </a>
-                        <div class="media-cont tran-layer">
-                            <h4 class="media-title"><a href="">实木定制木柜</a></h4>
+                            <h4 class="media-title"><a href="">实木定制木柜1</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="btn-link" href="">约我 <br/><i class=" icon-angle-down"></i></a>
                         </div>
@@ -214,7 +196,7 @@
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
-                            <h4 class="media-title"><a href="">实木定制木柜</a></h4>
+                            <h4 class="media-title"><a href="">实木定制木柜2</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="btn-link" href="">约我 <br/><i class=" icon-angle-down"></i></a>
                         </div>
@@ -224,7 +206,7 @@
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
-                            <h4 class="media-title"><a href="">实木定制木柜</a></h4>
+                            <h4 class="media-title"><a href="">实木定制木柜2</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="btn-link" href="">约我 <br/><i class=" icon-angle-down"></i></a>
                         </div>
@@ -234,7 +216,7 @@
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
-                            <h4 class="media-title"><a href="">实木定制木柜</a></h4>
+                            <h4 class="media-title"><a href="">实木定制木柜2</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="btn-link" href="">约我 <br/><i class=" icon-angle-down"></i></a>
                         </div>
@@ -244,14 +226,14 @@
 
             <div class="hot-sort">
                 <div class="sort-title">
-                    <i></i><h3>本月热度排行榜</h3>
+                    <i class="myicon-sort"></i><h3>本月热度排行榜</h3>
                 </div>
                 <ul>
                     <li>
                         <a href="">
                             <img src="../img/temp-img/sort1.png" alt=""/>
                             <div class="media-cont">
-                                <h4>奥佳厨柜</h4>
+                                <h4>奥佳厨柜1</h4>
                                 <div class="link-text">点击进入 ></div>
                             </div>
                         </a>
@@ -260,7 +242,7 @@
                         <a href="">
                             <img src="../img/temp-img/sort1.png" alt=""/>
                             <div class="media-cont">
-                                <h4>奥佳厨柜</h4>
+                                <h4>奥佳厨柜1</h4>
                                 <div class="link-text">点击进入 ></div>
                             </div>
                         </a>
@@ -269,7 +251,18 @@
                         <a href="">
                             <img src="../img/temp-img/sort1.png" alt=""/>
                             <div class="media-cont">
-                                <h4>奥佳厨柜</h4>
+                                <h4>奥佳厨柜1</h4>
+                                <div class="link-text">点击进入 ></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul style="display: none;">
+                    <li>
+                        <a href="">
+                            <img src="../img/temp-img/sort1.png" alt=""/>
+                            <div class="media-cont">
+                                <h4>奥佳厨柜2</h4>
                                 <div class="link-text">点击进入 ></div>
                             </div>
                         </a>
@@ -278,7 +271,16 @@
                         <a href="">
                             <img src="../img/temp-img/sort1.png" alt=""/>
                             <div class="media-cont">
-                                <h4>奥佳厨柜</h4>
+                                <h4>奥佳厨柜2</h4>
+                                <div class="link-text">点击进入 ></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../img/temp-img/sort1.png" alt=""/>
+                            <div class="media-cont">
+                                <h4>奥佳厨柜2</h4>
                                 <div class="link-text">点击进入 ></div>
                             </div>
                         </a>
@@ -310,24 +312,24 @@
             </div>
             <div class="xiaoguo-smallimg">
                 <div class="smallimg-left">
-                    <div class="media-base xiaoguo-item colspan2">
-                        <a href="" class="thumbnail">
-                            <img style="width: 480px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
-                        </a>
-                        <h4 class="media-title tran-layer"><a href="">标题</a></h4>
-                    </div>
-                    <div class="media-base xiaoguo-item">
-                        <a href="" class="thumbnail">
-                            <img style="width: 200px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
-                        </a>
-                        <h4 class="media-title tran-layer"><a href="">标题</a></h4>
-                    </div>
-                    <div class="media-base xiaoguo-item">
-                        <a href="" class="thumbnail">
-                            <img style="width: 200px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
-                        </a>
-                        <h4 class="media-title tran-layer"><a href="">标题</a></h4>
-                    </div>
+                        <div class="media-base xiaoguo-item colspan2">
+                            <a href="" class="thumbnail">
+                                <img style="width: 480px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
+                            </a>
+                            <h4 class="media-title tran-layer"><a href="">标题</a></h4>
+                        </div>
+                        <div class="media-base xiaoguo-item">
+                            <a href="" class="thumbnail">
+                                <img style="width: 233px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
+                            </a>
+                            <h4 class="media-title tran-layer"><a href="">标题</a></h4>
+                        </div>
+                        <div class="media-base xiaoguo-item">
+                            <a href="" class="thumbnail">
+                                <img style="width: 233px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
+                            </a>
+                            <h4 class="media-title tran-layer"><a href="">标题</a></h4>
+                        </div>
                 </div>
                 <div class="smallimg-right">
                     <div class="media-base xiaoguo-item rowspan2">

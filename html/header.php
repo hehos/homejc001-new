@@ -49,7 +49,7 @@
         <div class="container">
             <ul class="header-nav nav-base row">
                 <li class="nav-item on"><a href="">首页</a></li>
-                <li class="nav-item"><a href="">定制家居</a></li>
+                <li class="nav-item has-icon"><a href="">定制家居<i class="myicon-hot"></i></a></li>
                 <li class="nav-item has-subnav">
                     <a href="">效果图<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">

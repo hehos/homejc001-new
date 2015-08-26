@@ -15,8 +15,10 @@ $myicon-sprite-dimensions: true;
 
 
 // header, footer
-$headerTopFontSize: 12;
-#header { margin-bottom: 15/$headerTopFontSize + em; }
+
+#header { margin-bottom: 15/$global-font-size + em; }
+
+
 #header {
   .has-subnav, .header-select {
     i { margin-left: 8/$global-font-size + em; }
@@ -26,8 +28,16 @@ $headerTopFontSize: 12;
       .icon-angle-down { display: none; }
     }
   }
+  .has-icon {
+    i {
+      margin-top: 3/$global-font-size + em;
+      vertical-align: top;
+    }
+  }
 }
 
+// header-top
+$headerTopFontSize: 12;
 .header-top {
   font-size: ($headerTopFontSize/$global-font-size) + em;
   line-height: 30/$headerTopFontSize + em;
@@ -68,6 +78,7 @@ $headerTopFontSize: 12;
     font-weight: bold;
   }
 }
+// header-center
 .header-center {
   @include clearfix();
   padding: (20/$global-font-size) + em;
@@ -149,6 +160,7 @@ $headerTopFontSize: 12;
   }
 }
 
+// header-bottom
 .header-bottom {
   .container {
     position: relative;

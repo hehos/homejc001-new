@@ -222,8 +222,10 @@ $activeColor: $activeColor;
     margin-right: 1em;
   }
   .media-cont {
-    a { display: block;
-      line-height: 1.9;
+    line-height: 1.9;
+    a {
+      display: block;
+      @include text-truncate();
     }
   }
 }

@@ -1,11 +1,12 @@
 @import "variables";
 @import "../bootstrap4/scss/mixins";
 
+// config
 $myicon-spacing: 5px;
 $myicon-layout: vertical;
 $myicon-sprite-dimensions: true;
 
-@import "compass";
+@import "compass/utilities/sprites";
 @import "myicon/*.png";
 @include all-myicon-sprites;
 
@@ -20,6 +21,7 @@ $myicon-sprite-dimensions: true;
 #header { margin-bottom: 15/$global-font-size + em; }
 
 
+// header icon
 #header {
   .has-subnav, .header-select {
     i { margin-left: 8/$global-font-size + em; }
@@ -120,6 +122,8 @@ $headerTopFontSize: 12;
       position: absolute;
       top: 0;
     }
+    ul, .header-search-input-text { display: none; }
+
     .header-select {
       left: 0;
       width: 100/$global-font-size + em;
@@ -131,7 +135,7 @@ $headerTopFontSize: 12;
         left: 0;
         z-index: 10000;
         width: 100%;
-        padding: 10/$global-font-size + em;;
+        padding: 6/$global-font-size + em 0;
         background-color: #fff;
         border: 1px solid #ddd;
         border-top: none;
@@ -139,6 +143,10 @@ $headerTopFontSize: 12;
       li {
         line-height: 30/$global-font-size + em;
         padding: 0 5/$global-font-size + em;
+        padding: 0 .85em;
+        &:hover {
+          background-color: darken($body-bg, 5%);
+        }
       }
       &:hover ul {
         display: block;
@@ -151,7 +159,6 @@ $headerTopFontSize: 12;
       background-color: $activeColor;
       color: #fff;
     }
-    ul, .header-search-input-text { display: none; }
     input {
       width: 100%;
       height: 34/$global-font-size + em;;
@@ -210,21 +217,22 @@ $headerTopFontSize: 12;
 }
 
 
-// popup
+// float on page
+
 $poput-z-index: 10000;
 [class^="popup-"],
 [class*=" popup-"],
-#mask { position: fixed; }
+#mask,
+[class^="fixed-"],
+[class*=" fixed-"] {
+  position: fixed;
+  transition: all 0 ease 2s;
+}
 
-#mask { z-index: $poput-z-index; }
 [class^="popup-"],
-[class*=" popup-"] {
-  z-index: $poput-z-index + 1;
-
-  left: 50%;
-  top: 50%;
-
-  padding: 1em 2em;
+[class*=" popup-"],
+[class^="fixed-"],
+[class*=" fixed-"] {
   .close {
     z-index: $poput-z-index + 2;
     position: absolute;
@@ -239,6 +247,15 @@ $poput-z-index: 10000;
     font-family: sans-serif;
   }
 }
+
+// z-index
+#mask { z-index: $poput-z-index; }
+[class^="popup-"],
+[class*=" popup-"],
+[class^="fixed-"],
+[class*=" fixed-"] {  z-index: $poput-z-index + 1; }
+
+// mask
 #mask {
   left: 0;
   right: 0;
@@ -248,10 +265,38 @@ $poput-z-index: 10000;
   background-color: #000;
 }
 
+// popup
+[class^="popup-"],
+[class*=" popup-"] {
+  left: 50%;
+  top: 50%;
+
+  padding: 1em 2em;
+}
+
+//fixed
+[class^="fixed-top-"],
+[class*=" fixed-top-"],
+[class^="fixed-bottom-"],
+[class*=" fixed-bottom-"] {
+  width: 100%;
+  left: 0;
+}
+[class^="fixed-bottom-"],
+[class*=" fixed-bottom-"] {
+  bottom: 0;
+}
+[class^="fixed-top-"],
+[class*=" fixed-top-"] {
+  top: 0;
+}
+
 
 .popup-yuyue-succeed {
+  width: 800px;
   margin-left: -400px;
   margin-top: -350px;
+  padding: 0;
   img {
     width: 100%;
   }
@@ -313,5 +358,68 @@ $poput-z-index: 10000;
   }
   .submit {
     margin-bottom: .3em;
+  }
+}
+
+
+.fixed-bottom-form {
+  margin-top: 2em;
+  padding: 1em 0;
+  &, .open { background-color: rgba(0, 0, 0, .7); }
+  .g-left {
+    position: relative;
+    width: 40%;
+  }
+  .g-center { width: 35%; }
+  .g-right { width: 25%; }
+
+  .form-line {
+    margin-bottom: .5em;
+    input, select {
+      display: inline-block;
+      width: 47%;
+      margin-right: 2%;
+    }
+  }
+
+  .g-left {
+    .float-img {
+      position: absolute;
+      top: -3em;
+      right: 4.5em;
+    }
+  }
+
+  .g-right {
+    .qrcode, .submit {
+      display: inline-block;
+      width: 40%;
+    }
+    .qrcode {
+      position: relative;
+      text-align: center;
+    }
+    .qrcode-cont {
+      position: absolute;
+      left: 2em;
+      top: -6em;
+      font-size: .85em;
+      color: $body-bg;
+    }
+    .submit { margin-top: 1.5em; }
+  }
+  .open {
+    display: inline-block;
+    position: absolute;
+    right: -.5em;
+    top: 0;
+    width: .6em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 4em;
+    color: $body-bg;
+    border-top-right-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
   }
 }

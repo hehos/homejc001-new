@@ -4,12 +4,25 @@
 
 
 $(document).ready(function(){
-    $('[class^="popup-"] .close, [class*=" popup-"]  .close').click(function() {
-        $(this).parents('[class^="popup-"], [class*=" popup-"]').hide();
+    $('[data-close]').click(function() {
+        $(this).parent().hide();
+        $(this).siblings('[data-open]').show();
+    });
+    $('[data-hide]').click(function() {
+        var eleWidth = $(this).parent().width();
+        $(this).parent().css("left", -eleWidth);
+    });
+
+    $('[data-show]').click(function() {
+        $(this).parent().css("left", 0);
+    });
+
+    $('[data-popup] [data-close]').click(function() {
         $("#mask").hide();
     });
+
     $("#mask").click(function() {
-        $('[class^="popup-"], [class*=" popup-"]').hide();
+        $('[data-popup]').hide();
         $(this).hide();
     });
 });

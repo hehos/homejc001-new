@@ -1,0 +1,5 @@
+/* line 4, ../scss/testCompass.scss */
+div {
+  overflow: hidden;
+  *zoom: 1;
+}

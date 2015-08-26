@@ -1,0 +1,113 @@
+/* 修复父元素display: table-cell;时，图片子元素max-width属性值为百分比单位的问题 */
+.media-left img,
+.media-right img,
+.media-body img {
+    max-width: none;
+}
+.media-body {
+    position: relative;
+    overflow: visible;
+}
+.media-firmitem {
+    margin-bottom: 20px;
+    position: relative;
+    /* clear bs框架样式 及 add部分属性。 */
+}
+.media-firmitem .thumbnail {
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.media-firmitem p,
+.media-firmitem h4,
+.media-firmitem h5,
+.media-firmitem h6 {
+    margin: 0;
+}
+.media-firmitem p {
+    margin-bottom: .3em;
+    color: #666666;
+}
+.media-firmitem h4,
+.media-firmitem h5,
+.media-firmitem h6 {
+    font-size: inherit;
+}
+.media-firmitem .media-title {
+    display: block;
+    line-height: 1.4;
+}
+.media-firmitem .media-title a:hover {
+    color: #ff7300;
+}
+.media-firmitem .media-time,
+.media-firmitem .time {
+    color: #999999;
+}
+
+
+
+.media-firmitem {
+    padding-top: .7em;
+    padding-bottom: .7em;
+}
+.media-firmitem:hover .media-explain,
+.media-firmitem:hover .media-text {
+    color: inherit;
+}
+.media-firmitem .media-explain,
+.media-firmitem .media-text {
+    color: #666666;
+    font-size: 0.92857143em;
+}
+.media-firmitem .media-text {
+    margin-bottom: .5em;
+}
+.media-firmitem .media-title {
+    line-height: 1.2;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体";
+}
+.media-firmitem .media-state {
+    color: #999999;
+}
+.media-firmitem .media-state em {
+    color: #ff7300;
+}
+.media-firmitem .media-btns {
+    padding-left: 2em;
+    padding-top: .7em;
+}
+.media-firmitem .media-btns.media-right {
+    vertical-align: middle;
+}
+.media-firmitem .media-btns.media-right .btn {
+    display: block;
+    margin: .8em 0;
+}
+.media-firmitem .media-labels1,
+.media-firmitem .media-labels2 {
+    line-height: 2;
+    font-size: .95em;
+}
+.media-firmitem .media-labels1 span {
+    display: block;
+}
+.media-firmitem .media-labels2:before,
+.media-firmitem .media-labels2:after {
+    content: " ";
+    display: table;
+}
+.media-firmitem .media-labels2:after {
+    clear: both;
+}
+.media-firmitem .media-labels2 span {
+    float: left;
+    width: 33.3%;
+}
+.media-firmitem .media-labels2 em {
+    color: #ff7300;
+}

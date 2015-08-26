@@ -1,5 +1,5 @@
-<div class="popup-form-yuyue">
-    <a href="javascript:void(0);" class="close">×</a>
+<div data-popup class="popup-form-yuyue">
+    <a href="javascript:void(0);" data-close class="close">×</a>
     <div class="form-hd">九正免费定制服务</div>
     <div class="form-bd">
         <form>

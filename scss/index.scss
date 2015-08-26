@@ -282,7 +282,7 @@
       }
       .xiaoguo-item {
         float: left;
-        width: (480 - 17)/2 + px;
+        width: (480 - 18)/2 + px;
       }
       .xiaoguo-item:last-child { margin-right: 0; }
     }
@@ -323,6 +323,7 @@
     display: table-cell;
     width: 1%;
     text-align: center;
+    > a { display: block; }
   }
 }
 

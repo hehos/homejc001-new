@@ -419,7 +419,7 @@
 /* line 283, ../scss/index.scss */
 .xiaoguo-cont .xiaoguo-smallimg .smallimg-left .xiaoguo-item {
   float: left;
-  width: 231.5px;
+  width: 231px;
 }
 /* line 287, ../scss/index.scss */
 .xiaoguo-cont .xiaoguo-smallimg .smallimg-left .xiaoguo-item:last-child {
@@ -476,28 +476,32 @@
   width: 1%;
   text-align: center;
 }
+/* line 326, ../scss/index.scss */
+.xiaoguo-cate li > a {
+  display: block;
+}
 
-/* line 333, ../scss/index.scss */
+/* line 334, ../scss/index.scss */
 .gonglue-cont-line {
   padding-left: 13.71429em;
   margin-bottom: 2.85714em;
   padding-bottom: 1.07143em;
   background: url("../img/gonglue-bg.png") no-repeat;
 }
-/* line 338, ../scss/index.scss */
+/* line 339, ../scss/index.scss */
 .gonglue-cont-line.line1 {
   background-position: 0 0;
 }
-/* line 341, ../scss/index.scss */
+/* line 342, ../scss/index.scss */
 .gonglue-cont-line.line2 {
   background-position: 0 -166px;
 }
 
-/* line 346, ../scss/index.scss */
+/* line 347, ../scss/index.scss */
 .gonglue-cont-item {
   float: left;
 }
-/* line 348, ../scss/index.scss */
+/* line 349, ../scss/index.scss */
 .gonglue-cont-item h4 {
   line-height: 1.2;
   margin-bottom: 0.71429em;
@@ -506,25 +510,25 @@
   font-size: 1.28571em;
   font-family: "Microsoft Yahei", Tahoma, Arial, Helvetica, STHeiti;
 }
-/* line 356, ../scss/index.scss */
+/* line 357, ../scss/index.scss */
 .gonglue-cont-item img {
   margin-top: .3em;
 }
-/* line 357, ../scss/index.scss */
+/* line 358, ../scss/index.scss */
 .gonglue-cont-item .media-cont {
   font-size: 0.85714em;
 }
-/* line 358, ../scss/index.scss */
+/* line 359, ../scss/index.scss */
 .gonglue-cont-item .media-cont a {
   line-height: 2.4;
 }
 
-/* line 363, ../scss/index.scss */
+/* line 364, ../scss/index.scss */
 .brand-cont {
   border-right: 1px dashed #eceeef;
   border-bottom: 1px dashed #eceeef;
 }
-/* line 366, ../scss/index.scss */
+/* line 367, ../scss/index.scss */
 .brand-cont li {
   float: left;
   width: 16.66667%;
@@ -535,17 +539,17 @@
   border-left: 1px dashed #eceeef;
   border-top: 1px dashed #eceeef;
 }
-/* line 376, ../scss/index.scss */
+/* line 377, ../scss/index.scss */
 .brand-cont .title {
   margin-top: 0.57143em;
 }
 
-/* line 381, ../scss/index.scss */
+/* line 382, ../scss/index.scss */
 #links {
   margin-top: 2.85714em;
 }
 
-/* line 384, ../scss/index.scss */
+/* line 385, ../scss/index.scss */
 .links-tab {
   border-bottom: 1px solid #eceeef;
 }
@@ -558,32 +562,32 @@
 .links-tab:after {
   clear: both;
 }
-/* line 387, ../scss/index.scss */
+/* line 388, ../scss/index.scss */
 .links-tab ul {
   float: left;
 }
-/* line 390, ../scss/index.scss */
+/* line 391, ../scss/index.scss */
 .links-tab li {
   line-height: 2.5em;
   width: auto;
   margin-right: 0.71429em;
   margin-bottom: -1px;
 }
-/* line 396, ../scss/index.scss */
+/* line 397, ../scss/index.scss */
 .links-tab li.on a, .links-tab li:hover a {
   border-bottom-color: #fff;
 }
-/* line 398, ../scss/index.scss */
+/* line 399, ../scss/index.scss */
 .links-tab li > a {
   padding: 0 1.42857em;
 }
-/* line 402, ../scss/index.scss */
+/* line 403, ../scss/index.scss */
 .links-tab span {
   float: left;
   line-height: 2.5em;
 }
 
-/* line 407, ../scss/index.scss */
+/* line 408, ../scss/index.scss */
 .links-cont {
   padding-top: 0.57143em;
 }
@@ -596,7 +600,7 @@
 .links-cont ul:after {
   clear: both;
 }
-/* line 410, ../scss/index.scss */
+/* line 411, ../scss/index.scss */
 .links-cont li {
   float: left;
   line-height: 1;
@@ -605,34 +609,7 @@
   border-right: 1px solid #eceeef;
   font-size: 0.85714em;
 }
-/* line 417, ../scss/index.scss */
+/* line 418, ../scss/index.scss */
 .links-cont li:last-child {
   border-right: none;
-}
-
-/* line 421, ../scss/index.scss */
-.popup-yuyue-succeed {
-  position: fixed;
-  z-index: 10000;
-  left: 50%;
-  top: 50%;
-  margin-left: -400px;
-  margin-top: -350px;
-}
-/* line 428, ../scss/index.scss */
-.popup-yuyue-succeed .close {
-  position: absolute;
-  right: .5em;
-  top: .5em;
-  width: 1.5em;
-  height: 1.5em;
-  line-height: 1;
-  text-align: center;
-  font-size: 1.5em;
-  background-color: #f7f7f9;
-  font-family: sans-serif;
-}
-/* line 441, ../scss/index.scss */
-.popup-yuyue-succeed img {
-  width: 100%;
 }

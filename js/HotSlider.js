@@ -50,6 +50,8 @@ HotSlider.prototype.switchRun = function() {
     var sortUls = $(".hot-sort ul");
     sortUls.hide();
     $(sortUls[this.activeIdx]).show();
+    $(".hot-tab li").removeClass("on");
+    $($(".hot-tab li")[this.activeIdx]).addClass("on");
 }
 
 HotSlider.prototype.runloop = function() {

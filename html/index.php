@@ -7,10 +7,11 @@
 <body>
 
 <!-- 预约成功弹出提示 -->
+<?php //include "popup-form-yuyue.php"; ?>
 <?php //include "popup-yuyue-succeed.php"; ?>
+<!--<div id="mask"></div>-->
 <!-- 弹出表单 -->
-<?php include "popup-form-yuyue.php"; ?>
-<div id="mask"></div>
+<?php include "fixed-bottom-form.php"; ?>
 
 
 
@@ -353,7 +354,7 @@
             <span class="title">美好家的空间</span>
             <ul>
                 <li><a href="">
-                        <span class="myicon-xiaoguo-cate1"></span><br/><div>客厅</span>
+                        <span class="myicon-xiaoguo-cate1"></span><br/><span>客厅</span>
                 </a></li>
                 <li><a href="">
                         <span class="myicon-xiaoguo-cate2"></span><br/><span>卧室</span>

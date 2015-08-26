@@ -192,14 +192,12 @@
 .case-and-new .new-yanfang .title h2 {
   margin: 0;
 }
-.case-and-new .before-case {
-  float: left;
-  width: 66.6%;
-  padding-right: 20px;
+.case-and-new table {
+  width: 100%;
 }
-.case-and-new .new-yanfang {
-  float: right;
-  width: 33.3%;
+.case-and-new table th,
+.case-and-new table td {
+  width: 25%;
 }
 .publicity-table {
   color: #666;

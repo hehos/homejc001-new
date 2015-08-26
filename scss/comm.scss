@@ -226,7 +226,7 @@ $poput-z-index: 10000;
 [class^="fixed-"],
 [class*=" fixed-"] {
   position: fixed;
-  transition: all 0 ease 2s;
+  &, * { transition: all .3s ease-out; }
 }
 
 [class^="popup-"],
@@ -411,15 +411,20 @@ $poput-z-index: 10000;
   .open {
     display: inline-block;
     position: absolute;
-    right: -.5em;
+    left: -1.4em;
     top: 0;
-    width: .6em;
-    height: 1.5em;
-    line-height: 1.5em;
+    width: 1.4em;
+    height: 1.8em;
+    line-height: 1.8em;
+    padding-left: .7em;
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     color: $body-bg;
-    border-top-right-radius: 1.5em;
-    border-bottom-right-radius: 1.5em;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    &.show {
+      right: -.7em;
+      left: auto;
+    }
   }
 }

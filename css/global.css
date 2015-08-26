@@ -45,3 +45,9 @@ h1, .h1, h2, .h2, h3, .h3 {
 .form-control {
   border-width: 1px;
 }
+
+/* line 28, ../scss/global.scss */
+[class^="icon-"],
+[class*=" icon-"] {
+  line-height: inherit;
+}

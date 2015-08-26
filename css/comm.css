@@ -377,7 +377,18 @@
 [class^="fixed-"],
 [class*=" fixed-"] {
   position: fixed;
-  transition: all 0 ease 2s;
+}
+/* line 229, ../scss/comm.scss */
+[class^="popup-"], [class^="popup-"] *,
+[class*=" popup-"],
+[class*=" popup-"] *,
+#mask,
+#mask *,
+[class^="fixed-"],
+[class^="fixed-"] *,
+[class*=" fixed-"],
+[class*=" fixed-"] * {
+  transition: all .3s ease-out;
 }
 
 /* line 236, ../scss/comm.scss */
@@ -593,14 +604,20 @@
 .fixed-bottom-form .open {
   display: inline-block;
   position: absolute;
-  right: -.5em;
+  left: -1.4em;
   top: 0;
-  width: .6em;
-  height: 1.5em;
-  line-height: 1.5em;
+  width: 1.4em;
+  height: 1.8em;
+  line-height: 1.8em;
+  padding-left: .7em;
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   color: #fff;
-  border-top-right-radius: 1.5em;
-  border-bottom-right-radius: 1.5em;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+/* line 425, ../scss/comm.scss */
+.fixed-bottom-form .open.show {
+  right: -.7em;
+  left: auto;
 }

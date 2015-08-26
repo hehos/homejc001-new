@@ -365,7 +365,7 @@
   z-index: 10001;
   left: 50%;
   top: 50%;
-  padding: 1em 1.5em;
+  padding: 1em 2em;
 }
 /* line 228, ../scss/comm.scss */
 [class^="popup-"] .close,
@@ -428,19 +428,44 @@
   margin-bottom: 1.2em;
 }
 /* line 279, ../scss/comm.scss */
-.popup-form-yuyue .input-group {
-  border: 1px solid #c5c9cc;
-}
-/* line 282, ../scss/comm.scss */
-.popup-form-yuyue .input-group-addon {
-  background-color: transparent;
+.popup-form-yuyue .form-group {
+  border: 1px solid #d3d6d8;
+  overflow: hidden;
 }
 /* line 283, ../scss/comm.scss */
-.popup-form-yuyue .input-group-addon, .popup-form-yuyue .form-control {
+.popup-form-yuyue .form-control {
   border: none;
 }
-/* line 284, ../scss/comm.scss */
-.popup-form-yuyue .input-group-addon {
-  width: 20%;
-  padding: 0 .75rem;
+/* line 287, ../scss/comm.scss */
+.popup-form-yuyue .form-control-label {
+  float: left;
+  width: 6em;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+/* line 293, ../scss/comm.scss */
+.popup-form-yuyue .input-field {
+  margin-left: 6em;
+}
+/* line 298, ../scss/comm.scss */
+.popup-form-yuyue .vcode .form-control {
+  display: inline-block;
+  width: 40%;
+}
+/* line 302, ../scss/comm.scss */
+.popup-form-yuyue .vcode img {
+  float: right;
+}
+/* line 305, ../scss/comm.scss */
+.popup-form-yuyue .safety {
+  padding: .3em 0;
+}
+/* line 309, ../scss/comm.scss */
+.popup-form-yuyue .form-ft .call {
+  color: #bd0401;
+  font-size: 1.5em;
+}
+/* line 314, ../scss/comm.scss */
+.popup-form-yuyue .submit {
+  margin-bottom: .3em;
 }

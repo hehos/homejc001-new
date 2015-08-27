@@ -275,20 +275,21 @@
       width: percentage(1/3);
       padding-left: 17/$global-font-size + em;
     }
-    .smallimg-left {
-      margin-right: -3%;
-      .xiaoguo-item.colspan2 {
-        width: 100%;
-      }
-      .xiaoguo-item {
-        float: left;
-        width: (480 - 18)/2 + px;
-      }
-      .xiaoguo-item:last-child { margin-right: 0; }
-    }
 
   }
-//
+  .smallimg-left {
+    .xiaoguo-item.colspan2 {
+      width: 100%;
+    }
+    .xiaoguo-item {
+      float: left;
+      width: (480 - 17)/2 + px;
+    }
+    .xiaoguo-item:first-child, .xiaoguo-item.last {
+      float: right;
+      margin-right: 0;
+    }
+  }
   .xiaoguo-item {
     overflow: hidden;
     margin-bottom: 20/$global-font-size + em;

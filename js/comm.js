@@ -4,6 +4,18 @@
 
 
 $(document).ready(function(){
+    // 处理IE浏览器input，textarea 文本提示
+    //if ((navigator.userAgent.indexOf('MSIE') >= 0)
+    //    && (navigator.userAgent.indexOf('Opera') < 0)){
+        var forms = $("[placeholder]");
+        for(var i = 0; i < forms.length; i++) {
+            $(forms[i]).val($(forms[i]).attr("placeholder"));
+            $(forms[i]).attr("placeholder", "");
+        }
+    //}
+
+    // 处理模态层 及 漂浮 层的关闭逻辑
+
     $('[data-close]').click(function() {
         $(this).parent().hide();
         $(this).siblings('[data-open]').show();

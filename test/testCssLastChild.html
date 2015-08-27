@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<style>
+    .test-last-child {
+        overflow: hidden;
+        width: 500px;
+        height: 100px;
+    }
+    .test-last-child > div {
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+
+    .test-last-child > div.last, .test-last-child > div:last-child {
+        height: 50px;
+    }
+
+</style>
+
+<div class="test-last-child">
+    <div class="first" style="background-color: #111"></div>
+    <div class="" style="background-color: #222"></div>
+    <div style="background-color: #333"></div>
+    <div class=" " style="background-color: #444"></div>
+    <div class="last" style="background-color: #555"></div>
+</div>
+</body>
+</html>

@@ -8,9 +8,23 @@
     function scrollTopFn(num,selc) {
         var SD = 30,
             myScroll,
-            tardiv = document.getElementById('scrolldiv'),
-            tardiv1 = document.getElementById('scrolldiv1'),
-            tardiv2 = document.getElementById('scrolldiv2');
+            tardiv = document.getElementById('scrolltable'),
+            tardiv1 = document.getElementById('scrolltable1'),
+            tardiv2 = document.getElementById('scrolltable2');
+
+        // 让表格的thead和tbody水平自动对齐。
+        var ths = $("#scrolltable1 thead th");
+        var firstTds = $("#scrolltable1 tbody tr").first().find("td");
+        for(var i = 0; i < ths.length; i++) {
+            var wt = $(ths[i]).width();
+            $(ths[i]).width(wt);
+            $(firstTds[i]).width(wt);
+        }
+
+        $("#scrolltableHead").append($("#scrolltable thead"));
+        $("#scrolltable1 thead").empty();
+
+
         if($(tardiv1).height() > $(tardiv).height()) {
 
             tardiv2.innerHTML=tardiv1.innerHTML;
@@ -18,7 +32,7 @@
             function Marquee2(){
                 if(tardiv2.offsetTop <= tardiv.scrollTop)
                     tardiv.scrollTop = 0;
-                else{
+                else {
                     tardiv.scrollTop++;
                 }
             }

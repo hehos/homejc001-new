@@ -56,20 +56,6 @@
                 <div class="form_line">
                     <input class="form-control"  type="text" placeholder="您的电话"/>
                 </div>
-                <div class="form_line city">
-                    <select class="form-control" name="" id="">
-                        <option value="">四川</option>
-                        <option value="">重庆</option>
-                    </select>
-                    <select class="form-control" name="" id="">
-                        <option value="">成都</option>
-                        <option value="">绵阳</option>
-                    </select>
-                    <select class="form-control" name="" id="">
-                        <option value="">锦江区</option>
-                        <option value="">金牛区</option>
-                    </select>
-                </div>
                 <div class="form_line city col-2">
                     <select class="form-control" name="" id="">
                         <option value="">四川</option>
@@ -89,34 +75,6 @@
                 <p>更专业的装修服务平台，800万业主的共同选择</p>
             </div>
         </div>
-
-<!--        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">-->
-<!--            <ol class="carousel-indicators">-->
-<!--                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
-<!--                <li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
-<!--                <li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
-<!--            </ol>-->
-<!--            <div class="carousel-inner" role="listbox">-->
-<!--                <div class="carousel-item active">-->
-<!--                    <img data-src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide">-->
-<!--                </div>-->
-<!--                <div class="carousel-item">-->
-<!--                    <img data-src="holder.js/900x500/auto/#666:#444/text:Second slide" alt="Second slide">-->
-<!--                </div>-->
-<!--                <div class="carousel-item">-->
-<!--                    <img data-src="holder.js/900x500/auto/#555:#333/text:Third slide" alt="Third slide">-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">-->
-<!--                <span class="icon-prev" aria-hidden="true"></span>-->
-<!--                <span class="sr-only">Previous</span>-->
-<!--            </a>-->
-<!--            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">-->
-<!--                <span class="icon-next" aria-hidden="true"></span>-->
-<!--                <span class="sr-only">Next</span>-->
-<!--            </a>-->
-<!--        </div>-->
-
 
         <div class="banner-right-media">
             <div id="carousel-example-generic" class="carousel slide banner-slider" data-ride="carousel">
@@ -383,7 +341,7 @@
                             </a>
                             <h4 class="media-title tran-layer"><a href="">标题</a></h4>
                         </div>
-                        <div class="media-base xiaoguo-item">
+                        <div class="media-base xiaoguo-item last">
                             <a href="" class="thumbnail">
                                 <img style="width: 233px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
                             </a>
@@ -452,8 +410,8 @@
                         <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
-                            <a href="">现代简约实木床该怎么选择</a>
-                            <a href="">瓷砖拼贴电视背景墙好看吗</a>
+                            <a href="">现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
+                            <a href="">瓷砖拼贴电视背景墙好看吗瓷砖拼贴电视背景墙好看吗</a>
                             <a href="">请问地暖管安装方法是怎样的</a>
                         </div>
                     </div>

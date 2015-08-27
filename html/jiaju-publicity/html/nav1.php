@@ -3,8 +3,6 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" href="../css/my.css"/>
-    <link rel="stylesheet" href="../css/media-firmlist.css"/>
 
     <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
 </head>
@@ -23,8 +21,9 @@
                 <img src="../img/nav-2.png" alt=""/>
             </a>
         </div>
-        <div class="item" style="height: 93px; background: #eee">
+        <div class="item">
             <a href="nav3.php">
+                <img src="../img/nav-3.png" alt=""/>
             </a>
         </div>
     </div>
@@ -53,53 +52,56 @@
                 <div class="title">
                     <h2>最新申请定制服务</h2>
                 </div>
-                <table class="publicity-table">
-                    <tr>
-                        <th>楼盘名称</th>
-                        <th>定制类型</th>
-                        <th>申请业主</th>
-                        <th>申请日期</th>
-                    </tr>
-                </table>
-                <div id="scrolldiv" style="overflow: hidden;height: 310px;position:relative;">
-                    <div id="scrolldiv1">
+                <table id="scrolltableHead" class="publicity-table"></table>
+                <div id="scrolltable" style="overflow: hidden;height: 310px;position:relative;">
+                    <div id="scrolltable1">
                         <table class="publicity-table">
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>楼盘名称</th>
+                                    <th>定制类型</th>
+                                    <th>申请业主</th>
+                                    <th>申请日期</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>成都市金牛区地中海楼盘1</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                </tr>
+                                <tr>
+                                    <td>成都市金牛区地中海楼盘2</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                </tr>
+                                <tr>
+                                    <td>成都市金牛区地中海楼盘3</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                </tr>
+                                <tr>
+                                    <td>成都市金牛区地中海楼盘4</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                </tr>
+                                <tr>
+                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                </tr>
+                                <tr>
+                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                </tr>
+                                <tr>
+                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                </tr>
+                                <tr>
+                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                </tr>
+                                <tr>
+                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                </tr>
+                                <tr>
+                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                </tr>
+                                <tr>
+                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
-                    <div id="scrolldiv2"></div>
+                    <div id="scrolltable2"></div>
                 </div>
             </div>
         </div>

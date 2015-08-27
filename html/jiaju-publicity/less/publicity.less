@@ -36,10 +36,11 @@
 
 .cont-nav {
   .clearfix();
-  padding-top: 10px;
+  border: 1px solid #d7d7d7;
   .item {
     float: left;
     width: (1/3) * 100%;
+    & + .item { border-left: 1px solid #d7d7d7; }
   }
 }
 
@@ -111,6 +112,17 @@
       color: #c20112;
       img { vertical-align: middle; margin-bottom: 5px; }
     }
+    .city {
+      &.col-2 {
+        overflow: hidden;
+        margin-right: -3%;
+        select {
+          float: left;
+          width: 47%;
+          margin-right: 3%;
+        }
+      }
+    }
   }
 }
 
@@ -160,7 +172,7 @@
   table {
     width: 100%;
     th, td {
-      width: 25%;
+      width: 1%;
     }
   }
 }
@@ -194,4 +206,49 @@
     display: table;
   }
   &:after { clear: both; }
+}
+
+.dkjs {
+  padding: 50px 80px;
+  background-color: #f8f8f8;
+  .dfl, em { color: #3388c9; }
+  p { margin-bottom: 0; }
+  .title {
+    line-height: 1;
+    font-size: 30px;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eeeeee;
+    font-family: "Microsoft YaHei", tahoma, arial, simsun;
+  }
+  .dkjs-form {
+    width: 40%;
+    padding-right: 20px;
+    .dfl {
+      font-size: 24px;
+      font-family: "Microsoft YaHei", tahoma, arial, simsun;
+      margin-bottom: 20px;
+      i { margin-right: 20px; }
+    }
+    button[type=submit] {
+      width: 100%;
+    }
+  }
+  .dkjs-result {
+    padding: 20px;
+    width: 60%;
+    background-color: #fff;
+    .left {
+      padding-left: 20px;
+      width: 55%;
+      line-height: 150px;
+      border-right: 1px solid #e3e3e3;
+      em { font-size: 36px; }
+    }
+    .right {
+      width: 45%;
+      line-height: 50px;
+      padding: 0 20px;
+    }
+  }
 }

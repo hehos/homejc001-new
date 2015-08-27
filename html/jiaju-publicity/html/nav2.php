@@ -22,8 +22,9 @@
                 <img src="../img/nav-2-on.png" alt=""/>
             </a>
         </div>
-        <div class="item" style="height: 93px; background: #eee">
+        <div class="item">
             <a href="nav3.php">
+                <img src="../img/nav-3.png" alt=""/>
             </a>
         </div>
     </div>

@@ -40,7 +40,7 @@
   margin: 15px 0 0 0;
 }
 .cont-nav {
-  padding-top: 10px;
+  border: 1px solid #d7d7d7;
 }
 .cont-nav:before,
 .cont-nav:after {
@@ -53,6 +53,9 @@
 .cont-nav .item {
   float: left;
   width: 33.33333333%;
+}
+.cont-nav .item + .item {
+  border-left: 1px solid #d7d7d7;
 }
 .head-form {
   height: 456px;
@@ -149,6 +152,15 @@
   vertical-align: middle;
   margin-bottom: 5px;
 }
+.head-form .form-cont .city.col-2 {
+  overflow: hidden;
+  margin-right: -3%;
+}
+.head-form .form-cont .city.col-2 select {
+  float: left;
+  width: 47%;
+  margin-right: 3%;
+}
 .new-apply {
   text-align: right;
 }
@@ -197,7 +209,7 @@
 }
 .case-and-new table th,
 .case-and-new table td {
-  width: 25%;
+  width: 1%;
 }
 .publicity-table {
   color: #666;
@@ -221,4 +233,57 @@
 }
 .new-yanfang tbody {
   padding-top: 20px;
+}
+.dkjs {
+  padding: 50px 80px;
+  background-color: #f8f8f8;
+}
+.dkjs .dfl,
+.dkjs em {
+  color: #3388c9;
+}
+.dkjs p {
+  margin-bottom: 0;
+}
+.dkjs .title {
+  line-height: 1;
+  font-size: 30px;
+  padding: 20px 0;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eeeeee;
+  font-family: "Microsoft YaHei", tahoma, arial, simsun;
+}
+.dkjs .dkjs-form {
+  width: 40%;
+  padding-right: 20px;
+}
+.dkjs .dkjs-form .dfl {
+  font-size: 24px;
+  font-family: "Microsoft YaHei", tahoma, arial, simsun;
+  margin-bottom: 20px;
+}
+.dkjs .dkjs-form .dfl i {
+  margin-right: 20px;
+}
+.dkjs .dkjs-form button[type=submit] {
+  width: 100%;
+}
+.dkjs .dkjs-result {
+  padding: 20px;
+  width: 60%;
+  background-color: #fff;
+}
+.dkjs .dkjs-result .left {
+  padding-left: 20px;
+  width: 55%;
+  line-height: 150px;
+  border-right: 1px solid #e3e3e3;
+}
+.dkjs .dkjs-result .left em {
+  font-size: 36px;
+}
+.dkjs .dkjs-result .right {
+  width: 45%;
+  line-height: 50px;
+  padding: 0 20px;
 }

@@ -30,15 +30,14 @@
                 <form action="">
                     <div class="header-search-box">
                         <div class="header-select">
-                            <a class="header-select-sort" href="">装修公司<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
+                            <a class="header-select-sort" href="">效果图<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                             <ul>
                                 <li><a href="">效果图</a></li>
                                 <li><a href="">家居建材</a></li>
                                 <li><a href="">家居产品</a></li>
                             </ul>
                         </div>
-                        <input type="text"/>
-                        <span class="header-search-input-text">挑选您心仪的公司</span>
+                        <input type="text" placeholder="请输入关键字"/>
                         <button>搜索</button>
                     </div>
                 </form>

@@ -29,16 +29,31 @@
     </div>
     <div class="head-form from1">
         <div class="form-cont">
-            <p class="current-num">今日已有<em>888</em>业主申请，本月申请人数已达<em>87878</em></p>
+            <p class="current-num">今日有<em>888</em>业主已报名</p>
+            <p class="chengluo">10秒登记，三家厂家免费上面测量</p>
             <form action="">
-                <input type="text" placeholder="您的称呼"/>
-                <input type="text" placeholder="手机号码"/>
-                <input type="text" placeholder="小区名称"/>
-                <input type="text" placeholder="验房时间"/>
-                <button class="btn  form-control" type="submit">免费申请</button>
+                <div class="form-line">
+                    <input type="text" placeholder="您的称呼"/>
+                </div>
+                <div class="form-line">
+                    <input type="text" placeholder="手机号码"/>
+                </div>
+                <div class="form-line city col-2">
+                    <select name="">
+                        <option value="四川" selected="">四川</option>
+                        <option value="成都">成都</option>
+                    </select>
+                    <select name="">
+                        <option value="四川" selected="">四川</option>
+                        <option value="成都">成都</option>
+                    </select>
+                </div>
+                <div class="form-line">
+                    <button type="submit">立即预约</button>
+                </div>
             </form>
 
-            <p class="call-hintTxt">拨打热线，快速了解九正家居装修</p>
+            <p class="call-hintTxt">拨打热线，快速了解九正家居定制平台</p>
             <p class="call"><img src="../img/call.png" alt=""/>400-6464-001</p>
         </div>
     </div>

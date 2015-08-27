@@ -99,11 +99,26 @@
   margin: 0;
 }
 .head-form .form-cont em {
-  color: #f25619;
+  color: #91b81d;
 }
 .head-form .form-cont .current-num {
-  font-size: 13px;
+  line-height: 28px;
   margin-top: 10px;
+  background-color: #f6f6f6;
+}
+.head-form .form-cont .chengluo {
+  color: #999999;
+  margin-top: 15px;
+  text-align: left;
+}
+.head-form .form-cont .form-line {
+  margin: 22px 0;
+}
+.head-form .form-cont .form-line input,
+.head-form .form-cont .form-line button,
+.head-form .form-cont .form-line select,
+.head-form .form-cont .form-line textarea {
+  margin: 0;
 }
 .head-form .form-cont input,
 .head-form .form-cont button,
@@ -127,7 +142,7 @@
 .head-form .form-cont [type=submit] {
   height: 40px;
   line-height: 40px;
-  background-color: #f25619;
+  background-color: #91b81d;
   color: #fff;
   font-size: 16px;
 }
@@ -151,6 +166,7 @@
 .head-form .form-cont .call img {
   vertical-align: middle;
   margin-bottom: 5px;
+  margin-right: 10px;
 }
 .head-form .form-cont .city.col-2 {
   overflow: hidden;

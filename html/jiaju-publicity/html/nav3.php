@@ -10,7 +10,7 @@
 
 <div class="container">
     <div class="cont-nav">
-        <div class="item on">
+        <div class="item">
             <a href="nav1.php">
                 <img src="../img/nav-1.png" alt=""/>
             </a>
@@ -66,7 +66,7 @@
             贷款计算器，算算更放心
         </div>
         <div class="dkjs-form pull-left">
-            <p class="dfl"><i></i>月费率低至0.625%</p>
+            <p class="dfl"><i>￥</i>月费率低至0.625%</p>
             <form>
                 <div class="form-group row">
                     <label for="dkje" class="col-sm-3 form-control-label">贷款金额：</label>

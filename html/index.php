@@ -22,19 +22,19 @@
         <div class="banner-left-form">
             <div class="form-tab">
                 <ul class="row">
-                    <li class="col-xl-3 on">
+                    <li class="col-lg-3 on">
                         <a href="">免费<br/>量房</a>
                         <i class="arrows-down icon-sort-down"></i>
                     </li>
-                    <li class="col-xl-3">
+                    <li class="col-lg-3">
                         <a href="">免费<br/>设计报价</a>
                         <i class="arrows-down icon-sort-down"></i>
                     </li>
-                    <li class="col-xl-3">
+                    <li class="col-lg-3">
                         <a href="">免费<br/>监理</a>
                         <i class="arrows-down icon-sort-down"></i>
                     </li>
-                    <li class="col-xl-3">
+                    <li class="col-lg-3">
                         <a href="">安装满意<br/>再付款</a>
                         <i class="arrows-down icon-sort-down"></i>
                     </li>
@@ -50,13 +50,13 @@
                     <p style="display: none;">专业监理免费上门，按照行业标准严格验收</p>
                     <p style="display: none;">免费检测15大项30小项，全面检测房屋质量</p>
                 </div>
-                <div class="form_line">
+                <div class="form-line">
                     <input class="form-control" type="text" placeholder="您的称呼"/>
                 </div>
-                <div class="form_line">
+                <div class="form-line">
                     <input class="form-control"  type="text" placeholder="您的电话"/>
                 </div>
-                <div class="form_line city col-2">
+                <div class="form-line city col-2">
                     <select class="form-control" name="" id="">
                         <option value="">四川</option>
                         <option value="">重庆</option>
@@ -66,43 +66,72 @@
                         <option value="">绵阳</option>
                     </select>
                 </div>
-                <div class="form_line">
+                <div class="form-line">
                     <button class="form-control form-control-lg" >立即预约</button>
                 </div>
             </div>
             <div class="form-bottom">
-                <p>风投C轮投资2亿美金，互联网装修领导者</p>
-                <p>更专业的装修服务平台，800万业主的共同选择</p>
+                <p><i class="icon-caret-right"></i>风投C轮投资2亿美金，互联网装修领导者</p>
+                <p><i class="icon-caret-right"></i>更专业的装修服务平台，800万业主的共同选择</p>
             </div>
         </div>
 
         <div class="banner-right-media">
-            <div id="carousel-example-generic" class="carousel slide banner-slider" data-ride="carousel">
+<!--            <div id="carousel-example-generic" class="carousel slide banner-slider" data-ride="carousel">-->
+<!--                <ol class="carousel-indicators">-->
+<!--                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
+<!--                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
+<!--                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
+<!--                </ol>-->
+<!--                <div class="carousel-inner" role="listbox">-->
+<!--                    <div class="carousel-item active">-->
+<!--                        <a href=""><img src="../img/banner1.png" alt=""/></a>-->
+<!--                    </div>-->
+<!--                    <div class="carousel-item">-->
+<!--                        <a href=""><img src="../img/banner1.png" alt=""/></a>-->
+<!--                    </div>-->
+<!--                    <div class="carousel-item">-->
+<!--                        <a href=""><img src="../img/banner1.png" alt=""/></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">-->
+<!--                    <span class="icon-prev" aria-hidden="true"></span>-->
+<!--                    <span class="sr-only">Previous</span>-->
+<!--                </a>-->
+<!--                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">-->
+<!--                    <span class="icon-next" aria-hidden="true"></span>-->
+<!--                    <span class="sr-only">Next</span>-->
+<!--                </a>-->
+<!--            </div>-->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                 </ol>
+
+                <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <img src="../img/banner1.png" alt=""/></a>
+                    <div class="item active">
+                        <a href=""><img src="../img/banner1.png" alt=""/></a>
                     </div>
-                    <div class="carousel-item">
-                        <img src="../img/banner1.png" alt=""/></a>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../img/banner1.png" alt=""/></a>
+                    <div class="item">
+                        <a href=""><img src="../img/banner2.png" alt=""/></a>
                     </div>
                 </div>
+
+                <!-- Controls -->
                 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="icon-prev" aria-hidden="true"></span>
+                    <span class="icon-angle-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="icon-next" aria-hidden="true"></span>
+                    <span class="icon-angle-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+
+
             <div class="banner-bottom">
                 <a href=""><img src="../img/zuianquan.png" alt=""/></a>
                 <a href=""><img src="../img/baozhiliang.png" alt=""/></a>
@@ -177,7 +206,7 @@
                 <span class="right-btn">&gt;</span>
                 <div class="hot-cate">
                     <div class="media-big-img hot-item">
-                        <a href="" class="thumbnail">
+                        <a href="" class="img">
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
@@ -187,7 +216,7 @@
                         </div>
                     </div>
                     <div class="media-big-img hot-item">
-                        <a href="" class="thumbnail">
+                        <a href="" class="img">
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
@@ -197,7 +226,7 @@
                         </div>
                     </div>
                     <div class="media-big-img hot-item">
-                        <a href="" class="thumbnail">
+                        <a href="" class="img">
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
@@ -209,7 +238,7 @@
                 </div>
                 <div class="hot-cate" style="display: none;">
                     <div class="media-big-img hot-item">
-                        <a href="" class="thumbnail">
+                        <a href="" class="img">
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
@@ -219,7 +248,7 @@
                         </div>
                     </div>
                     <div class="media-big-img hot-item">
-                        <a href="" class="thumbnail">
+                        <a href="" class="img">
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
@@ -229,7 +258,7 @@
                         </div>
                     </div>
                     <div class="media-big-img hot-item">
-                        <a href="" class="thumbnail">
+                        <a href="" class="img">
                             <img src="../img/temp-img/good2.png" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
@@ -318,7 +347,7 @@
         <div class="xiaoguo-cont">
             <div class="xiaoguo-bigimg">
                 <div class="media-big-img xiaoguo-item">
-                    <a href="" class="thumbnail">
+                    <a href="" class="img">
                         <img style="width: 463px; height: 340px" src="../img/temp-img/good-big.png" alt=""/>
                     </a>
                     <div class="media-cont tran-layer">
@@ -330,19 +359,19 @@
             <div class="xiaoguo-smallimg">
                 <div class="smallimg-left">
                         <div class="media-base xiaoguo-item colspan2">
-                            <a href="" class="thumbnail">
+                            <a href="" class="img">
                                 <img style="width: 480px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
                             </a>
                             <h4 class="media-title tran-layer"><a href="">标题</a></h4>
                         </div>
                         <div class="media-base xiaoguo-item">
-                            <a href="" class="thumbnail">
+                            <a href="" class="img">
                                 <img style="width: 233px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
                             </a>
                             <h4 class="media-title tran-layer"><a href="">标题</a></h4>
                         </div>
                         <div class="media-base xiaoguo-item last">
-                            <a href="" class="thumbnail">
+                            <a href="" class="img">
                                 <img style="width: 233px; height: 160px;" src="../img/temp-img/good1.png" alt=""/>
                             </a>
                             <h4 class="media-title tran-layer"><a href="">标题</a></h4>
@@ -350,7 +379,7 @@
                 </div>
                 <div class="smallimg-right">
                     <div class="media-base xiaoguo-item rowspan2">
-                        <a href="" class="thumbnail">
+                        <a href="" class="img">
                             <img style="width: 223px; height: 340px;" src="../img/temp-img/good1.png" alt=""/>
                         </a>
                         <h4 class="media-title tran-layer"><a href="">标题</a></h4>
@@ -404,10 +433,10 @@
         </div>
         <div class="gonglue-cont">
             <div class="gonglue-cont-line line1 clearfix">
-                <div class="gonglue-cont-item col-xl-4">
+                <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
@@ -416,10 +445,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="gonglue-cont-item col-xl-4">
+                <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -428,10 +457,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="gonglue-cont-item col-xl-4">
+                <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -442,10 +471,10 @@
                 </div>
             </div>
             <div class="gonglue-cont-line line2 clearfix">
-                <div class="gonglue-cont-item col-xl-4">
+                <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -454,10 +483,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="gonglue-cont-item col-xl-4">
+                <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -466,10 +495,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="gonglue-cont-item col-xl-4">
+                <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="thumbnail" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>

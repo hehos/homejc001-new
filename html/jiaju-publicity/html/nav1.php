@@ -68,7 +68,7 @@
                     <h2>最新申请定制服务</h2>
                 </div>
                 <table id="scrolltableHead" class="publicity-table"></table>
-                <div id="scrolltable" style="overflow: hidden;height: 310px;position:relative;">
+                <div id="scrolltable">
                     <div id="scrolltable1">
                         <table class="publicity-table">
                             <thead>

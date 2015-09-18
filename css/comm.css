@@ -542,53 +542,56 @@
 
 /* line 365, ../scss/comm.scss */
 .fixed-bottom-form {
+  display: none;
   margin-top: 2em;
   padding: 1em 0;
 }
-/* line 368, ../scss/comm.scss */
+/* line 369, ../scss/comm.scss */
 .fixed-bottom-form, .fixed-bottom-form .open {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000);
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 369, ../scss/comm.scss */
+/* line 370, ../scss/comm.scss */
 .fixed-bottom-form .g-left {
   position: relative;
   width: 40%;
 }
-/* line 373, ../scss/comm.scss */
+/* line 374, ../scss/comm.scss */
 .fixed-bottom-form .g-center {
   width: 35%;
 }
-/* line 374, ../scss/comm.scss */
+/* line 375, ../scss/comm.scss */
 .fixed-bottom-form .g-right {
   width: 25%;
 }
-/* line 376, ../scss/comm.scss */
+/* line 377, ../scss/comm.scss */
 .fixed-bottom-form .form-line {
   margin-bottom: .5em;
 }
-/* line 378, ../scss/comm.scss */
+/* line 379, ../scss/comm.scss */
 .fixed-bottom-form .form-line input, .fixed-bottom-form .form-line select {
   display: inline-block;
   width: 47%;
   margin-right: 2%;
 }
-/* line 386, ../scss/comm.scss */
+/* line 387, ../scss/comm.scss */
 .fixed-bottom-form .g-left .float-img {
   position: absolute;
   top: -3em;
   right: 4.5em;
 }
-/* line 394, ../scss/comm.scss */
+/* line 395, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode, .fixed-bottom-form .g-right .submit {
   display: inline-block;
   width: 40%;
 }
-/* line 398, ../scss/comm.scss */
+/* line 399, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode {
   position: relative;
   text-align: center;
 }
-/* line 402, ../scss/comm.scss */
+/* line 403, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode-cont {
   position: absolute;
   left: 2em;
@@ -596,11 +599,11 @@
   font-size: .85em;
   color: #fff;
 }
-/* line 409, ../scss/comm.scss */
+/* line 410, ../scss/comm.scss */
 .fixed-bottom-form .g-right .submit {
   margin-top: 1.5em;
 }
-/* line 411, ../scss/comm.scss */
+/* line 412, ../scss/comm.scss */
 .fixed-bottom-form .open {
   display: inline-block;
   position: absolute;
@@ -616,7 +619,7 @@
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
 }
-/* line 425, ../scss/comm.scss */
+/* line 426, ../scss/comm.scss */
 .fixed-bottom-form .open.show {
   right: -.7em;
   left: auto;

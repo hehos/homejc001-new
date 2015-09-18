@@ -1,5 +1,5 @@
 @import "variables";
-@import "../bootstrap4/scss/mixins";
+@import "mixins";
 
 
 #links, .index-flow, .index-hot {
@@ -90,7 +90,7 @@
       font-size: 18/$global-font-size + em;
     }
   }
-  .form_line {
+  .form-line {
     margin-bottom: 15/$global-font-size + em;
     input, button, select {
       border: 1px solid #dddddd;
@@ -119,8 +119,9 @@
     font-size: 12/$global-font-size + em;
     P { @include text-truncate; }
   }
-  .form-bottom p {
-    margin-bottom: 4/$global-font-size + em;;
+  .form-bottom {
+    p { margin-bottom: 4/$global-font-size + em; }
+    i { margin-right: .5em; }
   }
 }
 
@@ -176,7 +177,7 @@
     cursor: pointer;
     font-size: 48/$global-font-size + em;
     font-family: sans-serif;
-    background-color: rgba(0,0,0,0.6);
+    @include background-color-rgba(#000, .7);
     color: $body-bg;
   }
   .left-btn { left: 0; }
@@ -241,7 +242,7 @@
     margin-right: 2%;
   }
   .media-big-img .tran-layer {
-    background-color: rgba(252, 252, 252, 0.6);
+    @include background-color-rgba(#fff, .7);
   }
   .media-cont, .media-title { font-weight: bold }
   .media-title {

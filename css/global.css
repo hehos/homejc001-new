@@ -1,52 +1,66 @@
-/* line 1, ../scss/global.scss */
+/* line 4, ../scss/global.scss */
 ul, ol, li {
   list-style: none;
   margin: 0;
 }
 
-/* line 5, ../scss/global.scss */
+/* line 8, ../scss/global.scss */
 * {
   margin-top: 0;
   padding: 0;
 }
 
-/* line 9, ../scss/global.scss */
+/* line 12, ../scss/global.scss */
 i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-/* line 10, ../scss/global.scss */
+/* line 13, ../scss/global.scss */
 a {
   color: inherit;
 }
 
-/* line 11, ../scss/global.scss */
+/* line 14, ../scss/global.scss */
 a:hover {
   color: inherit;
 }
 
-/* line 12, ../scss/global.scss */
+/* line 15, ../scss/global.scss */
 img {
   max-width: 100%;
 }
 
-/* line 14, ../scss/global.scss */
+/* line 17, ../scss/global.scss */
 body .container {
   width: 1200px;
   max-width: none;
 }
 
-/* line 20, ../scss/global.scss */
-h1, .h1, h2, .h2, h3, .h3 {
+/* line 23, ../scss/global.scss */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 23, ../scss/global.scss */
+/* line 27, ../scss/global.scss */
 .form-control {
   border-width: 1px;
 }
 
-/* line 28, ../scss/global.scss */
+/* line 31, ../scss/global.scss */
+.carousel.slide .icon-angle-left, .carousel.slide .icon-angle-right {
+  display: inline-block;
+  width: 100%;
+  height: 2em;
+  line-height: 2;
+  margin-top: -1em;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 3em;
+}
+
+/* line 46, ../scss/global.scss */
 [class^="icon-"],
 [class*=" icon-"] {
   line-height: inherit;

@@ -218,7 +218,9 @@
   bottom: 0;
   padding: 0 .6em;
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.6);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 /* line 169, ../scss/widget.scss */
 .media-base .tran-layer a:hover,
@@ -356,7 +358,7 @@
 }
 
 /* line 220, ../scss/widget.scss */
-.media-txt-list .thumbnail {
+.media-txt-list .img {
   float: left;
   margin-right: 1em;
 }

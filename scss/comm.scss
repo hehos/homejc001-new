@@ -1,5 +1,5 @@
 @import "variables";
-@import "../bootstrap4/scss/mixins";
+@import "mixins";
 
 // config
 $myicon-spacing: 5px;
@@ -363,9 +363,10 @@ $poput-z-index: 10000;
 
 
 .fixed-bottom-form {
+  display: none;
   margin-top: 2em;
   padding: 1em 0;
-  &, .open { background-color: rgba(0, 0, 0, .7); }
+  &, .open { @include background-color-rgba(#000, .7); }
   .g-left {
     position: relative;
     width: 40%;

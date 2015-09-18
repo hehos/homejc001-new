@@ -1,5 +1,5 @@
 @import "variables";
-@import "../bootstrap4/scss/mixins";
+@import "mixins";
 
 // nav
 $activeColor: $activeColor;
@@ -165,7 +165,7 @@ $activeColor: $activeColor;
     bottom: 0;
     padding: 0 .6em;
     color: #ffffff;
-    background-color: rgba(0, 0, 0, .6);
+    @include background-color-rgba(#000, .7);
     a:hover { color: inherit; }
   }
 
@@ -217,7 +217,7 @@ $activeColor: $activeColor;
 }
 
 .media-txt-list {
-  .thumbnail {
+  .img {
     float: left;
     margin-right: 1em;
   }

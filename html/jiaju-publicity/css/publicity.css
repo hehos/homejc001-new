@@ -41,6 +41,7 @@
 }
 .cont-nav {
   border: 1px solid #d7d7d7;
+  border-bottom: none;
 }
 .cont-nav:before,
 .cont-nav:after {
@@ -169,8 +170,15 @@
   margin-right: 10px;
 }
 .head-form .form-cont .city.col-2 {
-  overflow: hidden;
   margin-right: -3%;
+}
+.head-form .form-cont .city.col-2:before,
+.head-form .form-cont .city.col-2:after {
+  content: " ";
+  display: table;
+}
+.head-form .form-cont .city.col-2:after {
+  clear: both;
 }
 .head-form .form-cont .city.col-2 select {
   float: left;
@@ -199,6 +207,10 @@
 }
 .new-apply .publicity-table tr {
   border-bottom: 1px solid #eee;
+}
+#scrolltable {
+  position: relative;
+  overflow: hidden;
 }
 .case-and-new {
   padding-bottom: 50px;
@@ -279,10 +291,19 @@
   margin-bottom: 20px;
 }
 .dkjs .dkjs-form .dfl i {
-  margin-right: 20px;
+  margin-right: 15px;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  line-height: 23px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 50%;
+  border: 2px solid #3388c9;
 }
 .dkjs .dkjs-form button[type=submit] {
   width: 100%;
+  background-color: #3088c8;
 }
 .dkjs .dkjs-result {
   padding: 20px;

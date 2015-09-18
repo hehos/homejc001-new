@@ -1,12 +1,13 @@
 (function(jq,window) {
-	var freeDesign = {
-		init:function() {
+    var freeDesign = {
+        init:function() {
             scrollTopFn();
-		}
-	};
+        }
+    };
 
     function scrollTopFn(num,selc) {
-        var SD = 30,
+        var SD = 30,          // 默认的滚动速度
+            defaultRow = 10,  // 默认的显示函数
             myScroll,
             tardiv = document.getElementById('scrolltable'),
             tardiv1 = document.getElementById('scrolltable1'),
@@ -24,6 +25,8 @@
         $("#scrolltableHead").append($("#scrolltable thead"));
         $("#scrolltable1 thead").empty();
 
+        // 设置默认高度
+        $(tardiv).height($("#scrolltable1 tbody tr").first().height() * defaultRow);
 
         if($(tardiv1).height() > $(tardiv).height()) {
 
@@ -43,6 +46,8 @@
             tardiv.onmouseout = function() {
                 myScroll = setInterval(Marquee2,SD);
             };
+        } else {
+            $(tardiv).height($(tardiv1).height());
         }
     }
     window.freeDesign = freeDesign;

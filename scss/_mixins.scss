@@ -1,0 +1,9 @@
+@import "../bootstrap4/scss/mixins";
+
+@mixin background-color-rgba($color, $alpha) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000);
+  background-color: rgba($color, $alpha);
+}
+
+

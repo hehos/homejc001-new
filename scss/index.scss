@@ -59,6 +59,7 @@
     margin: 0 -15/$global-font-size + em;
     position: relative;
     border-bottom: 2px solid $highlightColor;
+    a { text-decoration: none; }
     .arrows-down {
       display: none;
       position: absolute;
@@ -71,6 +72,7 @@
     ul { margin: 0 -6/$global-font-size + em; }
     li {
       float: left;
+      line-height: 1.6;
       padding:  12/$global-font-size + em 6/$global-font-size + em;
       text-align: center;
       & + li { border-left: 1px solid #eee; }
@@ -81,7 +83,7 @@
     }
   }
   .form-state {
-    margin: 10/$global-font-size + em 0;
+    margin: 1em 0 .85em;
     line-height: 27/$global-font-size + em;
     text-align: center;
     background-color: #f6f6f6;
@@ -219,6 +221,7 @@
     }
     .media-cont {
       padding: 10/$global-font-size + em 0;
+      line-height: 2.2;
     }
     h4 {
       color: #000;
@@ -309,6 +312,7 @@
 }
 .xiaoguo-cate {
   border: 1px solid $gray-lighter;
+  a {  text-decoration: none; }
   .title {
     float: left;
     line-height: 88/$global-font-size + em;

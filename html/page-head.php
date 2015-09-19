@@ -25,7 +25,13 @@
 <!--<script src="../bootstrap4/dist/js/bootstrap.js"></script>-->
 <script src="../bootstrap-3.3.5/js/bootstrap.min.js"></script>
 
+
+
+
+
 <!--[if IE 8]>
-<script src="../js/html5shiv.min.js"></script>
-<script src="../js/respond.min.js"></script>
+<script src="http://192.168.0.188/homejc001-new/js/html5shiv.min.js"></script>
+<script src="http://192.168.0.188/homejc001-new/js/respond.min.js"></script>
 <![endif]-->
+
+

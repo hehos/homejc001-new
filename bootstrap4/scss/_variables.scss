@@ -76,7 +76,7 @@ $body-color:                 $gray-dark !default;
 
 $link-color:                 $gray-dark !default;  // @modify
 $link-hover-color:           $link-color !default; // @modify
-$link-hover-decoration:      none !default; // @modify
+$link-hover-decoration:      underline !default;
 
 
 // Grid breakpoints

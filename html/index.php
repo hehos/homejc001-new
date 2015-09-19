@@ -67,7 +67,7 @@
                     </select>
                 </div>
                 <div class="form-line">
-                    <button class="form-control form-control-lg" >立即预约</button>
+                    <button class="btn btn-lg btn-block" >立即预约</button>
                 </div>
             </div>
             <div class="form-bottom">
@@ -77,6 +77,7 @@
         </div>
 
         <div class="banner-right-media">
+                <!--     bootstrap 4       -->
 <!--            <div id="carousel-example-generic" class="carousel slide banner-slider" data-ride="carousel">-->
 <!--                <ol class="carousel-indicators">-->
 <!--                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
@@ -103,7 +104,10 @@
 <!--                    <span class="sr-only">Next</span>-->
 <!--                </a>-->
 <!--            </div>-->
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+
+            <!--     bootstrap 3.3.5       -->
+            <div id="carousel-example-generic" class="carousel slide banner-slider" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -112,10 +116,10 @@
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active">
+                    <div class="item carousel-item active">
                         <a href=""><img src="../img/banner1.png" alt=""/></a>
                     </div>
-                    <div class="item">
+                    <div class="item carousel-item">
                         <a href=""><img src="../img/banner2.png" alt=""/></a>
                     </div>
                 </div>

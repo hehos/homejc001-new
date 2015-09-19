@@ -129,6 +129,7 @@ $headerTopFontSize: 12;
       width: 100/$global-font-size + em;
       text-align: center;
       border-right: 1px solid #eee;
+      a { text-decoration: none; }
       ul {
         position: absolute;
         top: 33/$global-font-size + em;

@@ -392,6 +392,13 @@
 .tabs-nav3:after {
   clear: both;
 }
+/* line 241, ../scss/widget.scss */
+.tabs-base a,
+.tabs-nav1 a,
+.tabs-nav2 a,
+.tabs-nav3 a {
+  text-decoration: none;
+}
 /* line 242, ../scss/widget.scss */
 .tabs-base > li,
 .tabs-nav1 > li,
@@ -436,4 +443,57 @@
 /* line 266, ../scss/widget.scss */
 .tabs-nav1 > li.on > a, .tabs-nav1 > li:hover > a {
   border-bottom-color: transparent;
+}
+
+/* line 271, ../scss/widget.scss */
+ul, ol, li {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 276, ../scss/widget.scss */
+.my-progress {
+  background-color: #fff;
+  margin-bottom: 0;
+}
+/* line 14, ../bootstrap4/scss/mixins/_clearfix.scss */
+.my-progress:before, .my-progress:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../bootstrap4/scss/mixins/_clearfix.scss */
+.my-progress:after {
+  clear: both;
+}
+/* line 280, ../scss/widget.scss */
+.my-progress li {
+  position: relative;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+/* line 286, ../scss/widget.scss */
+.my-progress li.on .prog-line, .my-progress li.on .prog-num {
+  background-color: #5cb85c;
+}
+/* line 291, ../scss/widget.scss */
+.my-progress .prog-line {
+  position: absolute;
+  left: -50%;
+  top: 50%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: -3px;
+  height: 3px;
+  background-color: #eceeef;
+}
+/* line 302, ../scss/widget.scss */
+.my-progress .prog-num {
+  content: " ";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #eceeef;
 }

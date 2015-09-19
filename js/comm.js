@@ -55,6 +55,7 @@ $(document).ready(function(){
         $(this).hide();
     });
 
+    // 底部悬浮条 显示 与 隐藏逻辑
     $(window).bind("scroll",function(){
         if($(this).scrollTop() > 200) {
             $(".fixed-bottom-form").show();

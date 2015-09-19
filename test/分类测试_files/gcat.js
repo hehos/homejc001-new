@@ -90,9 +90,9 @@ JMulSelect.prototype = {
             var id = 'jSelect_' + JMulSelect.counter++;
             if($('#' + id).size() == 0){
                 html = '' +
-                    '<div class="store-selector" id="' + id + '">' +
-                    html +
-                    '</div>';
+                '<div class="store-selector" id="' + id + '">' +
+                html +
+                '</div>';
                 document.write(html);
             }
             box = $('#' + id + '.store-selector');
@@ -113,26 +113,25 @@ JMulSelect.prototype = {
         });
 
         this.wrap['title'].parent().click(function(){
-            that.wrap['box'].css('z-index', 999);
-            that.wrap['box'].toggleClass(that.hover);
-
+            var el = that.wrap['box'];
+            el.css('z-index', 999);
+            el.toggleClass(that.hover);
 
             // 处理弹出地区div的方向
-            var triggerTarget = $(".store-selector");
-            var triggerTargetT = triggerTarget.width();
-            var triggerTargetH = triggerTarget.height();
+            var triggerTargetT = el.width();
+            var triggerTargetH = el.height();
             var windowT = $(window).width();
             var windowH = $(window).height();
-            var ttOffsetL = triggerTarget.offset().left;
-            var ttOffsetT = triggerTarget.offset().top;
+            var ttOffsetL = el.offset().left;
+            var ttOffsetT = el.offset().top - $(window).scrollTop();
+
             // 水平
             if(ttOffsetL + triggerTargetT/2 > windowT/2) {
-                $(".store-selector").addClass("popup-left");
+                el.addClass("store-popup-left");
             }
             if(ttOffsetT + triggerTargetH/2 > windowH/2) {
-                $(".store-selector").addClass("popup-top");
+                el.addClass("store-popup-top");
             }
-
         });
     },
 
@@ -314,16 +313,18 @@ JMulSelect.prototype = {
         if(name.length == 0){
             name = this.choose;
         }
+
+        var el = this.wrap['box'];
         this.wrap['title'].text(name);
-        this.wrap['box'].removeClass(this.hover);
-        this.wrap['box'].css('z-index', 2);
+        el.removeClass(this.hover);
+        el.css('z-index', 2);
         if(typeof(this.onclose) == 'function'){
             this.onclose(this.wrap['value'].val());
         }
 
         // 关闭 弹出地区div 时移除可能的弹出方向的className
-        $(".store-selector").removeClass("popup-left");
-        $(".store-selector").removeClass("popup-top");
+        el.removeClass("store-popup-left");
+        el.removeClass("store-popup-top");
     },
 
     isNullObj : function(obj){

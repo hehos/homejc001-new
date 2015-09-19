@@ -54,16 +54,16 @@
     display: block;
 }
 
-.store-selector.popup-left .content {
+.store-selector.store-popup-left .content {
     left: auto;
     right: -45px;
 }
-.store-selector.popup-top .content {
+.store-selector.store-popup-top .content {
     top: auto;
     bottom: 25px;
 
 }
-.store-selector.popup-top .text {
+.store-selector.store-popup-top .text {
     border-bottom-width: 1px;
     border-top-width: 0;
 }

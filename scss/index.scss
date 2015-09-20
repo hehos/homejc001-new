@@ -27,6 +27,7 @@
     padding: .7em 0;
     text-align: center;
     color: #fff;
+    text-decoration: none;
     background-color: lighten($activeColor, 10%);
     border-radius: 50%;
     i {
@@ -245,7 +246,10 @@
     margin-right: 2%;
   }
   .media-big-img .tran-layer {
-    @include background-color-rgba(#fff, .7);
+//    @include background-color-rgba(#ffffff, .7);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AAFFFFFF, endColorstr=#AAFFFFFF)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AAFFFFFF, endColorstr=#AAFFFFFF);
+    background-color: rgba(#fff, .7);
   }
   .media-cont, .media-title { font-weight: bold }
   .media-title {

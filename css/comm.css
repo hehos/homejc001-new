@@ -514,88 +514,93 @@
 .popup-form-yuyue .form-control-label {
   float: left;
   width: 6em;
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: .4em;
+  padding-right: .4em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 0;
+  text-align: center;
 }
-/* line 339, ../scss/comm.scss */
+/* line 343, ../scss/comm.scss */
 .popup-form-yuyue .input-field {
   margin-left: 6em;
 }
-/* line 344, ../scss/comm.scss */
+/* line 348, ../scss/comm.scss */
 .popup-form-yuyue .vcode .form-control {
   display: inline-block;
   width: 40%;
 }
-/* line 348, ../scss/comm.scss */
+/* line 352, ../scss/comm.scss */
 .popup-form-yuyue .vcode img {
   float: right;
 }
-/* line 351, ../scss/comm.scss */
+/* line 355, ../scss/comm.scss */
 .popup-form-yuyue .safety {
   padding: .3em 0;
 }
-/* line 355, ../scss/comm.scss */
+/* line 359, ../scss/comm.scss */
 .popup-form-yuyue .form-ft .call {
   color: #bd0401;
   font-size: 1.5em;
 }
-/* line 360, ../scss/comm.scss */
+/* line 364, ../scss/comm.scss */
 .popup-form-yuyue .submit {
   margin-bottom: .3em;
+  border: none;
 }
 
-/* line 366, ../scss/comm.scss */
+/* line 371, ../scss/comm.scss */
 .fixed-bottom-form {
   display: none;
   margin-top: 2em;
   padding: 1em 0;
 }
-/* line 370, ../scss/comm.scss */
+/* line 375, ../scss/comm.scss */
 .fixed-bottom-form, .fixed-bottom-form .open {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000)";
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000);
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 371, ../scss/comm.scss */
+/* line 376, ../scss/comm.scss */
 .fixed-bottom-form .g-left {
   position: relative;
   width: 40%;
 }
-/* line 375, ../scss/comm.scss */
+/* line 380, ../scss/comm.scss */
 .fixed-bottom-form .g-center {
   width: 35%;
 }
-/* line 376, ../scss/comm.scss */
+/* line 381, ../scss/comm.scss */
 .fixed-bottom-form .g-right {
   width: 25%;
 }
-/* line 378, ../scss/comm.scss */
+/* line 383, ../scss/comm.scss */
 .fixed-bottom-form .form-line {
   margin-bottom: .5em;
 }
-/* line 380, ../scss/comm.scss */
+/* line 385, ../scss/comm.scss */
 .fixed-bottom-form .form-line input, .fixed-bottom-form .form-line select {
   display: inline-block;
   width: 47%;
   margin-right: 2%;
 }
-/* line 388, ../scss/comm.scss */
+/* line 393, ../scss/comm.scss */
 .fixed-bottom-form .g-left .float-img {
   position: absolute;
   top: -3em;
   right: 4.5em;
 }
-/* line 396, ../scss/comm.scss */
+/* line 401, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode, .fixed-bottom-form .g-right .submit {
   display: inline-block;
   width: 40%;
 }
-/* line 400, ../scss/comm.scss */
+/* line 405, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode {
   position: relative;
   text-align: center;
 }
-/* line 404, ../scss/comm.scss */
+/* line 409, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode-cont {
   position: absolute;
   left: 2em;
@@ -603,11 +608,11 @@
   font-size: .85em;
   color: #fff;
 }
-/* line 411, ../scss/comm.scss */
+/* line 416, ../scss/comm.scss */
 .fixed-bottom-form .g-right .submit {
   margin-top: 1.5em;
 }
-/* line 413, ../scss/comm.scss */
+/* line 418, ../scss/comm.scss */
 .fixed-bottom-form .open {
   display: inline-block;
   position: absolute;
@@ -622,8 +627,9 @@
   color: #fff;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
+  text-decoration: none;
 }
-/* line 427, ../scss/comm.scss */
+/* line 433, ../scss/comm.scss */
 .fixed-bottom-form .open.show {
   right: -.7em;
   left: auto;

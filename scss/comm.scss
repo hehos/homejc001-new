@@ -333,8 +333,12 @@ $poput-z-index: 10000;
   .form-control-label {
     float: left;
     width: 6em;
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: .4em;
+    padding-right: .4em;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 0;
+    text-align: center;
   }
   .input-field {
     margin-left: 6em;
@@ -359,6 +363,7 @@ $poput-z-index: 10000;
   }
   .submit {
     margin-bottom: .3em;
+    border: none;
   }
 }
 
@@ -424,6 +429,7 @@ $poput-z-index: 10000;
     color: $body-bg;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
+    text-decoration: none;
     &.show {
       right: -.7em;
       left: auto;

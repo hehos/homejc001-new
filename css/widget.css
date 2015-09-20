@@ -218,8 +218,8 @@
   bottom: 0;
   padding: 0 .6em;
   color: #ffffff;
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000)";
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000);
   background-color: rgba(0, 0, 0, 0.7);
 }
 /* line 169, ../scss/widget.scss */

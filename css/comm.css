@@ -557,8 +557,8 @@
 }
 /* line 375, ../scss/comm.scss */
 .fixed-bottom-form, .fixed-bottom-form .open {
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000)";
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA000000, endColorstr=#AA000000);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000);
   background-color: rgba(0, 0, 0, 0.7);
 }
 /* line 376, ../scss/comm.scss */

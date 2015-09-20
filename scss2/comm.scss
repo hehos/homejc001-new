@@ -2,13 +2,13 @@
 @import "mixins";
 
 // config
-$myicon-spacing: 5px;
-$myicon-layout: vertical;
-$myicon-sprite-dimensions: true;
-
-@import "compass/utilities/sprites";
-@import "myicon/*.png";
-@include all-myicon-sprites;
+//$myicon-spacing: 5px;
+//$myicon-layout: vertical;
+//$myicon-sprite-dimensions: true;
+//
+//@import "compass/utilities/sprites";
+//@import "myicon/*.png";
+//@include all-myicon-sprites;
 
 [class^="myicon-"],
 [class*=" myicon-"] {

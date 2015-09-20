@@ -1,0 +1,6 @@
+@import "compass";
+
+
+div {
+  @include clearfix();
+}

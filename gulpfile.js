@@ -44,22 +44,44 @@ gulp.task('sass', function () {
     return sass(config.src.scss, { sourcemap: true })
         .on('error', sass.logError)
         .pipe(sourcemaps.write())
-        .pipe(sourcemaps.write("maps", {
+        .pipe(sourcemaps.write(".", {
             includeContent: false,
             sourceRoot: 'scss'
         }))
         //.pipe(autoprefixer({
-        //    browsers: ['last 2 versions']
+        //    browsers: config.autoprefixerBrowsers
         //}))
         .pipe(gulp.dest("dist"))
 
-
-        .pipe(rename({ suffix: '.min' }))
         .pipe(minifycss())
+        .pipe(rename({
+            suffix: '.min',
+            extname: '.css'
+        }))
 
         .pipe(gulp.dest("dist"));
-        //.pipe(notify({ message: 'Styles task complete' }));
+    //.pipe(notify({ message: 'Styles task complete' }));
 });
+
+//gulp.task('sass', function () {
+//    return sass(config.src.scss, { sourcemap: true })
+//        .on('error', sass.logError)
+//        .pipe(sourcemaps.write())
+//        .pipe(sourcemaps.write(".", {
+//            includeContent: false,
+//            sourceRoot: 'scss'
+//        }))
+//        //.pipe(autoprefixer({
+//        //    browsers: config.autoprefixerBrowsers
+//        //}))
+//        .pipe(gulp.dest("dist"))
+//
+//        .pipe(rename({ suffix: '.min' }))
+//        .pipe(minifycss())
+//
+//        .pipe(gulp.dest("dist"));
+//        //.pipe(notify({ message: 'Styles task complete' }));
+//});
 
 gulp.task('auto', function () {
     return gulp.src('dist/*.css')

@@ -450,10 +450,22 @@ $poput-z-index: 10000;
   background-image: url('mimg/menu_bck.png');
   height: 150px;
   margin-top: 200px;
-  a [class^="icon-"], a [class*=" icon-"] {
+  [class^="icon-"], [class*=" icon-"] {
     font-size: 18px;
     margin-right: 20px;
     margin-left: 5px;
+  }
+  #avatarCnt {
+    [class^="icon-"], [class*=" icon-"] {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      margin-left: 0;
+      text-align: center;
+      background-color: #cccccc;
+      border-radius: 50%;
+    }
   }
   ul {
     padding: 10px 0;

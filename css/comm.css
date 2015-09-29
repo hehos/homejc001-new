@@ -651,16 +651,27 @@
   margin-top: 200px;
 }
 /* line 453, ../scss/comm.scss */
-#member a [class^="icon-"], #member a [class*=" icon-"] {
+#member [class^="icon-"], #member [class*=" icon-"] {
   font-size: 18px;
   margin-right: 20px;
   margin-left: 5px;
 }
-/* line 458, ../scss/comm.scss */
+/* line 459, ../scss/comm.scss */
+#member #avatarCnt [class^="icon-"], #member #avatarCnt [class*=" icon-"] {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  margin-left: 0;
+  text-align: center;
+  background-color: #cccccc;
+  border-radius: 50%;
+}
+/* line 470, ../scss/comm.scss */
 #member ul {
   padding: 10px 0;
 }
-/* line 461, ../scss/comm.scss */
+/* line 473, ../scss/comm.scss */
 #member ul li {
   width: 30px;
   white-space: nowrap;
@@ -668,36 +679,36 @@
   background: url("mimg/member_menu.png") no-repeat;
   overflow: hidden;
 }
-/* line 468, ../scss/comm.scss */
+/* line 480, ../scss/comm.scss */
 #member a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 472, ../scss/comm.scss */
+/* line 484, ../scss/comm.scss */
 #member ul li img {
   margin-right: 20px;
   margin-left: 3px;
 }
-/* line 476, ../scss/comm.scss */
+/* line 488, ../scss/comm.scss */
 #member ul li .avatar {
   border-radius: 12px 12px 12px 12px;
   width: 24px;
   height: 24px;
 }
-/* line 481, ../scss/comm.scss */
+/* line 493, ../scss/comm.scss */
 #member .myFav {
   background-position: 7px 14px;
 }
-/* line 484, ../scss/comm.scss */
+/* line 496, ../scss/comm.scss */
 #member .mySet {
   background-position: 7px -24px;
 }
-/* line 487, ../scss/comm.scss */
+/* line 499, ../scss/comm.scss */
 #member ul #avatarCnt {
   background: none;
   padding-left: 0;
 }
-/* line 491, ../scss/comm.scss */
+/* line 503, ../scss/comm.scss */
 #member ul #avatarCnt a {
   margin-left: 0;
 }

@@ -634,3 +634,70 @@
   right: -.7em;
   left: auto;
 }
+
+/* member  */
+/* line 441, ../scss/comm.scss */
+#member {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1000;
+  background: #000;
+  width: 30px;
+  box-shadow: 0 0 8px 0 #000000;
+  background-image: url("mimg/menu_bck.png");
+  height: 150px;
+  margin-top: 200px;
+}
+/* line 453, ../scss/comm.scss */
+#member a [class^="icon-"], #member a [class*=" icon-"] {
+  font-size: 18px;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+/* line 458, ../scss/comm.scss */
+#member ul {
+  padding: 10px 0;
+}
+/* line 461, ../scss/comm.scss */
+#member ul li {
+  width: 30px;
+  white-space: nowrap;
+  padding: 10px 0;
+  background: url("mimg/member_menu.png") no-repeat;
+  overflow: hidden;
+}
+/* line 468, ../scss/comm.scss */
+#member a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 472, ../scss/comm.scss */
+#member ul li img {
+  margin-right: 20px;
+  margin-left: 3px;
+}
+/* line 476, ../scss/comm.scss */
+#member ul li .avatar {
+  border-radius: 12px 12px 12px 12px;
+  width: 24px;
+  height: 24px;
+}
+/* line 481, ../scss/comm.scss */
+#member .myFav {
+  background-position: 7px 14px;
+}
+/* line 484, ../scss/comm.scss */
+#member .mySet {
+  background-position: 7px -24px;
+}
+/* line 487, ../scss/comm.scss */
+#member ul #avatarCnt {
+  background: none;
+  padding-left: 0;
+}
+/* line 491, ../scss/comm.scss */
+#member ul #avatarCnt a {
+  margin-left: 0;
+}

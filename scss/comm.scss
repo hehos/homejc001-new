@@ -2,13 +2,13 @@
 @import "mixins";
 
 // config
-//$myicon-spacing: 5px;
-//$myicon-layout: vertical;
-//$myicon-sprite-dimensions: true;
-//
-//@import "compass/utilities/sprites";
-//@import "myicon/*.png";
-//@include all-myicon-sprites;
+$myicon-spacing: 5px;
+$myicon-layout: vertical;
+$myicon-sprite-dimensions: true;
+
+@import "compass/utilities/sprites";
+@import "myicon/*.png";
+@include all-myicon-sprites;
 
 [class^="myicon-"],
 [class*=" myicon-"] {
@@ -434,5 +434,61 @@ $poput-z-index: 10000;
       right: -.7em;
       left: auto;
     }
+  }
+}
+
+/* member  */
+#member {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1000;
+  background: #000;
+  width: 30px;
+  box-shadow: 0 0 8px 0 #000000;
+  background-image: url('mimg/menu_bck.png');
+  height: 150px;
+  margin-top: 200px;
+  a [class^="icon-"], a [class*=" icon-"] {
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  ul {
+    padding: 10px 0;
+  }
+  ul li {
+    width: 30px;
+    white-space: nowrap;
+    padding: 10px 0;
+    background: url('mimg/member_menu.png') no-repeat;
+    overflow: hidden;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  ul li img {
+    margin-right: 20px;
+    margin-left: 3px;
+  }
+  ul li .avatar {
+    border-radius: 12px 12px 12px 12px;
+    width: 24px;
+    height: 24px;
+  }
+  .myFav {
+    background-position: 7px 14px;
+  }
+  .mySet {
+    background-position: 7px -24px;
+  }
+  ul #avatarCnt {
+    background: none;
+    padding-left: 0;
+  }
+  ul #avatarCnt a {
+    margin-left: 0;
   }
 }

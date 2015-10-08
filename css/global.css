@@ -17,32 +17,33 @@ i, cite, em, var, address, dfn {
 
 /* line 13, ../scss/global.scss */
 a {
+  cursor: pointer;
   color: inherit;
 }
 
-/* line 18, ../scss/global.scss */
+/* line 21, ../scss/global.scss */
 img {
   max-width: 100%;
 }
 
-/* line 20, ../scss/global.scss */
+/* line 23, ../scss/global.scss */
 body .container {
   width: 1200px;
   max-width: none;
 }
 
-/* line 26, ../scss/global.scss */
+/* line 29, ../scss/global.scss */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 30, ../scss/global.scss */
+/* line 33, ../scss/global.scss */
 .form-control {
   border-width: 1px;
 }
 
-/* line 34, ../scss/global.scss */
+/* line 37, ../scss/global.scss */
 .carousel.slide .icon-angle-left, .carousel.slide .icon-angle-right {
   display: inline-block;
   width: 100%;
@@ -56,7 +57,7 @@ body .container {
   color: #fff;
 }
 
-/* line 50, ../scss/global.scss */
+/* line 53, ../scss/global.scss */
 [class^="icon-"],
 [class*=" icon-"] {
   line-height: inherit;

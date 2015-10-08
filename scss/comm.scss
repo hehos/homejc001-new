@@ -13,6 +13,7 @@ $myicon-sprite-dimensions: true;
 [class^="myicon-"],
 [class*=" myicon-"] {
   display: inline-block;
+  vertical-align: middle;
 }
 
 
@@ -217,9 +218,10 @@ $headerTopFontSize: 12;
   line-height: 2.2;
 }
 
+// ================================
+// element float on page
 
-// float on page
-
+// element fixed and transition
 $poput-z-index: 10000;
 [class^="popup-"],
 [class*=" popup-"],
@@ -229,13 +231,12 @@ $poput-z-index: 10000;
   position: fixed;
   &, * { transition: all .3s ease-out; }
 }
-
+// close btn style
 [class^="popup-"],
 [class*=" popup-"],
 [class^="fixed-"],
 [class*=" fixed-"] {
   .close {
-    z-index: $poput-z-index + 2;
     position: absolute;
     right: .4em;
     top: .4em;
@@ -243,7 +244,6 @@ $poput-z-index: 10000;
     height: 1.5em;
     line-height: 1.5em;
     text-align: center;
-
     font-size: 1.5em;
     font-family: sans-serif;
   }
@@ -255,7 +255,6 @@ $poput-z-index: 10000;
 [class*=" popup-"],
 [class^="fixed-"],
 [class*=" fixed-"] {  z-index: $poput-z-index + 1; }
-
 // mask
 #mask {
   left: 0;
@@ -266,16 +265,18 @@ $poput-z-index: 10000;
   background-color: #000;
 }
 
+
+// ======================
+// popup and fixed commonality style
 // popup
 [class^="popup-"],
 [class*=" popup-"] {
   left: 50%;
   top: 50%;
-
   padding: 1em 2em;
 }
 
-//fixed
+//fixed top and bottom
 [class^="fixed-top-"],
 [class*=" fixed-top-"],
 [class^="fixed-bottom-"],
@@ -292,7 +293,26 @@ $poput-z-index: 10000;
   top: 0;
 }
 
+//fixed right
+[class^="fixed-left-"],
+[class*=" fixed-left-"],
+[class^="fixed-right-"],
+[class*=" fixed-right-"] {
+  top: 50%;
+}
+[class^="fixed-left-"],
+[class*=" fixed-left-"] {
+  left: 0;
+}
+[class^="fixed-right-"],
+[class*=" fixed-right-"] {
+  right: 0;
+}
 
+// ====================
+// entity
+
+// popup
 .popup-yuyue-succeed {
   width: 800px;
   margin-left: -400px;
@@ -367,7 +387,7 @@ $poput-z-index: 10000;
   }
 }
 
-
+// fixed
 .fixed-bottom-form {
   display: none;
   margin-top: 2em;
@@ -437,7 +457,55 @@ $poput-z-index: 10000;
   }
 }
 
-/* member  */
+.fixed-right-OICQ {
+  margin-top: -(350/2) + px;
+  background-color: $gray-lighter;
+  border-radius: 8px;
+  .OICQ-hd, .OICQ-ft {
+    text-align: center;
+  }
+  .OICQ-hd, .OICQ-bd, .hotline {
+    padding-left: .6em;
+    padding-right: .6em;
+  }
+  .OICQ-hd-img {
+    border-bottom: 1px dashed darken($gray-lighter, 10%);
+  }
+  .OICQ-bd {
+    line-height: (33/13) + em;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    font-size: (13/14) + em;
+  }
+  .OICQ-ft {
+    line-height: 1.8;
+  }
+  .hotline {
+    padding-bottom: .5em;
+    color: $gray;
+    background-color: darken($gray-lighter, 10%);
+  }
+  .call {
+    background-color: #000;
+    color: #fdff03;
+    border-radius: 8px;
+    line-height: 20px;
+    padding: 0 6px;
+  }
+  .close-row {
+    text-align: right;
+    font-size: .85em;
+    line-height: 2em;
+    padding: 0 .6em;
+    i {
+      font-size: 1.5em;
+      font-family: sans-serif;
+      vertical-align: middle;
+    }
+  }
+}
+
+/* login succeed to member  */
 #member {
   position: fixed;
   left: 0;
@@ -447,7 +515,6 @@ $poput-z-index: 10000;
   background: #000;
   width: 30px;
   box-shadow: 0 0 8px 0 #000000;
-  background-image: url('mimg/menu_bck.png');
   height: 150px;
   margin-top: 200px;
   [class^="icon-"], [class*=" icon-"] {

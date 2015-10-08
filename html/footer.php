@@ -50,7 +50,7 @@
             <div>客服热线</div>
             <div class="call">400-0129-001</div>
         </div>
-        <div class="close-row"><a href=""><i>×</i>关闭</a></div>
+        <div class="close-row"><a href="javascript:void(0);"><i>×</i>关闭</a></div>
     </div>
 </div>
 

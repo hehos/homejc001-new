@@ -29,16 +29,11 @@ $(document).ready(function(){
         });
     }
 
-    // 处理模态层 及 漂浮 层的关闭及显示、隐藏逻辑
+    // 处理模态层 及 漂浮 层的关闭逻辑
     $('[data-close]').click(function() {
-        $(this).parents("[data-popup]").hide();
-        $("#mask").hide();
+        $(this).parent().hide();
+        $(this).siblings('[data-open]').show();
     });
-    $("#mask").click(function() {
-        $('[data-popup]').hide();
-        $(this).hide();
-    });
-
 
     $('[data-hide]').click(function() {
         var eleWidth = $(this).parent().width();
@@ -50,7 +45,14 @@ $(document).ready(function(){
         $(this).removeClass("show");
     });
 
+    $('[data-popup] [data-close]').click(function() {
+        $("#mask").hide();
+    });
 
+    $("#mask").click(function() {
+        $('[data-popup]').hide();
+        $(this).hide();
+    });
 
     // 底部悬浮条 显示 与 隐藏逻辑
     $(window).bind("scroll",function(){

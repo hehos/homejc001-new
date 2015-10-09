@@ -10,12 +10,16 @@ $myicon-sprite-dimensions: true;
 @import "myicon/*.png";
 @include all-myicon-sprites;
 
+body .container {
+  width: 1200px;
+  max-width: none;
+}
+
 [class^="myicon-"],
 [class*=" myicon-"] {
   display: inline-block;
   vertical-align: middle;
 }
-
 
 // header, footer
 
@@ -191,32 +195,45 @@ $headerTopFontSize: 12;
   color: #fff;
   background-color: #1f1f1f;
   font-size: 12px;
+  a { color: inherit; }
 }
-#footer a {
-  color: inherit;
-}
-#footer .footer-menu {
+.footer-menu {
   display: inline-block;
   padding-bottom: 15px;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  a {
+    float: left;
+    padding: 0 1.5em;
+    line-height: 1;
+    border-right: 1px solid #fff;
+    &:last-child { border: none; }
+  }
 }
-#footer .footer-menu:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-#footer .footer-menu a {
-  float: left;
-  padding: 0 1.5em;
-  line-height: 1;
-  border-right: 1px solid #fff;
-}
-#footer .footer-menu a:last-child {
-  border: none;
-}
-#footer .footer-copyright {
+.footer-copyright {
   color: #666;
   line-height: 2.2;
 }
+
+// Override bootstrap style
+.carousel.slide {
+  .icon-angle-left, .icon-angle-right {
+    display: inline-block;
+    width: 100%;
+    height: 2em;
+    line-height: 2;
+    margin-top: -1em;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 3em;
+    color: $body-bg;
+  }
+}
+
 
 // ================================
 // element float on page

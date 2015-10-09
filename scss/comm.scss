@@ -480,18 +480,22 @@ $poput-z-index: 10000;
 }
 
 .fixed-right-OICQ {
-  margin-top: -(350/2) + px;
-  background-color: $gray-lighter;
-  border-radius: 8px;
-  .OICQ-hd, .OICQ-ft {
-    text-align: center;
-  }
+  text-align: center;
+  margin-top: -(250/2) + px;
+  background-color: $body-bg;
+  border: 1px solid darken($gray-lighter, 5%);
   .OICQ-hd, .OICQ-bd, .hotline {
     padding-left: .6em;
     padding-right: .6em;
   }
+  .OICQ-hd { padding-top: 1.3em; }
   .OICQ-hd-img {
-    border-bottom: 1px dashed darken($gray-lighter, 10%);
+    border-bottom: 1px dashed $gray-lighter;
+    .img-explain {
+      font-size: .85em;
+      padding-bottom: 1em;
+      padding-top: .3em;
+    }
   }
   .OICQ-bd {
     line-height: (33/13) + em;
@@ -503,27 +507,20 @@ $poput-z-index: 10000;
     line-height: 1.8;
   }
   .hotline {
-    padding-bottom: .5em;
-    color: $gray;
-    background-color: darken($gray-lighter, 10%);
+    padding: .5em 0 .7em;
+    background-color: $gray-lighter;
   }
   .call {
-    background-color: #000;
-    color: #fdff03;
-    border-radius: 8px;
     line-height: 20px;
     padding: 0 6px;
+    font-size: 1.14em;
+    font-weight: bold;
+    color: $activeColor;
   }
-  .close-row {
-    text-align: right;
-    font-size: .85em;
-    line-height: 2em;
-    padding: 0 .6em;
-    i {
-      font-size: 1.5em;
-      font-family: sans-serif;
-      vertical-align: middle;
-    }
+  .close {
+    top: 0;
+    right: 0;
+    font-size: 1.1em;
   }
 }
 

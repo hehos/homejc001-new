@@ -1,6 +1,6 @@
-/* line 160, myicon/*.png */
-.myicon-sprite, .myicon-QQ-icon, .myicon-QQconsult-title, .myicon-bottom-float, .myicon-hot, .myicon-sort, .myicon-xiaoguo-cate1, .myicon-xiaoguo-cate10, .myicon-xiaoguo-cate2, .myicon-xiaoguo-cate3, .myicon-xiaoguo-cate4, .myicon-xiaoguo-cate5, .myicon-xiaoguo-cate6, .myicon-xiaoguo-cate7, .myicon-xiaoguo-cate8, .myicon-xiaoguo-cate9 {
-  background-image: url('../img/myicon-s669f7c0cfa.png');
+/* line 168, myicon/*.png */
+.myicon-sprite, .myicon-QQ-icon, .myicon-QQconsult-title, .myicon-bottom-float, .myicon-hot, .myicon-service-qr, .myicon-sort, .myicon-xiaoguo-cate1, .myicon-xiaoguo-cate10, .myicon-xiaoguo-cate2, .myicon-xiaoguo-cate3, .myicon-xiaoguo-cate4, .myicon-xiaoguo-cate5, .myicon-xiaoguo-cate6, .myicon-xiaoguo-cate7, .myicon-xiaoguo-cate8, .myicon-xiaoguo-cate9 {
+  background-image: url('../img/myicon-s37417c4352.png');
   background-repeat: no-repeat;
 }
 
@@ -33,78 +33,85 @@
 }
 
 /* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.myicon-sort {
+.myicon-service-qr {
   background-position: 0 -266px;
+  height: 84px;
+  width: 84px;
+}
+
+/* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.myicon-sort {
+  background-position: 0 -355px;
   height: 20px;
   width: 24px;
 }
 
 /* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate1 {
-  background-position: 0 -291px;
+  background-position: 0 -380px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate10 {
-  background-position: 0 -326px;
+  background-position: 0 -415px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate2 {
-  background-position: 0 -361px;
+  background-position: 0 -450px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate3 {
-  background-position: 0 -396px;
+  background-position: 0 -485px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate4 {
-  background-position: 0 -431px;
+  background-position: 0 -520px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate5 {
-  background-position: 0 -466px;
+  background-position: 0 -555px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate6 {
-  background-position: 0 -501px;
+  background-position: 0 -590px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate7 {
-  background-position: 0 -536px;
+  background-position: 0 -625px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate8 {
-  background-position: 0 -571px;
+  background-position: 0 -660px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, e:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate9 {
-  background-position: 0 -606px;
+  background-position: 0 -695px;
   height: 30px;
   width: 30px;
 }
@@ -692,64 +699,63 @@ body .container {
 
 /* line 482, ../scss/comm.scss */
 .fixed-right-OICQ {
-  margin-top: -175px;
-  background-color: #eceeef;
-  border-radius: 8px;
-}
-/* line 486, ../scss/comm.scss */
-.fixed-right-OICQ .OICQ-hd, .fixed-right-OICQ .OICQ-ft {
   text-align: center;
+  margin-top: -125px;
+  background-color: #fff;
+  border: 1px solid #dee2e3;
 }
-/* line 489, ../scss/comm.scss */
+/* line 487, ../scss/comm.scss */
 .fixed-right-OICQ .OICQ-hd, .fixed-right-OICQ .OICQ-bd, .fixed-right-OICQ .hotline {
   padding-left: .6em;
   padding-right: .6em;
 }
-/* line 493, ../scss/comm.scss */
-.fixed-right-OICQ .OICQ-hd-img {
-  border-bottom: 1px dashed #d0d5d8;
+/* line 491, ../scss/comm.scss */
+.fixed-right-OICQ .OICQ-hd {
+  padding-top: 1.3em;
 }
-/* line 496, ../scss/comm.scss */
+/* line 492, ../scss/comm.scss */
+.fixed-right-OICQ .OICQ-hd-img {
+  border-bottom: 1px dashed #eceeef;
+}
+/* line 494, ../scss/comm.scss */
+.fixed-right-OICQ .OICQ-hd-img .img-explain {
+  font-size: .85em;
+  padding-bottom: 1em;
+  padding-top: .3em;
+}
+/* line 500, ../scss/comm.scss */
 .fixed-right-OICQ .OICQ-bd {
   line-height: 2.53846em;
   padding-top: .8em;
   padding-bottom: .8em;
   font-size: 0.92857em;
 }
-/* line 502, ../scss/comm.scss */
+/* line 506, ../scss/comm.scss */
 .fixed-right-OICQ .OICQ-ft {
   line-height: 1.8;
 }
-/* line 505, ../scss/comm.scss */
+/* line 509, ../scss/comm.scss */
 .fixed-right-OICQ .hotline {
-  padding-bottom: .5em;
-  color: #55595c;
-  background-color: #d0d5d8;
+  padding: .5em 0 .7em;
+  background-color: #eceeef;
 }
-/* line 510, ../scss/comm.scss */
+/* line 513, ../scss/comm.scss */
 .fixed-right-OICQ .call {
-  background-color: #000;
-  color: #fdff03;
-  border-radius: 8px;
   line-height: 20px;
   padding: 0 6px;
+  font-size: 1.14em;
+  font-weight: bold;
+  color: #bd0401;
 }
-/* line 517, ../scss/comm.scss */
-.fixed-right-OICQ .close-row {
-  text-align: right;
-  font-size: .85em;
-  line-height: 2em;
-  padding: 0 .6em;
-}
-/* line 522, ../scss/comm.scss */
-.fixed-right-OICQ .close-row i {
-  font-size: 1.5em;
-  font-family: sans-serif;
-  vertical-align: middle;
+/* line 520, ../scss/comm.scss */
+.fixed-right-OICQ .close {
+  top: 0;
+  right: 0;
+  font-size: 1.1em;
 }
 
 /* login succeed to member  */
-/* line 531, ../scss/comm.scss */
+/* line 528, ../scss/comm.scss */
 #member {
   position: fixed;
   left: 0;
@@ -762,13 +768,13 @@ body .container {
   height: 150px;
   margin-top: 200px;
 }
-/* line 542, ../scss/comm.scss */
+/* line 539, ../scss/comm.scss */
 #member [class^="icon-"], #member [class*=" icon-"] {
   font-size: 18px;
   margin-right: 20px;
   margin-left: 5px;
 }
-/* line 548, ../scss/comm.scss */
+/* line 545, ../scss/comm.scss */
 #member #avatarCnt [class^="icon-"], #member #avatarCnt [class*=" icon-"] {
   display: inline-block;
   width: 25px;
@@ -779,11 +785,11 @@ body .container {
   background-color: #cccccc;
   border-radius: 50%;
 }
-/* line 559, ../scss/comm.scss */
+/* line 556, ../scss/comm.scss */
 #member ul {
   padding: 10px 0;
 }
-/* line 562, ../scss/comm.scss */
+/* line 559, ../scss/comm.scss */
 #member ul li {
   width: 30px;
   white-space: nowrap;
@@ -791,36 +797,36 @@ body .container {
   background: url("../img/member_menu.png") no-repeat;
   overflow: hidden;
 }
-/* line 569, ../scss/comm.scss */
+/* line 566, ../scss/comm.scss */
 #member a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 573, ../scss/comm.scss */
+/* line 570, ../scss/comm.scss */
 #member ul li img {
   margin-right: 20px;
   margin-left: 3px;
 }
-/* line 577, ../scss/comm.scss */
+/* line 574, ../scss/comm.scss */
 #member ul li .avatar {
   border-radius: 12px 12px 12px 12px;
   width: 24px;
   height: 24px;
 }
-/* line 582, ../scss/comm.scss */
+/* line 579, ../scss/comm.scss */
 #member .myFav {
   background-position: 7px 14px;
 }
-/* line 585, ../scss/comm.scss */
+/* line 582, ../scss/comm.scss */
 #member .mySet {
   background-position: 7px -24px;
 }
-/* line 588, ../scss/comm.scss */
+/* line 585, ../scss/comm.scss */
 #member ul #avatarCnt {
   background: none;
   padding-left: 0;
 }
-/* line 592, ../scss/comm.scss */
+/* line 589, ../scss/comm.scss */
 #member ul #avatarCnt a {
   margin-left: 0;
 }

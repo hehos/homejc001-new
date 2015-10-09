@@ -14,6 +14,8 @@
 <?php include "fixed-bottom-form.php"; ?>
 
 
+<?php include "online-service.php"; ?>
+
 
 <?php include "header.php"; ?>
 <div class="container">

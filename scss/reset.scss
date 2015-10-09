@@ -1,7 +1,9 @@
-ul, ol {
-  list-style-type: none;
-  margin-bottom: 0; // clear bootstrap
+* { box-sizing: border-box; }
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 0; /* clear bootstrap  */
 }
+ul, ol { list-style-type: none; }
 ul, ol, dd { padding-left: 0; }
 
 i, cite, em, var, address, dfn { font-style: normal; }
@@ -13,14 +15,13 @@ a, a:hover, a:focus {
 
 img { max-width: 100%; }
 
-
-// clear bootstrap
+/* clear bootstrap */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-// clear input type="number" arrow
+/* clear input type="number" arrow */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none !important;
@@ -28,7 +29,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-// repair bootstrap4 border-width
+/* repair bootstrap4 border-width */
 .form-control {
   border-width: 1px;
 }

@@ -1,0 +1,64 @@
+/* line 1, ../scss/reset.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 2, ../scss/reset.scss */
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 0;
+  /* clear bootstrap  */
+}
+
+/* line 6, ../scss/reset.scss */
+ul, ol {
+  list-style-type: none;
+}
+
+/* line 7, ../scss/reset.scss */
+ul, ol, dd {
+  padding-left: 0;
+}
+
+/* line 9, ../scss/reset.scss */
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+/* line 10, ../scss/reset.scss */
+a {
+  cursor: pointer;
+}
+
+/* line 11, ../scss/reset.scss */
+a, a:hover, a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 16, ../scss/reset.scss */
+img {
+  max-width: 100%;
+}
+
+/* clear bootstrap */
+/* line 19, ../scss/reset.scss */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* clear input type="number" arrow */
+/* line 25, ../scss/reset.scss */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  -moz-appearance: textfield;
+  margin: 0;
+}
+
+/* repair bootstrap4 border-width */
+/* line 33, ../scss/reset.scss */
+.form-control {
+  border-width: 1px;
+}

@@ -336,18 +336,31 @@ $poput-z-index: 10000;
 
 // popup
 .popup-yuyue-succeed {
-  width: 800px;
-  margin-left: -400px;
-  margin-top: -(660px/2);
-  padding: 0 20px 20px;
+  width: 550px;
+  margin-left: -(550px/2);
+  margin-top: -(520px/2);
+  padding: 15px 23px;
   border: 5px solid #cccccc;
   background-color: $body-bg;
+  .yuyue-succeed-hd, .qrcode-tips, .qrcode { text-align: center; }
   .yuyue-succeed-hd {
-    text-align: center;
-    padding: 30px 0;
+    line-height: 77px;
     color: $activeColor;
-    font-size: (20/14) + em;
-    font-weight: bold;
+    font-size: 2.3em;
+    border-bottom: 1px dashed $gray-lighter;
+    font-family: "microsoft yahei", simsun;
+  }
+  .yuyue-succeed-bd {
+    line-height: 32px;
+    padding: 15px 0;
+    text-indent: 2em;
+  }
+  .qrcode-tips {
+    line-height: 50px;
+    background-color: $gray-lightest;
+  }
+  .qrcode {
+    padding-top: 16px;
   }
   img { width: 100%; }
   .close {

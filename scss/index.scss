@@ -122,6 +122,7 @@
     font-size: 12/$global-font-size + em;
     P { @include text-truncate; }
   }
+  .form-hd p { padding-bottom: .85em; }
   .form-bottom {
     p { margin-bottom: 4/$global-font-size + em; }
     i { margin-right: .5em; }

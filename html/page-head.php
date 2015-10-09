@@ -15,8 +15,8 @@
 <link rel="stylesheet" href="../css/font-awesome.css"/>
 
 <!-- 公共样式 -->
-<link rel="stylesheet" href="../css/comm.css"/>
 <link rel="stylesheet" href="../css/global.css"/>
+<link rel="stylesheet" href="../css/comm.css"/>
 <link rel="stylesheet" href="../css/widget.css"/>
 
 

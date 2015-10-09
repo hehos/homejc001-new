@@ -10,6 +10,11 @@ $myicon-sprite-dimensions: true;
 @import "myicon/*.png";
 @include all-myicon-sprites;
 
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
 body .container {
   width: 1200px;
   max-width: none;

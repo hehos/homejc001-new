@@ -1,0 +1,36 @@
+@import "variables";
+@import "mixins";
+
+//
+[class^="u-"], [class*=" u-"] {
+
+}
+
+.u-circle-btn {
+  width: 50/$global-font-size + em;
+  height: 50/$global-font-size + em;
+  line-height: 1.2;
+  padding: .8em 0 .6em;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background-color: lighten($activeColor, 10%);
+  border-radius: 50%;
+  &:hover { text-decoration: none; }
+  i {
+    display: inline-block;
+    margin-top: -.2em;
+    font-size: 24/$global-font-size + em;
+  }
+}
+
+.u-main-btn {
+  background-color: $highlightColor;
+  color: #ffffff;
+  border-color: $highlightColor;
+  border-radius: 0;
+  &:hover, &:focus {
+    background-color: darken($highlightColor, 2%);
+    color: #ffffff;
+  }
+}

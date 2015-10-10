@@ -140,7 +140,6 @@ $activeColor: $activeColor;
 }
 
 // media
-
 .media-base,
 .media-circle,
 .media-goods,
@@ -209,7 +208,7 @@ $activeColor: $activeColor;
   p {
     color: $gray-light;
   }
-  .btn-link {
+  .media-btn {
     position: absolute;
     top: 10/$global-font-size + em;
     right: 15/$global-font-size + em;

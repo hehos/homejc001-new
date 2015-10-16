@@ -29,8 +29,8 @@
             <div class="header-logo">
                 <a class="logo-img" href=""><img src="../img/temp-img/merchant-logo.png" alt=""/></a>
                 <div class="logo-cont">
-                    <h3>一站式全屋家居定制平台</h3>
-                    <p><a href="http://home.jc001.cn">http://home.jc001.cn</a></p>
+                    <h3>深圳市百创整装设计工程有限公司</h3>
+                    <p><i></i><i></i><i></i></p>
                 </div>
             </div>
             <div class="header-share">

@@ -144,6 +144,11 @@
   width: 30px;
 }
 
+/* line 5, ../scss/_unit.scss */
+[class^="u-"], [class*=" u-"] {
+  display: inline-block;
+}
+
 /* line 9, ../scss/_unit.scss */
 .u-circle-btn {
   width: 3.57143em;
@@ -178,6 +183,15 @@
 .u-main-btn:hover, .u-main-btn:focus {
   background-color: #8aaf1c;
   color: #ffffff;
+}
+
+/* line 38, ../scss/_unit.scss */
+[class^="u-word-"], [class*=" u-word-"] {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  line-height: 19px;
 }
 
 /* line 15, ../scss/comm.scss */

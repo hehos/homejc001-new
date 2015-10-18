@@ -22,3 +22,6 @@ npm install \
     gulp-cache \
     gulp-copy \
     --save-dev
+
+
+重装系统的提交

@@ -121,7 +121,7 @@
             </div>
         </div>
 
-        <script src="../js/scroll-vertical.js" type="text/javascript"></script>
+        <script src="../../js/scroll-vertical.js" type="text/javascript"></script>
 
     </div>
     <img src="../img/shengqing.png" alt=""/>

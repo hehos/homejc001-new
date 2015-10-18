@@ -29,8 +29,8 @@
             <div class="header-logo">
                 <a class="logo-img" href=""><img src="../img/temp-img/merchant-logo.png" alt=""/></a>
                 <div class="logo-cont">
-                    <h3>一站式全屋家居定制平台</h3>
-                    <p><a href="http://home.jc001.cn">http://home.jc001.cn</a></p>
+                    <h3>深圳市百创整装设计工程有限公司</h3>
+                    <p><i></i><i></i><i></i></p>
                 </div>
             </div>
             <div class="header-share">
@@ -47,39 +47,13 @@
         <div class="container">
             <ul class="header-nav nav-base row">
                 <li class="nav-item on"><a href="">首页</a></li>
-                <li class="nav-item has-icon"><a href="">定制家居<i class="myicon-hot"></i></a></li>
-                <li class="nav-item has-subnav">
-                    <a href="">效果图<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
-                    <ol class="subnav">
-                        <li><a href="">家居美图</a></li>
-                        <li><a href="">家居美图</a></li>
-                        <li><a href="">家居美图</a></li>
-                    </ol>
-                </li>
-                <li class="nav-item has-subnav">
-                    <a href="">装修攻略<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
-                    <ol class="subnav">
-                        <li><a href="">装修日记</a></li>
-                        <li><a href="">学装修</a></li>
-                    </ol>
-                </li>
-                <li class="nav-item has-subnav">
-                    <a href="">找装修<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
-                    <ol class="subnav">
-                        <li><a href="">装修公司</a></li>
-                        <li><a href="">设计师</a></li>
-                    </ol>
-                </li>
-                <li class="nav-item has-subnav">
-                    <a href="">找产品<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
-                    <ol class="subnav">
-                        <li><a href="">家居</a></li>
-                        <li><a href="">家具</a></li>
-                    </ol>
-                </li>
+                <li class="nav-item on"><a href="">公司介绍</a></li>
+                <li class="nav-item on"><a href="">定制产品</a></li>
+                <li class="nav-item on"><a href="">实景案例</a></li>
+                <li class="nav-item on"><a href="">联系我们 </a></li>
             </ul>
-            <div class="right-collect">
-                <a href=""><img src="../img/top-nav-icon.png" alt=""/></a>
+            <div class="right-call">
+                <i class="myicon-my-call"></i><span>400-0129-001</span>
             </div>
         </div>
     </div>

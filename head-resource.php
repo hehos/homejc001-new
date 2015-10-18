@@ -9,11 +9,10 @@
 
 <!-- 框架样式 -->
 <!--<link rel="stylesheet" href="../bootstrap4/dist/css/bootstrap.css"/>-->
-<link rel="stylesheet" href="../bootstrap-3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="../bootstrap-3.3.5/css/bootstrap.css">
 
 <!-- 字体图标样式 -->
 <link rel="stylesheet" href="../css/jzfont.css"/>
-<!--<link rel="stylesheet" href="../css/font-awesome.css"/>-->
 
 <!-- 公共样式 -->
 <link rel="stylesheet" href="../css/reset.css"/>

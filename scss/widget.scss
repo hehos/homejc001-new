@@ -2,7 +2,6 @@
 @import "mixins";
 
 // nav
-$activeColor: $activeColor;
 .nav-base,
 .nav-haslogo {
   @include clearfix();
@@ -79,7 +78,7 @@ $activeColor: $activeColor;
   /* subnav end*/
 }
 
-
+// ===========================================
 // bar
 // title
 .title-bar {
@@ -139,6 +138,131 @@ $activeColor: $activeColor;
   }
 }
 
+// paging
+.paging-bar {
+  text-align: center;
+  line-height: 2.8;
+  font-size: 1em;
+  a:hover, a:focus { text-decoration: none; }
+  .paging-list, .paging-form {
+    display: inline-block;
+    @include clearfix();
+  }
+}
+.paging-list a, .paging-form span { float: left; }
+.paging-list {
+  a {
+    width: 3em;
+    background-color: $globalBg;
+    border: 1px solid $gray-border;
+    + a { margin-left: -1px; }
+    &:hover { background-color: darken($globalBg, 5%); }
+    &.prev, &.next {
+      width: auto;
+      padding: 0 1em;
+    }
+    &.omit, &.omit:hover {
+       margin-left: 0;
+       border: none;
+       background: $body-bg;
+     }
+    &.omit + a { margin-left: 0; }
+
+    &.current, &.current:hover {
+      color: #ffffff;
+      background-color: $activeColor;
+      border-color: $activeColor;
+    }
+  }
+  &.divide a {
+    margin-right: 1em;
+    &.omit, &.omit:hover {
+      margin-right: 0;
+      margin-left: -1em;
+    }
+  }
+}
+.paging-form {
+  > span { margin-left: .5em; }
+  input, button {
+    box-sizing: content-box;
+    border: 1px solid $gray-border;
+  }
+  input {
+    width: 2em;
+    height: 1.5em;
+    line-height: 1.5;
+    padding: 0 .2em;
+    margin: 0 .2em;
+  }
+  button {
+    height: 1.8em;
+    line-height: 1.8;
+    padding: 0 .8em;
+    background-color: $globalBg;
+    &:hover {
+      background-color: darken($globalBg, 5%);
+    }
+  }
+}
+
+// breadcrumb
+.breadcrumb, .breadcrumb-arrow, .breadcrumb-vertical {
+  @include clearfix();
+  padding: 8px 15px;
+  background-color: transparent;
+  margin-bottom: 0;
+  border-radius: 0;
+
+  li { float: left; }
+  li + li:before {
+    content: "/";
+    text-align: center;
+    font-family: "\5b8b\4f53";
+  }
+}
+.breadcrumb-arrow, .breadcrumb-vertical {
+  li + li:before {
+    color: #ccc;
+    padding: 0 5px;
+  }
+}
+.breadcrumb-arrow {
+  li + li:before { content: ">"; }
+}
+.breadcrumb-vertical {
+  li + li:before { content: "|"; }
+}
+
+// tabs
+.tabs-nav3 {
+  border-top: 2px solid $gray-border;
+  border-bottom: 1px solid $gray-border;
+  background-color: $gray-lighter;
+  > li {
+    width: 80px;
+    margin-bottom: -1px;
+    &.on, &:hover {
+      background-color: $themeBg;
+      > a {
+        position: relative;
+        border-top: 2px solid $activeColor;
+        margin-top: -2px;
+        /* 活动导航条目的向下的图标 */
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 50%;
+          margin-left: -5px;
+          .caret-down(@size: 5px; @color: @activeColor);
+        }
+      }
+    }
+  }
+}
+
+
 // media
 .media-base,
 .media-circle,
@@ -147,6 +271,13 @@ $activeColor: $activeColor;
 .media-newsitem,
 .media-firmitem,
 .media-big-img {
+  p, h4, h5, h6 { margin: 0; }
+  p {
+    margin-bottom: .3em;
+    color: $gray;
+  }
+  h4, h5, h6 { font-size: inherit; }
+
   margin-bottom: 20px;
   position: relative;
   /* clear bootstrap style and add property */
@@ -167,18 +298,18 @@ $activeColor: $activeColor;
     @include background-color-rgba(#000, .7);
     a:hover { color: inherit; }
   }
-
-  p, h4, h5, h6 { margin: 0; }
-  p {
-    margin-bottom: .3em;
-    color: $gray;
-  }
-  h4, h5, h6 { font-size: inherit; }
   .media-title {
     display: block;
     line-height: 1.4;
 //    a:hover { color: $activeColor; }
   }
+
+  .media-btn {
+    position: absolute;
+    bottom: 30/$global-font-size + em;
+    right: 15/$global-font-size + em;
+  }
+
   .media-time, .time { color: $gray-light; }
 }
 
@@ -189,6 +320,7 @@ $activeColor: $activeColor;
     line-height: 2;
   }
 }
+
 
 .media-big-img {
   .media-cont {
@@ -207,11 +339,6 @@ $activeColor: $activeColor;
   }
   p {
     color: $gray-light;
-  }
-  .media-btn {
-    position: absolute;
-    top: 10/$global-font-size + em;
-    right: 15/$global-font-size + em;
   }
 }
 

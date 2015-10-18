@@ -25,8 +25,12 @@
         $("#scrolltableHead").append($("#scrolltable thead"));
         $("#scrolltable1 thead").empty();
 
-        // 设置默认高度
-        $(tardiv).height($("#scrolltable1 tbody tr").first().height() * defaultRow);
+        // 设置默认样式
+        $(tardiv).css({
+          position: "relative",
+          overflow: "hidden",
+          height: $("#scrolltable1 tbody tr").first().height() * defaultRow,
+        });
 
         if($(tardiv1).height() > $(tardiv).height()) {
 

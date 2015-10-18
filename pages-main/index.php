@@ -18,7 +18,7 @@
 <?php include "header.php"; ?>
 <div class="container">
     <!--  begin 头部banner  -->
-    <div class="index-banner row"">
+    <div class="index-banner row">
         <div class="banner-form">
             <div class="form-tab">
                 <ul class="row">

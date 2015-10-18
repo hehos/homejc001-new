@@ -3,7 +3,7 @@
 
 //
 [class^="u-"], [class*=" u-"] {
-
+  display: inline-block;
 }
 
 .u-circle-btn {
@@ -12,8 +12,8 @@
   line-height: 1.2;
   padding: .8em 0 .6em;
   text-align: center;
-  color: #fff;
   text-decoration: none;
+  color: #fff;
   background-color: lighten($activeColor, 10%);
   border-radius: 50%;
   &:hover { text-decoration: none; }
@@ -33,4 +33,28 @@
     background-color: darken($highlightColor, 2%);
     color: #ffffff;
   }
+}
+
+[class^="u-word-"], [class*=" u-word-"] {
+  $wordSize: 20;
+  width: $wordSize + px;
+  height: $wordSize + px;
+  line-height: $wordSize + px;
+  text-align: center;
+  line-height: $wordSize - 1 + px;
+}
+.u-word-ying {
+
+}
+
+.u-word-ding {
+
+}
+
+.u-word-ren {
+
+}
+
+.u-word-bao {
+
 }

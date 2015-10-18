@@ -1,499 +1,70 @@
-/* line 14, ../bootstrap4/scss/mixins/_clearfix.scss */
-.nav-base:before, .nav-base:after,
-.nav-haslogo:before,
-.nav-haslogo:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../bootstrap4/scss/mixins/_clearfix.scss */
-.nav-base:after,
-.nav-haslogo:after {
-  clear: both;
-}
-/* line 9, ../scss/widget.scss */
-.nav-base .nav-item,
-.nav-haslogo .nav-item {
-  float: left;
-  box-sizing: border-box;
-  position: relative;
-  text-align: center;
-}
-/* line 15, ../scss/widget.scss */
-.nav-base a,
-.nav-haslogo a {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-}
+/*
+Error: Invalid CSS after "...down(@size: 5px": expected "{", was "; @color: @acti..."
+        on line 258 of /home/www/workspace/homejc001-new/./scss/widget.scss
 
-/* line 22, ../scss/widget.scss */
-.nav-base-wrap {
-  margin-top: 15px;
-  border-bottom: 2px solid #bd0401;
-}
+253:           content: "";
+254:           position: absolute;
+255:           top: 0;
+256:           left: 50%;
+257:           margin-left: -5px;
+258:           .caret-down(@size: 5px; @color: @activeColor);
+259:         }
+260:       }
+261:     }
+262:   }
+263: }
 
-/* line 26, ../scss/widget.scss */
-.nav-base {
-  /* subnav begin*/
-  /* subnav end*/
-}
-/* line 27, ../scss/widget.scss */
-.nav-base .nav-item {
-  width: 14.28571%;
-  line-height: 2.6em;
-  font-size: 1.15em;
-}
-/* line 31, ../scss/widget.scss */
-.nav-base .nav-item:before {
-  content: "";
-  height: 1em;
-  float: right;
-  margin-top: 0.8em;
-  border-left: 1px solid #ddd;
-}
-/* line 38, ../scss/widget.scss */
-.nav-base .nav-item:last-child:before {
-  display: none;
-}
-/* line 39, ../scss/widget.scss */
-.nav-base .nav-item:hover, .nav-base .nav-item.on {
-  background-color: #bd0401;
-  color: #fff;
-  outline: 1px solid #bd0401;
-}
-/* line 43, ../scss/widget.scss */
-.nav-base .nav-item:hover:before, .nav-base .nav-item.on:before {
-  display: none;
-}
-/* line 51, ../scss/widget.scss */
-.nav-base .has-subnav .glyphicon {
-  font-size: 1rem;
-  margin-left: .5em;
-}
-/* line 55, ../scss/widget.scss */
-.nav-base .has-subnav:hover .subnav {
-  display: block;
-}
-/* line 59, ../scss/widget.scss */
-.nav-base .subnav {
-  display: none;
-  position: absolute;
-  left: 50%;
-  z-index: 1000;
-  width: 100%;
-  margin-left: -50%;
-  padding-top: .5em;
-  padding-bottom: .5em;
-  text-align: center;
-  background-color: #d60501;
-}
-/* line 70, ../scss/widget.scss */
-.nav-base .subnav li {
-  line-height: 2em;
-  padding-left: .25em;
-  padding-right: .25em;
-}
-/* line 74, ../scss/widget.scss */
-.nav-base .subnav li:hover {
-  background-color: #8a0301;
-}
-
-/* line 85, ../scss/widget.scss */
-.title-bar {
-  line-height: 2.6em;
-}
-/* line 14, ../bootstrap4/scss/mixins/_clearfix.scss */
-.title-bar:before, .title-bar:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../bootstrap4/scss/mixins/_clearfix.scss */
-.title-bar:after {
-  clear: both;
-}
-/* line 91, ../scss/widget.scss */
-.title-bar .title, .title-bar .subtitle {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "microsoft yahei", simsun;
-}
-/* line 96, ../scss/widget.scss */
-.title-bar .title,
-.title-bar .subtitle {
-  float: left;
-  line-height: inherit;
-}
-/* line 101, ../scss/widget.scss */
-.title-bar .subtitle,
-.title-bar .title-nav,
-.title-bar .other-info {
-  padding-left: 1.5em;
-}
-/* line 14, ../bootstrap4/scss/mixins/_clearfix.scss */
-.title-bar .title-nav:before, .title-bar .title-nav:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../bootstrap4/scss/mixins/_clearfix.scss */
-.title-bar .title-nav:after {
-  clear: both;
-}
-/* line 106, ../scss/widget.scss */
-.title-bar .title-nav li {
-  float: left;
-  padding: 0;
-}
-/* line 110, ../scss/widget.scss */
-.title-bar .title-nav em {
-  padding: 0 1em;
-  line-height: .9em;
-  font-family: "\5b8b\4f53";
-  color: #818a91;
-}
-/* line 117, ../scss/widget.scss */
-.title-bar .title {
-  font-size: 1.42857em;
-  font-weight: 400;
-}
-/* line 121, ../scss/widget.scss */
-.title-bar .subtitle {
-  font-size: 1.14286em;
-}
-/* line 124, ../scss/widget.scss */
-.title-bar .more {
-  float: right;
-  padding-left: 1em;
-  color: #818a91;
-}
-/* line 128, ../scss/widget.scss */
-.title-bar .more i {
-  margin-left: .2em;
-  font-size: 1.2em;
-  vertical-align: middle;
-}
-/* line 134, ../scss/widget.scss */
-.title-bar .other-info {
-  color: #818a91;
-  font-size: 0.85714em;
-  line-height: 2.6em;
-  margin-top: 0.43333em;
-}
-
-/* line 143, ../scss/widget.scss */
-.media-base,
-.media-circle,
-.media-goods,
-.media-goods2,
-.media-newsitem,
-.media-firmitem,
-.media-big-img {
-  margin-bottom: 20px;
-  position: relative;
-  /* clear bootstrap style and add property */
-}
-/* line 153, ../scss/widget.scss */
-.media-base .thumbnail,
-.media-circle .thumbnail,
-.media-goods .thumbnail,
-.media-goods2 .thumbnail,
-.media-newsitem .thumbnail,
-.media-firmitem .thumbnail,
-.media-big-img .thumbnail {
-  border-radius: 0;
-  padding: 0;
-  margin-bottom: 0;
-  text-align: center;
-}
-/* line 160, ../scss/widget.scss */
-.media-base .tran-layer,
-.media-circle .tran-layer,
-.media-goods .tran-layer,
-.media-goods2 .tran-layer,
-.media-newsitem .tran-layer,
-.media-firmitem .tran-layer,
-.media-big-img .tran-layer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0 .6em;
-  color: #ffffff;
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000)";
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000);
-  background-color: rgba(0, 0, 0, 0.7);
-}
-/* line 168, ../scss/widget.scss */
-.media-base .tran-layer a:hover,
-.media-circle .tran-layer a:hover,
-.media-goods .tran-layer a:hover,
-.media-goods2 .tran-layer a:hover,
-.media-newsitem .tran-layer a:hover,
-.media-firmitem .tran-layer a:hover,
-.media-big-img .tran-layer a:hover {
-  color: inherit;
-}
-/* line 171, ../scss/widget.scss */
-.media-base p, .media-base h4, .media-base h5, .media-base h6,
-.media-circle p,
-.media-circle h4,
-.media-circle h5,
-.media-circle h6,
-.media-goods p,
-.media-goods h4,
-.media-goods h5,
-.media-goods h6,
-.media-goods2 p,
-.media-goods2 h4,
-.media-goods2 h5,
-.media-goods2 h6,
-.media-newsitem p,
-.media-newsitem h4,
-.media-newsitem h5,
-.media-newsitem h6,
-.media-firmitem p,
-.media-firmitem h4,
-.media-firmitem h5,
-.media-firmitem h6,
-.media-big-img p,
-.media-big-img h4,
-.media-big-img h5,
-.media-big-img h6 {
-  margin: 0;
-}
-/* line 172, ../scss/widget.scss */
-.media-base p,
-.media-circle p,
-.media-goods p,
-.media-goods2 p,
-.media-newsitem p,
-.media-firmitem p,
-.media-big-img p {
-  margin-bottom: .3em;
-  color: #55595c;
-}
-/* line 176, ../scss/widget.scss */
-.media-base h4, .media-base h5, .media-base h6,
-.media-circle h4,
-.media-circle h5,
-.media-circle h6,
-.media-goods h4,
-.media-goods h5,
-.media-goods h6,
-.media-goods2 h4,
-.media-goods2 h5,
-.media-goods2 h6,
-.media-newsitem h4,
-.media-newsitem h5,
-.media-newsitem h6,
-.media-firmitem h4,
-.media-firmitem h5,
-.media-firmitem h6,
-.media-big-img h4,
-.media-big-img h5,
-.media-big-img h6 {
-  font-size: inherit;
-}
-/* line 177, ../scss/widget.scss */
-.media-base .media-title,
-.media-circle .media-title,
-.media-goods .media-title,
-.media-goods2 .media-title,
-.media-newsitem .media-title,
-.media-firmitem .media-title,
-.media-big-img .media-title {
-  display: block;
-  line-height: 1.4;
-}
-/* line 182, ../scss/widget.scss */
-.media-base .media-time, .media-base .time,
-.media-circle .media-time,
-.media-circle .time,
-.media-goods .media-time,
-.media-goods .time,
-.media-goods2 .media-time,
-.media-goods2 .time,
-.media-newsitem .media-time,
-.media-newsitem .time,
-.media-firmitem .media-time,
-.media-firmitem .time,
-.media-big-img .media-time,
-.media-big-img .time {
-  color: #818a91;
-}
-
-/* line 187, ../scss/widget.scss */
-.media-base .media-title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  line-height: 2;
-}
-
-/* line 194, ../scss/widget.scss */
-.media-big-img .media-cont {
-  position: relative;
-  padding: 1.42857em;
-}
-/* line 197, ../scss/widget.scss */
-.media-big-img .media-cont.tran-layer {
-  position: absolute;
-}
-/* line 199, ../scss/widget.scss */
-.media-big-img .media-cont.tran-layer p {
-  color: #55595c;
-}
-/* line 205, ../scss/widget.scss */
-.media-big-img .media-title {
-  font-size: 1.71429em;
-}
-/* line 208, ../scss/widget.scss */
-.media-big-img p {
-  color: #818a91;
-}
-/* line 211, ../scss/widget.scss */
-.media-big-img .media-btn {
-  position: absolute;
-  top: 0.71429em;
-  right: 1.07143em;
-}
-
-/* line 219, ../scss/widget.scss */
-.media-txt-list .img {
-  float: left;
-  margin-right: 1em;
-}
-/* line 223, ../scss/widget.scss */
-.media-txt-list .media-cont {
-  line-height: 1.9;
-}
-/* line 225, ../scss/widget.scss */
-.media-txt-list .media-cont a {
-  display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-/* line 14, ../bootstrap4/scss/mixins/_clearfix.scss */
-.tabs-base:before, .tabs-base:after,
-.tabs-nav1:before,
-.tabs-nav1:after,
-.tabs-nav2:before,
-.tabs-nav2:after,
-.tabs-nav3:before,
-.tabs-nav3:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../bootstrap4/scss/mixins/_clearfix.scss */
-.tabs-base:after,
-.tabs-nav1:after,
-.tabs-nav2:after,
-.tabs-nav3:after {
-  clear: both;
-}
-/* line 240, ../scss/widget.scss */
-.tabs-base a,
-.tabs-nav1 a,
-.tabs-nav2 a,
-.tabs-nav3 a {
-  text-decoration: none;
-}
-/* line 241, ../scss/widget.scss */
-.tabs-base > li,
-.tabs-nav1 > li,
-.tabs-nav2 > li,
-.tabs-nav3 > li {
-  float: left;
-  text-align: center;
-  line-height: 3em;
-}
-/* line 245, ../scss/widget.scss */
-.tabs-base > li > a,
-.tabs-nav1 > li > a,
-.tabs-nav2 > li > a,
-.tabs-nav3 > li > a {
-  display: block;
-  font-size: 1.14286em;
-  font-family: "Microsoft YaHei", tahoma, arial, simsun;
-}
-/* line 249, ../scss/widget.scss */
-.tabs-base > li > a:before,
-.tabs-nav1 > li > a:before,
-.tabs-nav2 > li > a:before,
-.tabs-nav3 > li > a:before {
-  content: "";
-}
-/* line 254, ../scss/widget.scss */
-.tabs-base > li + li a,
-.tabs-nav1 > li + li a,
-.tabs-nav2 > li + li a,
-.tabs-nav3 > li + li a {
-  margin-left: -1px;
-}
-
-/* line 259, ../scss/widget.scss */
-.tabs-nav1 > li {
-  width: 33.33333%;
-}
-/* line 261, ../scss/widget.scss */
-.tabs-nav1 > li > a {
-  border: 1px solid #ddd;
-}
-/* line 265, ../scss/widget.scss */
-.tabs-nav1 > li.on > a, .tabs-nav1 > li:hover > a {
-  border-bottom-color: transparent;
-}
-
-/* line 270, ../scss/widget.scss */
-ul, ol, li {
-  list-style: none;
-  margin: 0;
-}
-
-/* line 275, ../scss/widget.scss */
-.my-progress {
-  background-color: #fff;
-  margin-bottom: 0;
-}
-/* line 14, ../bootstrap4/scss/mixins/_clearfix.scss */
-.my-progress:before, .my-progress:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../bootstrap4/scss/mixins/_clearfix.scss */
-.my-progress:after {
-  clear: both;
-}
-/* line 279, ../scss/widget.scss */
-.my-progress li {
-  position: relative;
-  float: left;
-  width: 25%;
-  text-align: center;
-}
-/* line 285, ../scss/widget.scss */
-.my-progress li.on .prog-line, .my-progress li.on .prog-num {
-  background-color: #5cb85c;
-}
-/* line 290, ../scss/widget.scss */
-.my-progress .prog-line {
-  position: absolute;
-  left: -50%;
-  top: 50%;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: -3px;
-  height: 3px;
-  background-color: #eceeef;
-}
-/* line 301, ../scss/widget.scss */
-.my-progress .prog-num {
-  content: " ";
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #eceeef;
-}
+Backtrace:
+/home/www/workspace/homejc001-new/./scss/widget.scss:258
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1163:in `expected'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1099:in `expected'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1094:in `tok!'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:641:in `block'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:661:in `block_child'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:653:in `block_contents'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:642:in `block'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:661:in `block_child'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:653:in `block_contents'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:642:in `block'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:661:in `block_child'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:653:in `block_contents'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:642:in `block'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:661:in `block_child'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:653:in `block_contents'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:642:in `block'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:661:in `block_child'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:653:in `block_contents'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:642:in `block'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:635:in `ruleset'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:660:in `block_child'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:653:in `block_contents'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:117:in `stylesheet'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:42:in `parse'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/engine.rb:393:in `_to_tree'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/engine.rb:268:in `render'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:252:in `call'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...down(@size: 5px\": expected \"{\", was \"; @color: @acti...\"\A         on line 258 of /home/www/workspace/homejc001-new/./scss/widget.scss\A \A 253:           content: \"\";\A 254:           position: absolute;\A 255:           top: 0;\A 256:           left: 50%;\A 257:           margin-left: -5px;\A 258:           .caret-down(@size: 5px; @color: @activeColor);\A 259:         }\A 260:       }\A 261:     }\A 262:   }\A 263: }"; }

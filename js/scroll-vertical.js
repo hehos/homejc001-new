@@ -7,7 +7,7 @@
 
     function scrollTopFn(num,selc) {
         var SD = 30,          // 默认的滚动速度
-            defaultRow = 10,  // 默认的显示函数
+            defaultRow = 6,  // 默认的显示函数
             myScroll,
             tardiv = document.getElementById('scrolltable'),
             tardiv1 = document.getElementById('scrolltable1'),

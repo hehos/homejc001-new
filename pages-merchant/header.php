@@ -29,8 +29,13 @@
             <div class="header-logo">
                 <a class="logo-img" href=""><img src="../img/temp-img/merchant-logo.png" alt=""/></a>
                 <div class="logo-cont">
-                    <h3>深圳市百创整装设计工程有限公司</h3>
-                    <p><i></i><i></i><i></i></p>
+                    <h1>深圳市百创整装设计工程有限公司</h1>
+                    <p>
+                        <i class="u-word-ying">营</i>
+                        <i class="u-word-ding">定</i>
+                        <i class="u-word-ren">认</i>
+                        <i class="u-word-bao">保</i>
+                    </p>
                 </div>
             </div>
             <div class="header-share">
@@ -43,14 +48,14 @@
             </div>
         </div>
     </div>
-    <div class="header-bottom nav-base-wrap">
+    <div class="header-bottom">
         <div class="container">
             <ul class="header-nav nav-base row">
                 <li class="nav-item on"><a href="">首页</a></li>
-                <li class="nav-item on"><a href="">公司介绍</a></li>
-                <li class="nav-item on"><a href="">定制产品</a></li>
-                <li class="nav-item on"><a href="">实景案例</a></li>
-                <li class="nav-item on"><a href="">联系我们 </a></li>
+                <li class="nav-item"><a href="">公司介绍</a></li>
+                <li class="nav-item"><a href="">定制产品</a></li>
+                <li class="nav-item"><a href="">实景案例</a></li>
+                <li class="nav-item"><a href="">联系我们 </a></li>
             </ul>
             <div class="right-call">
                 <i class="myicon-my-call"></i><span>400-0129-001</span>

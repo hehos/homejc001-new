@@ -29,7 +29,7 @@ body .container {
 
 // header, footer
 
-#header { margin-bottom: 15/$global-font-size + em; }
+#header { margin-bottom: 1.1em; }
 
 
 // header icon
@@ -106,7 +106,7 @@ $headerTopFontSize: 12;
       vertical-align: middle;
     }
     .logo-img {
-      padding-right: 15/$global-font-size + em;
+      margin-right: 15/$global-font-size + em;
       border-right: 1px solid #ddd;
     }
     .logo-cont {
@@ -248,12 +248,12 @@ $headerTopFontSize: 12;
   float: left;
   border: 1px solid #eee;
 }
+.banner-media { float: right; }
 .banner-form {
   width: 25%;
-  margin-right: 1.5%;
 }
 .banner-media {
-  width: 73.5%;
+  width: 73%;
 }
 
 .banner-form {

@@ -99,7 +99,7 @@
   }
   .subtitle,
   .title-nav,
-  .other-info { padding-left: 1.5em; }
+  .other-info { margin-left: 1.5em; }
   .title-nav {
   @include clearfix();
     li {
@@ -243,7 +243,7 @@
     width: 80px;
     margin-bottom: -1px;
     &.on, &:hover {
-      background-color: $themeBg;
+      background-color: $body-bg;
       > a {
         position: relative;
         border-top: 2px solid $activeColor;
@@ -255,7 +255,7 @@
           top: 0;
           left: 50%;
           margin-left: -5px;
-          .caret-down(@size: 5px; @color: @activeColor);
+          @include caret-down($size: 5px, $color: $activeColor);
         }
       }
     }

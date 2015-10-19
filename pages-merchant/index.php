@@ -61,9 +61,6 @@
                     </li>
                 </ul>
             </div>
-            <div class="form-state">
-                <p>今日 <em>888</em> 户业主已报名</p>
-            </div>
             <div class="form-cont">
                 <div class="form-hd">
                     <p style="display: block;">10秒登记，免费获取3份专业设计方案</p>
@@ -100,59 +97,57 @@
     <!--  end 头部banner  -->
 
     <!--  begin 量房、公司介绍  -->
-    <div class="row">
-        <div class="liangfang-area">
+    <div class="row clearfix liangfang-and-corp">
+        <div class="pull-left liangfang-area">
             <div class="title-bar">
                 <h2 class="title"><a href="">免费量房</a></h2>
-                <span class="other-info pull-left">点击申请</span>
+                <a class="other-info pull-left">点击申请 ></a>
                 <a class="more" href="">更多<i class=" icon-angle-right"></i></a>
             </div>
             <div class="liangfang-cont">
-                <table id="scrolltableHead" class="publicity-table"></table>
+                <table id="scrolltableHead" class="scrolltableHead"></table>
                 <div id="scrolltable">
                     <div id="scrolltable1">
                         <table class="publicity-table">
                             <thead>
                             <tr>
-                                <th>楼盘名称</th>
-                                <th>定制类型</th>
-                                <th>申请业主</th>
-                                <th>申请日期</th>
+                                <th>业主</th>
+                                <th>区域</th>
+                                <th>户型</th>
+                                <th>面积</th>
+                                <th>预算</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>成都市金牛区地中海楼盘1</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
                             </tr>
                             <tr>
-                                <td>成都市金牛区地中海楼盘2</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
                             </tr>
                             <tr>
-                                <td>成都市金牛区地中海楼盘3</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
                             </tr>
                             <tr>
-                                <td>成都市金牛区地中海楼盘4</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
                             </tr>
                             <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
                             </tr>
                             <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
                             </tr>
                             <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
                             </tr>
                             <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
                             </tr>
                             <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
                             </tr>
                             <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                            </tr>
-                            <tr>
-                                <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
                             </tr>
                             </tbody>
                         </table>
@@ -162,7 +157,7 @@
                 <script src="../js/scroll-vertical.js"></script>
             </div>
         </div>
-        <div class="corp-area">
+        <div class="pull-right corp-area">
             <div class="title-bar">
                 <h2 class="title"><a href="">公司介绍</a></h2>
             </div>
@@ -190,6 +185,16 @@
              <h2 class="title"><a href="">免费量房</a></h2>
          </div>
          <div class="product-list">
+             <div class="col-lg-4">
+                 <div class="media-base">
+                     <a href="" class="thumbnail">
+                         <img src="../img/temp-img/product1.jpg" alt="">
+                     </a>
+                     <h4 class="media-title"><a href="">图片标题</a></h4>
+                     <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
+                     <a class="media-btn u-circle-btn" href="">约我 <br><i class=" icon-angle-down"></i></a>
+                 </div>
+             </div>
              <div class="col-lg-4">
                  <div class="media-base">
                      <a href="" class="thumbnail">

@@ -9,17 +9,76 @@
 
 <div class="container">
     <!--  begin path  -->
-
+    <div class="page-path">
+        <ol class="breadcrumb-arrow">
+            <li><a href="#"><i class="icon-home"></i>首页</a></li>
+            <li><a href="#">定制产品</a></li>
+            <li class="active">某某具体产品</li>
+        </ol>
+    </div>
     <!--  end path  -->
 
 
-    <!--  begin 产品简介  -->
-
-    <!--  end 产品简介  -->
+    <!--  begin 产品信息  -->
+    <div class="row product-info">
+        <div class="col-lg-5 media-info">
+            <div class="img">
+                <img src="../img/temp-img/product-big.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="col-lg-7 intro-info">
+            <h4>安住 智能恒温淋浴花洒套装ERF6187230CP-A安住 智能恒温淋浴花洒套装ERF6187230CP-A</h4>
+            <div class="xuanzheyoushi"><img src="../img/xuanzheyoushi.jpg" alt=""/></div>
+            <p>风格：欧式田园、现代简约</p>
+            <p>报价：<span>￥10000 - ￥150000/延米</span></p>
+            <div><button class="btn btn-lg btn-success">免费申请预约</button></div>
+            <div class="baozhang"><img src="../img/baozhang.jpg" alt=""/></div>
+        </div>
+    </div>
+    <!--  end 产品信息  -->
 
 
     <!--  begin 产品详细、右测产品  -->
-
+    <div class="row product-otherInfo">
+        <div class="col-lg-9">
+            <div class="details-nav">
+                <ul class="tabs-nav3">
+                    <li class="on"><a href="">产品</a></li>
+                    <li><a href="">企业</a></li>
+                    <li><a href="">价格</a></li>
+                    <li><a href="">资讯</a></li>
+                </ul>
+            </div>
+            <div class="details-cont">
+                详细内容...
+            </div>
+        </div>
+        <div class="col-lg-3 other-product">
+            <div class="title-bar">
+                <h3>热销产品</h3>
+            </div>
+            <div class="product-list">
+                <div class="media-base">
+                    <a href="" class="thumbnail">
+                        <img src="../img/temp-img/product1.jpg" alt="">
+                    </a>
+                    <h4 class="media-title"><a href="">图片标题</a></h4>
+                </div>
+                <div class="media-base">
+                    <a href="" class="thumbnail">
+                        <img src="../img/temp-img/product1.jpg" alt="">
+                    </a>
+                    <h4 class="media-title"><a href="">图片标题</a></h4>
+                </div>
+                <div class="media-base">
+                    <a href="" class="thumbnail">
+                        <img src="../img/temp-img/product1.jpg" alt="">
+                    </a>
+                    <h4 class="media-title"><a href="">图片标题</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--  end 产品详细、右测产品  -->
 </div>
 

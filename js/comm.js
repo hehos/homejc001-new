@@ -10,8 +10,13 @@ $(document).ready(function(){
         var forms = $("[placeholder]");
         for(var i = 0; i < forms.length; i++) {
             $(forms[i]).val($(forms[i]).attr("placeholder"));
-            $(forms[i]).attr("placeholder", "");
         }
+        $(forms).on('focus blur', function(e) {
+            var val = $(this).val();
+            var pla =  $(this).attr("placeholder");
+            if(val === pla && e.type === 'focus') { $(this).val(""); }
+            if(val === "" && e.type === 'blur') { $(this).val(pla); }
+        });
     }
 
     // 处理页面内容高度小于窗口高度时，将body的高度强制拉升为窗口的高度

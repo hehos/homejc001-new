@@ -28,11 +28,13 @@
         </div>
         <div class="col-lg-7 intro-info">
             <h4>安住 智能恒温淋浴花洒套装ERF6187230CP-A安住 智能恒温淋浴花洒套装ERF6187230CP-A</h4>
-            <div class="xuanzheyoushi"><img src="../img/xuanzheyoushi.jpg" alt=""/></div>
-            <p>风格：欧式田园、现代简约</p>
-            <p>报价：<span>￥10000 - ￥150000/延米</span></p>
-            <div><button class="btn btn-lg btn-success">免费申请预约</button></div>
-            <div class="baozhang"><img src="../img/baozhang.jpg" alt=""/></div>
+            <ul>
+                <li>装修风格：欧式风格，现代简约</li>
+                <li>定制时间：2015年</li>
+                <li>定制类型：门、橱柜、衣柜</li>
+                <li>业主需求：习惯在外地淘些当地古典装饰品</li>
+            </ul>
+            <div><button class="btn btn-lg btn-success">我也要免费申请 </button></div>
         </div>
     </div>
     <!--  end 产品信息  -->
@@ -41,21 +43,14 @@
     <!--  begin 产品详细、右测产品  -->
     <div class="row product-otherInfo">
         <div class="col-lg-9">
-            <div class="details-nav">
-                <ul class="tabs-nav3">
-                    <li class="on"><a href="">产品</a></li>
-                    <li><a href="">企业</a></li>
-                    <li><a href="">价格</a></li>
-                    <li><a href="">资讯</a></li>
-                </ul>
-            </div>
+            <h3>案例详情展示</h3>
             <div class="details-cont">
-                详细内容...
+                详细 内容...
             </div>
         </div>
         <div class="col-lg-3 other-product">
             <div class="title-bar">
-                <h3>热销产品</h3>
+                <h3>更多案例</h3>
             </div>
             <div class="product-list">
                 <div class="media-base">

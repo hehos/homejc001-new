@@ -7,11 +7,11 @@
 <body>
 <?php include "header.php"; ?>
 
-<div class="container">
+<div class="container clearfix body-wrap">
     <!--  begin 左侧导航  -->
-    <div class="side-nav">
+    <div class="side-nav pull-left">
         <ul>
-            <li><a href=""><i></i>公司介绍</a></li>
+            <li class="on"><a href=""><i></i>公司介绍</a></li>
             <li><a href=""><i></i>企业证书</a></li>
             <li><a href=""><i></i>注册信息</a></li>
             <li><a href=""><i></i>联系我们</a></li>
@@ -21,10 +21,12 @@
 
 
     <!--  begin 内容  -->
-    <div class="main-area">
-        <h4>公司介绍</h2>
+    <div class="main-warp pull-right">
+        <h3>公司介绍</h3>
         <div class="corp-cont">
-            <img src="../img/temp-img/corp-logo.jpg" alt=""/>
+            <div class="cont-logo">
+                <img src="../img/temp-img/corp-logo.jpg" alt=""/>
+            </div>
             <p>成都禾木艺景装饰工程有限公司创建设计工作室已有10年之余，属建筑装饰工程施工设计乙级，
                 本公司注册资金100万元，主营住宅装饰装修和酒店、宾馆、会所、商场、展厅办公楼等公共空间设计和施工，
                 兼营家具制作、建筑材料软装配饰等产业。</p>

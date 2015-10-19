@@ -1,3 +1,5 @@
 测试git
 
 测试push到远程  git push -u origin master   加上-u的区别
+
+测试-u参数的效果

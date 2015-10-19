@@ -1,9 +1,8 @@
 (function($, f) {
     var ScrollTable = function() {
         this.o = {
-            speed: 30,
-            num: 10,
-            t: null
+            delay: 30,
+            num: 10
         }
     }
 
@@ -13,23 +12,23 @@
 
         var o = _.o = $.extend(_.o, o);
 
-        var speed = o.speed,          // 默认的滚动速度
+        var delay = o.delay,          // 默认的滚动速度
             num = o.num,  // 默认的显示函数
-            tardiv = el.find('#scrolltable'),
-            tardiv1 = el.find('#scrolltable1'),
-            tardiv2 = el.find('#scrolltable2');
+            box = el.find('#scrolltable'),
+            el1 = el.find('#scrolltable1'),
+            el2 = el.find('#scrolltable2');
 
         // 让表格的thead和tbody水平自动对齐。
-        var ths = tardiv1.find("thead th");
-        var firstTds = tardiv1.find("tbody th").first().find("td");
+        var ths = el1.find("thead th");
+        var firstTds = el1.find("tbody tr").first().find("td");
         for(var i = 0; i < ths.length; i++) {
             var wt = $(ths[i]).width();
             $(ths[i]).width(wt);
             $(firstTds[i]).width(wt);
         }
 
-        el.find("#scrolltableHead").append($("#scrolltable thead"));
-        tardiv1.find("thead").empty();
+        el.find("#scrolltableHead").append(el1.find("thead"));
+        el1.find("thead").empty();
 
         // 设置默认样式
         $(tardiv).css({
@@ -39,24 +38,35 @@
         });
 
         // 判断逻辑开始执行
-        if($(tardiv1).height() > $(tardiv).height()) {
-            tardiv2.innerHTML=tardiv1.innerHTML;
+        if($(el1).height() > $(tardiv).height()) {
+            el2.innerHTML=el1.innerHTML;
             _.t = setInterval(function() {
-                _.go(tardiv, tardiv1, tardiv2);
-            });
+                _.go(tardiv, el1, el2);
+            }, o.speed);
         }
 
+        // 满足条件开始滚动
+        (el1.scrollTop >= el2.offsetTop? _.play(): return;
+
         // 鼠标移上移出事件。
-        tardiv.mouseover(function() {
-            clearInterval(_.t);
-        });
-        tardiv.mouseout(function() {
-            clearInterval(_.t);
+        tardiv.on('mouseover mouseout', function (e) {
+            _.stop();
+            e.type === 'mouseout' && _.play();
         });
     }
 
-    ScrollTable.prototype.go = function(box, e1, e2) {
-        if(e1.scrollTop >= e2.offsetTop)
+    ScrollTable.prototype.play = function() {
+        var _ = this;
+        _.t = setInterval(function() {
+            _.go();
+        }, _.o.speed);
+    }
+    ScrollTable.prototype.stop = function() {
+        this.t = clearInterval(this.t);
+    }
+
+    ScrollTable.prototype.go = function(box, el1, el2) {
+        if(el1.scrollTop >= el2.offsetTop)
             box.scrollTop = 0;
         else {
             box.scrollTop++;
@@ -75,6 +85,5 @@
             me.data(key, instance).data('key', key);
         });
     };
-
 })($,false);
 

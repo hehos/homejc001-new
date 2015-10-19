@@ -1,16 +1,5 @@
 @import "variables";
 @import "mixins";
-// config
-$myicon-spacing: 5px;
-$myicon-layout: vertical;
-$myicon-sprite-dimensions: true;
-
-@import "compass/utilities/sprites";
-@import "myicon/*.png";
-@include all-myicon-sprites;
-
-
-@import "unit";
 
 a:hover, a:focus {
   text-decoration: underline;
@@ -21,11 +10,23 @@ body .container {
   max-width: none;
 }
 
+
 [class^="myicon-"],
 [class*=" myicon-"] {
   display: inline-block;
   vertical-align: middle;
 }
+// sprite config
+$myicon-spacing: 5px;
+$myicon-layout: vertical;
+$myicon-sprite-dimensions: true;
+
+@import "compass/utilities/sprites";
+@import "myicon/*.png";
+@include all-myicon-sprites;
+
+
+@import "unit";
 
 // header, footer
 
@@ -551,6 +552,7 @@ $poput-z-index: 10000;
 }
 
 // fixed
+/* fixed */
 .fixed-bottom-form {
   display: none;
   margin-top: 2em;

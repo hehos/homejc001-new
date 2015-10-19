@@ -37,7 +37,7 @@
             tardiv2.innerHTML=tardiv1.innerHTML;
 
             function Marquee2(){
-                if(tardiv.scrollTop >= tardiv2.offsetTop)
+                if(tardiv2.offsetTop <= tardiv.scrollTop)
                     tardiv.scrollTop = 0;
                 else {
                     tardiv.scrollTop++;

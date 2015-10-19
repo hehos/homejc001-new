@@ -25,7 +25,7 @@
                 本公司注册资金100万元，主营住宅装饰装修和酒店、宾馆、会所、商场、展厅办公楼等公共空间设计和施工，
                 兼营家具制作、建筑材料软装配饰等产业。</p>
             <div class="btn-row">
-                <button class="u-main-btn">免费申请预约</button>预约电话：400-0129-001
+                <button class="btn btn-lg u-main-btn">免费申请预约</button>预约电话：400-0129-001
             </div>
         </div>
         <table>

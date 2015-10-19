@@ -67,62 +67,68 @@
                 <div class="title">
                     <h2>最新申请定制服务</h2>
                 </div>
-                <table id="scrolltableHead" class="publicity-table"></table>
-                <div id="scrolltable">
-                    <div id="scrolltable1">
-                        <table class="publicity-table">
-                            <thead>
-                                <tr>
-                                    <th>楼盘名称</th>
-                                    <th>定制类型</th>
-                                    <th>申请业主</th>
-                                    <th>申请日期</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>成都市金牛区地中海楼盘1</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                                </tr>
-                                <tr>
-                                    <td>成都市金牛区地中海楼盘2</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                                </tr>
-                                <tr>
-                                    <td>成都市金牛区地中海楼盘3</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                                </tr>
-                                <tr>
-                                    <td>成都市金牛区地中海楼盘4</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                                </tr>
-                                <tr>
-                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                                </tr>
-                                <tr>
-                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                                </tr>
-                                <tr>
-                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                                </tr>
-                                <tr>
-                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                                </tr>
-                                <tr>
-                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                                </tr>
-                                <tr>
-                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                                </tr>
-                                <tr>
-                                    <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div id="scrolltable-warp">
+                    <table id="scrolltableHead" class="publicity-table"></table>
+                    <div id="scrolltable">
+                        <div id="scrolltable1">
+                            <table class="publicity-table">
+                                <thead>
+                                    <tr>
+                                        <th>楼盘名称</th>
+                                        <th>定制类型</th>
+                                        <th>申请业主</th>
+                                        <th>申请日期</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>成都市金牛区地中海楼盘1</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                    </tr>
+                                    <tr>
+                                        <td>成都市金牛区地中海楼盘2</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                    </tr>
+                                    <tr>
+                                        <td>成都市金牛区地中海楼盘3</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                    </tr>
+                                    <tr>
+                                        <td>成都市金牛区地中海楼盘4</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                    </tr>
+                                    <tr>
+                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                    </tr>
+                                    <tr>
+                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                    </tr>
+                                    <tr>
+                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                    </tr>
+                                    <tr>
+                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                    </tr>
+                                    <tr>
+                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                    </tr>
+                                    <tr>
+                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                    </tr>
+                                    <tr>
+                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="scrolltable2"></div>
                     </div>
-                    <div id="scrolltable2"></div>
                 </div>
             </div>
         </div>
 
-        <script src="../../js/scroll-vertical.js" type="text/javascript"></script>
-
+        <script src="../../js/scroll-vertical.js" charset="utf-8" type="text/javascript"></script>
+        <script>
+            $(document).ready(function(){
+                $("#scrolltable-warp").scrollTable({num: 6});
+            });
+        </script>
     </div>
     <img src="../img/shengqing.png" alt=""/>
     <img src="../img/3taofangan.png" alt=""/>

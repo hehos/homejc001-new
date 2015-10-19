@@ -159,7 +159,7 @@
 
                 <script src="../js/scroll-vertical.js"></script>
                 <script>
-                    $(".scrolltable-warp").scrollTable({num: 6});
+                    $(".scrolltable-warp").scrollTable({rows: 6});
                 </script>
             </div>
         </div>

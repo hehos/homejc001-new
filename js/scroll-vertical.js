@@ -2,7 +2,7 @@
     var ScrollTable = function() {
         this.o = {
             delay: 30,  //  滚动速度
-            num: 10     // 可见行数
+            rows: 10     // 可见行数
         }
     }
 
@@ -12,7 +12,7 @@
 
         var o = _.o = $.extend(_.o, o);
         var delay = o.delay,
-            num = o.num,
+            rows = o.rows,
             box = _.box = el.find('#scrolltable'),
             el1 = _.el1 = el.find('#scrolltable1'),
             el2 = _.el2 = el.find('#scrolltable2');
@@ -30,7 +30,7 @@
         box.css({
             position: "relative",
             overflow: "hidden",
-            height: $("#scrolltable1 tbody tr").first().height() * num
+            height: $("#scrolltable1 tbody tr").first().height() * rows
         });
 
         el.find("#scrolltableHead").append(el1.find("thead"));

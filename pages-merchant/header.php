@@ -27,7 +27,7 @@
     <div class="header-center">
         <div class="container">
             <div class="header-logo">
-                <a class="logo-img" href=""><img src="../img/temp-img/merchant-logo.png" alt=""/></a>
+                <a class="logo-img" href=""><img src="../img/temp-img/merchant-logo.jpg" alt=""/></a>
                 <div class="logo-cont">
                     <h1>深圳市百创整装设计工程有限公司</h1>
                     <p>

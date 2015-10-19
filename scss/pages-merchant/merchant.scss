@@ -254,6 +254,13 @@ table {
     }
     .btn-row {
       margin-top: 1em;
+      background-color: $themeBg;
+      font-size: 1.4em;
+      line-height: 2.5em;
+      button { margin-right: 2em; }
+      .call {
+        color: $activeColor;
+      }
     }
   }
 }

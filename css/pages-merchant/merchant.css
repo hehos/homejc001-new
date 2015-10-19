@@ -319,72 +319,83 @@ table td {
 /* line 255, ../../scss/pages-merchant/merchant.scss */
 .main-warp .corp-contact .btn-row {
   margin-top: 1em;
+  background-color: #fafafb;
+  font-size: 1.4em;
+  line-height: 2.5em;
+}
+/* line 260, ../../scss/pages-merchant/merchant.scss */
+.main-warp .corp-contact .btn-row button {
+  margin-right: 2em;
+}
+/* line 261, ../../scss/pages-merchant/merchant.scss */
+.main-warp .corp-contact .btn-row .call {
+  color: #bd0401;
 }
 
-/* line 264, ../../scss/pages-merchant/merchant.scss */
+/* line 271, ../../scss/pages-merchant/merchant.scss */
 .case-info .info, .product-info .info {
   padding-left: 2em;
 }
-/* line 267, ../../scss/pages-merchant/merchant.scss */
+/* line 274, ../../scss/pages-merchant/merchant.scss */
 .case-info h4, .product-info h4 {
   font-size: 1.6em;
   font-weight: bold;
   padding: .5em 0 .8em;
 }
-/* line 272, ../../scss/pages-merchant/merchant.scss */
+/* line 279, ../../scss/pages-merchant/merchant.scss */
 .case-info li, .product-info li {
   line-height: 3.5em;
   border-bottom: 1px solid #f7f7f9;
   color: #55595c;
 }
-/* line 277, ../../scss/pages-merchant/merchant.scss */
+/* line 284, ../../scss/pages-merchant/merchant.scss */
 .case-info .btn-row, .product-info .btn-row {
   margin-top: 1.5em;
 }
 
-/* line 282, ../../scss/pages-merchant/merchant.scss */
+/* line 289, ../../scss/pages-merchant/merchant.scss */
 .case-info h4 {
   border-bottom: 1px solid #f7f7f9;
 }
 
-/* line 283, ../../scss/pages-merchant/merchant.scss */
+/* line 290, ../../scss/pages-merchant/merchant.scss */
 .product-info .btn-row {
   margin-bottom: 1em;
 }
 
-/* line 285, ../../scss/pages-merchant/merchant.scss */
+/* line 292, ../../scss/pages-merchant/merchant.scss */
 .case-otherInfo, .product-otherInfo {
   margin-top: 2em;
 }
-/* line 287, ../../scss/pages-merchant/merchant.scss */
+/* line 294, ../../scss/pages-merchant/merchant.scss */
 .case-otherInfo .info-title, .product-otherInfo .info-title {
   font-size: 1.3em;
   background-color: #f7f7f9;
 }
-/* line 292, ../../scss/pages-merchant/merchant.scss */
+/* line 299, ../../scss/pages-merchant/merchant.scss */
 .case-otherInfo .otherInfo .details-cont, .product-otherInfo .otherInfo .details-cont {
   padding: 1.5em;
 }
 
-/* line 298, ../../scss/pages-merchant/merchant.scss */
+/* line 305, ../../scss/pages-merchant/merchant.scss */
 .tabs-nav3 {
   background-color: transparent;
   border-bottom-color: #eceeef;
   border-top-color: #eceeef;
 }
 
-/* line 303, ../../scss/pages-merchant/merchant.scss */
+/* line 310, ../../scss/pages-merchant/merchant.scss */
 .tabs-nav3 > li {
   width: auto;
 }
 
-/* line 306, ../../scss/pages-merchant/merchant.scss */
+/* line 313, ../../scss/pages-merchant/merchant.scss */
 .tabs-nav3 > li > a {
   padding: 0 1.5em;
   font-size: 1em;
 }
 
-/* line 311, ../../scss/pages-merchant/merchant.scss */
+/* line 318, ../../scss/pages-merchant/merchant.scss */
 .case-otherInfo .info-title {
   line-height: 3em;
   padding-left: 1em;

@@ -53,8 +53,13 @@ img {
   margin-bottom: 0;
 }
 
+/* line 24, ../scss/reset.scss */
+table {
+  width: 100%;
+}
+
 /* clear input type="number" arrow */
-/* line 25, ../scss/reset.scss */
+/* line 27, ../scss/reset.scss */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none !important;
@@ -63,7 +68,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* repair bootstrap4 border-width */
-/* line 33, ../scss/reset.scss */
+/* line 35, ../scss/reset.scss */
 .form-control {
   border-width: 1px;
 }

@@ -9,20 +9,13 @@
 
 <div class="container clearfix body-wrap">
     <!--  begin 左侧导航  -->
-    <div class="side-nav pull-left">
-        <ul>
-            <li class="on"><a href=""><i></i>公司介绍</a></li>
-            <li><a href=""><i></i>企业证书</a></li>
-            <li><a href=""><i></i>注册信息</a></li>
-            <li><a href=""><i></i>联系我们</a></li>
-        </ul>
-    </div>
+    <?php include "side-nav.php"; ?>
     <!--  end 左侧导航  -->
 
 
     <!--  begin 内容  -->
     <div class="main-warp pull-right">
-        <h3>公司介绍</h3>
+        <h2>公司介绍</h2>
         <div class="corp-cont">
             <div class="cont-logo">
                 <img src="../img/temp-img/corp-logo.jpg" alt=""/>
@@ -37,44 +30,44 @@
                 公司将设计师送至中西展会中，拓展其眼见，吸取装饰艺术的精髓，以形成的国际化设计理念，不断地提高企业的经营管理和服务水平。
             </p>
         </div>
-        <h4>详细信息</h4>
+        <h3>详细信息</h3>
         <table>
             <tbody>
             <tr>
-                <td class="thead">公司规模</td>
-                <td class="content">　从业人员40人，其中拥有高端室内设计师10人，项目经理和工程监理20多名，技术工人400多名</td>
+                <th>公司规模</th>
+                <td>　从业人员40人，其中拥有高端室内设计师10人，项目经理和工程监理20多名，技术工人400多名</td>
             </tr>
             <tr>
-                <td class="thead">装后服务</td>
-                <td class="content">参与土巴兔诚信装修保障</td>
+                <th>装后服务</th>
+                <td>参与土巴兔诚信装修保障</th>
             </tr>
             <tr>
-                <td class="thead">初期设计/量房</td>
-                <td class="content">免费上门量房，量房后3天内出设计方案。</td>
+                <th>初期设计/量房</th>
+                <td>免费上门量房，量房后3天内出设计方案。</td>
             </tr>
             <tr>
-                <td class="thead">初期预算/洽谈方式</td>
-                <td class="content">免费预算，门店洽谈，预算不可带走</td>
+                <th>初期预算/洽谈方式</th>
+                <td>免费预算，门店洽谈，预算不可带走</td>
             </tr>
             <tr>
-                <td class="thead">深化设计</td>
-                <td class="content">设计合同签订后，施工合同签订前，提供不少于8张基本图纸，或交纳工程定金后，出详细的施工图。</td>
+                <th>深化设计</th>
+                <td>设计合同签订后，施工合同签订前，提供不少于8张基本图纸，或交纳工程定金后，出详细的施工图。</td>
             </tr>
             <tr>
-                <td class="thead">深化预算</td>
-                <td class="content">合同清单式报价，除水电决算，其余部分决算不超过总造价的5%（客户要求增加项目除外）。</td>
+                <th>深化预算</th>
+                <td>合同清单式报价，除水电决算，其余部分决算不超过总造价的5%（客户要求增加项目除外）。</td>
             </tr>
             <tr>
-                <td class="thead">材料质量</td>
-                <td class="content">假一罚十</td>
+                <th>材料质量</th>
+                <td>假一罚十</td>
             </tr>
             <tr>
-                <td class="thead">合同规范性</td>
-                <td class="content">使用政府示范合同，所有整改或变更项目均签署《项目变更单》。</td>
+                <th>合同规范性</th>
+                <td>使用政府示范合同，所有整改或变更项目均签署《项目变更单》。</td>
             </tr>
             <tr>
-                <td class="thead">特色服务</td>
-                <td class="content">免费验房</td>
+                <th>特色服务</th>
+                <td>免费验房</td>
             </tr>
             </tbody>
         </table>

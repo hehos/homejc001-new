@@ -51,11 +51,11 @@
     <div class="header-bottom">
         <div class="container">
             <ul class="header-nav nav-base row">
-                <li class="nav-item on"><a href="">首页</a></li>
-                <li class="nav-item"><a href="">公司介绍</a></li>
-                <li class="nav-item"><a href="">定制产品</a></li>
-                <li class="nav-item"><a href="">实景案例</a></li>
-                <li class="nav-item"><a href="">联系我们 </a></li>
+                <li class="nav-item on"><a href="index.php">首页</a></li>
+                <li class="nav-item"><a href="corp-introduce.php">公司介绍</a></li>
+                <li class="nav-item"><a href="product-list.php">定制产品</a></li>
+                <li class="nav-item"><a href="case-list.php">实景案例</a></li>
+                <li class="nav-item"><a href="contact-us.php">联系我们 </a></li>
             </ul>
             <div class="right-call">
                 <i class="myicon-my-call"></i><span>400-0129-001</span>

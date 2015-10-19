@@ -2,7 +2,7 @@
 @import "../mixins";
 
 
-$theme: lighten($gray-lighter, 5%);
+$themeBg: lighten($gray-lighter, 5%);
 
 // ====================================
 // comm
@@ -38,7 +38,7 @@ $theme: lighten($gray-lighter, 5%);
   width: percentage(1/6);
   padding-top: 2em;
   padding-left: 1.2em;
-  background-color: $theme;
+  background-color: $themeBg;
   font-size: 1.1em;
   li {
     font-family: "microsoft yahei", simsun;
@@ -51,7 +51,7 @@ $theme: lighten($gray-lighter, 5%);
 .main-warp {
   width: percentage(5/6);
   padding-left: 28px;
-  h3 {
+  h2 {
     font-size: 2em;
     padding: 1em 0;
     margin-top: .3em;
@@ -59,15 +59,42 @@ $theme: lighten($gray-lighter, 5%);
     border-bottom: 1px solid $gray-lighter;
     margin-bottom: 1em;
   }
-  h4 {
+  h3 {
     font-size: 1.4em;
     line-height: 2em;
     font-family: "microsoft yahei", simsun;
   }
 }
+
+table {
+  line-height: 3.5em;
+  border: 1px solid $gray-lightest;
+  border-bottom: none;
+  th, td {
+    border-bottom: 1px solid $gray-lightest;
+  }
+  th {
+    background-color: $themeBg;
+    text-align: center;
+  }
+  td { padding: 0 1em; }
+}
+
 .cont-logo {
   float: left;
   margin-right: 20px;
+}
+
+.otherInfo, .side-product { border: 1px solid $gray-lighter; }
+.side-product {
+  padding: .3em 1em;
+  .title-bar {
+    margin-top: 0;
+    .title { font-size: 1.4em; }
+  }
+  .media-base {
+    text-align: center;
+  }
 }
 
 // 首页
@@ -77,13 +104,13 @@ $theme: lighten($gray-lighter, 5%);
     font-family: "microsoft yahei", simsun;
   }
   padding-bottom: 1em;
-  background-color: $theme;
+  background-color: $themeBg;
   .media-btn { bottom: 3.5em; }
 }
 
 .case .media-base {
   text-align: center;
-  border: 6px solid $theme;
+  border: 6px solid $themeBg;
   .media-explain {
     color: $gray-light;
   }
@@ -189,7 +216,7 @@ $theme: lighten($gray-lighter, 5%);
     font-family: "microsoft yahei", simsun;
   }
   .scrolltableHead th {
-    background-color: $theme;
+    background-color: $themeBg;
   }
 }
 .corp-area {
@@ -197,8 +224,8 @@ $theme: lighten($gray-lighter, 5%);
   line-height: 2.5em;
 
   .corp-cont {
-    background-color: $theme;
     padding: 1em 1.2em;
+    background-color: $themeBg;
   }
   p {
     text-indent: 2em;
@@ -207,23 +234,85 @@ $theme: lighten($gray-lighter, 5%);
 
 
 // 公司介绍、联系我们
-.corp-cont {
-  overflow: hidden;
-  p {
-    line-height: 2em;
+.main-warp {
+  .corp-cont {
+    overflow: hidden;
+    margin-bottom: 2em;
+    p {
+      line-height: 2em;
+    }
+  }
+  .corp-contact {
+    h5 {
+      font-size: 1.6em;
+      font-family: "microsoft yahei", simsun;
+      margin-bottom: .5em;
+    }
+    p {
+      font-size: .8em;
+      color: $gray;
+    }
+    .btn-row {
+      margin-top: 1em;
+    }
   }
 }
-.corp-contact {
-  h5 {
-    font-size: 1.6em;
-    font-family: "microsoft yahei", simsun;
-    margin-bottom: .5em;
+
+
+// 案例、产品详细页
+.case-info, .product-info {
+  .info {
+    padding-left: 2em;
   }
-  p {
-    font-size: .8em;
+  h4 {
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: .5em 0 .8em;
+  }
+  li {
+    line-height: 3.5em;
+    border-bottom: 1px solid $gray-lightest;
     color: $gray;
   }
   .btn-row {
-    margin-top: 1em;
+    margin-top: 1.5em;
+  }
+}
+
+.case-info h4 { border-bottom: 1px solid $gray-lightest; }
+.product-info .btn-row { margin-bottom: 1em; }
+
+.case-otherInfo, .product-otherInfo {
+  margin-top: 2em;
+  .info-title {
+    font-size: 1.3em;
+    background-color: $gray-lightest;
+  }
+  .otherInfo {
+    .details-cont {
+      padding: 1.5em;
+    }
+  }
+
+}
+.tabs-nav3 {
+  background-color: transparent;
+  border-bottom-color: $gray-lighter;
+  border-top-color: $gray-lighter;
+}
+.tabs-nav3 > li {
+  width: auto;
+}
+.tabs-nav3 > li > a {
+  padding: 0 1.5em;
+  font-size: 1em;
+}
+.case-otherInfo {
+  .info-title {
+    line-height: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: bold;
+    border-top: 2px solid darken($gray-lightest, 5%) ;
   }
 }

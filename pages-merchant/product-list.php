@@ -8,10 +8,10 @@
 <?php include "header.php"; ?>
 
 <div class="container">
-    <div class="row">
+    <div class="row product">
         <div class="col-lg-4">
             <div class="media-base">
-                <a href="" class="thumbnail">
+                <a href="product-detail.php" class="thumbnail">
                     <img src="../img/temp-img/product1.jpg" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
@@ -21,7 +21,7 @@
         </div>
         <div class="col-lg-4">
             <div class="media-base">
-                <a href="" class="thumbnail">
+                <a href="product-detail.php" class="thumbnail">
                     <img src="../img/temp-img/product1.jpg" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
@@ -31,7 +31,7 @@
         </div>
         <div class="col-lg-4">
             <div class="media-base">
-                <a href="" class="thumbnail">
+                <a href="product-detail.php" class="thumbnail">
                     <img src="../img/temp-img/product1.jpg" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>

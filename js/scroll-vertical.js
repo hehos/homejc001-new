@@ -11,7 +11,6 @@
         _.el = el;
 
         var o = _.o = $.extend(_.o, o);
-
         var delay = o.delay,          // 默认的滚动速度
             num = o.num,  // 默认的显示函数
             box = el.find('#scrolltable'),
@@ -27,46 +26,43 @@
             $(firstTds[i]).width(wt);
         }
 
-        el.find("#scrolltableHead").append(el1.find("thead"));
-        el1.find("thead").empty();
-
-        // 设置默认样式
-        $(tardiv).css({
-            position: "relative",
-            overflow: "hidden",
-            height: $("#scrolltable1 tbody tr").first().height() * num
-        });
-
-        // 判断逻辑开始执行
-        if($(el1).height() > $(tardiv).height()) {
-            el2.innerHTML=el1.innerHTML;
-            _.t = setInterval(function() {
-                _.go(tardiv, el1, el2);
-            }, o.speed);
-        }
-
         // 满足条件开始滚动
-        (el1.scrollTop >= el2.offsetTop? _.play(): return;
+        if(el1.height() > box.height()) {
+            el.find("#scrolltableHead").append(el1.find("thead"));
+            el1.find("thead").empty();
+
+            // 设置默认样式
+            $(box).css({
+                position: "relative",
+                overflow: "hidden",
+                height: $("#scrolltable1 tbody tr").first().height() * num
+            });
+            el2[0].innerHTML=el1[0].innerHTML;
+
+            _.play(box, el1, el2);
+        } else return;
 
         // 鼠标移上移出事件。
-        tardiv.on('mouseover mouseout', function (e) {
+        box.on('mouseover mouseout', function (e) {
             _.stop();
-            e.type === 'mouseout' && _.play();
+            e.type === 'mouseout' && _.play(box, el1, el2);
         });
+
+        return _;
     }
 
-    ScrollTable.prototype.play = function() {
+    ScrollTable.prototype.play = function(box, el1, el2) {
         var _ = this;
         _.t = setInterval(function() {
-            _.go();
-        }, _.o.speed);
+            _.go(box, el1, el2);
+        }, _.o.delay);
     }
     ScrollTable.prototype.stop = function() {
         this.t = clearInterval(this.t);
     }
 
     ScrollTable.prototype.go = function(box, el1, el2) {
-        if(el1.scrollTop >= el2.offsetTop)
+        if(el1[0].scrollTop >= el2[0].offsetTop)
             box.scrollTop = 0;
         else {
             box.scrollTop++;
@@ -85,5 +81,5 @@
             me.data(key, instance).data('key', key);
         });
     };
-})($,false);
+})(jQuery, false);
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title></title>
 
-    <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+    <script src="../../js/jquery-latest.min.js"></script>
 </head>
 <body class="publicity">
 <?php include "header.php" ?>
@@ -67,7 +67,7 @@
                 <div class="title">
                     <h2>最新申请定制服务</h2>
                 </div>
-                <div id="scrolltable-warp">
+                <div class="scrolltable-warp">
                     <table id="scrolltableHead" class="publicity-table"></table>
                     <div id="scrolltable">
                         <div id="scrolltable1">
@@ -125,9 +125,9 @@
 
         <script src="../../js/scroll-vertical.js" charset="utf-8" type="text/javascript"></script>
         <script>
-            $(document).ready(function(){
-                $("#scrolltable-warp").scrollTable({num: 6});
-            });
+                $(".scrolltable-warp").scrollTable({
+                    num: 6
+                });
         </script>
     </div>
     <img src="../img/shengqing.png" alt=""/>

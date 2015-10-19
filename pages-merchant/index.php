@@ -105,56 +105,62 @@
                 <a class="more" href="">更多<i class=" icon-angle-right"></i></a>
             </div>
             <div class="liangfang-cont">
-                <table id="scrolltableHead" class="scrolltableHead"></table>
-                <div id="scrolltable">
-                    <div id="scrolltable1">
-                        <table class="publicity-table">
-                            <thead>
-                            <tr>
-                                <th>业主</th>
-                                <th>区域</th>
-                                <th>户型</th>
-                                <th>面积</th>
-                                <th>预算</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
-                            </tr>
-                            <tr>
-                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
-                            </tr>
-                            <tr>
-                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
-                            </tr>
-                            <tr>
-                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
-                            </tr>
-                            <tr>
-                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
-                            </tr>
-                            <tr>
-                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
-                            </tr>
-                            <tr>
-                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
-                            </tr>
-                            <tr>
-                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
-                            </tr>
-                            <tr>
-                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
-                            </tr>
-                            <tr>
-                                <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
-                            </tr>
-                            </tbody>
-                        </table>
+                <div class="scrolltable-warp">
+                    <table id="scrolltableHead" class="scrolltableHead"></table>
+                    <div id="scrolltable">
+                        <div id="scrolltable1">
+                            <table class="">
+                                <thead>
+                                <tr>
+                                    <th>业主</th>
+                                    <th>区域</th>
+                                    <th>户型</th>
+                                    <th>面积</th>
+                                    <th>预算</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
+                                </tr>
+                                <tr>
+                                    <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
+                                </tr>
+                                <tr>
+                                    <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
+                                </tr>
+                                <tr>
+                                    <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
+                                </tr>
+                                <tr>
+                                    <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
+                                </tr>
+                                <tr>
+                                    <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
+                                </tr>
+                                <tr>
+                                    <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
+                                </tr>
+                                <tr>
+                                    <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
+                                </tr>
+                                <tr>
+                                    <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
+                                </tr>
+                                <tr>
+                                    <td>张三</td><td>住宅公寓</td><td>全包</td><td>156㎡</td><td>5-8万</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="scrolltable2"></div>
                     </div>
-                    <div id="scrolltable2"></div>
                 </div>
+
                 <script src="../js/scroll-vertical.js"></script>
+                <script>
+                    $(".scrolltable-warp").scrollTable({num: 6});
+                </script>
             </div>
         </div>
         <div class="pull-right corp-area">

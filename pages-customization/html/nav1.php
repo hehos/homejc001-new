@@ -94,25 +94,25 @@
                                         <td>成都市金牛区地中海楼盘4</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
                                     </tr>
                                     <tr>
-                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                        <td>成都市金牛区地中海楼盘5</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
                                     </tr>
                                     <tr>
-                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                        <td>成都市金牛区地中海楼盘6</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
                                     </tr>
                                     <tr>
-                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                        <td>成都市金牛区地中海楼盘7</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
                                     </tr>
                                     <tr>
-                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                        <td>成都市金牛区地中海楼盘8</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
                                     </tr>
                                     <tr>
-                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                        <td>成都市金牛区地中海楼盘9</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
                                     </tr>
                                     <tr>
-                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                        <td>成都市金牛区地中海楼盘10</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
                                     </tr>
                                     <tr>
-                                        <td>成都市金牛区地中海楼盘</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
+                                        <td>成都市金牛区地中海楼盘11</td><td>住宅公寓</td><td>小李</td><td>8月20日</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -125,9 +125,7 @@
 
         <script src="../../js/scroll-vertical.js" charset="utf-8" type="text/javascript"></script>
         <script>
-                $(".scrolltable-warp").scrollTable({
-                    num: 6
-                });
+                $(".scrolltable-warp").scrollTable();
         </script>
     </div>
     <img src="../img/shengqing.png" alt=""/>

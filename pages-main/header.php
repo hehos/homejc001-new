@@ -23,10 +23,10 @@
     <div class="header-center">
         <div class="container">
             <div class="header-logo">
-                <a class="logo-img" href=""><img src="../img/logo.png" alt=""/></a>
+                <a class="logo-img" href="http://192.168.0.188/homejc001-new/pages-main/index.php"><img src="../img/logo.png" alt=""/></a>
                 <div class="logo-cont">
                     <h3>一站式全屋家居定制平台</h3>
-                    <p><a href="http://home.jc001.cn">http://home.jc001.cn</a></p>
+                    <p><a href="http://192.168.0.188/homejc001-new/pages-main/index.php">http://home.jc001.cn</a></p>
                 </div>
             </div>
             <div class="header-search">
@@ -50,8 +50,8 @@
     <div class="header-bottom nav-base-wrap">
         <div class="container">
             <ul class="header-nav nav-base row">
-                <li class="nav-item on"><a href="">首页</a></li>
-                <li class="nav-item has-icon"><a href="">定制家居<i class="myicon-hot"></i></a></li>
+                <li class="nav-item on"><a href="http://192.168.0.188/homejc001-new/pages-main/index.php">首页</a></li>
+                <li class="nav-item has-icon"><a href="http://192.168.0.188/homejc001-new/pages-customization/html/nav1.php">定制家居<i class="myicon-hot"></i></a></li>
                 <li class="nav-item has-subnav">
                     <a href="">效果图<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">

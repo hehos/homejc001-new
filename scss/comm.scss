@@ -300,7 +300,7 @@ $headerTopFontSize: 12;
   }
   .form-line {
     margin-bottom: 15/$global-font-size + em;
-    input, button, select {
+    input, select {
       border: 1px solid #dddddd;
     }
     &.city {

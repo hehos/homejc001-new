@@ -19,10 +19,12 @@ img { max-width: 100%; }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
+  line-height: inherit;
 }
 
 table { width: 100%; }
 
+label { font-weight: normal; }
 /* clear input type="number" arrow */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

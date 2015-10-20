@@ -28,13 +28,13 @@
         </div>
         <div class="col-lg-7 info">
             <h4>安住 智能恒温淋浴花洒套装ERF6187230CP-A安住 </h4>
-            <div class="xuanzheyoushi"><img src="../img/xuanzheyoushi.jpg" alt=""/></div>
+            <div class="xuanzheyoushi"><img src="../img/pages-merchant/xuanzheyoushi.jpg" alt=""/></div>
             <ul>
                 <li>风格：欧式田园、现代简约</li>
                 <li>报价：<span>￥10000 - ￥150000/延米</span></li>
             </ul>
             <div class="btn-row"><button class="btn btn-lg u-main-btn">免费申请预约</button></div>
-            <div class="baozhang"><img src="../img/baozhang.jpg" alt=""/></div>
+            <div class="baozhang"><img src="../img/pages-merchant/baozhang.jpg" alt=""/></div>
         </div>
     </div>
     <!--  end 产品信息  -->

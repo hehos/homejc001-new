@@ -1,7 +1,11 @@
 @import "variables";
 @import "mixins";
 
-//
+// 字体颜色原件
+.fc-red { color: $activeColor; }
+.fc-green { color: $highlightColor; }
+
+// 功能原件
 [class^="u-"], [class*=" u-"] {
   display: inline-block;
 }
@@ -28,9 +32,9 @@
 .u-main-btn {
   background-color: $highlightColor;
   color: #ffffff;
+  border: 1px solid transparent;
   border-color: $highlightColor;
   border-radius: 0;
-  border: 1px solid transparent;
   &:hover, &:focus {
     background-color: darken($highlightColor, 2%);
     color: #ffffff;

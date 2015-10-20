@@ -51,15 +51,21 @@ img {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
+  line-height: inherit;
 }
 
-/* line 24, ../scss/reset.scss */
+/* line 25, ../scss/reset.scss */
 table {
   width: 100%;
 }
 
-/* clear input type="number" arrow */
 /* line 27, ../scss/reset.scss */
+label {
+  font-weight: normal;
+}
+
+/* clear input type="number" arrow */
+/* line 29, ../scss/reset.scss */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none !important;
@@ -68,7 +74,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* repair bootstrap4 border-width */
-/* line 35, ../scss/reset.scss */
+/* line 37, ../scss/reset.scss */
 .form-control {
   border-width: 1px;
 }

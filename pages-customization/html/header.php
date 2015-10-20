@@ -1,6 +1,3 @@
-<?php include "../../pages-main/header.php" ?>
-
-
 <!-- 框架样式 -->
 <link rel="stylesheet" href="../../bootstrap4/dist/css/bootstrap.css"/>
 
@@ -14,3 +11,6 @@
 
 
 <link rel="stylesheet" href="../css/publicity.css"/>
+
+
+<?php include "../../pages-main/header.php" ?>

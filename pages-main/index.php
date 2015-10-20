@@ -11,7 +11,7 @@
 <?php //include "popup-yuyue-succeed.php"; ?>
 <!--<div id="mask"></div>-->
 <!-- 弹出表单 -->
-<?php //include "fixed-bottom-form.php"; ?>
+<?php include "fixed-bottom-form.php"; ?>
 <?php include "online-service.php"; ?>
 
 
@@ -137,9 +137,9 @@
 
 
             <div class="banner-bottom">
-                <a href=""><img src="../img/zuianquan.png" alt=""/></a>
-                <a href=""><img src="../img/baozhiliang.png" alt=""/></a>
-                <a href=""><img src="../img/baoshouhou.png" alt=""/></a>
+                <a href=""><img src="../img/bz1-anquan.png" alt=""/></a>
+                <a href=""><img src="../img/bz2-zhiliang.png" alt=""/></a>
+                <a href=""><img src="../img/bz3-shouhou.png" alt=""/></a>
             </div>
         </div>
     </div>
@@ -396,7 +396,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/gl-wenda1.jpg" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
@@ -408,7 +408,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/gl-wenda2.jpg" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -420,7 +420,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/gl-wenda3.jpg" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -434,7 +434,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/gl-baike1.jpg" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -446,7 +446,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/gl-baike2.jpg" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -458,7 +458,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
                     <div class="media-txt-list">
-                        <a class="img" href=""><img src="../img/temp-img/zhuangxiuzhishi.png" alt=""/></a>
+                        <a class="img" href=""><img src="../img/gl-baike3.jpg" alt=""/></a>
                         <div class="media-cont">
                             <a href="">装修问答</a>
                             <a href="">现代简约实木床该怎么选择</a>
@@ -481,7 +481,7 @@
         <div class="brand-cont">
             <ul class="clearfix">
                 <li>
-                    <a href=""><img src="../img/temp-img/pingpai.png" alt=""/>
+                    <a href="http://192.168.0.188/homejc001-new/pages-merchant/index.php"><img src="../img/temp-img/pingpai.png" alt=""/>
                     <div class="title">红参</div>
                     </a></li>
                 <li>

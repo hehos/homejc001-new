@@ -7,9 +7,9 @@
 <body>
 
 <!-- 预约成功弹出提示 -->
-<?php //include "popup-form-yuyue.php"; ?>
+<?php include "popup-form-yuyue.php"; ?>
 <?php //include "popup-yuyue-succeed.php"; ?>
-<!--<div id="mask"></div>-->
+<div id="mask"></div>
 <!-- 弹出表单 -->
 <?php include "fixed-bottom-form.php"; ?>
 <?php include "online-service.php"; ?>

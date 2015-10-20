@@ -7,6 +7,10 @@
 <body>
 <?php include "header.php"; ?>
 
+
+<?php include "popup-form-yuyue.php"; ?>
+<div id="mask"></div>
+
 <div class="container">
     <!--  begin 头部banner  -->
     <div class="index-banner row">

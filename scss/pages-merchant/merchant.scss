@@ -114,6 +114,11 @@ table {
   width: $popupWidth;
   padding-top: 0;
   margin-left: -$popupWidth/2;
+  border: 3px solid darken($gray-lighter, 8%);
+  input, select {
+    border-radius: 0;
+    border-color: $gray-lighter;
+  }
   .form-hd {
     background-color: $gray-lightest;
     margin-bottom: 1.5em;
@@ -312,7 +317,19 @@ table {
 
 
 // 案例、产品详细页
+.page-path {
+  color: $gray;
+  i {
+    font-size: 1.2em;
+    margin-right: 3px;
+  }
+  .active { color: $gray-dark; }
+}
 .case-info, .product-info {
+  .img {
+    padding: 2px;
+    border: 1px solid darken($gray-lighter, 5%)
+  }
   img { width: 100%; }
   .info {
     padding-left: 2em;

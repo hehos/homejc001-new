@@ -23,7 +23,7 @@
     <div class="row product-info">
         <div class="col-lg-5 media-info">
             <div class="img">
-                <img src="../img/temp-img/product-big.jpg" alt=""/>
+                <img src="../img/temp-img/detail-big-img.jpg" alt=""/>
             </div>
         </div>
         <div class="col-lg-7 info">

@@ -9,7 +9,7 @@
 
 <div class="container">
     <!--  begin path  -->
-    <div class="page-path">
+    <div class="page-path row">
         <ol class="breadcrumb-arrow">
             <li><a href="#"><i class="icon-home"></i>首页</a></li>
             <li><a href="#">定制产品</a></li>
@@ -20,18 +20,18 @@
 
 
     <!--  begin 产品信息  -->
-    <div class="row product-info">
-        <div class="col-lg-5 media-info">
+    <div class="clearfix row product-info">
+        <div class="pull-left media-info">
             <div class="img">
                 <img src="../img/temp-img/detail-big-img.jpg" alt=""/>
             </div>
         </div>
-        <div class="col-lg-7 info">
+        <div class="pull-right info">
             <h4>安住 智能恒温淋浴花洒套装ERF6187230CP-A安住 </h4>
             <div class="xuanzheyoushi"><img src="../img/pages-merchant/xuanzheyoushi.jpg" alt=""/></div>
             <ul>
                 <li>风格：欧式田园、现代简约</li>
-                <li>报价：<span>￥10000 - ￥150000/延米</span></li>
+                <li>报价：<span class="money">￥10000 - ￥150000/延米</span></li>
             </ul>
             <div class="btn-row"><button class="btn btn-lg u-main-btn">免费申请预约</button></div>
             <div class="baozhang"><img src="../img/pages-merchant/baozhang.jpg" alt=""/></div>

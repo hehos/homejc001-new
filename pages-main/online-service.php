@@ -1,5 +1,5 @@
-<div id="OICQ" class="fixed-right-OICQ">
-    <a href="javascript:void(0);" class="close">×</a>
+<div data-fixed="right" id="OICQ" data-popup class="fixed-right-OICQ">
+    <a href="javascript:void(0);" data-close class="close">×</a>
     <div class="OICQ-hd">
         <div class="OICQ-hd-img">
             <span class="myicon-service-qr"></span>

@@ -2,8 +2,8 @@
     <div class="container">
         <div class="header-top-left">
             <ul class="attention-ways">
-                <li><a href=""><span class="myicon-top-logo"></span></a></li>
-                <li><a href="">回到首页</a></li>
+                <li><a href="http://192.168.0.188/homejc001-new/pages-main/index.php"><span class="myicon-top-logo"></span></a></li>
+                <li><a href="http://192.168.0.188/homejc001-new/pages-main/index.php">回到首页</a></li>
                 <li><a href="">定制中心</a></li>
                 <li><a href="">效果图</a></li>
                 <li><a href="">装修攻略</a></li>

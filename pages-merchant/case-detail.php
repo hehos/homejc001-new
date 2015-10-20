@@ -9,7 +9,7 @@
 
 <div class="container">
     <!--  begin path  -->
-    <div class="page-path">
+    <div class="page-path row">
         <ol class="breadcrumb-arrow">
             <li><a href="#"><i class="icon-home"></i>首页</a></li>
             <li><a href="#">定制产品</a></li>
@@ -20,13 +20,13 @@
 
 
     <!--  begin 产品信息  -->
-    <div class="row case-info">
-        <div class="col-lg-5 media-info">
+    <div class="clearfix row case-info">
+        <div class="pull-left media-info">
             <div class="img">
                 <img src="../img/temp-img/detail-big-img.jpg" alt=""/>
             </div>
         </div>
-        <div class="col-lg-7 info">
+        <div class="pull-right info">
             <h4>安住 智能恒温淋浴花洒套装ERF6187230CP-A安住 智能恒温淋浴花洒套装ERF6187230CP-A</h4>
             <ul>
                 <li>装修风格：欧式风格，现代简约</li>

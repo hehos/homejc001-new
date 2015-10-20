@@ -799,32 +799,33 @@ body .container {
   right: 0;
   top: 0;
   bottom: 0;
-  opacity: .6;
-  background-color: #000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 416, ../scss/comm.scss */
+/* line 415, ../scss/comm.scss */
 [class^="popup-"],
 [class*=" popup-"] {
   left: 50%;
   top: 50%;
   padding-bottom: 1em;
 }
-/* line 421, ../scss/comm.scss */
+/* line 420, ../scss/comm.scss */
 [class^="popup-"] .form-hd, [class^="popup-"] .form-bd, [class^="popup-"] .form-ft,
 [class*=" popup-"] .form-hd,
 [class*=" popup-"] .form-bd,
 [class*=" popup-"] .form-ft {
   padding: 0 1.8em;
 }
-/* line 424, ../scss/comm.scss */
+/* line 423, ../scss/comm.scss */
 [class^="popup-"] .form-hd,
 [class*=" popup-"] .form-hd {
   line-height: 3em;
   margin-bottom: .5em;
 }
 
-/* line 431, ../scss/comm.scss */
+/* line 430, ../scss/comm.scss */
 [class^="fixed-top-"],
 [class*=" fixed-top-"],
 [class^="fixed-bottom-"],
@@ -833,19 +834,19 @@ body .container {
   left: 0;
 }
 
-/* line 438, ../scss/comm.scss */
+/* line 437, ../scss/comm.scss */
 [class^="fixed-bottom-"],
 [class*=" fixed-bottom-"] {
   bottom: 0;
 }
 
-/* line 442, ../scss/comm.scss */
+/* line 441, ../scss/comm.scss */
 [class^="fixed-top-"],
 [class*=" fixed-top-"] {
   top: 0;
 }
 
-/* line 448, ../scss/comm.scss */
+/* line 447, ../scss/comm.scss */
 [class^="fixed-left-"],
 [class*=" fixed-left-"],
 [class^="fixed-right-"],
@@ -853,19 +854,19 @@ body .container {
   top: 50%;
 }
 
-/* line 454, ../scss/comm.scss */
+/* line 453, ../scss/comm.scss */
 [class^="fixed-left-"],
 [class*=" fixed-left-"] {
   left: 0;
 }
 
-/* line 458, ../scss/comm.scss */
+/* line 457, ../scss/comm.scss */
 [class^="fixed-right-"],
 [class*=" fixed-right-"] {
   right: 0;
 }
 
-/* line 467, ../scss/comm.scss */
+/* line 466, ../scss/comm.scss */
 .popup-yuyue-succeed {
   width: 550px;
   margin-left: -275px;
@@ -874,11 +875,11 @@ body .container {
   border: 5px solid #cccccc;
   background-color: #fff;
 }
-/* line 474, ../scss/comm.scss */
+/* line 473, ../scss/comm.scss */
 .popup-yuyue-succeed .yuyue-succeed-hd, .popup-yuyue-succeed .qrcode-tips, .popup-yuyue-succeed .qrcode {
   text-align: center;
 }
-/* line 475, ../scss/comm.scss */
+/* line 474, ../scss/comm.scss */
 .popup-yuyue-succeed .yuyue-succeed-hd {
   line-height: 77px;
   color: #bd0401;
@@ -886,31 +887,31 @@ body .container {
   border-bottom: 1px dashed #eceeef;
   font-family: "microsoft yahei", simsun;
 }
-/* line 482, ../scss/comm.scss */
+/* line 481, ../scss/comm.scss */
 .popup-yuyue-succeed .yuyue-succeed-bd {
   line-height: 32px;
   padding: 15px 0;
   text-indent: 2em;
 }
-/* line 487, ../scss/comm.scss */
+/* line 486, ../scss/comm.scss */
 .popup-yuyue-succeed .qrcode-tips {
   line-height: 50px;
   background-color: #f7f7f9;
 }
-/* line 491, ../scss/comm.scss */
+/* line 490, ../scss/comm.scss */
 .popup-yuyue-succeed .qrcode {
   padding-top: 16px;
 }
-/* line 494, ../scss/comm.scss */
+/* line 493, ../scss/comm.scss */
 .popup-yuyue-succeed img {
   width: 100%;
 }
-/* line 495, ../scss/comm.scss */
+/* line 494, ../scss/comm.scss */
 .popup-yuyue-succeed .close {
   background-color: #f7f7f9;
 }
 
-/* line 500, ../scss/comm.scss */
+/* line 499, ../scss/comm.scss */
 .popup-form-yuyue {
   width: 400px;
   min-height: 300px;
@@ -918,16 +919,16 @@ body .container {
   margin-top: -170px;
   background-color: #fff;
 }
-/* line 506, ../scss/comm.scss */
+/* line 505, ../scss/comm.scss */
 .popup-form-yuyue .form-hd, .popup-form-yuyue .form-ft {
   text-align: center;
 }
-/* line 507, ../scss/comm.scss */
+/* line 506, ../scss/comm.scss */
 .popup-form-yuyue .form-hd {
   font-size: 1.2em;
   font-family: "Microsoft Yahei", Tahoma, Arial, Helvetica, STHeiti;
 }
-/* line 512, ../scss/comm.scss */
+/* line 511, ../scss/comm.scss */
 .popup-form-yuyue .form-control-label {
   float: left;
   width: 6em;
@@ -938,11 +939,11 @@ body .container {
   margin-bottom: 0;
   text-align: center;
 }
-/* line 522, ../scss/comm.scss */
+/* line 521, ../scss/comm.scss */
 .popup-form-yuyue .input-field {
   margin-left: 6em;
 }
-/* line 524, ../scss/comm.scss */
+/* line 523, ../scss/comm.scss */
 .popup-form-yuyue .input-field.city {
   margin-right: -3%;
 }
@@ -955,93 +956,95 @@ body .container {
 .popup-form-yuyue .input-field.city:after {
   clear: both;
 }
-/* line 527, ../scss/comm.scss */
+/* line 526, ../scss/comm.scss */
 .popup-form-yuyue .input-field.city select {
   float: left;
   width: 30.33333%;
   margin-right: 3%;
 }
-/* line 534, ../scss/comm.scss */
+/* line 533, ../scss/comm.scss */
 .popup-form-yuyue .input-field.col-2 select {
   width: 47%;
 }
-/* line 539, ../scss/comm.scss */
+/* line 538, ../scss/comm.scss */
 .popup-form-yuyue .vcode .form-control {
   display: inline-block;
   width: 40%;
 }
-/* line 543, ../scss/comm.scss */
+/* line 542, ../scss/comm.scss */
 .popup-form-yuyue .vcode img {
   float: right;
 }
-/* line 546, ../scss/comm.scss */
+/* line 545, ../scss/comm.scss */
 .popup-form-yuyue .safety {
   padding: .3em 0;
 }
-/* line 550, ../scss/comm.scss */
+/* line 549, ../scss/comm.scss */
 .popup-form-yuyue .form-ft .call {
   color: #bd0401;
   font-size: 1.5em;
 }
-/* line 555, ../scss/comm.scss */
+/* line 554, ../scss/comm.scss */
 .popup-form-yuyue .submit {
   margin-bottom: .3em;
   border: none;
 }
 
 /* fixed */
-/* line 563, ../scss/comm.scss */
+/* line 562, ../scss/comm.scss */
 .fixed-bottom-form {
   display: none;
   margin-top: 2em;
   padding: 1em 0;
+  overflow: visible;
 }
 /* line 567, ../scss/comm.scss */
 .fixed-bottom-form, .fixed-bottom-form .open {
+  transition: none;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000)";
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000);
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 568, ../scss/comm.scss */
+/* line 571, ../scss/comm.scss */
 .fixed-bottom-form .g-left {
   position: relative;
   width: 40%;
 }
-/* line 572, ../scss/comm.scss */
+/* line 575, ../scss/comm.scss */
 .fixed-bottom-form .g-center {
   width: 35%;
 }
-/* line 573, ../scss/comm.scss */
+/* line 576, ../scss/comm.scss */
 .fixed-bottom-form .g-right {
   width: 25%;
 }
-/* line 575, ../scss/comm.scss */
+/* line 578, ../scss/comm.scss */
 .fixed-bottom-form .form-line {
   margin-bottom: .5em;
 }
-/* line 577, ../scss/comm.scss */
+/* line 580, ../scss/comm.scss */
 .fixed-bottom-form .form-line input, .fixed-bottom-form .form-line select {
   display: inline-block;
   width: 47%;
   margin-right: 2%;
 }
-/* line 585, ../scss/comm.scss */
+/* line 588, ../scss/comm.scss */
 .fixed-bottom-form .g-left .float-img {
   position: absolute;
   top: -3em;
   right: 4.5em;
 }
-/* line 593, ../scss/comm.scss */
+/* line 596, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode, .fixed-bottom-form .g-right .submit {
   display: inline-block;
   width: 40%;
 }
-/* line 597, ../scss/comm.scss */
+/* line 600, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode {
   position: relative;
   text-align: center;
 }
-/* line 601, ../scss/comm.scss */
+/* line 604, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode-cont {
   position: absolute;
   left: 2em;
@@ -1049,16 +1052,16 @@ body .container {
   font-size: .85em;
   color: #fff;
 }
-/* line 608, ../scss/comm.scss */
+/* line 611, ../scss/comm.scss */
 .fixed-bottom-form .g-right .submit {
   margin-top: 1.5em;
 }
-/* line 610, ../scss/comm.scss */
+/* line 613, ../scss/comm.scss */
 .fixed-bottom-form .open {
-  display: inline-block;
-  position: absolute;
+  position: fixed;
   left: -1.4em;
-  top: 0;
+  bottom: 20px;
+  z-index: 10001;
   width: 1.4em;
   height: 1.8em;
   line-height: 1.8em;
@@ -1070,10 +1073,9 @@ body .container {
   border-bottom-right-radius: 50%;
   text-decoration: none;
 }
-/* line 625, ../scss/comm.scss */
-.fixed-bottom-form .open.show {
-  right: -.7em;
-  left: auto;
+/* line 629, ../scss/comm.scss */
+.fixed-bottom-form .show {
+  left: -.7em;
 }
 
 /* line 632, ../scss/comm.scss */

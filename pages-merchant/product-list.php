@@ -39,6 +39,16 @@
                 <a class="media-btn u-circle-btn" href="">约我 <br><i class=" icon-angle-down"></i></a>
             </div>
         </div>
+        <div class="col-lg-4">
+            <div class="media-base">
+                <a href="product-detail.php" class="thumbnail">
+                    <img src="../img/temp-img/product1.jpg" alt="">
+                </a>
+                <h4 class="media-title"><a href="">图片标题</a></h4>
+                <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
+                <a class="media-btn u-circle-btn" href="">约我 <br><i class=" icon-angle-down"></i></a>
+            </div>
+        </div>
     </div>
     <!--  分页  -->
     <div class="paging-bar">

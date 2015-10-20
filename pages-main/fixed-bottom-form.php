@@ -1,6 +1,6 @@
-<div class="fixed-bottom-form clearfix">
-    <a href="javascript:void(0);" data-hide class="close">×</a>
-    <a href="javascript:void(0);" data-show class="open"><i class=" icon-angle-right"></i></a>
+<div data-fixed="left" class="fixed-bottom-form clearfix">
+    <a href="javascript:void(0);" data-display="hide" class="close">×</a>
+    <a href="javascript:void(0);" data-display="show" class="open"><i class=" icon-angle-right"></i></a>
     <div class="g-left pull-left">&nbsp;
         <span class="float-img"><i class="myicon-bottom-float"></i></span>
     </div>

@@ -405,8 +405,7 @@ $poput-z-index: 10000;
   right: 0;
   top: 0;
   bottom: 0;
-  opacity: .6;
-  background-color: #000;
+  @include background-color-rgba(#000, .6);
 }
 
 
@@ -564,7 +563,11 @@ $poput-z-index: 10000;
   display: none;
   margin-top: 2em;
   padding: 1em 0;
-  &, .open { @include background-color-rgba(#000, .7); }
+  overflow: visible;
+  &, .open {
+    transition: none;
+    @include background-color-rgba(#000, .7);
+  }
   .g-left {
     position: relative;
     width: 40%;
@@ -608,10 +611,10 @@ $poput-z-index: 10000;
     .submit { margin-top: 1.5em; }
   }
   .open {
-    display: inline-block;
-    position: absolute;
+    position: fixed;
     left: -1.4em;
-    top: 0;
+    bottom: 20px;
+    z-index: $poput-z-index + 1;
     width: 1.4em;
     height: 1.8em;
     line-height: 1.8em;
@@ -622,11 +625,8 @@ $poput-z-index: 10000;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     text-decoration: none;
-    &.show {
-      right: -.7em;
-      left: auto;
-    }
   }
+  .show { left: -.7em; }
 }
 
 .fixed-right-OICQ {

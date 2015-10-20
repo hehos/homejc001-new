@@ -13,6 +13,11 @@ $themeBg: lighten($gray-lighter, 5%);
   }
 }
 
+// Override bootstrap
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 360px;
+}
+
 // Override widget style
 .media-base {
   .media-title, .media-explain {
@@ -194,7 +199,7 @@ table {
 .header-share {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 10px;
   li {
     float: left;
     color: $gray-light;
@@ -326,6 +331,13 @@ table {
   .active { color: $gray-dark; }
 }
 .case-info, .product-info {
+  .media-info {
+    width: 41.5%;
+  }
+  .info {
+    width: percentage(1-0.415);
+  }
+
   .img {
     padding: 2px;
     border: 1px solid darken($gray-lighter, 5%)
@@ -343,6 +355,11 @@ table {
     line-height: 3.5em;
     border-bottom: 1px solid $gray-lightest;
     color: $gray;
+    .money {
+      font-size: 1.8em;
+      color: $activeColor;
+      font-family: "microsoft yahei", simsun;
+    }
   }
   .btn-row {
     margin-top: 1.5em;

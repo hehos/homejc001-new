@@ -37,7 +37,6 @@
         el1.find("thead").empty();
 
         // 满足条件开始滚动
-        console.log(el1.height() + ", " + box.height());
         if(el1.height() > box.height()) {
             el2[0].innerHTML=el1[0].innerHTML;
 
@@ -65,7 +64,6 @@
 
     ScrollTable.prototype.go = function() {
         var _ = this;
-        console.log(_.el2[0].offsetTop);
         // offsetTop是元素的上外边框至包含元素的上内边框之间的像素距离
         if(_.box[0].scrollTop >= _.el2[0].offsetTop)
             _.box[0].scrollTop = 0;

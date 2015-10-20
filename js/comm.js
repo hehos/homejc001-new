@@ -44,17 +44,20 @@ $(document).ready(function(){
         $(this).hide();
     });
 
-
-    $('[data-hide]').click(function() {
-        var eleWidth = $(this).parent().width();
-        $(this).parent().css("left", -eleWidth);
-        $(this).siblings('[data-show]').addClass("show");
+    $('[data-display]').click(function() {
+        var display = $(this).attr("data-display");
+        var box = $(this).parents("[data-fixed]");
+        var eleWidth = box.width();
+        var dir = box.attr("data-fixed");
+        if("hide" == display) {
+            box.animate({ left: -eleWidth}, 400);
+            box.find('[data-display="show"]').delay(800)
+                .animate({ left: "-.7em" }, 200);
+        } else if("show" == display) {
+            $(this).animate({ left: "-1.4em"}, 200);
+            box.delay(800).animate({ left: 0 }, 400);
+        }
     });
-    $('[data-show]').click(function() {
-        $(this).parent().css("left", 0);
-        $(this).removeClass("show");
-    });
-
 
 
     // 底部悬浮条 显示 与 隐藏逻辑

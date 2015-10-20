@@ -52,7 +52,7 @@
                         </div>
                         <div class="right pull-right">
                             <label>账户余额</label>
-                            <p class="num">10000.0元人民币</p>
+                            <p class="num"><span>10000.0</span>元人民币</p>
                             <p class="fc-green">请尽快联系客户充值</p>
                         </div>
                     </div>

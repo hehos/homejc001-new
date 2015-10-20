@@ -112,9 +112,22 @@
     padding: 1em 2em;
     background-position: right top;
     background-repeat: no-repeat;
+    .num {
+      font-size: 18px;
+      font-family: "microsoft yahei", simsun;
+      color: $gray;
+      span { margin-right: 5px; }
+    }
   }
   .left {
     background-image: url("../../img/pages-member/cw-bao-bg.png");
+    .num {
+      span {
+        font-weight: bold;
+
+        font-size: 1.1em;
+      }
+    }
   }
   .right {
     border-left: 1px solid $gray-lighter;
@@ -135,13 +148,13 @@
       @include clearfix();
     }
     & + li {
-      border-bottom:  1px dashed $gray-lighter;
+      border-top:  1px dashed $gray-lighter;
     }
     a {
       float: left;
       padding-left: 35px;
       width: percentage(1/3);
-      & + span { border-left: 1px solid $gray-lighter; }
+      & + a { border-left: 1px solid $gray-lighter; }
     }
   }
   .finance-type {

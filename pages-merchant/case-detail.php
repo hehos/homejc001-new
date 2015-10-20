@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="../css/pages-merchant/merchant.css"/>
 </head>
 <body>
-<?php include "header.php"; ?>
+<?php include "header2.php"; ?>
 
 <div class="container">
     <!--  begin path  -->

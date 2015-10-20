@@ -58,8 +58,8 @@
                 <li class="nav-item"><a href="case-list.php">实景案例</a></li>
                 <li class="nav-item"><a href="contact-us.php">联系我们 </a></li>
             </ul>
-            <div class="right-call">
-                <i class="myicon-my-call"></i><span>400-0129-001</span>
+            <div class="right-top-btn">
+                <a href=""><i class="myicon-head-liangfang"></i></a>
             </div>
         </div>
     </div>

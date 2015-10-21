@@ -12,7 +12,7 @@
 <!--<div id="mask"></div>-->
 <!-- 弹出表单 -->
 <?php include "fixed-bottom-form.php"; ?>
-<?php //include "online-service.php"; ?>
+<?php include "online-service.php"; ?>
 
 
 <?php include "header.php"; ?>
@@ -237,7 +237,7 @@
                 <ul>
                     <li>
                         <a href="">
-                            <img src="../img/temp-img/sort1.png" alt=""/>
+                            <span class="img"><img src="../img/temp-img/sort1.png" alt=""/></span>
                             <div class="media-cont">
                                 <h4>奥佳厨柜1</h4>
                                 <div class="link-text">点击进入 ></div>

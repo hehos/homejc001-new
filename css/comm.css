@@ -16,169 +16,176 @@ body .container {
   vertical-align: middle;
 }
 
-/* line 224, myicon/*.png */
-.myicon-sprite, .myicon-QQ-icon, .myicon-QQ-icon2, .myicon-QQconsult-title, .myicon-bottom-float, .myicon-head-liangfang, .myicon-hot, .myicon-my-call, .myicon-qrcode-hongbao, .myicon-qrcode-service, .myicon-qrcode-service2, .myicon-qrcode-yuyue-succeed, .myicon-sort, .myicon-top-logo, .myicon-xiaoguo-cate1, .myicon-xiaoguo-cate10, .myicon-xiaoguo-cate2, .myicon-xiaoguo-cate3, .myicon-xiaoguo-cate4, .myicon-xiaoguo-cate5, .myicon-xiaoguo-cate6, .myicon-xiaoguo-cate7, .myicon-xiaoguo-cate8, .myicon-xiaoguo-cate9 {
-  background-image: url('../img/myicon-s7d58f4d3de.png');
+/* line 232, myicon/*.png */
+.myicon-sprite, .myicon-OICQ-icon, .myicon-QQ-icon, .myicon-QQ-icon2, .myicon-QQconsult-title, .myicon-bottom-float, .myicon-head-liangfang, .myicon-hot, .myicon-my-call, .myicon-qrcode-hongbao, .myicon-qrcode-service, .myicon-qrcode-service2, .myicon-qrcode-yuyue-succeed, .myicon-sort, .myicon-top-logo, .myicon-xiaoguo-cate1, .myicon-xiaoguo-cate10, .myicon-xiaoguo-cate2, .myicon-xiaoguo-cate3, .myicon-xiaoguo-cate4, .myicon-xiaoguo-cate5, .myicon-xiaoguo-cate6, .myicon-xiaoguo-cate7, .myicon-xiaoguo-cate8, .myicon-xiaoguo-cate9 {
+  background-image: url('../img/myicon-s36f1623ff9.png');
   background-repeat: no-repeat;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.myicon-QQ-icon {
+.myicon-OICQ-icon {
   background-position: 0 0;
+  height: 17px;
+  width: 24px;
+}
+
+/* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.myicon-QQ-icon {
+  background-position: 0 -22px;
   height: 22px;
   width: 77px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-QQ-icon2 {
-  background-position: 0 -27px;
+  background-position: 0 -49px;
   height: 23px;
   width: 74px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-QQconsult-title {
-  background-position: 0 -55px;
+  background-position: 0 -77px;
   height: 84px;
   width: 116px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-bottom-float {
-  background-position: 0 -144px;
+  background-position: 0 -166px;
   height: 122px;
   width: 416px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-head-liangfang {
-  background-position: 0 -271px;
+  background-position: 0 -293px;
   height: 51px;
   width: 213px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-hot {
-  background-position: 0 -327px;
+  background-position: 0 -349px;
   height: 18px;
   width: 29px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-my-call {
-  background-position: 0 -350px;
+  background-position: 0 -372px;
   height: 50px;
   width: 45px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-qrcode-hongbao {
-  background-position: 0 -405px;
+  background-position: 0 -427px;
   height: 84px;
   width: 86px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-qrcode-service {
-  background-position: 0 -494px;
+  background-position: 0 -516px;
   height: 84px;
   width: 84px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-qrcode-service2 {
-  background-position: 0 -583px;
+  background-position: 0 -605px;
   height: 189px;
   width: 196px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-qrcode-yuyue-succeed {
-  background-position: 0 -777px;
+  background-position: 0 -799px;
   height: 222px;
   width: 222px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-sort {
-  background-position: 0 -1004px;
+  background-position: 0 -1026px;
   height: 20px;
   width: 24px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-top-logo {
-  background-position: 0 -1029px;
+  background-position: 0 -1051px;
   height: 29px;
   width: 40px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate1 {
-  background-position: 0 -1063px;
+  background-position: 0 -1085px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate10 {
-  background-position: 0 -1098px;
+  background-position: 0 -1120px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate2 {
-  background-position: 0 -1133px;
+  background-position: 0 -1155px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate3 {
-  background-position: 0 -1168px;
+  background-position: 0 -1190px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate4 {
-  background-position: 0 -1203px;
+  background-position: 0 -1225px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate5 {
-  background-position: 0 -1238px;
+  background-position: 0 -1260px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate6 {
-  background-position: 0 -1273px;
+  background-position: 0 -1295px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate7 {
-  background-position: 0 -1308px;
+  background-position: 0 -1330px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate8 {
-  background-position: 0 -1343px;
+  background-position: 0 -1365px;
   height: 30px;
   width: 30px;
 }
 
 /* line 84, ../../../../../usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .myicon-xiaoguo-cate9 {
-  background-position: 0 -1378px;
+  background-position: 0 -1400px;
   height: 30px;
   width: 30px;
 }
@@ -386,14 +393,14 @@ body .container {
 }
 /* line 110, ../scss/comm.scss */
 .header-logo .logo-img {
-  margin-right: 1.07143em;
-  border-right: 1px solid #ddd;
+  margin-right: 1.2em;
 }
-/* line 114, ../scss/comm.scss */
+/* line 113, ../scss/comm.scss */
 .header-logo .logo-cont {
-  padding-left: 1.07143em;
+  padding-left: 1.2em;
   display: inline-block;
   line-height: 1.4;
+  border-left: 1px solid #ddd;
 }
 /* line 119, ../scss/comm.scss */
 .header-logo h3 {
@@ -748,10 +755,12 @@ body .container {
 [class*=" popup-"],
 #mask,
 [class^="fixed-"],
-[class*=" fixed-"] {
+[class*=" fixed-"],
+[class^="fixed-"] .open,
+[class*=" fixed-"] .open {
   position: fixed;
 }
-/* line 376, ../scss/comm.scss */
+/* line 378, ../scss/comm.scss */
 [class^="popup-"], [class^="popup-"] *,
 [class*=" popup-"],
 [class*=" popup-"] *,
@@ -760,11 +769,15 @@ body .container {
 [class^="fixed-"],
 [class^="fixed-"] *,
 [class*=" fixed-"],
-[class*=" fixed-"] * {
+[class*=" fixed-"] *,
+[class^="fixed-"] .open,
+[class^="fixed-"] .open *,
+[class*=" fixed-"] .open,
+[class*=" fixed-"] .open * {
   transition: all .3s ease-out;
 }
 
-/* line 383, ../scss/comm.scss */
+/* line 385, ../scss/comm.scss */
 [class^="popup-"] .close,
 [class*=" popup-"] .close,
 [class^="fixed-"] .close,
@@ -777,23 +790,25 @@ body .container {
   line-height: 1.5em;
   text-align: center;
   font-size: 1.5em;
-  font-family: sans-serif;
+  font-family: serif;
 }
 
-/* line 397, ../scss/comm.scss */
+/* line 399, ../scss/comm.scss */
 #mask {
   z-index: 10000;
 }
 
-/* line 398, ../scss/comm.scss */
+/* line 400, ../scss/comm.scss */
 [class^="popup-"],
 [class*=" popup-"],
 [class^="fixed-"],
-[class*=" fixed-"] {
+[class*=" fixed-"],
+[class^="fixed-"] .open,
+[class*=" fixed-"] .open {
   z-index: 10001;
 }
 
-/* line 403, ../scss/comm.scss */
+/* line 407, ../scss/comm.scss */
 #mask {
   left: 0;
   right: 0;
@@ -804,28 +819,28 @@ body .container {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 415, ../scss/comm.scss */
+/* line 419, ../scss/comm.scss */
 [class^="popup-"],
 [class*=" popup-"] {
   left: 50%;
   top: 50%;
   padding-bottom: 1em;
 }
-/* line 420, ../scss/comm.scss */
+/* line 424, ../scss/comm.scss */
 [class^="popup-"] .form-hd, [class^="popup-"] .form-bd, [class^="popup-"] .form-ft,
 [class*=" popup-"] .form-hd,
 [class*=" popup-"] .form-bd,
 [class*=" popup-"] .form-ft {
   padding: 0 1.8em;
 }
-/* line 423, ../scss/comm.scss */
+/* line 427, ../scss/comm.scss */
 [class^="popup-"] .form-hd,
 [class*=" popup-"] .form-hd {
   line-height: 3em;
   margin-bottom: .5em;
 }
 
-/* line 430, ../scss/comm.scss */
+/* line 434, ../scss/comm.scss */
 [class^="fixed-top-"],
 [class*=" fixed-top-"],
 [class^="fixed-bottom-"],
@@ -834,19 +849,19 @@ body .container {
   left: 0;
 }
 
-/* line 437, ../scss/comm.scss */
+/* line 441, ../scss/comm.scss */
 [class^="fixed-bottom-"],
 [class*=" fixed-bottom-"] {
   bottom: 0;
 }
 
-/* line 441, ../scss/comm.scss */
+/* line 445, ../scss/comm.scss */
 [class^="fixed-top-"],
 [class*=" fixed-top-"] {
   top: 0;
 }
 
-/* line 447, ../scss/comm.scss */
+/* line 451, ../scss/comm.scss */
 [class^="fixed-left-"],
 [class*=" fixed-left-"],
 [class^="fixed-right-"],
@@ -854,19 +869,19 @@ body .container {
   top: 50%;
 }
 
-/* line 453, ../scss/comm.scss */
+/* line 457, ../scss/comm.scss */
 [class^="fixed-left-"],
 [class*=" fixed-left-"] {
   left: 0;
 }
 
-/* line 457, ../scss/comm.scss */
+/* line 461, ../scss/comm.scss */
 [class^="fixed-right-"],
 [class*=" fixed-right-"] {
   right: 0;
 }
 
-/* line 466, ../scss/comm.scss */
+/* line 470, ../scss/comm.scss */
 .popup-yuyue-succeed {
   width: 550px;
   margin-left: -275px;
@@ -875,11 +890,11 @@ body .container {
   border: 5px solid #cccccc;
   background-color: #fff;
 }
-/* line 473, ../scss/comm.scss */
+/* line 477, ../scss/comm.scss */
 .popup-yuyue-succeed .yuyue-succeed-hd, .popup-yuyue-succeed .qrcode-tips, .popup-yuyue-succeed .qrcode {
   text-align: center;
 }
-/* line 474, ../scss/comm.scss */
+/* line 478, ../scss/comm.scss */
 .popup-yuyue-succeed .yuyue-succeed-hd {
   line-height: 77px;
   color: #bd0401;
@@ -887,31 +902,31 @@ body .container {
   border-bottom: 1px dashed #eceeef;
   font-family: "microsoft yahei", simsun;
 }
-/* line 481, ../scss/comm.scss */
+/* line 485, ../scss/comm.scss */
 .popup-yuyue-succeed .yuyue-succeed-bd {
   line-height: 32px;
   padding: 15px 0;
   text-indent: 2em;
 }
-/* line 486, ../scss/comm.scss */
+/* line 490, ../scss/comm.scss */
 .popup-yuyue-succeed .qrcode-tips {
   line-height: 50px;
   background-color: #f7f7f9;
 }
-/* line 490, ../scss/comm.scss */
+/* line 494, ../scss/comm.scss */
 .popup-yuyue-succeed .qrcode {
   padding-top: 16px;
 }
-/* line 493, ../scss/comm.scss */
+/* line 497, ../scss/comm.scss */
 .popup-yuyue-succeed img {
   width: 100%;
 }
-/* line 494, ../scss/comm.scss */
+/* line 498, ../scss/comm.scss */
 .popup-yuyue-succeed .close {
   background-color: #f7f7f9;
 }
 
-/* line 499, ../scss/comm.scss */
+/* line 503, ../scss/comm.scss */
 .popup-form-yuyue {
   width: 400px;
   min-height: 300px;
@@ -919,16 +934,16 @@ body .container {
   margin-top: -170px;
   background-color: #fff;
 }
-/* line 505, ../scss/comm.scss */
+/* line 509, ../scss/comm.scss */
 .popup-form-yuyue .form-hd, .popup-form-yuyue .form-ft {
   text-align: center;
 }
-/* line 506, ../scss/comm.scss */
+/* line 510, ../scss/comm.scss */
 .popup-form-yuyue .form-hd {
   font-size: 1.2em;
   font-family: "Microsoft Yahei", Tahoma, Arial, Helvetica, STHeiti;
 }
-/* line 511, ../scss/comm.scss */
+/* line 515, ../scss/comm.scss */
 .popup-form-yuyue .form-control-label {
   float: left;
   width: 6em;
@@ -939,11 +954,11 @@ body .container {
   margin-bottom: 0;
   text-align: center;
 }
-/* line 521, ../scss/comm.scss */
+/* line 525, ../scss/comm.scss */
 .popup-form-yuyue .input-field {
   margin-left: 6em;
 }
-/* line 523, ../scss/comm.scss */
+/* line 527, ../scss/comm.scss */
 .popup-form-yuyue .input-field.city {
   margin-right: -3%;
 }
@@ -956,95 +971,95 @@ body .container {
 .popup-form-yuyue .input-field.city:after {
   clear: both;
 }
-/* line 526, ../scss/comm.scss */
+/* line 530, ../scss/comm.scss */
 .popup-form-yuyue .input-field.city select {
   float: left;
   width: 30.33333%;
   margin-right: 3%;
 }
-/* line 533, ../scss/comm.scss */
+/* line 537, ../scss/comm.scss */
 .popup-form-yuyue .input-field.col-2 select {
   width: 47%;
 }
-/* line 538, ../scss/comm.scss */
+/* line 542, ../scss/comm.scss */
 .popup-form-yuyue .vcode .form-control {
   display: inline-block;
   width: 40%;
 }
-/* line 542, ../scss/comm.scss */
+/* line 546, ../scss/comm.scss */
 .popup-form-yuyue .vcode img {
   float: right;
 }
-/* line 545, ../scss/comm.scss */
+/* line 549, ../scss/comm.scss */
 .popup-form-yuyue .safety {
   padding: .3em 0;
 }
-/* line 549, ../scss/comm.scss */
+/* line 553, ../scss/comm.scss */
 .popup-form-yuyue .form-ft .call {
   color: #bd0401;
   font-size: 1.5em;
 }
-/* line 554, ../scss/comm.scss */
+/* line 558, ../scss/comm.scss */
 .popup-form-yuyue .submit {
   margin-bottom: .3em;
   border: none;
 }
 
 /* fixed */
-/* line 562, ../scss/comm.scss */
+/* line 566, ../scss/comm.scss */
 .fixed-bottom-form {
   display: none;
   margin-top: 2em;
   padding: 1em 0;
   overflow: visible;
 }
-/* line 567, ../scss/comm.scss */
+/* line 571, ../scss/comm.scss */
 .fixed-bottom-form, .fixed-bottom-form .open {
   transition: none;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000)";
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000);
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 571, ../scss/comm.scss */
+/* line 575, ../scss/comm.scss */
 .fixed-bottom-form .g-left {
   position: relative;
   width: 40%;
 }
-/* line 575, ../scss/comm.scss */
+/* line 579, ../scss/comm.scss */
 .fixed-bottom-form .g-center {
   width: 35%;
 }
-/* line 576, ../scss/comm.scss */
+/* line 580, ../scss/comm.scss */
 .fixed-bottom-form .g-right {
   width: 25%;
 }
-/* line 578, ../scss/comm.scss */
+/* line 582, ../scss/comm.scss */
 .fixed-bottom-form .form-line {
   margin-bottom: .5em;
 }
-/* line 580, ../scss/comm.scss */
+/* line 584, ../scss/comm.scss */
 .fixed-bottom-form .form-line input, .fixed-bottom-form .form-line select {
   display: inline-block;
   width: 47%;
   margin-right: 2%;
 }
-/* line 588, ../scss/comm.scss */
+/* line 592, ../scss/comm.scss */
 .fixed-bottom-form .g-left .float-img {
   position: absolute;
   top: -3em;
   right: 4.5em;
 }
-/* line 596, ../scss/comm.scss */
+/* line 600, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode, .fixed-bottom-form .g-right .submit {
   display: inline-block;
   width: 40%;
 }
-/* line 600, ../scss/comm.scss */
+/* line 604, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode {
   position: relative;
   text-align: center;
 }
-/* line 604, ../scss/comm.scss */
+/* line 608, ../scss/comm.scss */
 .fixed-bottom-form .g-right .qrcode-cont {
   position: absolute;
   left: 2em;
@@ -1052,75 +1067,74 @@ body .container {
   font-size: .85em;
   color: #fff;
 }
-/* line 611, ../scss/comm.scss */
+/* line 615, ../scss/comm.scss */
 .fixed-bottom-form .g-right .submit {
   margin-top: 1.5em;
 }
-/* line 613, ../scss/comm.scss */
+/* line 617, ../scss/comm.scss */
 .fixed-bottom-form .open {
   position: fixed;
-  left: -1.4em;
+  left: -.7em;
   bottom: 20px;
   z-index: 10001;
-  width: 1.4em;
+  width: .7em;
   height: 1.8em;
   line-height: 1.8em;
-  padding-left: .7em;
   text-align: center;
   font-size: 3em;
   color: #fff;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-top-right-radius: 1.8em;
+  border-bottom-right-radius: 1.8em;
   text-decoration: none;
 }
-/* line 629, ../scss/comm.scss */
+/* line 632, ../scss/comm.scss */
 .fixed-bottom-form .show {
   left: -.7em;
 }
 
-/* line 632, ../scss/comm.scss */
+/* line 635, ../scss/comm.scss */
 .fixed-right-OICQ {
   text-align: center;
   margin-top: -125px;
   background-color: #fff;
   border: 1px solid #dee2e3;
 }
-/* line 637, ../scss/comm.scss */
+/* line 640, ../scss/comm.scss */
 .fixed-right-OICQ .OICQ-hd, .fixed-right-OICQ .OICQ-bd, .fixed-right-OICQ .hotline {
   padding-left: .6em;
   padding-right: .6em;
 }
-/* line 641, ../scss/comm.scss */
+/* line 644, ../scss/comm.scss */
 .fixed-right-OICQ .OICQ-hd {
   padding-top: 1.3em;
 }
-/* line 642, ../scss/comm.scss */
+/* line 645, ../scss/comm.scss */
 .fixed-right-OICQ .OICQ-hd-img {
   border-bottom: 1px dashed #eceeef;
 }
-/* line 644, ../scss/comm.scss */
+/* line 647, ../scss/comm.scss */
 .fixed-right-OICQ .OICQ-hd-img .img-explain {
   font-size: .85em;
   padding-bottom: 1em;
   padding-top: .3em;
 }
-/* line 650, ../scss/comm.scss */
+/* line 653, ../scss/comm.scss */
 .fixed-right-OICQ .OICQ-bd {
   line-height: 2.53846em;
   padding-top: .8em;
   padding-bottom: .8em;
   font-size: 0.92857em;
 }
-/* line 656, ../scss/comm.scss */
+/* line 659, ../scss/comm.scss */
 .fixed-right-OICQ .OICQ-ft {
   line-height: 1.8;
 }
-/* line 659, ../scss/comm.scss */
+/* line 662, ../scss/comm.scss */
 .fixed-right-OICQ .hotline {
   padding: .5em 0 .7em;
   background-color: #eceeef;
 }
-/* line 663, ../scss/comm.scss */
+/* line 666, ../scss/comm.scss */
 .fixed-right-OICQ .call {
   line-height: 20px;
   padding: 0 6px;
@@ -1128,15 +1142,50 @@ body .container {
   font-weight: bold;
   color: #bd0401;
 }
-/* line 670, ../scss/comm.scss */
+/* line 673, ../scss/comm.scss */
 .fixed-right-OICQ .close {
   top: 0;
   right: 0;
   font-size: 1.1em;
 }
+/* line 679, ../scss/comm.scss */
+.fixed-right-OICQ .open {
+  box-sizing: content-box;
+  right: -40px;
+  width: 2em;
+  padding-left: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+/* line 686, ../scss/comm.scss */
+.fixed-right-OICQ .open:hover {
+  text-decoration: none;
+}
+/* line 687, ../scss/comm.scss */
+.fixed-right-OICQ .open span {
+  display: block;
+  padding: 0 .5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  line-height: 1.1;
+  font-size: .87em;
+  color: #818a91;
+  border: 1px solid #eceeef;
+}
+/* line 697, ../scss/comm.scss */
+.fixed-right-OICQ .open:before {
+  content: "<";
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  margin-top: -6px;
+  font-family: serif;
+  font-size: 12px;
+  color: #8f979d;
+}
 
 /* login succeed to member  */
-/* line 678, ../scss/comm.scss */
+/* line 711, ../scss/comm.scss */
 #member {
   position: fixed;
   left: 0;
@@ -1149,13 +1198,13 @@ body .container {
   height: 150px;
   margin-top: 200px;
 }
-/* line 689, ../scss/comm.scss */
+/* line 722, ../scss/comm.scss */
 #member [class^="icon-"], #member [class*=" icon-"] {
   font-size: 18px;
   margin-right: 20px;
   margin-left: 5px;
 }
-/* line 695, ../scss/comm.scss */
+/* line 728, ../scss/comm.scss */
 #member #avatarCnt [class^="icon-"], #member #avatarCnt [class*=" icon-"] {
   display: inline-block;
   width: 25px;
@@ -1166,11 +1215,11 @@ body .container {
   background-color: #cccccc;
   border-radius: 50%;
 }
-/* line 706, ../scss/comm.scss */
+/* line 739, ../scss/comm.scss */
 #member ul {
   padding: 10px 0;
 }
-/* line 709, ../scss/comm.scss */
+/* line 742, ../scss/comm.scss */
 #member ul li {
   width: 30px;
   white-space: nowrap;
@@ -1178,36 +1227,36 @@ body .container {
   background: url("../img/member_menu.png") no-repeat;
   overflow: hidden;
 }
-/* line 716, ../scss/comm.scss */
+/* line 749, ../scss/comm.scss */
 #member a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 720, ../scss/comm.scss */
+/* line 753, ../scss/comm.scss */
 #member ul li img {
   margin-right: 20px;
   margin-left: 3px;
 }
-/* line 724, ../scss/comm.scss */
+/* line 757, ../scss/comm.scss */
 #member ul li .avatar {
   border-radius: 12px 12px 12px 12px;
   width: 24px;
   height: 24px;
 }
-/* line 729, ../scss/comm.scss */
+/* line 762, ../scss/comm.scss */
 #member .myFav {
   background-position: 7px 14px;
 }
-/* line 732, ../scss/comm.scss */
+/* line 765, ../scss/comm.scss */
 #member .mySet {
   background-position: 7px -24px;
 }
-/* line 735, ../scss/comm.scss */
+/* line 768, ../scss/comm.scss */
 #member ul #avatarCnt {
   background: none;
   padding-left: 0;
 }
-/* line 739, ../scss/comm.scss */
+/* line 772, ../scss/comm.scss */
 #member ul #avatarCnt a {
   margin-left: 0;
 }

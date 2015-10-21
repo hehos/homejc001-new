@@ -4,6 +4,9 @@
 
 
 $(document).ready(function(){
+
+    // ===============================================
+    // 全局的js
     // 处理IE浏览器input，textarea 文本提示
     if ((navigator.userAgent.indexOf('MSIE') >= 0)
         && (navigator.userAgent.indexOf('Opera') < 0)){
@@ -34,7 +37,7 @@ $(document).ready(function(){
         });
     }
 
-    // 处理模态层 及 漂浮 层的关闭及显示、隐藏逻辑
+    // 处理模态层 关闭逻辑
     $('[data-close]').click(function() {
         $(this).parents("[data-popup]").hide();
         $("#mask").hide();
@@ -44,23 +47,30 @@ $(document).ready(function(){
         $(this).hide();
     });
 
+    // fixed显示、隐藏逻辑
     $('[data-display]').click(function() {
         var display = $(this).attr("data-display");
         var box = $(this).parents("[data-fixed]");
-        var eleWidth = box.width();
+        var eleWidth = box.outerWidth();
+        var showBtnW = box.find('[data-display="show"]').outerWidth();
         var dir = box.attr("data-fixed");
+
+        var obj1 = {}, obj2 = {};
         if("hide" == display) {
-            box.animate({ left: -eleWidth}, 400);
-            box.find('[data-display="show"]').delay(800)
-                .animate({ left: "-.7em" }, 200);
+            obj1[dir] = -eleWidth, obj2[dir] = 0;
+            box.animate(obj1, 400);
+            box.find('[data-display="show"]').delay(800).animate(obj2, 200);
         } else if("show" == display) {
-            $(this).animate({ left: "-1.4em"}, 200);
-            box.delay(800).animate({ left: 0 }, 400);
+            obj1[dir] = -showBtnW, obj2[dir] = 0;
+            $(this).animate(obj1, 200);
+            box.delay(800).animate(obj2, 400);
         }
     });
 
 
-    // 底部悬浮条 显示 与 隐藏逻辑
+
+
+    // 底部悬浮条 显示 与 隐藏  时刻逻辑
     $(window).bind("scroll",function(){
         if($(this).scrollTop() > 200) {
             $(".fixed-bottom-form").show();

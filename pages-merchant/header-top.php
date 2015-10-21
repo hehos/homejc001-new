@@ -14,7 +14,7 @@
         <div class="header-top-right">
             <ul class="member-in">
                 <li><a href=""><i class="icon-heart"></i>服务中心</a></li>
-                <li><a href=""><i class="icon-user"></i>会员中心</a></li>
+                <li><a href="http://192.168.0.188//homejc001-new/pages-member/index.php"><i class="icon-user"></i>会员中心</a></li>
                 <li ><a href="">登录</a></li>
                 <li><a href="">注册</a></li>
                 <li class="exit"><a href="">[ 退出 ]</a></li>

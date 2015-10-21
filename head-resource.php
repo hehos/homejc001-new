@@ -9,7 +9,7 @@
 
 <!-- 框架样式 -->
 <!--<link rel="stylesheet" href="../bootstrap4/dist/css/bootstrap.css"/>-->
-<link rel="stylesheet" href="http://192.168.0.188/homejc001-new/bootstrap-3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://192.168.0.188/homejc001-new/bootstrap-3.3.5/css/bootstrap.css">
 
 <!-- 字体图标样式 -->
 <link rel="stylesheet" href="../css/jzfont.css"/>

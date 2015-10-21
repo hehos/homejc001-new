@@ -108,13 +108,13 @@ $headerTopFontSize: 12;
     vertical-align: middle;
   }
   .logo-img {
-    margin-right: 15/$global-font-size + em;
-    border-right: 1px solid #ddd;
+    margin-right: 1.2em;
   }
   .logo-cont {
-    padding-left: 15/$global-font-size + em;
+    padding-left: 1.2em;
     display: inline-block;
     line-height: 1.4;
+    border-left: 1px solid #ddd;
   }
   h3 { font-size: (16/$global-font-size)+em; }
 }
@@ -244,7 +244,7 @@ $headerTopFontSize: 12;
   }
 }
 
-// global index form
+// global banner form
 .banner-form, .banner-media {
   float: left;
   border: 1px solid #eee;
@@ -371,11 +371,13 @@ $poput-z-index: 10000;
 [class*=" popup-"],
 #mask,
 [class^="fixed-"],
-[class*=" fixed-"] {
+[class*=" fixed-"],
+[class^="fixed-"] .open,
+[class*=" fixed-"] .open {
   position: fixed;
   &, * { transition: all .3s ease-out; }
 }
-// close btn style
+// close, open btn style
 [class^="popup-"],
 [class*=" popup-"],
 [class^="fixed-"],
@@ -389,7 +391,7 @@ $poput-z-index: 10000;
     line-height: 1.5em;
     text-align: center;
     font-size: 1.5em;
-    font-family: sans-serif;
+    font-family: serif;
   }
 }
 
@@ -398,7 +400,9 @@ $poput-z-index: 10000;
 [class^="popup-"],
 [class*=" popup-"],
 [class^="fixed-"],
-[class*=" fixed-"] {  z-index: $poput-z-index + 1; }
+[class*=" fixed-"],
+[class^="fixed-"] .open,
+[class*=" fixed-"] .open {  z-index: $poput-z-index + 1; }
 // mask
 #mask {
   left: 0;
@@ -612,18 +616,17 @@ $poput-z-index: 10000;
   }
   .open {
     position: fixed;
-    left: -1.4em;
+    left: -.7em;
     bottom: 20px;
     z-index: $poput-z-index + 1;
-    width: 1.4em;
+    width: .7em;
     height: 1.8em;
     line-height: 1.8em;
-    padding-left: .7em;
     text-align: center;
     font-size: 3em;
     color: $body-bg;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-right-radius: 1.8em;
+    border-bottom-right-radius: 1.8em;
     text-decoration: none;
   }
   .show { left: -.7em; }
@@ -671,6 +674,36 @@ $poput-z-index: 10000;
     top: 0;
     right: 0;
     font-size: 1.1em;
+  }
+
+  .open {
+    box-sizing: content-box;
+    right: -40px;
+    width: 2em;
+    padding-left: 10px;
+    text-align: center;
+    background-color: $body-bg;
+    &:hover { text-decoration: none; }
+    span {
+      display: block;
+      padding: 0 .5em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      line-height: 1.1;
+      font-size: .87em;
+      color: $gray-light;
+      border: 1px solid $gray-lighter;
+    }
+    &:before {
+      content: "<";
+      position: absolute;
+      left: 5px;
+      top: 50%;
+      margin-top: -6px;
+      font-family: serif;
+      font-size: 12px;
+      color: lighten($gray-light, 5%);
+    }
   }
 }
 

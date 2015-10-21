@@ -61,7 +61,7 @@
     text-align: center;
     cursor: pointer;
     font-size: 48/$global-font-size + em;
-    font-family: sans-serif;
+    font-family: serif;
     @include background-color-rgba(#000, .7);
     color: $body-bg;
   }
@@ -99,11 +99,20 @@
     @include clearfix();
     padding: 15/$global-font-size + em 0;
     img {
+      width: 100%;
+      vertical-align: middle;
+    }
+    .img {
       float: left;
+      width: 4.4em;
+      height: 4.4em;
+      line-height: 4.4em;
       margin-right: 10/$global-font-size + em;
+      overflow: hidden;
+      border: 1px solid $gray-light;
+      border-radius: 50%;
     }
     .media-cont {
-      padding: 10/$global-font-size + em 0;
       line-height: 2.2;
     }
     h4 {
@@ -113,7 +122,7 @@
     }
     .link-text {
       color: $highlightColor;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Arial, Helvetica, serif;
       font-size: .8em;
     }
   }

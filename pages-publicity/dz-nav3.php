@@ -19,7 +19,7 @@
                 <img src="../img/pages-publicity/dz-nav-2.jpg" alt=""/>
             </a>
         </div>
-        <div class="item">
+        <div class="item on">
             <a href="dz-nav3.php">
                 <img src="../img/pages-publicity/dz-nav-3-on.jpg" alt=""/>
             </a>

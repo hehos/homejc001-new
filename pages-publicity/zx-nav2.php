@@ -14,7 +14,7 @@
                 <img src="../img/pages-publicity/zx-nav-1.jpg" alt=""/>
             </a>
         </div>
-        <div class="item">
+        <div class="item on">
             <a href="zx-nav2.php">
                 <img src="../img/pages-publicity/zx-nav-2-on.jpg" alt=""/>
             </a>

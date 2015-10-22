@@ -4,10 +4,10 @@
 
 .publicity {
   background-color: #ffffff;
-  .topBgcontainer, .container, #footerA {
+  .container {
     width: 1190px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
+    & > .row { margin: 0; }
   }
 
   .title {
@@ -46,10 +46,14 @@
   @include clearfix();
   border: 1px solid #d7d7d7;
   border-bottom: none;
+  border-right: none;
   .item {
     float: left;
     width: 33.3333%;
-    & + .item { border-left: 1px solid #d7d7d7; }
+    border-right: 1px solid #d7d7d7;
+    &.on { border-right: none; }
+    &.on:first-child { margin-left: -1px; }
+    &.last, &:last-child { float: right; }
   }
   img { width: 100%; }
 }
@@ -66,14 +70,16 @@
   padding-left: 816px;
   margin-top: -1px;
   border-top: 1px solid transparent;
-  &.dz-from1 { background: url("../../img/pages-publicity/dz-banner-bg1.jpg") no-repeat 100% 100%; }
-  &.dz-from2 { background: url("../../img/pages-publicity/dz-banner-bg2.jpg") no-repeat 100% 100%; }
-  &.dz-from3 { background: url("../../img/pages-publicity/dz-banner-bg3.jpg") no-repeat 100% 100%; }
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  &.dz-from1 { background: url("../../img/pages-publicity/dz-banner-bg1.jpg"); }
+  &.dz-from2 { background: url("../../img/pages-publicity/dz-banner-bg2.jpg"); }
+  &.dz-from3 { background: url("../../img/pages-publicity/dz-banner-bg3.jpg"); }
 
-  &.zx-from1 { background: url("../../img/pages-publicity/zx-banner-bg1.jpg") no-repeat 100% 100%; }
-  &.zx-from2 { background: url("../../img/pages-publicity/zx-banner-bg2.jpg") no-repeat 100% 100%; }
-  &.zx-from3 { background: url("../../img/pages-publicity/zx-banner-bg3.jpg") no-repeat 100% 100%; }
-  &.zx-from4 { background: url("../../img/pages-publicity/zx-banner-bg4.jpg") no-repeat 100% 100%; }
+  &.zx-from1 { background: url("../../img/pages-publicity/zx-banner-bg1.jpg"); }
+  &.zx-from2 { background: url("../../img/pages-publicity/zx-banner-bg2.jpg"); }
+  &.zx-from3 { background: url("../../img/pages-publicity/zx-banner-bg3.jpg"); }
+  &.zx-from4 { background: url("../../img/pages-publicity/zx-banner-bg4.jpg"); }
   .form-cont {
     width: 340px;
     height: 456px - 54px;
@@ -232,6 +238,8 @@
 
 // 贷款计算器
 .dkjs {
+  $themeColor: #3388c9;
+
   padding: 50px 80px;
   background-color: #f8f8f8;
   .dfl, em { color: #3388c9; }

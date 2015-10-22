@@ -9,7 +9,7 @@
 
 <div class="container">
     <div class="cont-nav zx-page">
-        <div class="item on">
+        <div class="item">
             <a href="zx-nav1.php">
                 <img src="../img/pages-publicity/zx-nav-1.jpg" alt=""/>
             </a>
@@ -24,7 +24,7 @@
                 <img src="../img/pages-publicity/zx-nav-3.jpg" alt=""/>
             </a>
         </div>
-        <div class="item">
+        <div class="item on">
             <a href="zx-nav4.php">
                 <img src="../img/pages-publicity/zx-nav-4-on.jpg" alt=""/>
             </a>

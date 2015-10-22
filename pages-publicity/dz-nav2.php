@@ -9,12 +9,12 @@
 
 <div class="container">
     <div class="cont-nav">
-        <div class="item on">
+        <div class="item">
             <a href="dz-nav1.php">
                 <img src="../img/pages-publicity/dz-nav-1.jpg" alt=""/>
             </a>
         </div>
-        <div class="item">
+        <div class="item on">
             <a href="dz-nav2.php">
                 <img src="../img/pages-publicity/dz-nav-2-on.jpg" alt=""/>
             </a>

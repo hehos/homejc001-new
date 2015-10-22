@@ -75,7 +75,7 @@
 .corp-intro {
   padding: 1.2em;
   margin-bottom: 20px;
-  background-image: url("../../img/pages-member/corp-intro-bg.png");
+  background-image: url("../../img/pages-publicity/corp-intro-bg.png");
   background-position: right bottom;
   background-repeat: no-repeat;
 }
@@ -153,7 +153,7 @@
 }
 /* line 122, ../../scss/pages-member/member.scss */
 .money-info .left {
-  background-image: url("../../img/pages-member/cw-bao-bg.png");
+  background-image: url("../../img/pages-publicity/cw-bao-bg.png");
 }
 /* line 125, ../../scss/pages-member/member.scss */
 .money-info .left .num span {
@@ -163,7 +163,7 @@
 /* line 132, ../../scss/pages-member/member.scss */
 .money-info .right {
   border-left: 1px solid #eceeef;
-  background-image: url("../../img/pages-member/cw-yue-bg.png");
+  background-image: url("../../img/pages-publicity/cw-yue-bg.png");
 }
 
 /* line 138, ../../scss/pages-member/member.scss */

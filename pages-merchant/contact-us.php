@@ -15,7 +15,7 @@
 
     <!--  begin 内容  -->
     <div class="main-warp pull-right">
-        <h2>公司介绍</h2>
+        <h2>联系我们</h2>
         <div class="corp-cont corp-contact">
             <div class="cont-logo">
                 <img src="../img/temp-img/corp-logo.jpg" alt=""/>

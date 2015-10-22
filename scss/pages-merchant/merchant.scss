@@ -25,12 +25,34 @@ $themeBg: lighten($gray-lighter, 5%);
     padding-right: 1em;
   }
   .thumbnail {
+    height: 250px;
     &:hover, &:focus {
       border-color: $activeColor;
+    }
+    img {
+      width: 100%;
+      height: 100%;
     }
   }
 }
 .nav-base .nav-item { line-height: 2.4em; }
+
+
+// set element size
+.media-base .thumbnail {
+  height: 250px;
+}
+.main-warp .media-base .thumbnail {
+  height: 190px;
+}
+
+.case-info .img { height: 370px; }
+.product-info .img { height: 380px; }
+.cont-logo {
+  width: 150px;
+  img { width: 100%; }
+}
+.corp-contact .cont-logo { width: 215px; }
 
 
 .body-wrap {
@@ -205,6 +227,13 @@ table {
     left: 0;
     border: 1px solid $gray-border;
     border-bottom: none;
+    width: 125px;
+    height: 125px;
+    line-height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    background-color: $body-bg;
   }
   .logo-cont {
     line-height: 1.2;

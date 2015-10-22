@@ -167,7 +167,7 @@
                 <div class="hot-cate">
                     <div class="media-big-img hot-item">
                         <a href="" class="img">
-                            <img src="../img/temp-img/good2.png" alt=""/>
+                            <img src="../img/temp-img/product2.jpg" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜1</a></h4>
@@ -177,7 +177,7 @@
                     </div>
                     <div class="media-big-img hot-item">
                         <a href="" class="img">
-                            <img src="../img/temp-img/good2.png" alt=""/>
+                            <img src="../img/temp-img/product2.jpg" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜1</a></h4>
@@ -187,7 +187,7 @@
                     </div>
                     <div class="media-big-img hot-item">
                         <a href="" class="img">
-                            <img src="../img/temp-img/good2.png" alt=""/>
+                            <img src="../img/temp-img/product2.jpg" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜1</a></h4>
@@ -199,7 +199,7 @@
                 <div class="hot-cate" style="display: none;">
                     <div class="media-big-img hot-item">
                         <a href="" class="img">
-                            <img src="../img/temp-img/good2.png" alt=""/>
+                            <img src="../img/temp-img/product2.jpg" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜2</a></h4>
@@ -209,7 +209,7 @@
                     </div>
                     <div class="media-big-img hot-item">
                         <a href="" class="img">
-                            <img src="../img/temp-img/good2.png" alt=""/>
+                            <img src="../img/temp-img/product2.jpg" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜2</a></h4>
@@ -219,7 +219,7 @@
                     </div>
                     <div class="media-big-img hot-item">
                         <a href="" class="img">
-                            <img src="../img/temp-img/good2.png" alt=""/>
+                            <img src="../img/temp-img/product2.jpg" alt=""/>
                         </a>
                         <div class="media-cont tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜2</a></h4>
@@ -246,7 +246,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="../img/temp-img/sort1.png" alt=""/>
+                            <span class="img"><img src="../img/temp-img/sort1.png" alt=""/></span>
                             <div class="media-cont">
                                 <h4>奥佳厨柜1</h4>
                                 <div class="link-text">点击进入 ></div>
@@ -255,7 +255,16 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="../img/temp-img/sort1.png" alt=""/>
+                            <span class="img"><img src="../img/temp-img/sort1.png" alt=""/></span>
+                            <div class="media-cont">
+                                <h4>奥佳厨柜1</h4>
+                                <div class="link-text">点击进入 ></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="img"><img src="../img/temp-img/sort1.png" alt=""/></span>
                             <div class="media-cont">
                                 <h4>奥佳厨柜1</h4>
                                 <div class="link-text">点击进入 ></div>
@@ -266,7 +275,7 @@
                 <ul style="display: none;">
                     <li>
                         <a href="">
-                            <img src="../img/temp-img/sort1.png" alt=""/>
+                            <span class="img"><img src="../img/temp-img/sort1.png" alt=""/></span>
                             <div class="media-cont">
                                 <h4>奥佳厨柜2</h4>
                                 <div class="link-text">点击进入 ></div>
@@ -275,7 +284,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="../img/temp-img/sort1.png" alt=""/>
+                            <span class="img"><img src="../img/temp-img/sort1.png" alt=""/></span>
                             <div class="media-cont">
                                 <h4>奥佳厨柜2</h4>
                                 <div class="link-text">点击进入 ></div>
@@ -284,7 +293,16 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="../img/temp-img/sort1.png" alt=""/>
+                            <span class="img"><img src="../img/temp-img/sort1.png" alt=""/></span>
+                            <div class="media-cont">
+                                <h4>奥佳厨柜2</h4>
+                                <div class="link-text">点击进入 ></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="img"><img src="../img/temp-img/sort1.png" alt=""/></span>
                             <div class="media-cont">
                                 <h4>奥佳厨柜2</h4>
                                 <div class="link-text">点击进入 ></div>

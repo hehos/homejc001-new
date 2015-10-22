@@ -51,7 +51,7 @@
         <div class="container">
             <ul class="header-nav nav-base row">
                 <li class="nav-item on"><a href="http://192.168.0.188/homejc001-new/pages-main/index.php">首页</a></li>
-                <li class="nav-item has-icon"><a href="http://192.168.0.188/homejc001-new/pages-customization/html/nav1.php">定制家居<i class="myicon-hot"></i></a></li>
+                <li class="nav-item has-icon"><a href="http://192.168.0.188/homejc001-new/pages-publicity/dz-nav1.php">定制家居<i class="myicon-hot"></i></a></li>
                 <li class="nav-item has-subnav">
                     <a href="">效果图<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">

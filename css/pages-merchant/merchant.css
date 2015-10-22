@@ -17,24 +17,67 @@
   padding-left: 1em;
   padding-right: 1em;
 }
-/* line 28, ../../scss/pages-merchant/merchant.scss */
+/* line 27, ../../scss/pages-merchant/merchant.scss */
+.media-base .thumbnail {
+  height: 250px;
+}
+/* line 29, ../../scss/pages-merchant/merchant.scss */
 .media-base .thumbnail:hover, .media-base .thumbnail:focus {
   border-color: #bd0401;
 }
+/* line 32, ../../scss/pages-merchant/merchant.scss */
+.media-base .thumbnail img {
+  width: 100%;
+  height: 100%;
+}
 
-/* line 33, ../../scss/pages-merchant/merchant.scss */
+/* line 38, ../../scss/pages-merchant/merchant.scss */
 .nav-base .nav-item {
   line-height: 2.4em;
 }
 
-/* line 36, ../../scss/pages-merchant/merchant.scss */
+/* line 42, ../../scss/pages-merchant/merchant.scss */
+.media-base .thumbnail {
+  height: 250px;
+}
+
+/* line 45, ../../scss/pages-merchant/merchant.scss */
+.main-warp .media-base .thumbnail {
+  height: 190px;
+}
+
+/* line 49, ../../scss/pages-merchant/merchant.scss */
+.case-info .img {
+  height: 370px;
+}
+
+/* line 50, ../../scss/pages-merchant/merchant.scss */
+.product-info .img {
+  height: 380px;
+}
+
+/* line 51, ../../scss/pages-merchant/merchant.scss */
+.cont-logo {
+  width: 150px;
+}
+/* line 53, ../../scss/pages-merchant/merchant.scss */
+.cont-logo img {
+  width: 100%;
+}
+
+/* line 55, ../../scss/pages-merchant/merchant.scss */
+.corp-contact .cont-logo {
+  width: 215px;
+}
+
+/* line 58, ../../scss/pages-merchant/merchant.scss */
 .body-wrap {
   position: relative;
   margin-top: -1.1em;
   padding: 0;
 }
 
-/* line 41, ../../scss/pages-merchant/merchant.scss */
+/* line 63, ../../scss/pages-merchant/merchant.scss */
 .side-nav {
   position: absolute;
   height: 100%;
@@ -42,15 +85,15 @@
   padding-top: 2em;
   background-color: #fafafb;
 }
-/* line 47, ../../scss/pages-merchant/merchant.scss */
+/* line 69, ../../scss/pages-merchant/merchant.scss */
 .side-nav li:hover, .side-nav li.on {
   background-color: #f4f5f6;
 }
-/* line 49, ../../scss/pages-merchant/merchant.scss */
+/* line 71, ../../scss/pages-merchant/merchant.scss */
 .side-nav li:hover i, .side-nav li.on i {
   border-color: #bd0401;
 }
-/* line 51, ../../scss/pages-merchant/merchant.scss */
+/* line 73, ../../scss/pages-merchant/merchant.scss */
 .side-nav i {
   display: inline-block;
   width: 14px;
@@ -63,12 +106,12 @@
   font-size: 10px;
 }
 
-/* line 64, ../../scss/pages-merchant/merchant.scss */
+/* line 86, ../../scss/pages-merchant/merchant.scss */
 .main-warp {
   width: 83.33333%;
   padding-left: 28px;
 }
-/* line 67, ../../scss/pages-merchant/merchant.scss */
+/* line 89, ../../scss/pages-merchant/merchant.scss */
 .main-warp h2 {
   font-size: 2em;
   padding: 1em 0;
@@ -77,124 +120,124 @@
   border-bottom: 1px solid #eceeef;
   margin-bottom: 1em;
 }
-/* line 75, ../../scss/pages-merchant/merchant.scss */
+/* line 97, ../../scss/pages-merchant/merchant.scss */
 .main-warp h3 {
   font-size: 1.4em;
   line-height: 2em;
   font-family: "microsoft yahei", simsun;
 }
 
-/* line 82, ../../scss/pages-merchant/merchant.scss */
+/* line 104, ../../scss/pages-merchant/merchant.scss */
 table {
   line-height: 3.5em;
   border: 1px solid #f7f7f9;
   border-bottom: none;
 }
-/* line 86, ../../scss/pages-merchant/merchant.scss */
+/* line 108, ../../scss/pages-merchant/merchant.scss */
 table th, table td {
   border-bottom: 1px solid #f7f7f9;
 }
-/* line 89, ../../scss/pages-merchant/merchant.scss */
+/* line 111, ../../scss/pages-merchant/merchant.scss */
 table th {
   background-color: #fafafb;
   text-align: center;
 }
-/* line 93, ../../scss/pages-merchant/merchant.scss */
+/* line 115, ../../scss/pages-merchant/merchant.scss */
 table td {
   padding: 0 1em;
 }
 
-/* line 96, ../../scss/pages-merchant/merchant.scss */
+/* line 118, ../../scss/pages-merchant/merchant.scss */
 .cont-logo {
   float: left;
   margin-right: 20px;
 }
 
-/* line 101, ../../scss/pages-merchant/merchant.scss */
+/* line 123, ../../scss/pages-merchant/merchant.scss */
 .otherInfo, .side-product {
   border: 1px solid #eceeef;
 }
 
-/* line 102, ../../scss/pages-merchant/merchant.scss */
+/* line 124, ../../scss/pages-merchant/merchant.scss */
 .side-product {
   padding: .3em 1em;
 }
-/* line 104, ../../scss/pages-merchant/merchant.scss */
+/* line 126, ../../scss/pages-merchant/merchant.scss */
 .side-product .title-bar {
   margin-top: 0;
 }
-/* line 106, ../../scss/pages-merchant/merchant.scss */
+/* line 128, ../../scss/pages-merchant/merchant.scss */
 .side-product .title-bar .title {
   font-size: 1.4em;
 }
-/* line 108, ../../scss/pages-merchant/merchant.scss */
+/* line 130, ../../scss/pages-merchant/merchant.scss */
 .side-product .media-base {
   text-align: center;
 }
 
-/* line 114, ../../scss/pages-merchant/merchant.scss */
+/* line 136, ../../scss/pages-merchant/merchant.scss */
 .product .media-base {
   padding-bottom: 1em;
   background-color: #fafafb;
 }
-/* line 115, ../../scss/pages-merchant/merchant.scss */
+/* line 137, ../../scss/pages-merchant/merchant.scss */
 .product .media-base .media-title {
   font-size: 1.4em;
   font-family: "microsoft yahei", simsun;
 }
-/* line 121, ../../scss/pages-merchant/merchant.scss */
+/* line 143, ../../scss/pages-merchant/merchant.scss */
 .product .media-base .media-btn {
   bottom: 3.5em;
 }
 
-/* line 124, ../../scss/pages-merchant/merchant.scss */
+/* line 146, ../../scss/pages-merchant/merchant.scss */
 .case .media-base {
   text-align: center;
   border: 6px solid #fafafb;
 }
-/* line 127, ../../scss/pages-merchant/merchant.scss */
+/* line 149, ../../scss/pages-merchant/merchant.scss */
 .case .media-base .media-explain {
   color: #818a91;
 }
 
-/* line 132, ../../scss/pages-merchant/merchant.scss */
+/* line 154, ../../scss/pages-merchant/merchant.scss */
 .popup-form-yuyue {
   width: 436px;
   padding-top: 0;
   margin-left: -218px;
   border: 3px solid #d6dadc;
 }
-/* line 138, ../../scss/pages-merchant/merchant.scss */
+/* line 160, ../../scss/pages-merchant/merchant.scss */
 .popup-form-yuyue input, .popup-form-yuyue select {
   border-radius: 0;
   border-color: #eceeef;
 }
-/* line 142, ../../scss/pages-merchant/merchant.scss */
+/* line 164, ../../scss/pages-merchant/merchant.scss */
 .popup-form-yuyue .form-hd {
   background-color: #f7f7f9;
   margin-bottom: 1.5em;
 }
-/* line 146, ../../scss/pages-merchant/merchant.scss */
+/* line 168, ../../scss/pages-merchant/merchant.scss */
 .popup-form-yuyue .submit {
   padding-bottom: 1.5em;
   margin-bottom: .8em;
   border-bottom: 1px solid #eceeef;
 }
-/* line 150, ../../scss/pages-merchant/merchant.scss */
+/* line 172, ../../scss/pages-merchant/merchant.scss */
 .popup-form-yuyue .submit button {
   padding: 10px 40px;
 }
-/* line 154, ../../scss/pages-merchant/merchant.scss */
+/* line 176, ../../scss/pages-merchant/merchant.scss */
 .popup-form-yuyue .call-cont {
   width: 50%;
   text-align: center;
 }
-/* line 158, ../../scss/pages-merchant/merchant.scss */
+/* line 180, ../../scss/pages-merchant/merchant.scss */
 .popup-form-yuyue .call {
   color: #bd0401;
   font-weight: bold;
 }
-/* line 162, ../../scss/pages-merchant/merchant.scss */
+/* line 184, ../../scss/pages-merchant/merchant.scss */
 .popup-form-yuyue .form-ft {
   line-height: 2em;
   text-align: left;
@@ -202,38 +245,38 @@ table td {
   font-size: .87em;
 }
 
-/* line 171, ../../scss/pages-merchant/merchant.scss */
+/* line 193, ../../scss/pages-merchant/merchant.scss */
 .header-top {
   color: #6d7377;
 }
-/* line 174, ../../scss/pages-merchant/merchant.scss */
+/* line 196, ../../scss/pages-merchant/merchant.scss */
 .header-top .member-in i, .header-top .member-in .exit {
   color: #bd0401;
 }
-/* line 175, ../../scss/pages-merchant/merchant.scss */
+/* line 197, ../../scss/pages-merchant/merchant.scss */
 .header-top .member-in i {
   vertical-align: middle;
   font-size: 1.2em;
   margin-right: 5px;
 }
 
-/* line 184, ../../scss/pages-merchant/merchant.scss */
+/* line 206, ../../scss/pages-merchant/merchant.scss */
 .header-center .container, .header-bottom .container {
   position: relative;
 }
 
-/* line 186, ../../scss/pages-merchant/merchant.scss */
+/* line 208, ../../scss/pages-merchant/merchant.scss */
 .header-center {
   position: relative;
   padding: 1.4em 1em 1em;
   z-index: 10;
 }
 
-/* line 193, ../../scss/pages-merchant/merchant.scss */
+/* line 215, ../../scss/pages-merchant/merchant.scss */
 .header-logo {
   padding-left: 130px;
 }
-/* line 195, ../../scss/pages-merchant/merchant.scss */
+/* line 217, ../../scss/pages-merchant/merchant.scss */
 .header-logo h1 {
   margin-top: 5px;
   margin-bottom: 15px;
@@ -241,66 +284,73 @@ table td {
   font-family: "microsoft yahei", simsun;
   font-weight: bold;
 }
-/* line 202, ../../scss/pages-merchant/merchant.scss */
+/* line 224, ../../scss/pages-merchant/merchant.scss */
 .header-logo .logo-img {
   position: absolute;
   bottom: -53px;
   left: 0;
   border: 1px solid #ddd;
   border-bottom: none;
+  width: 125px;
+  height: 125px;
+  line-height: 120px;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fff;
 }
-/* line 209, ../../scss/pages-merchant/merchant.scss */
+/* line 238, ../../scss/pages-merchant/merchant.scss */
 .header-logo .logo-cont {
   line-height: 1.2;
   padding-left: 0;
   border-left: none;
 }
 
-/* line 215, ../../scss/pages-merchant/merchant.scss */
+/* line 244, ../../scss/pages-merchant/merchant.scss */
 .header-share {
   position: absolute;
   right: 0;
   bottom: 10px;
 }
-/* line 219, ../../scss/pages-merchant/merchant.scss */
+/* line 248, ../../scss/pages-merchant/merchant.scss */
 .header-share li {
   float: left;
   color: #818a91;
 }
-/* line 222, ../../scss/pages-merchant/merchant.scss */
+/* line 251, ../../scss/pages-merchant/merchant.scss */
 .header-share li + li {
   margin-right: 1em;
 }
-/* line 224, ../../scss/pages-merchant/merchant.scss */
+/* line 253, ../../scss/pages-merchant/merchant.scss */
 .header-share i {
   vertical-align: middle;
 }
 
-/* line 227, ../../scss/pages-merchant/merchant.scss */
+/* line 256, ../../scss/pages-merchant/merchant.scss */
 .header-bottom {
   background-color: #bd0401;
   color: #fff;
   border-top: 1px solid #000;
   margin-top: 0;
 }
-/* line 231, ../../scss/pages-merchant/merchant.scss */
+/* line 260, ../../scss/pages-merchant/merchant.scss */
 .header-bottom .container {
   background-color: transparent;
 }
-/* line 233, ../../scss/pages-merchant/merchant.scss */
+/* line 262, ../../scss/pages-merchant/merchant.scss */
 .header-bottom .header-nav {
   padding-left: 124px;
 }
-/* line 237, ../../scss/pages-merchant/merchant.scss */
+/* line 266, ../../scss/pages-merchant/merchant.scss */
 .header-bottom .nav-item:before {
   display: none;
 }
-/* line 238, ../../scss/pages-merchant/merchant.scss */
+/* line 267, ../../scss/pages-merchant/merchant.scss */
 .header-bottom .nav-item:hover, .header-bottom .nav-item.on {
   background-color: #d60501;
   outline: none;
 }
-/* line 244, ../../scss/pages-merchant/merchant.scss */
+/* line 273, ../../scss/pages-merchant/merchant.scss */
 .header-bottom .right-call, .header-bottom .right-top-btn {
   position: absolute;
   right: 0;
@@ -308,37 +358,37 @@ table td {
   font-size: 22px;
   font-weight: bold;
 }
-/* line 250, ../../scss/pages-merchant/merchant.scss */
+/* line 279, ../../scss/pages-merchant/merchant.scss */
 .header-bottom .right-call i, .header-bottom .right-top-btn i {
   margin-right: 15px;
   vertical-align: bottom;
 }
-/* line 255, ../../scss/pages-merchant/merchant.scss */
+/* line 284, ../../scss/pages-merchant/merchant.scss */
 .header-bottom .right-top-btn {
   bottom: 0;
 }
 
-/* line 258, ../../scss/pages-merchant/merchant.scss */
+/* line 287, ../../scss/pages-merchant/merchant.scss */
 .banner-form {
   float: right;
 }
 
-/* line 259, ../../scss/pages-merchant/merchant.scss */
+/* line 288, ../../scss/pages-merchant/merchant.scss */
 .banner-media {
   float: left;
 }
 
-/* line 262, ../../scss/pages-merchant/merchant.scss */
+/* line 291, ../../scss/pages-merchant/merchant.scss */
 .liangfang-and-corp .liangfang-cont, .liangfang-and-corp .corp-cont {
   height: 300px;
   overflow: hidden;
 }
 
-/* line 267, ../../scss/pages-merchant/merchant.scss */
+/* line 296, ../../scss/pages-merchant/merchant.scss */
 .liangfang-area {
   width: 73%;
 }
-/* line 269, ../../scss/pages-merchant/merchant.scss */
+/* line 298, ../../scss/pages-merchant/merchant.scss */
 .liangfang-area .title-bar .other-info {
   line-height: 1.4;
   height: 1.4em;
@@ -348,177 +398,177 @@ table td {
   padding: 0 6px;
   font-family: serif;
 }
-/* line 278, ../../scss/pages-merchant/merchant.scss */
+/* line 307, ../../scss/pages-merchant/merchant.scss */
 .liangfang-area table {
   width: 100%;
   line-height: 3em;
 }
-/* line 282, ../../scss/pages-merchant/merchant.scss */
+/* line 311, ../../scss/pages-merchant/merchant.scss */
 .liangfang-area th, .liangfang-area td {
   text-align: center;
 }
-/* line 285, ../../scss/pages-merchant/merchant.scss */
+/* line 314, ../../scss/pages-merchant/merchant.scss */
 .liangfang-area th {
   font-weight: normal;
   font-family: "microsoft yahei", simsun;
 }
-/* line 289, ../../scss/pages-merchant/merchant.scss */
+/* line 318, ../../scss/pages-merchant/merchant.scss */
 .liangfang-area .scrolltableHead th {
   background-color: #fafafb;
 }
 
-/* line 293, ../../scss/pages-merchant/merchant.scss */
+/* line 322, ../../scss/pages-merchant/merchant.scss */
 .corp-area {
   width: 25%;
   line-height: 2.5em;
 }
-/* line 297, ../../scss/pages-merchant/merchant.scss */
+/* line 326, ../../scss/pages-merchant/merchant.scss */
 .corp-area .corp-cont {
   padding: 1em 1.2em;
   background-color: #fafafb;
 }
-/* line 301, ../../scss/pages-merchant/merchant.scss */
+/* line 330, ../../scss/pages-merchant/merchant.scss */
 .corp-area p {
   text-indent: 2em;
 }
 
-/* line 309, ../../scss/pages-merchant/merchant.scss */
+/* line 338, ../../scss/pages-merchant/merchant.scss */
 .main-warp .corp-cont {
   overflow: hidden;
   margin-bottom: 2em;
 }
-/* line 312, ../../scss/pages-merchant/merchant.scss */
+/* line 341, ../../scss/pages-merchant/merchant.scss */
 .main-warp .corp-cont p {
   line-height: 2em;
 }
-/* line 317, ../../scss/pages-merchant/merchant.scss */
+/* line 346, ../../scss/pages-merchant/merchant.scss */
 .main-warp .corp-contact h5 {
   font-size: 1.6em;
   font-family: "microsoft yahei", simsun;
   margin-bottom: .5em;
 }
-/* line 322, ../../scss/pages-merchant/merchant.scss */
+/* line 351, ../../scss/pages-merchant/merchant.scss */
 .main-warp .corp-contact p {
   font-size: .8em;
   color: #55595c;
 }
-/* line 326, ../../scss/pages-merchant/merchant.scss */
+/* line 355, ../../scss/pages-merchant/merchant.scss */
 .main-warp .corp-contact .btn-row {
   margin-top: 1em;
   background-color: #fafafb;
   font-size: 1.4em;
   line-height: 2.5em;
 }
-/* line 331, ../../scss/pages-merchant/merchant.scss */
+/* line 360, ../../scss/pages-merchant/merchant.scss */
 .main-warp .corp-contact .btn-row button {
   margin-right: 2em;
 }
-/* line 332, ../../scss/pages-merchant/merchant.scss */
+/* line 361, ../../scss/pages-merchant/merchant.scss */
 .main-warp .corp-contact .btn-row .call {
   color: #bd0401;
 }
 
-/* line 341, ../../scss/pages-merchant/merchant.scss */
+/* line 370, ../../scss/pages-merchant/merchant.scss */
 .page-path {
   color: #55595c;
 }
-/* line 343, ../../scss/pages-merchant/merchant.scss */
+/* line 372, ../../scss/pages-merchant/merchant.scss */
 .page-path i {
   font-size: 1.2em;
   margin-right: 3px;
 }
-/* line 347, ../../scss/pages-merchant/merchant.scss */
+/* line 376, ../../scss/pages-merchant/merchant.scss */
 .page-path .active {
   color: #373a3c;
 }
 
-/* line 350, ../../scss/pages-merchant/merchant.scss */
+/* line 379, ../../scss/pages-merchant/merchant.scss */
 .case-info .media-info, .product-info .media-info {
   width: 41.5%;
 }
-/* line 353, ../../scss/pages-merchant/merchant.scss */
+/* line 382, ../../scss/pages-merchant/merchant.scss */
 .case-info .info, .product-info .info {
   width: 58.5%;
 }
-/* line 357, ../../scss/pages-merchant/merchant.scss */
+/* line 386, ../../scss/pages-merchant/merchant.scss */
 .case-info .img, .product-info .img {
   padding: 2px;
   border: 1px solid #dee2e3;
 }
-/* line 361, ../../scss/pages-merchant/merchant.scss */
+/* line 390, ../../scss/pages-merchant/merchant.scss */
 .case-info img, .product-info img {
   width: 100%;
 }
-/* line 362, ../../scss/pages-merchant/merchant.scss */
+/* line 391, ../../scss/pages-merchant/merchant.scss */
 .case-info .info, .product-info .info {
   padding-left: 2em;
 }
-/* line 365, ../../scss/pages-merchant/merchant.scss */
+/* line 394, ../../scss/pages-merchant/merchant.scss */
 .case-info h4, .product-info h4 {
   font-size: 1.6em;
   font-weight: bold;
   padding: .5em 0 .8em;
 }
-/* line 370, ../../scss/pages-merchant/merchant.scss */
+/* line 399, ../../scss/pages-merchant/merchant.scss */
 .case-info li, .product-info li {
   line-height: 3.5em;
   border-bottom: 1px solid #f7f7f9;
   color: #55595c;
 }
-/* line 374, ../../scss/pages-merchant/merchant.scss */
+/* line 403, ../../scss/pages-merchant/merchant.scss */
 .case-info li .money, .product-info li .money {
   font-size: 1.8em;
   color: #bd0401;
   font-family: "microsoft yahei", simsun;
 }
-/* line 380, ../../scss/pages-merchant/merchant.scss */
+/* line 409, ../../scss/pages-merchant/merchant.scss */
 .case-info .btn-row, .product-info .btn-row {
   margin-top: 1.5em;
 }
 
-/* line 385, ../../scss/pages-merchant/merchant.scss */
+/* line 414, ../../scss/pages-merchant/merchant.scss */
 .case-info h4 {
   border-bottom: 1px solid #f7f7f9;
 }
 
-/* line 386, ../../scss/pages-merchant/merchant.scss */
+/* line 415, ../../scss/pages-merchant/merchant.scss */
 .product-info .btn-row {
   margin-bottom: 1em;
 }
 
-/* line 388, ../../scss/pages-merchant/merchant.scss */
+/* line 417, ../../scss/pages-merchant/merchant.scss */
 .case-otherInfo, .product-otherInfo {
   margin-top: 2em;
 }
-/* line 390, ../../scss/pages-merchant/merchant.scss */
+/* line 419, ../../scss/pages-merchant/merchant.scss */
 .case-otherInfo .info-title, .product-otherInfo .info-title {
   font-size: 1.3em;
   background-color: #f7f7f9;
 }
-/* line 395, ../../scss/pages-merchant/merchant.scss */
+/* line 424, ../../scss/pages-merchant/merchant.scss */
 .case-otherInfo .otherInfo .details-cont, .product-otherInfo .otherInfo .details-cont {
   padding: 1.5em;
 }
 
-/* line 401, ../../scss/pages-merchant/merchant.scss */
+/* line 430, ../../scss/pages-merchant/merchant.scss */
 .tabs-nav3 {
   background-color: transparent;
   border-bottom-color: #eceeef;
   border-top-color: #eceeef;
 }
 
-/* line 406, ../../scss/pages-merchant/merchant.scss */
+/* line 435, ../../scss/pages-merchant/merchant.scss */
 .tabs-nav3 > li {
   width: auto;
 }
 
-/* line 409, ../../scss/pages-merchant/merchant.scss */
+/* line 438, ../../scss/pages-merchant/merchant.scss */
 .tabs-nav3 > li > a {
   padding: 0 1.5em;
   font-size: 1em;
 }
 
-/* line 414, ../../scss/pages-merchant/merchant.scss */
+/* line 443, ../../scss/pages-merchant/merchant.scss */
 .case-otherInfo .info-title {
   line-height: 3em;
   padding-left: 1em;

@@ -13,11 +13,11 @@ body .container {
 
 // global title
 .title-bar {
-  padding-bottom: 5/$global-font-size + em;
-  margin: 20/$global-font-size + em 0;
+  padding-bottom: 5/$globalFontSize + em;
+  margin: 20/$globalFontSize + em 0;
   border-bottom: 1px solid $gray-lighter;
   .title {
-    font-size: 24/$global-font-size + em;
+    font-size: 24/$globalFontSize + em;
     a:hover {
       color: inherit;
       text-decoration: none;
@@ -77,7 +77,7 @@ $myicon-sprite-dimensions: true;
 // header icon
 #header {
   .has-subnav, .header-select {
-    i { margin-left: 8/$global-font-size + em; }
+    i { margin-left: 8/$globalFontSize + em; }
     .icon-angle-up { display: none; }
     &:hover {
       .icon-angle-up { display: inline-block; }
@@ -86,7 +86,7 @@ $myicon-sprite-dimensions: true;
   }
   .has-icon {
     i {
-      margin-top: 3/$global-font-size + em;
+      margin-top: 3/$globalFontSize + em;
       vertical-align: top;
     }
   }
@@ -95,7 +95,7 @@ $myicon-sprite-dimensions: true;
 // header-top
 $headerTopFontSize: 12;
 .header-top {
-  font-size: ($headerTopFontSize/$global-font-size) + em;
+  font-size: ($headerTopFontSize/$globalFontSize) + em;
   line-height: 30/$headerTopFontSize + em;
   background-color: $gray-lightest;
   border-bottom: 1px solid #ddd;
@@ -137,7 +137,7 @@ $headerTopFontSize: 12;
 // header-center
 .header-center {
   @include clearfix();
-  padding: (20/$global-font-size) + em;
+  padding: (20/$globalFontSize) + em;
 }
 .header-logo, .header-search {
   float: left;
@@ -157,17 +157,17 @@ $headerTopFontSize: 12;
     line-height: 1.4;
     border-left: 1px solid #ddd;
   }
-  h3 { font-size: (16/$global-font-size)+em; }
+  h3 { font-size: (16/$globalFontSize)+em; }
 }
-.header-search { margin-top: 10/$global-font-size + em; }
+.header-search { margin-top: 10/$globalFontSize + em; }
 .header-search-box {
   @include clearfix();
   position: relative;
-  height: 40/$global-font-size + em;
-  line-height: 34/$global-font-size + em;
-  margin-right: 20/$global-font-size + em;
-  padding-left: 100/$global-font-size + em;
-  padding-right: 80/$global-font-size + em;
+  height: 40/$globalFontSize + em;
+  line-height: 34/$globalFontSize + em;
+  margin-right: 20/$globalFontSize + em;
+  padding-left: 100/$globalFontSize + em;
+  padding-right: 80/$globalFontSize + em;
   border: 3px solid $activeColor;
   .header-select, input, button {
     float: left;
@@ -180,24 +180,24 @@ $headerTopFontSize: 12;
 
   .header-select {
     left: 0;
-    width: 100/$global-font-size + em;
+    width: 100/$globalFontSize + em;
     text-align: center;
     border-right: 1px solid #eee;
     a { text-decoration: none; }
     ul {
       position: absolute;
-      top: 33/$global-font-size + em;
+      top: 33/$globalFontSize + em;
       left: 0;
       z-index: 10000;
       width: 100%;
-      padding: 6/$global-font-size + em 0;
+      padding: 6/$globalFontSize + em 0;
       background-color: #fff;
       border: 1px solid #ddd;
       border-top: none;
     }
     li {
-      line-height: 30/$global-font-size + em;
-      padding: 0 5/$global-font-size + em;
+      line-height: 30/$globalFontSize + em;
+      padding: 0 5/$globalFontSize + em;
       padding: 0 .85em;
       &:hover {
         background-color: darken($body-bg, 5%);
@@ -209,15 +209,15 @@ $headerTopFontSize: 12;
   }
   button {
     right: 0;
-    height: 34/$global-font-size + em;
-    width: 80/$global-font-size + em;
+    height: 34/$globalFontSize + em;
+    width: 80/$globalFontSize + em;
     background-color: $activeColor;
     color: #fff;
   }
   input {
     width: 100%;
-    height: 34/$global-font-size + em;;
-    padding: ((34-20)/2)/$global-font-size + em  10/$global-font-size + em;
+    height: 34/$globalFontSize + em;;
+    padding: ((34-20)/2)/$globalFontSize + em  10/$globalFontSize + em;
   }
   input, button { border: none; }
 }
@@ -230,8 +230,8 @@ $headerTopFontSize: 12;
   }
   .right-collect {
     position: absolute;
-    bottom: 5/$global-font-size + em;
-    right: 10/$global-font-size + em;
+    bottom: 5/$globalFontSize + em;
+    right: 10/$globalFontSize + em;
   }
 
   .header-nav {
@@ -283,7 +283,7 @@ $headerTopFontSize: 12;
 }
 
 .banner-form, .yuyue-form {
-  padding: 0 15/$global-font-size + em 10/$global-font-size + em;
+  padding: 0 15/$globalFontSize + em 10/$globalFontSize + em;
   border: 1px solid $gray-lighter;
   .form-tab {
     margin-bottom: 1em;
@@ -305,7 +305,7 @@ $headerTopFontSize: 12;
     li {
       float: left;
       line-height: 1.6;
-      padding:  12/$global-font-size + em 6/$global-font-size + em;
+      padding:  12/$globalFontSize + em 6/$globalFontSize + em;
       text-align: center;
       & + li { border-left: 1px solid #eee; }
       &:hover, &.on {
@@ -316,16 +316,16 @@ $headerTopFontSize: 12;
   }
   .form-state {
     margin-bottom: .85em;
-    line-height: 27/$global-font-size + em;
+    line-height: 27/$globalFontSize + em;
     text-align: center;
     background-color: #f6f6f6;
     em {
       color: $highlightColor;
-      font-size: 18/$global-font-size + em;
+      font-size: 18/$globalFontSize + em;
     }
   }
   .form-line {
-    margin-bottom: 15/$global-font-size + em;
+    margin-bottom: 15/$globalFontSize + em;
     input, select {
       border: 1px solid #dddddd;
       padding: 6px 12px;
@@ -346,12 +346,12 @@ $headerTopFontSize: 12;
 
   .form-hd, .form-bottom {
     color: $gray-light;
-    font-size: 12/$global-font-size + em;
+    font-size: 12/$globalFontSize + em;
     P { @include text-truncate; }
   }
   .form-hd p { padding-bottom: .85em; }
   .form-bottom {
-    p { margin-bottom: 4/$global-font-size + em; }
+    p { margin-bottom: 4/$globalFontSize + em; }
     i { margin-right: .5em; }
   }
 }

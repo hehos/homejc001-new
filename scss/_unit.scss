@@ -20,8 +20,8 @@
   display: inline-block;
 }
 .u-circle-btn {
-  width: 50/$global-font-size + em;
-  height: 50/$global-font-size + em;
+  width: 50/$globalFontSize + em;
+  height: 50/$globalFontSize + em;
   line-height: 1.2;
   padding: .8em 0 .6em;
   text-align: center;
@@ -34,7 +34,7 @@
   i {
     display: inline-block;
     margin-top: -.2em;
-    font-size: 24/$global-font-size + em;
+    font-size: 24/$globalFontSize + em;
   }
 }
 

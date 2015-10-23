@@ -11,7 +11,7 @@
   line-height: 1.2;
   padding: .2em 1em;
 
-  font-size: 12em/14;
+  font-size: (12/14) + em;
   .label, .label-title, .label-control {
     display: block;
     padding: .7em 0; // 和line-height值使.label具有2.4em的有效高度。

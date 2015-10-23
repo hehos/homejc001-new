@@ -1,4 +1,4 @@
-@import "../../css/variables";
+@import "../../variables";
 @import "media-config";
 
 /* 修复父元素display: table-cell;时，图片子元素max-width属性值为百分比单位的问题 */
@@ -29,13 +29,13 @@
    p, h4, h5, h6 { margin: 0; }
    p {
      margin-bottom: .3em;
-     color: @gray;
+     color: $gray;
    }
    h4, h5, h6 { font-size: inherit; }
    .media-title {
      display: block;
      line-height: 1.4;
-     a:hover { color: @activeColor; }
+     a:hover { color: $activeColor; }
    }
-   .media-time, .time { color: @gray-light; }
+   .media-time, .time { color: $gray-light; }
  }

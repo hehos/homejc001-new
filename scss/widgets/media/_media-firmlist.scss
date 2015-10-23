@@ -1,10 +1,10 @@
-@import "../../../css/mixins.less";
-@import "../media-config.less";
+@import "../../mixins";
+@import "media-config";
 
 .media-firmitem{
-  .media-imgtxt();
-  .media-horizontal();
-  .media-btns();
+  @include media-imgtxt();
+  @include media-horizontal();
+  @include media-btns();
 
   .media-labels1, .media-labels2 {
     line-height: 2;
@@ -16,11 +16,11 @@
     }
   }
   .media-labels2 {
-    .clearfix();
+    @include clearfix();
     span {
       float: left;
       width: 33.3%;
     }
-    em { color: @activeColor; }
+    em { color: $activeColor; }
   }
 }

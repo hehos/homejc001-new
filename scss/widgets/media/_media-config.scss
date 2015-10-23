@@ -1,12 +1,12 @@
-@import "../../css/variables";
+@import "../../variables";
 // 变量
-@activeColor: @globalActiveColor;
+$activeColor: $activeColor;
 
 
 // ================================
 // 模块局部公用样式
 
-.media-imgtxt() {
+@mixin media-imgtxt() {
   &:hover {
     .media-explain, .media-text { color: inherit; }
   }
@@ -19,10 +19,10 @@
   }
 }
 
-.media-vertical() {
+@mixin media-vertical() {
 }
 
-.media-horizontal() {
+@mixin media-horizontal() {
   padding-top: .7em;
   padding-bottom: .7em;
   .media-title {
@@ -33,19 +33,19 @@
     font-family: "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体";
   }
   .media-state {
-    color: @gray-light;
-    em { color: @activeColor; }
+    color: $gray-light;
+    em { color: $activeColor; }
   }
 }
 
-.media-goods() {
+@mixin media-goods() {
   .thumbnail { border: none; }
   .media-title {
     font-weight: normal;
     margin-bottom: .6em;
   }
   .media-price {
-    color: @activeColor;
+    color: $activeColor;
     font-size: 1.5em;
     line-height: 1em;
 
@@ -68,11 +68,11 @@
     }
     .bought { float: right; }
   }
-  .media-norms { color: @gray; }
-  .keyword { color: @keywordColor; }
+  .media-norms { color: $gray; }
+  .keyword { color: $keywordColor; }
 }
 
-.media-btns() {
+@mixin media-btns() {
   .media-btns {
     padding-left: 2em;
     padding-top: .7em;
@@ -87,7 +87,7 @@
 }
 
 
-.media-share() {
+@mixin media-share() {
   /* 下拉信息及箭头样式 begin */
   // 清除bs框架默认样式
   .dropdown-menu>li>a { padding: .2em 1em; }
@@ -114,11 +114,11 @@
     }
     &:before {
       top: 0;
-      .caret-up(8px, #C0BCBC);
+      @include caret-up(8px, #C0BCBC);
     }
     &:after {
       top: 1px;
-      .caret-up(8px, #fff);
+      @include caret-up(8px, #fff);
     }
   }
   &:hover {

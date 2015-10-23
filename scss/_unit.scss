@@ -5,11 +5,20 @@
 .fc-red { color: $activeColor; }
 .fc-green { color: $highlightColor; }
 
+
+// 元素块距离
+// margin-t, margin-r, margin-b, margin-r 表示margin上、右、下、左
+.margin-l-19 { margin-bottom: (19/14) + em; }
+.margin-b-13 { margin-bottom: (13/14) + em; }
+.margin-b-17 { margin-bottom: (17/14) + em; }
+.margin-b-19 { margin-bottom: (19/14) + em; }
+.margin-b-21 { margin-bottom: (21/14) + em; }
+
+
 // 功能原件
 [class^="u-"], [class*=" u-"] {
   display: inline-block;
 }
-
 .u-circle-btn {
   width: 50/$global-font-size + em;
   height: 50/$global-font-size + em;

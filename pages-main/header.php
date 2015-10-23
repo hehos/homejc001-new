@@ -68,7 +68,7 @@
                     </ol>
                 </li>
                 <li class="nav-item has-subnav">
-                    <a href="http://192.168.0.188/homejc001-new/pages-decoration/list.php">找装修<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
+                    <a href="http://192.168.0.188/homejc001-new/pages-decoration/index.php">找装修<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">
                         <li><a href="">装修公司</a></li>
                         <li><a href="">设计师</a></li>

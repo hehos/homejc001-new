@@ -1,9 +1,9 @@
-@import "../../../css/mixins.less";
-@import "../media-config.less";
+@import "../../mixins";
+@import "media-config";
 
 .media-base {
   .media-title {
-    .text-overflow-base();
+    @include text-truncate();
     line-height: 2;
     &.tran-layer {
       position: absolute;

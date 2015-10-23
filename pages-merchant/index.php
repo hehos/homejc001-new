@@ -45,8 +45,8 @@
             </div>
         </div>
         <div class="banner-form">
-            <div class="form-tab">
-                <ul class="row">
+            <div class="form-tab row">
+                <ul>
                     <li class="col-lg-3 on">
                         <a href="">免费<br/>量房</a>
                         <i class="arrows-down icon-sort-down"></i>

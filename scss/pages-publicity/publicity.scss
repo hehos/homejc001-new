@@ -126,7 +126,7 @@
     }
     input, button, select { height: 32px; }
     button { cursor: pointer; }
-    [type=submit] {
+    [type=submit], .submit {
       height: 40px;
       line-height: 40px;
       background-color: #91b81d;

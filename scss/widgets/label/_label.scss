@@ -1,0 +1,45 @@
+@import "../../_mixins";
+@import "label-config";
+
+.label-nav,
+.label-bar,
+.label-filter,
+.label-close,
+.label-cate {
+  &, & ul { @include clearfix(); }
+  position: relative;
+  line-height: 1.2;
+  padding: .2em 1em;
+
+  font-size: 12em/14;
+  .label, .label-title, .label-control {
+    display: block;
+    padding: .7em 0; // 和line-height值使.label具有2.4em的有效高度。
+    font-size: inherit;
+    font-weight: normal;
+    line-height: inherit;
+  }
+  .label {
+    float: left;
+    margin-right: 2em;
+    color: inherit;
+    &.on, &:hover { color: $activeColor; }
+  }
+
+  // 有分割线
+  &.split-line {
+    .label {
+      margin-right: 1em;
+      &:before {
+        content: "";
+        float: right;
+        height: 1em;
+        margin-left: 1em;
+        border-right: 1px solid #ddd;
+      }
+      &:last-child {
+        &:before { display: none; }
+      }
+    }
+  }
+}

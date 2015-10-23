@@ -49,10 +49,23 @@ $themeBg: lighten($gray-lighter, 5%);
 .case-info .img { height: 370px; }
 .product-info .img { height: 380px; }
 .cont-logo {
-  width: 150px;
-  img { width: 100%; }
+  text-align: center;
+  border: 1px solid $gray-lighter;
+  img {
+    width: auto;
+    vertical-align: middle;
+  }
 }
-.corp-contact .cont-logo { width: 215px; }
+.corp-intro .cont-logo {
+  width: 150px;
+  height: 150px;
+  line-height: 140px;
+}
+.corp-contact .cont-logo {
+  width: 225px;
+  padding: 5px;
+  border: 1px solid $gray-lighter;
+}
 
 
 .body-wrap {
@@ -223,7 +236,7 @@ table {
   }
   .logo-img {
     position: absolute;
-    bottom: -53px;
+    bottom: -54px;
     left: 0;
     border: 1px solid $gray-border;
     border-bottom: none;

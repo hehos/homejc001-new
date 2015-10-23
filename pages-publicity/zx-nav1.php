@@ -65,6 +65,7 @@
     <img src="../img/pages-publicity/zx-nav1-img2.jpg" alt=""/>
     <img src="../img/pages-publicity/zx-nav1-img3.jpg" alt=""/>
     <img src="../img/pages-publicity/zx-nav1-img4.jpg" alt=""/>
+    <img src="../img/pages-publicity/zx-nav1-img5.jpg" alt=""/>
 </div>
 
 </body>

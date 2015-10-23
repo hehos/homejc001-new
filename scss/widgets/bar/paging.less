@@ -1,0 +1,64 @@
+@import "../../../css/mixins";
+@import "../bar-config";
+
+.paging-bar {
+  text-align: center;
+  line-height: 2.8;
+  font-size: 1em;
+  a:hover, a:focus { text-decoration: none; }
+  .paging-list, .paging-form {
+    display: inline-block;
+    .clearfix();
+  }
+  &.distance {
+    .paging-list a + a { margin-left: 1em; }
+  }
+  .paging-list a, .paging-form span { float: left; }
+  .paging-list a {
+    width: 3em;
+    background-color: @globalBg;
+    border: 1px solid @gray-border;
+    + a { margin-left: -1px; }
+    &:hover { background-color: darken(@globalBg, 5%); }
+    &.prev, &.next {
+      width: auto;
+      padding: 0 1em;
+    }
+    &.omit, &.omit:hover {
+      margin-left: 0;
+      border: none;
+      background: @themeBg;
+    }
+    &.omit + a { margin-left: 0; }
+
+    &.current, &.current:hover {
+      color: #ffffff;
+      background-color: @activeColor;
+      border-color: @activeColor;
+    }
+  }
+
+  .paging-form {
+    > span { margin-left: .5em; }
+    input, button {
+      box-sizing: content-box;
+      border: 1px solid @gray-border;
+    }
+    input {
+      width: 2em;
+      height: 1.5em;
+      line-height: 1.5;
+      padding: 0 .2em;
+      margin: 0 .2em;
+    }
+    button {
+      height: 1.8em;
+      line-height: 1.8;
+      padding: 0 .8em;
+      background-color: @globalBg;
+      &:hover {
+        background-color: darken(@globalBg, 5%);
+      }
+    }
+  }
+}

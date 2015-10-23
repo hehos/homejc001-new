@@ -10,6 +10,13 @@ body .container {
   max-width: none;
 }
 
+// 全局的 display: table-cell 时的左中右布局
+.layout-left, .layout-body, .layout-right {
+  display: table-cell;
+  vertical-align: top;
+}
+/* 宽度自适应宽度 */
+.layout-body { width: 10000px; }
 
 [class^="myicon-"],
 [class*=" myicon-"] {

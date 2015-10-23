@@ -1,0 +1,68 @@
+/*
+Error: File to import not found or unreadable: widgets/bar/bar.
+       Load paths:
+         Compass::SpriteImporter
+         /home/www/workspace/homejc001-new/scss
+         /usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets
+        on line 7 of /home/www/workspace/homejc001-new/./scss/widget2.scss
+
+2: @import "mixins";
+3: 
+4: // import widgets
+5: 
+6: // bar
+7: @import "widgets/bar/bar";
+8: @import "widgets/bar/breadcrumb";
+9: @import "widgets/bar/paging";
+10: @import "widgets/bar/filter-bar";
+11: @import "widgets/bar/title-bar-base";
+12: 
+
+Backtrace:
+/home/www/workspace/homejc001-new/./scss/widget2.scss:7
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/import_node.rb:45:in `import'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/import_node.rb:28:in `imported_file'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/import_node.rb:37:in `css_import?'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `with_base'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/root_node.rb:20:in `render'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/engine.rb:268:in `render'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:252:in `call'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: widgets/bar/bar.\A        Load paths:\A          Compass::SpriteImporter\A          /home/www/workspace/homejc001-new/scss\A          /usr/local/ruby-2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets\A         on line 7 of /home/www/workspace/homejc001-new/./scss/widget2.scss\A \A 2: @import \"mixins\";\A 3: \A 4: // import widgets\A 5: \A 6: // bar\A 7: @import \"widgets/bar/bar\";\A 8: @import \"widgets/bar/breadcrumb\";\A 9: @import \"widgets/bar/paging\";\A 10: @import \"widgets/bar/filter-bar\";\A 11: @import \"widgets/bar/title-bar-base\";\A 12: "; }

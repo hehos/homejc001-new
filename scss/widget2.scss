@@ -1,0 +1,414 @@
+@import "variables";
+@import "mixins";
+
+// import widgets
+
+// bar
+@import "widgets/bar/bar";
+@import "widgets/bar/breadcrumb";
+@import "widgets/bar/paging";
+@import "widgets/bar/filter-bar";
+@import "widgets/bar/title-bar-base";
+
+// label
+@import "widgets/label/label";
+@import "widgets/label/label-bar";
+@import "widgets/label/label-close";
+@import "widgets/label/label-filter";
+
+// media
+@import "widgets/media/media";
+@import "widgets/media/media-base";
+@import "widgets/media/media-firmlist";
+
+// nav
+@import "widgets/nav/nav";
+@import "widgets/nav/nav-base";
+
+// tabs
+@import "widgets/tabs/tabs";
+@import "widgets/nav/tabs-nav3";
+
+
+
+// custom widget
+.side-nav {
+  line-height: 3em;
+  .title {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  li {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    font-size: 1.1em;
+    font-family: "microsoft yahei", simsun;
+    &:hover, &:focus, &.on {
+      a { text-decoration: none; }
+      color: $activeColor;
+    }
+  }
+}
+
+
+// ===========================================
+// bar
+// title
+.title-bar {
+  $height: 2.6em;
+
+  @include clearfix();
+  line-height: $height;
+  // clear frame style
+  .title, .subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "microsoft yahei", simsun;
+  }
+  .title,
+  .subtitle {
+    float: left;
+    line-height: inherit;
+  }
+  .subtitle,
+  .title-nav,
+  .other-info { margin-left: 1.5em; }
+  .title-nav {
+  @include clearfix();
+    li {
+      float: left;
+      padding: 0 ;
+    }
+    em {
+      padding: 0 1em;
+      line-height: .9em;
+      font-family: "\5b8b\4f53";
+      color: $gray-light;
+    }
+  }
+  .title {
+    font-size: (20/14) + em;
+    font-weight: 400;
+  }
+  .subtitle {
+    font-size: (16/14) + em;
+  }
+  .more {
+    float: right;
+    padding-left: 1em;
+    color: $gray-light;
+    i {
+      margin-left: .2em;
+      font-size: 1.2em;
+      vertical-align: middle;
+    }
+  }
+  .other-info {
+    color: $gray-light;
+    font-size: (12/14) + em;
+    line-height: $height;
+    margin-top: $height*(14-12)/12;
+  }
+}
+
+// paging
+.paging-bar {
+  text-align: center;
+  line-height: 2.8;
+  font-size: 1em;
+  a:hover, a:focus { text-decoration: none; }
+  .paging-list, .paging-form {
+    display: inline-block;
+    @include clearfix();
+  }
+}
+.paging-list a, .paging-form span { float: left; }
+.paging-list {
+  a {
+    width: 3em;
+    background-color: $globalBg;
+    border: 1px solid $gray-border;
+    + a { margin-left: -1px; }
+    &:hover { background-color: darken($globalBg, 5%); }
+    &.prev, &.next {
+      width: auto;
+      padding: 0 1em;
+    }
+    &.omit, &.omit:hover {
+       margin-left: 0;
+       border: none;
+       background: $body-bg;
+     }
+    &.omit + a { margin-left: 0; }
+
+    &.current, &.current:hover {
+      color: #ffffff;
+      background-color: $activeColor;
+      border-color: $activeColor;
+    }
+  }
+  &.divide a {
+    margin-right: 1em;
+    &.omit, &.omit:hover {
+      margin-right: 0;
+      margin-left: -1em;
+    }
+  }
+}
+.paging-form {
+  > span { margin-left: .5em; }
+  input, button {
+    box-sizing: content-box;
+    border: 1px solid $gray-border;
+  }
+  input {
+    width: 2em;
+    height: 1.5em;
+    line-height: 1.5;
+    padding: 0 .2em;
+    margin: 0 .2em;
+  }
+  button {
+    height: 1.8em;
+    line-height: 1.8;
+    padding: 0 .8em;
+    background-color: $globalBg;
+    &:hover {
+      background-color: darken($globalBg, 5%);
+    }
+  }
+}
+
+// breadcrumb
+.breadcrumb, .breadcrumb-arrow, .breadcrumb-vertical {
+  @include clearfix();
+  padding: 8px 15px;
+  background-color: transparent;
+  margin-bottom: 0;
+  border-radius: 0;
+
+  li { float: left; }
+  li + li:before {
+    content: "/";
+    text-align: center;
+    font-family: "\5b8b\4f53";
+  }
+}
+.breadcrumb-arrow, .breadcrumb-vertical {
+  li + li:before {
+    color: #ccc;
+    padding: 0 5px;
+  }
+}
+.breadcrumb-arrow {
+  li + li:before { content: ">"; }
+}
+.breadcrumb-vertical {
+  li + li:before { content: "|"; }
+}
+
+// tabs
+.tabs-nav3 {
+  border-top: 2px solid $gray-border;
+  border-bottom: 1px solid $gray-border;
+  background-color: $gray-lighter;
+  > li {
+    width: 80px;
+    margin-bottom: -1px;
+    &.on, &:hover {
+      background-color: $body-bg;
+      > a {
+        position: relative;
+        border-top: 2px solid $activeColor;
+        margin-top: -2px;
+        /* 活动导航条目的向下的图标 */
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 50%;
+          margin-left: -5px;
+          @include caret-down($size: 5px, $color: $activeColor);
+        }
+      }
+    }
+  }
+}
+
+
+// media
+.media-base,
+.media-circle,
+.media-goods,
+.media-goods2,
+.media-newsitem,
+.media-firmitem,
+.media-big-img {
+  p, h4, h5, h6 { margin: 0; }
+  p {
+    margin-bottom: .3em;
+    color: $gray;
+  }
+  h4, h5, h6 { font-size: inherit; }
+
+  margin-bottom: 20px;
+  position: relative;
+  /* clear bootstrap style and add property */
+  .thumbnail {
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .tran-layer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 .6em;
+    color: #ffffff;
+    @include background-color-rgba(#000, .7);
+    a:hover { color: inherit; }
+  }
+  .media-title {
+    display: block;
+    line-height: 1.4;
+//    a:hover { color: $activeColor; }
+  }
+
+  .media-btn {
+    position: absolute;
+    bottom: 30/$global-font-size + em;
+    right: 15/$global-font-size + em;
+  }
+
+  .media-time, .time { color: $gray-light; }
+}
+
+
+.media-base {
+  .media-title {
+    @include text-truncate();
+    line-height: 2;
+  }
+}
+
+
+.media-big-img {
+  .media-cont {
+    position: relative;
+    padding: 20/$global-font-size + em;
+    &.tran-layer {
+      position: absolute;
+      p {
+        color: $gray;
+      }
+    }
+  }
+
+  .media-title {
+    font-size: 24/$global-font-size + em;
+  }
+  p {
+    color: $gray-light;
+  }
+}
+
+.media-txt-list {
+  .img {
+    float: left;
+    margin-right: 1em;
+  }
+  .media-cont {
+    line-height: 1.9;
+    a {
+      display: block;
+      @include text-truncate();
+    }
+  }
+}
+
+// tabs
+
+
+.tabs-base,
+.tabs-nav1,
+.tabs-nav2,
+.tabs-nav3 {
+  @include clearfix();
+  a { text-decoration: none; }
+  > li {
+    float: left;
+    text-align: center;
+    line-height: 3em;
+    & > a {
+      display: block;
+      font-size: (16/14) + em;
+      font-family: "Microsoft YaHei", tahoma, arial, simsun;
+      &:before {
+        content: "";
+      }
+
+    }
+    + li a { margin-left: -1px; }
+  }
+}
+
+.tabs-nav1 {
+  > li {
+    width: percentage(1/3);
+    > a {
+      border: 1px solid $gray-border;
+    }
+    &.on, &:hover {
+      > a { border-bottom-color: transparent; }
+    }
+  }
+}
+
+ul, ol, li {
+  list-style: none;
+  margin: 0;
+}
+
+.my-progress {
+  background-color: $body-bg;
+  margin-bottom: 0;
+  @include clearfix();
+  li {
+    position: relative;
+    float: left;
+    width: percentage(1/4);
+    text-align: center;
+    &.on {
+      .prog-line, .prog-num {
+        background-color: $btn-success-bg;
+      }
+    }
+  }
+  .prog-line {
+    position: absolute;
+    left: -50%;
+    top: 50%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -3px;
+    height: 3px;
+    background-color: $gray-lighter;
+  }
+  .prog-num {
+    content: " ";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: $gray-lighter;
+  }
+
+}
+
+// 后续的使用方式
+
+@import "widgets/filterbox-tubatu";

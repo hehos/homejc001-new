@@ -117,10 +117,10 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item carousel-item active">
-                        <a href=""><img src="../img/banner1.png" alt=""/></a>
+                        <a href="http://192.168.0.188/homejc001-new/pages-merchant/index.php"><img src="../img/banner1.png" alt=""/></a>
                     </div>
                     <div class="item carousel-item">
-                        <a href=""><img src="../img/banner2.png" alt=""/></a>
+                        <a href="http://192.168.0.188/homejc001-new/pages-merchant/index.php"><img src="../img/banner2.png" alt=""/></a>
                     </div>
                 </div>
 

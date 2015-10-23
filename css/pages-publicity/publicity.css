@@ -194,7 +194,7 @@
   cursor: pointer;
 }
 /* line 129, ../../scss/pages-publicity/publicity.scss */
-.head-form .form-cont [type=submit] {
+.head-form .form-cont [type=submit], .head-form .form-cont .submit {
   height: 40px;
   line-height: 40px;
   background-color: #91b81d;

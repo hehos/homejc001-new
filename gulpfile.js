@@ -155,7 +155,7 @@ gulp.task('img', ['cleanImg'], function () {
 
 // ==============================
 // html
-gulp.task('html', function () {
+gulp.task('html', ['cleanHtml'], function () {
     return gulp.src(cf.src.file.html)
         .pipe(gulp.dest(cf.dist.dir.html));
 });
@@ -175,6 +175,10 @@ gulp.task('cleanJs', function() {
         .pipe(clean());
 });
 gulp.task('cleanImg', function() {
+    return gulp.src(cf.dist.dir.img, {read: false})
+        .pipe(clean());
+});
+gulp.task('cleanHtml', function() {
     return gulp.src(cf.dist.dir.img, {read: false})
         .pipe(clean());
 });

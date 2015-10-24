@@ -1,0 +1,65 @@
+@import "../../variables";
+@import "../../mixins";
+
+// 变量
+$activeColor: $activeColor;
+
+
+
+// title-bar 标题栏
+@mixin title-bar-base() {
+  $height: 2.6em;
+
+  @include clearfix();
+  line-height: $height;
+  // 清除框架样式
+  .title, .subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "microsoft yahei", simsun;
+  }
+  .title,
+  .subtitle {
+    float: left;
+    line-height: inherit;
+  }
+  .subtitle,
+  .title-nav,
+  .other-info { padding-left: 1.5em; }
+  .title-nav {
+    @include clearfix();
+    li {
+      float: left;
+      padding: 0 ;
+    }
+    em {
+      padding: 0 1em;
+      line-height: .9em;
+      font-family: "\5b8b\4f53";
+      color: $grayBorder;
+    }
+  }
+  .title {
+    font-size: pxToEm(20px);
+    font-weight: 400;
+  }
+  .subtitle {
+    font-size: pxToEm(16px);
+  }
+  .more {
+    float: right;
+    padding-left: 1em;
+    color: $gray-light;
+    i {
+      margin-left: .2em;
+      font-size: 1.2em;
+      vertical-align: middle;
+    }
+  }
+  .other-info {
+    color: $gray-light;
+    font-size: pxToEm(12px);
+    line-height: $height;
+    margin-top: $height*(14-12)/12;
+  }
+}

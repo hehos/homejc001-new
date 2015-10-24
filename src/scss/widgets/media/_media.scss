@@ -1,0 +1,59 @@
+@import "media-config";
+
+/* 修复父元素display: table-cell;时，图片子元素max-width属性值为百分比单位的问题 */
+.media-left, .media-right, .media-body {
+  img {  max-width: none; }
+}
+.media-body {
+  position: relative;
+  overflow: visible;
+}
+
+.media-base,
+.media-circle,
+.media-goods,
+.media-goods2,
+.media-newsitem,
+.media-firmitem,
+.media-big-img {
+  p, h4, h5, h6 { margin: 0; }
+  p {
+    margin-bottom: .3em;
+    color: $gray;
+  }
+  h4, h5, h6 { font-size: inherit; }
+
+  margin-bottom: 20px;
+  position: relative;
+  /* clear bootstrap style and add property */
+  .thumbnail {
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .tran-layer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 .6em;
+    color: #ffffff;
+    @include background-color-rgba(#000, .7);
+    a:hover { color: inherit; }
+  }
+  .media-title {
+    display: block;
+    line-height: 1.4;
+    //    a:hover { color: $activeColor; }
+  }
+
+  .media-btn {
+    position: absolute;
+    bottom: pxToEm(30px);
+    right: pxToEm(15px);
+  }
+
+  .media-time, .time { color: $gray-light; }
+}

@@ -1,9 +1,0 @@
-@charset "UTF-8";
-/** 测试 gulp-ruby-sass 编译sass时支持中文与否 **/
-div {
-  border: 1px solid #ddd;
-  width: 100%;
-  opacity: .8;
-  -webkit-transform: rotate(30deg);
-      -ms-transform: rotate(30deg);
-          transform: rotate(30deg); }

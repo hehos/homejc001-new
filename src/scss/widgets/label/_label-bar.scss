@@ -1,0 +1,13 @@
+@import "label-config";
+
+@mixin label-bar() {
+  .label-title {
+    width: 6em;
+    color: $gray;
+  }
+}
+
+.label-bar {
+  @include label-bar();
+}
+

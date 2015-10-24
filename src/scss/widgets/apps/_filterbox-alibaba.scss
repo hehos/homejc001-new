@@ -1,0 +1,35 @@
+
+
+.filter-box1, .filter-box2 {
+  color: #666;
+  border-bottom: none;
+  .filter-head {
+    @include clearfix();
+    padding: .8em 1em;
+    font-size: (12/14) + em;
+  }
+  .location, .filtered {
+    float: left;
+  }
+  .right-info {
+    float: right;
+    color: #999;
+    em {
+      color: $activeColor;
+      padding: 0 .3em;
+    }
+  }
+
+  .location, .filtered, .right-info {
+    padding: 0;
+    line-height: 2em;
+  }
+  .location { padding-right: 1.5em; }
+
+  .filter-body { border: 1px solid $gray-lighter; }
+  .filter-item {
+    border-top: 1px solid $gray-lighter;
+    &:first-child { border-top: none; }
+    .label, .label-title, .label-control { padding: 1em 0; }
+  }
+}

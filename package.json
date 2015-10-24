@@ -1,39 +1,34 @@
 {
-  "name": "homejc001-new",
+  "name": "testgulp",
   "version": "1.0.0",
-  "description": "家具网新版",
-  "main": "index.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:synchronizingtheworld/homejc001-new.git"
-  },
-  "author": "hehui",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/synchronizingtheworld/homejc001-new/issues"
-  },
-  "homepage": "https://github.com/synchronizingtheworld/homejc001-new",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.0.2",
+    "gulp-autoprefixer": "^3.1.0",
     "gulp-cache": "^0.3.0",
     "gulp-clean": "^0.3.1",
-    "gulp-compass": "^2.1.0",
     "gulp-concat": "^2.6.0",
     "gulp-copy": "0.0.2",
+    "gulp-csso": "^1.0.1",
     "gulp-imagemin": "^2.3.0",
+    "gulp-inject-string": "0.0.2",
     "gulp-jshint": "^1.11.2",
-    "gulp-livereload": "^3.8.0",
+    "gulp-livereload": "^3.8.1",
     "gulp-minify-css": "^1.2.1",
     "gulp-notify": "^2.2.0",
     "gulp-rename": "^1.2.2",
-    "gulp-ruby-sass": "^2.0.3",
-    "gulp-simple-compass": "^0.1.1",
-    "gulp-sourcemaps": "^1.5.2",
-    "gulp-uglify": "^1.4.1",
-    "gulp.spritesmith": "^4.1.0"
+    "gulp-ruby-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.2",
+    "gulp.spritesmith": "^4.1.1",
+    "imagemin-pngquant": "^4.2.0",
+    "merge-stream": "^1.0.0",
+    "run-sequence": "^1.1.4"
   }
 }

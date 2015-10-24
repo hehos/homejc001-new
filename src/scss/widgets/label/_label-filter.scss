@@ -1,0 +1,33 @@
+@import "label-config";
+
+@import "label-bar";
+
+.label-filter {
+
+  @include label-bar();
+  .label a { padding-right: 1em; }
+  .label-control {
+    @include clearfix();
+    width: 9.2em;
+    .glyphicon { margin-left: .25em; }
+
+    .label-hide,
+    .label-cancel { background-color: #f5f5f5; }
+    a {
+      float: left;
+      display: inline-block;
+      width: 4em;
+      text-align: center;
+      line-height: 1.6;
+      margin-top: -.3em;
+      margin-right: .5em;
+      color: #666666;
+      border: 1px solid #dddddd;
+      &.on, &:hover, &.label-confirm {
+        color: $activeColor;
+        border-color: $activeColor;
+        text-decoration: none;
+      }
+    }
+  }
+}

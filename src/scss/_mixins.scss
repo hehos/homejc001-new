@@ -24,14 +24,15 @@
     @return $px / $baseFontSize * 1rem;
   }
 }
-@function pxToNum($px, $newFontSize: false) {
-  @if $newFontSize {
-    @return $px / $newFontSize;
-  } @else {
-    @return $px / $baseFontSize;
+@function toNum($val) {
+  @if("px" == unit($val)) {
+    @return $val / 1px;
+  } @else if("em" == unit($val)) {
+    @return $val / 1em;
+  } @else if("rem" == unit($val)) {
+    @return $val / 1rem;
   }
 }
-
 // my add mixins
 // ---- from amazeui -----
 // =============================================================================

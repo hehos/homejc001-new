@@ -2,8 +2,8 @@
     <div class="container">
         <div class="header-top-left">
             <ul class="attention-ways">
-                <li><a href="http://192.168.0.188/homejc001-new/src/html/pages-main/index.php"><span class="myicon-top-logo"></span></a></li>
-                <li><a href="http://192.168.0.188/homejc001-new/src/html/pages-main/index.php">回到首页</a></li>
+                <li><a href="http://192.168.0.188/homejc001-new/dist/html/pages-main/index.php"><span class="myicon-top-logo"></span></a></li>
+                <li><a href="http://192.168.0.188/homejc001-new/dist/html/pages-main/index.php">回到首页</a></li>
                 <li><a href="">定制中心</a></li>
                 <li><a href="">效果图</a></li>
                 <li><a href="">装修攻略</a></li>
@@ -14,7 +14,7 @@
         <div class="header-top-right">
             <ul class="member-in">
                 <li><a href=""><i class="icon-heart"></i>服务中心</a></li>
-                <li><a href="http://192.168.0.188//homejc001-new/src/html/pages-member/index.php"><i class="icon-user"></i>会员中心</a></li>
+                <li><a href="http://192.168.0.188//homejc001-new/dist/html/pages-member/index.php"><i class="icon-user"></i>会员中心</a></li>
                 <li ><a href="">登录</a></li>
                 <li><a href="">注册</a></li>
                 <li class="exit"><a href="">[ 退出 ]</a></li>

@@ -26,12 +26,13 @@ $themeBg: lighten($gray-lighter, 5%);
   }
   .thumbnail {
     height: 250px;
+    line-height: 246px;
+    text-align: center;
     &:hover, &:focus {
       border-color: $activeColor;
     }
-    img { 
-      width: 100%;
-      height: 100%;
+    img {
+      vertical-align: middle;
     }
   }
 }
@@ -161,44 +162,6 @@ table {
   border: 6px solid $themeBg;
   .media-explain {
     color: $gray-light;
-  }
-}
-
-.popup-form-yuyue {
-  $popupWidth: 436px;
-  width: $popupWidth;
-  padding-top: 0;
-  margin-left: -$popupWidth/2;
-  border: 3px solid darken($gray-lighter, 8%);
-  input, select {
-    border-radius: 0;
-    border-color: $gray-lighter;
-  }
-  .form-hd {
-    background-color: $gray-lightest;
-    margin-bottom: 1.5em;
-  }
-  .submit {
-    padding-bottom: 1.5em;
-    margin-bottom: .8em;
-    border-bottom: 1px solid $gray-lighter;
-    button {
-      padding: 10px 40px;
-    }
-  }
-  .call-cont {
-    width: 50%;
-    text-align: center;
-  }
-  .call {
-    color: $activeColor;
-    font-weight: bold;
-  }
-  .form-ft {
-    line-height: 2em;
-    text-align: left;
-    color: $gray-light;
-    font-size: .87em;
   }
 }
 

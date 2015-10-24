@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-merchant/merchant.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-merchant/merchant.min.css"/>
 </head>
 <body>
 <?php include "header.php"; ?>
@@ -161,7 +161,7 @@
                     </div>
                 </div>
 
-                <script src="http://192.168.0.188/homejc001-new/src/js/scroll-vertical.js"></script>
+                <script src="http://192.168.0.188/homejc001-new/dist/js/scroll-vertical.js"></script>
                 <script>
                     $(".scrolltable-warp").scrollTable({rows: 6});
                 </script>

@@ -1,6 +1,5 @@
 @import "../../variables";
 @import "../../mixins";
-
 // 变量
 $activeColor: $activeColor;
 
@@ -8,10 +7,11 @@ $activeColor: $activeColor;
 
 // title-bar 标题栏
 @mixin title-bar-base() {
-  $height: 2.6em;
+  $ht: 3.2em;
+  $bb: 2px;
 
   @include clearfix();
-  line-height: $height;
+  line-height: $ht;
   // 清除框架样式
   .title, .subtitle {
     margin-top: 0;
@@ -28,20 +28,22 @@ $activeColor: $activeColor;
   .other-info { padding-left: 1.5em; }
   .title-nav {
     @include clearfix();
+    font-size: 1em;
+    line-height: 2.5em;
+    margin-top: .5em;
     li {
       float: left;
       padding: 0 ;
     }
     em {
       padding: 0 1em;
-      line-height: .9em;
       font-family: "\5b8b\4f53";
       color: $grayBorder;
     }
   }
   .title {
-    font-size: pxToEm(20px);
     font-weight: 400;
+    font-size: $font-size-h2;
   }
   .subtitle {
     font-size: pxToEm(16px);
@@ -57,9 +59,45 @@ $activeColor: $activeColor;
     }
   }
   .other-info {
+    $fs: 12px;
     color: $gray-light;
-    font-size: pxToEm(12px);
-    line-height: $height;
-    margin-top: $height*(14-12)/12;
+    font-size: pxToEm($fs);
+
+    $mt: .8em;
+    margin-top: $mt;
+    // 减去$bb(2px)表示不撑开下边框。
+    line-height: ($baseFontSize * toNum($ht) - $bb) / $fs * 1em - $mt;
+  }
+  // fontsize
+  &.fs1 .title {
+    font-size: $font-size-h3;
+  }
+  &.fs2 .title {
+    font-size: $font-size-h4;
+  }
+  // 3 种style
+  &.style1 {
+    border-bottom: $bb solid $activeColor;
+  }
+  &.style2 {
+    border-bottom: $bb solid $activeColor;
+    .title {
+      padding: 0 .5em;
+      background-color: $activeColor;
+      color: #ffffff;
+    }
+  }
+  &.style3 {
+    .title:before {
+      content: "";
+      display: inline-block;
+      height: 1em;
+      width: 6px;
+      margin-right: .5em;
+      vertical-align: middle;
+      margin-bottom: .2em;  // 修复垂直不严格居中问题。
+      border-radius: 2px;
+      background-color: $activeColor;
+    }
   }
 }

@@ -8,12 +8,12 @@
 
 <script language="JavaScript">
     $("#member li").hover(function(){
-        $(this).css('background-color' , '#b2a6a6');
+        $(this).min.css('background-color' , '#b2a6a6');
         $(this).stop().animate({
             width:'130px'
         }, 'fast');
     },function(){
-        $(this).css('background-color' , '');
+        $(this).min.css('background-color' , '');
         $(this).stop().animate({
             width:'30px'
         }, 'fast');

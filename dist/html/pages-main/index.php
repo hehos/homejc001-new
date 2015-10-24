@@ -2,14 +2,14 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/index.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/index.min.css"/>
 </head>
 <body>
 
 <!-- 预约成功弹出提示 -->
-<?php //include "../popup-form-yuyue.php"; ?>
+<?php include "../popup-form-yuyue.php"; ?>
 <?php //include "../popup-yuyue-succeed.php"; ?>
-<!--<div id="mask"></div>-->
+<div id="mask"></div>
 <!-- 弹出表单 -->
 <?php include "../fixed-bottom-form.php"; ?>
 <?php include "../online-service.php"; ?>
@@ -117,13 +117,13 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item carousel-item active">
-                        <a href="http://192.168.0.188/homejc001-new/src/html/pages-merchant/index.php"><img src="../../img/banner1.jpg" alt=""/></a>
+                        <a href="http://192.168.0.188/homejc001-new/dist/html/pages-merchant/index.php"><img src="../../img/banner1.jpg" alt=""/></a>
                     </div>
                     <div class="item carousel-item">
-                        <a href="http://192.168.0.188/homejc001-new/src/html/pages-merchant/index.php"><img src="../../img/banner2.jpg" alt=""/></a>
+                        <a href="http://192.168.0.188/homejc001-new/dist/html/pages-merchant/index.php"><img src="../../img/banner2.jpg" alt=""/></a>
                     </div>
                     <div class="item carousel-item">
-                        <a href="http://192.168.0.188/homejc001-new/src/html/pages-merchant/index.php"><img src="../../img/banner3.jpg" alt=""/></a>
+                        <a href="http://192.168.0.188/homejc001-new/dist/html/pages-merchant/index.php"><img src="../../img/banner3.jpg" alt=""/></a>
                     </div>
                 </div>
 

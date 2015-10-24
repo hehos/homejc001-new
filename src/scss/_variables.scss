@@ -7,12 +7,18 @@ $globalBg:                      #f8f8f8;
 $themeBg:                       $body-bg;
 $activeColor:                   #bd0401;
 $activeColor2:                  #91b81d;
-
+$linkColor:                     $activeColor2;
 
 // gray
-$grayBorder:                   #ddd;
+$grayBorder:                    #ddd;
 
 
 // font-size
-//$globalFontSize:              14;
 $baseFontSize:                  $font-size-root;
+
+$font-size-h1:                  2em;
+$font-size-h2:                  1.8em;
+$font-size-h3:                  1.6em;
+$font-size-h4:                  1.4em;
+$font-size-h5:                  1.2em;
+$font-size-h6:                  1em;

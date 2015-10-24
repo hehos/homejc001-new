@@ -1,0 +1,203 @@
+// header, footer
+#header { margin-bottom: 1.1em; }
+
+// header icon
+#header {
+  .has-subnav, .header-select {
+    i { margin-left: pxToEm(8px); }
+    .icon-angle-up { display: none; }
+    &:hover {
+      .icon-angle-up { display: inline-block; }
+      .icon-angle-down { display: none; }
+    }
+  }
+  .has-icon {
+    [class^="myicon-"], [class*=" myicon-"] {
+      margin-top: pxToEm(3px);
+      margin-right: -15px;
+      margin-left: 2px;
+      vertical-align: top;
+    }
+  }
+}
+
+// header-top
+$headerTopFontSize: 12px;
+.header-top {
+  font-size: pxToEm($headerTopFontSize);
+  line-height: pxToEm(30px, $headerTopFontSize);
+  background-color: $gray-lightest;
+  border-bottom: 1px solid #ddd;
+  color: #999;
+}
+.header-top-left, .header-top-right {
+  .attention-ways, .member-in {
+    @include clearfix();
+    li {
+      float: left;
+    }
+  }
+}
+.header-top-left {
+  float: left;
+  li {
+    margin-right: pxToEm(24px, $headerTopFontSize);
+  }
+}
+.header-top-right {
+  float: right;
+  .member-in, .service-phone {
+    float: left;
+  }
+  .member-in {
+    line-height: 1;
+    padding: (pxToEm(30px, $headerTopFontSize) - 1em) / 2 0;
+    margin-right: 15px;
+  }
+  li {
+    padding: 0 12px;
+    + li { border-left: 1px solid #ddd; }
+  }
+  .service-phone {
+    color: $activeColor;
+    font-weight: bold;
+  }
+}
+// header-center
+.header-center {
+  @include clearfix();
+  padding: pxToEm(20px);
+}
+.header-logo, .header-search {
+  float: left;
+  width: 50%;
+}
+.header-logo {
+  .logo-img, .logo-cont {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .logo-img {
+    margin-right: 1.2em;
+  }
+  .logo-cont {
+    padding-left: 1.2em;
+    display: inline-block;
+    line-height: 1.4;
+    border-left: 1px solid #ddd;
+  }
+  h3 { font-size: pxToEm(16px); }
+}
+.header-search { margin-top: pxToEm(10px); }
+.header-search-box {
+  @include clearfix();
+  position: relative;
+  height: pxToEm(40px);
+  line-height: pxToEm(34px);
+  margin-right: pxToEm(20px);
+  padding-left: pxToEm(100px);
+  padding-right: pxToEm(80px);
+  border: 3px solid $activeColor;
+  .header-select, input, button {
+    float: left;
+  }
+  .header-select, button {
+    position: absolute;
+    top: 0;
+  }
+  ul, .header-search-input-text { display: none; }
+
+  .header-select {
+    left: 0;
+    width: pxToEm(100px);
+    text-align: center;
+    border-right: 1px solid #eee;
+    a { text-decoration: none; }
+    ul {
+      position: absolute;
+      top: pxToEm(33px);
+      left: 0;
+      z-index: 10000;
+      width: 100%;
+      padding: pxToEm(6px) 0;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-top: none;
+    }
+    li {
+      line-height: pxToEm(30px);
+      padding: 0 pxToEm(5px);
+      padding: 0 .85em;
+      &:hover {
+        background-color: darken($body-bg, 5%);
+      }
+    }
+    &:hover ul {
+      display: block;
+    }
+  }
+  button {
+    right: 0;
+    height: pxToEm(34px);
+    width: pxToEm(80px);
+    background-color: $activeColor;
+    color: #fff;
+  }
+  input {
+    width: 100%;
+    height: pxToEm(34px);
+    padding: pxToEm((34px - 20px) / 2) pxToEm(10px);
+  }
+  input, button { border: none; }
+}
+
+// header-bottom
+.header-bottom {
+  .container {
+    position: relative;
+    background-color: lighten($gray-lightest, 1%);
+  }
+  .right-collect {
+    position: absolute;
+    bottom: pxToEm(5px);
+    right: pxToEm(10px);
+  }
+
+  .header-nav {
+    a {
+      font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
+    }
+  }
+
+}
+
+
+#footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+  color: #fff;
+  background-color: #1f1f1f;
+  font-size: 12px;
+  a { color: inherit; }
+}
+.footer-menu {
+  display: inline-block;
+  padding-bottom: 15px;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  a {
+    float: left;
+    padding: 0 1.5em;
+    line-height: 1;
+    border-right: 1px solid #fff;
+    &:last-child { border: none; }
+  }
+}
+.footer-copyright {
+  color: #666;
+  line-height: 2.2;
+}

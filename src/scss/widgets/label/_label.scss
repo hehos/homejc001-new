@@ -1,19 +1,19 @@
 @import "label-config";
 
-.label-nav,
+
 .label-bar,
 .label-filter,
 .label-close,
 .label-cate {
   &, & ul { @include clearfix(); }
   position: relative;
-  line-height: 1.2;
   padding: .2em 1em;
+  line-height: $labelHt * 1em;
 
   font-size: pxToEm(12px);
-  .label, .label-title, .label-control {
+  .label-title, .label, .label-control {
     display: block;
-    padding: .7em 0; // 和line-height值使.label具有2.4em的有效高度。
+    padding: .5em 0; // 和line-height值使.label具有2.4em的有效高度。
     font-size: inherit;
     font-weight: normal;
     line-height: inherit;
@@ -21,22 +21,28 @@
   .label {
     float: left;
     margin-right: 2em;
+    // override bootstrap
     color: inherit;
-    &.on, &:hover { color: $activeColor; }
-  }
 
+    &.on a, &:hover a { color: $activeColor; }
+  }
+}
+
+.label-bar,
+.label-cate {
   // 有分割线
   &.split-line {
     .label {
       margin-right: 1em;
+      a { display: inline-block;  }
       &:before {
         content: "";
-        float: right;
         height: 1em;
-        margin-left: 1em;
-        border-right: 1px solid #ddd;
+        margin-right: 1em;
+        margin-top: ($labelHt - 1) / 2 * 1em;
+        border-left: 1px solid $grayBorder;
       }
-      &:last-child {
+      &:first-child {
         &:before { display: none; }
       }
     }

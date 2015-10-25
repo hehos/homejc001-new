@@ -13,6 +13,7 @@
 // ===========================================
 // tabs
 @import "widgets/tabs/tabs";
+@import "widgets/tabs/tabs-base";
 @import "widgets/tabs/tabs-nav1";
 @import "widgets/tabs/tabs-nav3";
 
@@ -21,12 +22,19 @@
 @import "widgets/media/media";
 @import "widgets/media/media-base";
 @import "widgets/media/media-firmlist";
+@import "widgets/media/media-newsitem";
 
 // ===========================================
 // label
 @import "widgets/label/label";
 @import "widgets/label/label-filter";
 @import "widgets/label/label-close";
+@import "widgets/label/label-cate";
+
+// ===========================================
+// list
+@import "widgets/list/list";
+@import "widgets/list/list-dot";
 
 // ===========================================
 // app

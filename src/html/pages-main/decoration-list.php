@@ -28,36 +28,7 @@
                 <div class="filter-item">
                     <div class="label-filter">
                         <div class="layout-left">
-                            <span class="label-title">服务区域</span>
-                        </div>
-                        <div class="layout-body">
-                            <ul>
-                                <li class="label on"><a href="">都江堰市</a></li>
-                                <li class="label"><a href="">都江堰市</a></li>
-                                <li class="label"><a href="">邛崃市</a></li>
-                                <li class="label"><a href="">崇州市金</a></li>
-                                <li class="label"><a href="">堂县郫县</a></li>
-                                <li class="label"><a href="">新津县</a></li>
-                                <li class="label"><a href="">双流县</a></li>
-                                <li class="label"><a href="">蒲江县</a></li>
-                                <li class="label"><a href="">大邑县</a></li>
-                                <li class="label"><a href="">成华</a></li>
-                                <li class="label"><a href="">金牛</a></li>
-                                <li class="label"><a href="">双流县</a></li>
-                            </ul>
-                        </div>
-                        <div class="layout-right">
-                            <div class="label-control">
-                                <a href="" class="label-more">更多<i class="icon-angle-down"></i></a>
-                                <a href="" class="label-checkbox">多选<i class="icon-choice-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="filter-item">
-                    <div class="label-filter">
-                        <div class="layout-left">
-                            <span class="label-title">服务区域</span>
+                            <span class="label-title">服务区域：</span>
                         </div>
                         <div class="layout-body">
                             <ul>
@@ -73,21 +44,98 @@
                                 <li class="label"><a href="">成华</a></li>
                                 <li class="label"><a href="">金牛</a></li>
                                 <li class="label"><a href="">双流县</a></li>
+                                <li class="label"><a href="">蒲江县</a></li>
+                                <li class="label"><a href="">大邑县</a></li>
+                                <li class="label"><a href="">成华</a></li>
                                 <li class="label"><a href="">金牛</a></li>
-                                <li class="label"><a href="">双流县</a></li>
-                                <li class="label"><a href="">金牛</a></li>
-                                <li class="label"><a href="">双流县</a></li>
                             </ul>
                         </div>
                         <div class="layout-right">
                             <div class="label-control">
-                                <a href="" class="label-more">更多<i class="icon-angle-down"></i></a>
+                                <a href="" class="label-on">更多<i class="icon-angle-down"></i></a>
+                                <a href="" class="label-off">隐藏<i class="icon-angle-up"></i></a>
                                 <a href="" class="label-checkbox">多选<i class="icon-choice-plus"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="filter-item">
+                    <div class="label-filter">
+                        <div class="layout-left">
+                            <span class="label-title">服务区域：</span>
+                        </div>
+                        <div class="layout-body">
+                            <ul>
+                                <li class="label on"><a href="">都江堰市</a></li>
+                                <li class="label"><a href="">彭州市</a></li>
+                                <li class="label"><a href="">邛崃市</a></li>
+                                <li class="label"><a href="">崇州市金</a></li>
+                                <li class="label"><a href="">堂县郫县</a></li>
+                                <li class="label"><a href="">新津县</a></li>
+                                <li class="label"><a href="">双流县</a></li>
+                                <li class="label"><a href="">蒲江县</a></li>
+                                <li class="label"><a href="">大邑县</a></li>
+                                <li class="label"><a href="">成华</a></li>
+                                <li class="label"><a href="">金牛</a></li>
+                                <li class="label"><a href="">双流县</a></li>
+                                <li class="label"><a href="">蒲江县</a></li>
+                                <li class="label"><a href="">大邑县</a></li>
+                                <li class="label"><a href="">成华</a></li>
+                                <li class="label"><a href="">金牛</a></li>
+                            </ul>
+                        </div>
+                        <div class="layout-right">
+                            <div class="label-control on">
+                                <a href="" class="label-on">更多<i class="icon-angle-down"></i></a>
+                                <a href="" class="label-off">隐藏<i class="icon-angle-up"></i></a>
+                                <a href="" class="label-checkbox">多选<i class="icon-choice-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-item">
+                    <div class="label-filter">
+                        <div class="layout-left">
+                            <span class="label-title">服务区域：</span>
+                        </div>
+                        <div class="layout-body">
+                            <ul>
+                                <li class="label selected"><a href="">都江堰市</a></li>
+                                <li class="label selected"><a href="">彭州市</a></li>
+                                <li class="label"><a href="">邛崃市</a></li>
+                                <li class="label"><a href="">崇州市金</a></li>
+                                <li class="label"><a href="">堂县郫县</a></li>
+                                <li class="label"><a href="">新津县</a></li>
+                                <li class="label"><a href="">双流县</a></li>
+                                <li class="label"><a href="">蒲江县</a></li>
+                                <li class="label"><a href="">大邑县</a></li>
+                                <li class="label"><a href="">成华</a></li>
+                                <li class="label"><a href="">金牛</a></li>
+                                <li class="label"><a href="">双流县</a></li>
+                                <li class="label"><a href="">蒲江县</a></li>
+                                <li class="label"><a href="">大邑县</a></li>
+                                <li class="label"><a href="">成华</a></li>
+                                <li class="label"><a href="">金牛</a></li>
+                            </ul>
+                            <div class="checkbox-btn-box">
+                                <a class="label-confirm" href="">确定</a>
+                                <a class="label-cancel" href="">取消</a>
+                            </div>
+                        </div>
+                        <div class="layout-right">
+                            <div class="label-control on">
+                                <a href="" class="label-on">更多<i class="icon-angle-down"></i></a>
+                                <a href="" class="label-off">隐藏<i class="icon-angle-up"></i></a>
+                                <a href="" class="label-checkbox">多选<i class="icon-choice-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="more-type">
+                <a href="" class="box-on">更多<i class="icon-angle-down"></i></a>
+                <a href="" class="box-off">收起<i class="icon-angle-up"></i></a>
             </div>
         </div>
     </div>

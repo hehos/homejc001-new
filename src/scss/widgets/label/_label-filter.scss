@@ -1,33 +1,69 @@
 @import "label-config";
 
-@import "label-bar";
-
 .label-filter {
-
   @include label-bar();
-  .label a { padding-right: 1em; }
-  .label-control {
-    @include clearfix();
-    width: 9.2em;
-    .glyphicon { margin-left: .25em; }
 
-    .label-hide,
-    .label-cancel { background-color: #f5f5f5; }
+  .label-title { margin-top: 1px; }
+  .label {
     a {
-      float: left;
+      display: block;
+      position: relative;
+      padding-left: 3px;
+      padding-right: 1.2em;
+      border: 1px solid transparent;
+    }
+    &.selected {
+      a {
+        border: 1px solid $activeColor;
+        &:after {
+          content: "×";
+          position: absolute;
+          right: 2px;
+          font-family: $smallFont;
+          color: $activeColor;
+        }
+      }
+    }
+  }
+
+  .checkbox-btn-box, .label-control {
+    a {
       display: inline-block;
-      width: 4em;
-      text-align: center;
+      margin-left: .5em;
       line-height: 1.6;
-      margin-top: -.3em;
-      margin-right: .5em;
-      color: #666666;
-      border: 1px solid #dddddd;
-      &.on, &:hover, &.label-confirm {
+      margin-top: ($labelHt - 1.6) / 2 * 1em;
+      padding: 0 3px;
+      color: $gray;
+      border: 1px solid $grayBorder;
+      &:first-child { margin-left: 0; }
+      i { margin-left: 2px; }
+      &.on, &:hover {
         color: $activeColor;
         border-color: $activeColor;
         text-decoration: none;
       }
+    }
+  }
+  .label-control {
+    @include clearfix();
+    white-space: nowrap;
+    .label-off { display: none; }
+    &.on {
+      .label-off { display: inline-block; }
+      .label-on { display: none; }
+    }
+  }
+  .checkbox-btn-box {
+    text-align: center;
+    padding-bottom: 1.2em;
+    .label-confirm, .label-cancel {
+      padding: 0 pxToEm(10px);
+    }
+    .label-confirm {
+      color: $body-bg;
+      background-color: $activeColor;
+      border-color: $activeColor;
+      &:hover { color: $body-bg; }
     }
   }
 }

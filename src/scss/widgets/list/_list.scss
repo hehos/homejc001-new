@@ -1,0 +1,21 @@
+@import "list-config";
+
+.list-group-item {
+  border: none;
+}
+.list-group-item:first-child,
+.list-group-item:last-child { border-radius: 0; }
+
+
+/* 组件样式提到组件的公共样式：组件下各种相似类型可能融合的情况 */
+/* 时间 */
+.list-group-item {
+  .time {
+    float: right;
+    color: #999;
+    padding-left: pxToEm(14px);
+  }
+  &.active .time {
+    color: #ffffff;
+  }
+}

@@ -1,6 +1,18 @@
 @import "../variables";
 @import "../mixins";
 
+.title-bar {
+  padding-bottom: pxToEm(5px);
+  margin: pxToEm(20px) 0;
+  border-bottom: 1px solid $gray-lighter;
+  .title {
+    font-size: pxToEm(24px);
+    a:hover {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
 
 #links, .index-flow, .index-hot {
   margin-top: pxToEm(15px);
@@ -53,7 +65,7 @@
     text-align: center;
     cursor: pointer;
     font-size: pxToEm(48px);
-    font-family: serif;
+    font-family: $smallFont;
     @include background-color-rgba(#000, .7);
     color: $body-bg;
   }
@@ -269,43 +281,4 @@
   }
 }
 
-#links {
-  margin-top: pxToEm(40px);
-}
-.links-tab {
-  @include  clearfix();
-  border-bottom: 1px solid $gray-lighter;
-  ul {
-    float: left;
-  }
-  li {
-    line-height: 2.5em;
-    width: auto;
-    margin-right: pxToEm(10px);
-    margin-bottom: -1px;
-    &.on, &:hover {
-      a { border-bottom-color: $body-bg; }
-    }
-    > a {
-      padding: 0 pxToEm(20px);
-    }
-  }
-  span {
-    float: left;
-    line-height: 2.5em;
-  }
-}
-.links-cont {
-  padding-top: pxToEm(8px);
-  ul { @include clearfix(); }
-  li {
-    float: left;
-    line-height: 1;
-    padding: 0 pxToEm(15px);
-    margin: pxToEm(8px) 0;
-    border-right: 1px solid $gray-lighter;
-    font-size: pxToEm(12px);
-    &:last-child { border-right: none; }
-  }
-}
 

@@ -1,12 +1,17 @@
-
-
 .filter-box1, .filter-box2 {
+  position: relative;
   color: #666;
   border-bottom: none;
+  font-size: pxToEm(12px);
+
   .filter-head {
     @include clearfix();
-    padding: .8em 1em;
-    font-size: (12/14) + em;
+    line-height: $labelHt * 1em;
+    padding: 1em;
+  }
+
+  .location, .filtered, .right-info {
+    padding: 0;
   }
   .location, .filtered {
     float: left;
@@ -20,16 +25,35 @@
     }
   }
 
-  .location, .filtered, .right-info {
-    padding: 0;
-    line-height: 2em;
-  }
+
   .location { padding-right: 1.5em; }
 
   .filter-body { border: 1px solid $gray-lighter; }
   .filter-item {
     border-top: 1px solid $gray-lighter;
     &:first-child { border-top: none; }
-    .label, .label-title, .label-control { padding: 1em 0; }
+  }
+
+  .more-type {
+    text-align: center;
+    line-height: 2.6em;
+    margin-top: -1px;
+    a {
+      display: inline-block;
+      padding: 0 1.5em;
+      background-color: $body-bg;
+      border: 1px solid $gray-lighter;
+      border-top: none;
+      &:hover { color: $activeColor; }
+    }
+    i {
+      margin-left: 5px;
+      font-size: 1.4em;
+    }
+    .box-off { display: none; }
+    &.on {
+      .box-on { display: none; }
+      .box-off { display: inline-block; }
+    }
   }
 }

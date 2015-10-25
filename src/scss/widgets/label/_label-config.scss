@@ -1,3 +1,13 @@
 @import "../../variables";
 @import "../../mixins";
 
+// 变量
+
+$labelHt: 1.8;
+
+// mixins
+@mixin label-bar() {
+  .label-title {
+    width: 6em;
+  }
+}

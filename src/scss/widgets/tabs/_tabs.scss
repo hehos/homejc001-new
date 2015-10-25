@@ -15,11 +15,8 @@
       display: block;
       font-size: 16em/14;
       font-family: "Microsoft YaHei", tahoma, arial, simsun;
-      /* 生成向下的三角图标 */
-      &:before {
-        content: "";
-      }
 
+      &:hover, &:active, &:focus { text-decoration: none; }
     }
     + li a { margin-left: -1px; }
   }

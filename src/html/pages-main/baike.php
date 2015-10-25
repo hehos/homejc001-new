@@ -5,9 +5,18 @@
     <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css"/>
 </head>
 <body>
-<?php include "header.php"; ?>
+<?php include "../header.php"; ?>
 
 <div class="container">
+    <!--  页面位置  -->
+    <div class="row location">
+        <ol class="breadcrumb-arrow">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+        </ol>
+    </div>
+
     <!--  顶部广告  -->
     <div class="row ad-box">
         <a href=""><img src="" alt=""/></a>
@@ -15,7 +24,50 @@
 
     <!--  顶部百科分类  -->
     <div class="row">
-
+        <div>
+            <div class="layout-left left-glyph">
+                <i></i>
+                <p>装修前</p>
+            </div>
+            <div class="layout-body label-cate">
+                <h4 class="label-title">准备装修</h4>
+                <ul>
+                    <li class="label on"><a href="">准备知识</a></li>
+                    <li class="label"><a href="">确定装修风格</a></li>
+                    <li class="label"><a href="">确定装修方式</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="layout-left left-glyph">
+                <i></i>
+                <p>装修中</p>
+            </div>
+            <div class="layout-body label-cate">
+                <h4 class="label-title">施工阶段</h4>
+                <ul>
+                    <li class="label on"><a href="">隐蔽施工</a></li>
+                    <li class="label"><a href="">油漆施工</a></li>
+                    <li class="label"><a href="">泥瓦施工</a></li>
+                    <li class="label"><a href="">泥瓦施工</a></li>
+                    <li class="label"><a href="">泥瓦施工</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="layout-left left-glyph">
+                <i></i>
+                <p>装修后</p>
+            </div>
+            <div class="layout-body label-cate">
+                <h4 class="label-title">入住阶段</h4>
+                <ul>
+                    <li class="label on"><a href="">准备知识</a></li>
+                    <li class="label"><a href="">确定装修风格</a></li>
+                    <li class="label"><a href="">确定装修方式</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <!--  页面主题内容  -->
@@ -153,22 +205,184 @@
                 </div>
             </div>
 
+            <!--  热门标签  -->
             <div>
+                <div class="title-bar fs2">
+                    <h2 class="title">热门标签</h2>
+                </div>
+                <div>
+                    <ul class="label-bar">
+                        <li class="label on"><a href="">手机配件品质馆</a></li>
+                        <li class="label"><a href="">iPhone6壳</a></li>
+                        <li class="label"><a href="">iPhone6贴膜</a></li>
+                        <li class="label"><a href="">手机套</a></li>
+                        <li class="label"><a href="">钢化玻璃膜</a></li>
+                        <li class="label"><a href="">移动电源</a></li>
+                        <li class="label"><a href="">数据线</a></li>
+                        <li class="label"><a href="">手机配件品质馆</a></li>
+                        <li class="label"><a href="">iPhone6壳</a></li>
+                        <li class="label"><a href="">iPhone6贴膜</a></li>
+                        <li class="label"><a href="">手机套</a></li>
+                        <li class="label"><a href="">钢化玻璃膜</a></li>
+                        <li class="label"><a href="">移动电源</a></li>
+                        <li class="label"><a href="">数据线</a></li>
+                    </ul>
+                </div>
+            </div>
 
+
+            <!--  广告  -->
+            <div class="ad-box">
+                <a href=""><img src="" alt=""/></a>
+            </div>
+
+            <!--  热点关注、最新发布  -->
+            <div>
+                <ul class="tabs-base">
+                    <li class="on"><a href="">产品</a></li>
+                    <li><a href="">资讯</a></li>
+                </ul>
+                <div>
+                    <ul class="list-group list-dot">
+                        <li class="list-group-item"><span class="time">300</span>卫浴间怎么防滑？卫浴间</li>
+                        <li class="list-group-item"><span class="time">300</span>卫浴间怎么防滑？卫浴间</li>
+                        <li class="list-group-item"><span class="time">300</span>卫浴间怎么防滑？卫浴间</li>
+                        <li class="list-group-item"><span class="time">300</span>卫浴间怎么防滑？卫浴间</li>
+                        <li class="list-group-item"><span class="time">300</span>卫浴间怎么防滑？卫浴间</li>
+                        <li class="list-group-item"><span class="time">300</span>卫浴间怎么防滑？卫浴间</li>
+                        <li class="list-group-item"><span class="time">300</span>卫浴间怎么防滑？卫浴间</li>
+                        <li class="list-group-item"><span class="time">300</span>卫浴间怎么防滑？卫浴间</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--  广告  -->
+            <div class="ad-box">
+                <a href=""><img src="" alt=""/></a>
+            </div>
+
+            <!--  热门品牌  -->
+            <div>
+                <div class="title-bar fs2">
+                    <h2 class="title">建材热门品牌 </h2>
+                    <a class="more" href="">更多<i class=" icon-angle-right"></i></a>
+                </div>
+                <div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span class="badge">14</span>Cras justo odio
+                            <ul class="label-nav">
+                                <li class="label on"><a href="">手机配件品质馆</a></li>
+                                <li class="label"><a href="">iPhone6壳</a></li>
+                                <li class="label"><a href="">iPhone6贴膜</a></li>
+                                <li class="label"><a href="">手机套</a></li>
+                                <li class="label"><a href="">钢化玻璃膜</a></li>
+                                <li class="label"><a href="">移动电源</a></li>
+                                <li class="label"><a href="">数据线</a></li>
+                                <li class="label"><a href="">手机配件品质馆</a></li>
+                                <li class="label"><a href="">iPhone6壳</a></li>
+                                <li class="label"><a href="">iPhone6贴膜</a></li>
+                                <li class="label"><a href="">手机套</a></li>
+                                <li class="label"><a href="">钢化玻璃膜</a></li>
+                                <li class="label"><a href="">移动电源</a></li>
+                                <li class="label"><a href="">数据线</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="badge">14</span>Cras justo odio
+                            <ul class="label-nav">
+                                <li class="label on"><a href="">手机配件品质馆</a></li>
+                                <li class="label"><a href="">iPhone6壳</a></li>
+                                <li class="label"><a href="">iPhone6贴膜</a></li>
+                                <li class="label"><a href="">手机套</a></li>
+                                <li class="label"><a href="">钢化玻璃膜</a></li>
+                                <li class="label"><a href="">移动电源</a></li>
+                                <li class="label"><a href="">数据线</a></li>
+                                <li class="label"><a href="">手机配件品质馆</a></li>
+                                <li class="label"><a href="">iPhone6壳</a></li>
+                                <li class="label"><a href="">iPhone6贴膜</a></li>
+                                <li class="label"><a href="">手机套</a></li>
+                                <li class="label"><a href="">钢化玻璃膜</a></li>
+                                <li class="label"><a href="">移动电源</a></li>
+                                <li class="label"><a href="">数据线</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="badge">14</span>Cras justo odio
+                            <ul class="label-nav">
+                                <li class="label on"><a href="">手机配件品质馆</a></li>
+                                <li class="label"><a href="">iPhone6壳</a></li>
+                                <li class="label"><a href="">iPhone6贴膜</a></li>
+                                <li class="label"><a href="">手机套</a></li>
+                                <li class="label"><a href="">钢化玻璃膜</a></li>
+                                <li class="label"><a href="">移动电源</a></li>
+                                <li class="label"><a href="">数据线</a></li>
+                                <li class="label"><a href="">手机配件品质馆</a></li>
+                                <li class="label"><a href="">iPhone6壳</a></li>
+                                <li class="label"><a href="">iPhone6贴膜</a></li>
+                                <li class="label"><a href="">手机套</a></li>
+                                <li class="label"><a href="">钢化玻璃膜</a></li>
+                                <li class="label"><a href="">移动电源</a></li>
+                                <li class="label"><a href="">数据线</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--  热门图集  -->
+            <div>
+                 <div class="title-bar fs2">
+                    <h2 class="title">热门图集</h2>
+                    <a class="more" href="">更多<i class=" icon-angle-right"></i></a>
+                </div>
+                <div>
+                    <div class="media-base">
+                        <div class="photos">
+                            <a href="" class="thumbnail"><img src="demo.svg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="demo.svg" alt=""/></a>
+                        </div>
+                        <h4 class="media-title"><a href="">简约风格</a></h4>
+                        <p class="media-explain">共有<em>10</em>张图片</p>
+                    </div>
+                    <div class="media-base">
+                        <div class="photos">
+                            <a href="" class="thumbnail"><img src="demo.svg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="demo.svg" alt=""/></a>
+                        </div>
+                        <h4 class="media-title"><a href="">简约风格简约风格简约风格</a></h4>
+                        <p class="media-explain">共有<em>10</em>张图片</p>
+                    </div>
+                    <div class="media-base">
+                        <div class="photos">
+                            <a href="" class="thumbnail"><img src="demo.svg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="demo.svg" alt=""/></a>
+                        </div>
+                        <h4 class="media-title"><a href="">简约风格</a></h4>
+                        <p class="media-explain">共有<em>10</em>张图片</p>
+                    </div>
+                    <div class="media-base">
+                        <div class="photos">
+                            <a href="" class="thumbnail"><img src="demo.svg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="demo.svg" alt=""/></a>
+                        </div>
+                        <h4 class="media-title"><a href="">简约风格</a></h4>
+                        <p class="media-explain">共有<em>10</em>张图片</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
 
     <!--  底部友情信息  -->
-    <div>
 
-    </div>
+    <?php include "../bottom-links.php"; ?>
 </div>
 
 
 
 
-<?php include "footer.php"; ?>
+<?php include "../footer.php"; ?>
 </body>
 </html>

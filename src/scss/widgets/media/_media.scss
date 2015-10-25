@@ -16,6 +16,8 @@
 .media-newsitem,
 .media-firmitem,
 .media-big-img {
+  $offset: 3px; // 图集类型时图片的距离
+
   p, h4, h5, h6 { margin: 0; }
   p {
     margin-bottom: .3em;
@@ -30,7 +32,6 @@
     border-radius: 0;
     padding: 0;
     margin-bottom: 0;
-    text-align: center;
   }
 
   .tran-layer {
@@ -56,4 +57,20 @@
   }
 
   .media-time, .time { color: $gray-light; }
+
+  // 图集类型
+  .photos {
+    position: relative;
+    border-right: $offset solid transparent;
+    border-bottom: $offset solid transparent;
+    .thumbnail, .img {
+      width: 100%;
+      &:first-child {
+        position: absolute;
+        top: $offset;
+        left: $offset;
+        z-index: -1;
+      }
+    }
+  }
 }

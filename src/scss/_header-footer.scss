@@ -201,3 +201,46 @@ $headerTopFontSize: 12px;
   color: #666;
   line-height: 2.2;
 }
+
+
+// 友情连接部分
+#links {
+  margin-top: pxToEm(40px);
+}
+.links-tab {
+  @include  clearfix();
+  border-bottom: 1px solid $grayBorder;
+  ul {
+    float: left;
+  }
+  li {
+    line-height: 2.5em;
+    width: auto;
+    margin-right: pxToEm(10px);
+    margin-bottom: -1px;
+    a { border-color: $grayBorder; }
+    &.on, &:hover {
+      a { border-bottom-color: $body-bg; }
+    }
+    > a {
+      padding: 0 pxToEm(20px);
+    }
+  }
+  span {
+    float: left;
+    line-height: 2.5em;
+  }
+}
+.links-cont {
+  padding-top: pxToEm(8px);
+  ul { @include clearfix(); }
+  li {
+    float: left;
+    line-height: 1;
+    padding: 0 pxToEm(15px);
+    margin: pxToEm(8px) 0;
+    border-right: 1px solid $gray-lighter;
+    font-size: pxToEm(12px);
+    &:last-child { border-right: none; }
+  }
+}

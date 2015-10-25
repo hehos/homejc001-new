@@ -23,7 +23,7 @@
     <div class="header-center">
         <div class="container">
             <div class="header-logo">
-                <a class="logo-img" href="http://192.168.0.188/homejc001-new/src/html/pages-main/index.php"><img src="../../img/logo.png" alt=""/></a>
+                <a class="logo-img" href="http://192.168.0.188/homejc001-new/src/html/pages-main/index.php"><img src="../../img/logo.png?v=47570902f8" alt=""/></a>
                 <div class="logo-cont">
                     <h3>一站式全屋家居定制平台</h3>
                     <p><a href="http://192.168.0.188/homejc001-new/src/html/pages-main/index.php">http://home.jc001.cn</a></p>
@@ -84,7 +84,7 @@
                 </li>
             </ul>
             <div class="right-collect">
-                <a href=""><img src="../../img/top-nav-icon.png" alt=""/></a>
+                <a href=""><img src="../../img/top-nav-icon.png?v=0e683815c1" alt=""/></a>
             </div>
         </div>
     </div>

@@ -1,0 +1,30 @@
+@import "_block-comm";
+
+// =========================
+// begin  适合所有项目的通用性
+// global img
+.thumbnail, .img {
+  display: block;
+  text-align: center;
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+// global 广告
+.ad-box img {
+  width: 100%;
+}
+
+// global display: table-cell 时的左中右布局
+.layout-left, .layout-body, .layout-right {
+  display: table-cell;
+  vertical-align: top;
+}
+/* 宽度自适应宽度 */
+.layout-body { width: 10000px; }
+
+// end
+// =========================
+
+

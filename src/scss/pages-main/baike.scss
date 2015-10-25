@@ -1,0 +1,19 @@
+@import "../variables";
+@import "../mixins";
+
+/* 百科页面样式 */
+
+#header { margin-bottom: 0; }
+
+#location {
+  border-bottom: 1px solid $gray-lighter;
+}
+
+.top-cates {
+  margin-left: -1%;
+  .cate {
+    float: left;
+    width: 32.333%;
+    margin-left: 1%;
+  }
+}

@@ -11,17 +11,17 @@
     <div class="cont-nav">
         <div class="item on">
             <a href="dz-nav1.php">
-                <img src="../../img/pages-publicity/dz-nav-1-on.jpg" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-1-on.jpg?v=29536b7e48" alt=""/>
             </a>
         </div>
         <div class="item">
             <a href="dz-nav2.php">
-                <img src="../../img/pages-publicity/dz-nav-2.jpg" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-2.jpg?v=af6d2a8a95" alt=""/>
             </a>
         </div>
         <div class="item last">
             <a href="dz-nav3.php">
-                <img src="../../img/pages-publicity/dz-nav-3.jpg" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-3.jpg?v=64230a69e4" alt=""/>
             </a>
         </div>
     </div>
@@ -52,11 +52,11 @@
             </form>
 
             <p class="call-hintTxt">拨打热线，快速了解九正家居定制平台</p>
-            <p class="call"><img src="../../img/pages-publicity/call.jpg" alt=""/>400-6464-001</p>
+            <p class="call"><img src="../../img/pages-publicity/call.jpg?v=2de087666b" alt=""/>400-6464-001</p>
         </div>
     </div>
 
-    <img src="../../img/pages-publicity/dz-nav1-img1.jpg" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav1-img1.jpg?v=efe26a35c5" alt=""/>
 
     <div class="case-and-new">
 
@@ -121,14 +121,14 @@
             </div>
         </div>
 
-        <script src="http://192.168.0.188/homejc001-new/src/js/scroll-vertical.js"></script>
+        <script src="http://192.168.0.188/homejc001-new/src/js/scroll-vertical.js?v=ac6696f350"></script>
         <script>
                 $(".scrolltable-warp").scrollTable();
         </script>
     </div>
-    <img src="../../img/pages-publicity/dz-nav1-img2.jpg" alt=""/>
-    <img src="../../img/pages-publicity/dz-nav1-img3.jpg" alt=""/>
-    <img src="../../img/pages-publicity/dz-nav1-img4.jpg" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav1-img2.jpg?v=b6d856e871" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav1-img3.jpg?v=3a78ad03a5" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav1-img4.jpg?v=1144cd97c1" alt=""/>
 </div>
 
 <?php include "../../footer.php" ?>

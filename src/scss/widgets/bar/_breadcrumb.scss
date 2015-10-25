@@ -7,7 +7,15 @@
   margin-bottom: 0;
   border-radius: 0;
 
-  li { float: left; }
+  li {
+    float: left;
+    &.on { color: $activeColor; }
+    &.result {
+      padding-left: 3em;
+      &:before { display: none; }
+      em { color: $activeColor; }
+    }
+  }
   li + li:before {
     content: "/";
     text-align: center;

@@ -23,18 +23,18 @@
     <div class="clearfix row product-info">
         <div class="pull-left media-info">
             <div class="img">
-                <img src="../../img/temp-img/detail-big-img.jpg" alt=""/>
+                <img src="../../img/temp-img/detail-big-img.jpg?v=0599e64757" alt=""/>
             </div>
         </div>
         <div class="pull-right info">
             <h4>安住 智能恒温淋浴花洒套装ERF6187230CP-A安住 </h4>
-            <div class="xuanzheyoushi"><img src="../../img/pages-merchant/xuanzheyoushi.jpg" alt=""/></div>
+            <div class="xuanzheyoushi"><img src="../../img/pages-merchant/xuanzheyoushi.jpg?v=41a843cb72" alt=""/></div>
             <ul>
                 <li>风格：欧式田园、现代简约</li>
                 <li>报价：<span class="money">￥10000 - ￥150000/延米</span></li>
             </ul>
             <div class="btn-row"><button class="btn btn-lg u-main-btn">免费申请预约</button></div>
-            <div class="baozhang"><img src="../../img/pages-merchant/baozhang.jpg" alt=""/></div>
+            <div class="baozhang"><img src="../../img/pages-merchant/baozhang.jpg?v=37621cf670" alt=""/></div>
         </div>
     </div>
     <!--  end 产品信息  -->
@@ -65,19 +65,19 @@
                 <div class="product-list">
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/product1.jpg" alt="">
+                            <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/product1.jpg" alt="">
+                            <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/product1.jpg" alt="">
+                            <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>

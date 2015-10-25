@@ -1,7 +1,7 @@
 <div id="header">
     <div class="container clearfix">
         <div class="pull-left logo-box">
-            <a class="logo" href="http://192.168.0.188/homejc001-new/src/html/pages-main/index.php"><img src="../../img/pages-member/logo.png" alt=""/></a>
+            <a class="logo" href="http://192.168.0.188/homejc001-new/src/html/pages-main/index.php"><img src="../../img/pages-member/logo.png?v=47570902f8?v=11f73052ac" alt=""/></a>
             <h1>会员中心</h1>
         </div>
         <div class="pull-left nav-box">

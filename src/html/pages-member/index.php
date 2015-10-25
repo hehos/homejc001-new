@@ -27,7 +27,7 @@
         <div class="main-wrap pull-right">
             <div class="white-block corp-intro">
                 <div class="logo">
-                    <a href="http://192.168.0.188/homejc001-new/pages-merchant/index.php"><img src="../../img/temp-img/logo-member.jpg" alt=""/></a>
+                    <a href="http://192.168.0.188/homejc001-new/pages-merchant/index.php"><img src="../../img/temp-img/logo-member.jpg?v=6db6755afa" alt=""/></a>
                 </div>
                 <div class="intro-cont">
                     <h4>九正科技公司</h4>

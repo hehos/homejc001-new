@@ -7,65 +7,71 @@
 <body>
 <?php include "../header.php"; ?>
 
-<div class="container">
-    <!--  页面位置  -->
-    <div class="row location">
+<!--  页面位置  -->
+<div id="location" class="margin-b-13">
+    <div class="container">
         <ol class="breadcrumb-arrow">
             <li><a href="#">Home</a></li>
             <li><a href="#">Library</a></li>
-            <li class="active">Data</li>
+            <li class="on">Data</li>
+            <li class="result"><span>共有<em>888</em>篇知识</span></li>
         </ol>
-    </div>
 
+    </div>
+</div>
+
+<div class="container">
     <!--  顶部广告  -->
     <div class="row ad-box">
-        <a href=""><img src="" alt=""/></a>
+        <a href=""><img src="../../img/bk-ad1.jpg?v=cbb88779ee" alt="/"/></a>
     </div>
 
     <!--  顶部百科分类  -->
     <div class="row">
-        <div>
-            <div class="layout-left left-glyph">
-                <i></i>
-                <p>装修前</p>
+        <div class="top-cates">
+            <div class="cate">
+                <div class="layout-left left-glyph">
+                    <i class="myicon-bk-top-cate1"></i>
+                    <p>装修前</p>
+                </div>
+                <div class="layout-body label-cate">
+                    <h4 class="label-title">准备装修</h4>
+                    <ul>
+                        <li class="label on"><a href="">准备知识</a></li>
+                        <li class="label"><a href="">确定装修风格</a></li>
+                        <li class="label"><a href="">确定装修方式</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="layout-body label-cate">
-                <h4 class="label-title">准备装修</h4>
-                <ul>
-                    <li class="label on"><a href="">准备知识</a></li>
-                    <li class="label"><a href="">确定装修风格</a></li>
-                    <li class="label"><a href="">确定装修方式</a></li>
-                </ul>
+            <div class="cate">
+                <div class="layout-left left-glyph">
+                    <i class="myicon-bk-top-cate2"></i>
+                    <p>装修中</p>
+                </div>
+                <div class="layout-body label-cate">
+                    <h4 class="label-title">施工阶段</h4>
+                    <ul>
+                        <li class="label on"><a href="">隐蔽施工</a></li>
+                        <li class="label"><a href="">油漆施工</a></li>
+                        <li class="label"><a href="">泥瓦施工</a></li>
+                        <li class="label"><a href="">泥瓦施工</a></li>
+                        <li class="label"><a href="">泥瓦施工</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="layout-left left-glyph">
-                <i></i>
-                <p>装修中</p>
-            </div>
-            <div class="layout-body label-cate">
-                <h4 class="label-title">施工阶段</h4>
-                <ul>
-                    <li class="label on"><a href="">隐蔽施工</a></li>
-                    <li class="label"><a href="">油漆施工</a></li>
-                    <li class="label"><a href="">泥瓦施工</a></li>
-                    <li class="label"><a href="">泥瓦施工</a></li>
-                    <li class="label"><a href="">泥瓦施工</a></li>
-                </ul>
-            </div>
-        </div>
-        <div>
-            <div class="layout-left left-glyph">
-                <i></i>
-                <p>装修后</p>
-            </div>
-            <div class="layout-body label-cate">
-                <h4 class="label-title">入住阶段</h4>
-                <ul>
-                    <li class="label on"><a href="">准备知识</a></li>
-                    <li class="label"><a href="">确定装修风格</a></li>
-                    <li class="label"><a href="">确定装修方式</a></li>
-                </ul>
+            <div class="cate">
+                <div class="layout-left left-glyph">
+                    <i class="myicon-bk-top-cate3"></i>
+                    <p>装修后</p>
+                </div>
+                <div class="layout-body label-cate">
+                    <h4 class="label-title">入住阶段</h4>
+                    <ul>
+                        <li class="label on"><a href="">准备知识</a></li>
+                        <li class="label"><a href="">确定装修风格</a></li>
+                        <li class="label"><a href="">确定装修方式</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -233,7 +239,7 @@
 
             <!--  广告  -->
             <div class="ad-box">
-                <a href=""><img src="" alt=""/></a>
+                <a href=""><img src="../../img/bk-ad2.jpg?v=05c1acce39" alt="/"/></a>
             </div>
 
             <!--  热点关注、最新发布  -->
@@ -258,7 +264,7 @@
 
             <!--  广告  -->
             <div class="ad-box">
-                <a href=""><img src="" alt=""/></a>
+                <a href=""><img src="../../img/bk-ad3.jpg?v=ed19b1f238" alt="/"/></a>
             </div>
 
             <!--  热门品牌  -->

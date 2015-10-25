@@ -25,7 +25,11 @@
       }
     }
   }
-
+  .layout-body {
+    padding-top: .4em;
+    padding-bottom: .4em;
+  }
+  .layout-right { padding-right: 1em; }
   .checkbox-btn-box, .label-control {
     a {
       display: inline-block;

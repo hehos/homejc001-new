@@ -11,13 +11,14 @@
   line-height: $labelHt * 1em;
 
   font-size: pxToEm(12px);
-  .label-title, .label, .label-control {
+  .label, .label-title, .label-control {
     display: block;
-    padding: .5em 0; // 和line-height值使.label具有2.4em的有效高度。
+    padding: .4em 0; // 和line-height值使.label具有2.4em的有效高度。
     font-size: inherit;
     font-weight: normal;
     line-height: inherit;
   }
+  .label-title, .label-control { padding: 0.4em * 2 0; }
   .label {
     float: left;
     margin-right: 2em;

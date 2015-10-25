@@ -12,7 +12,7 @@
         <div class="col-lg-4">
             <div class="media-base">
                 <a href="case-detail.php" class="thumbnail">
-                    <img src="../../img/temp-img/product1.jpg" alt="">
+                    <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
             </div>
@@ -20,7 +20,7 @@
         <div class="col-lg-4">
             <div class="media-base">
                 <a href="case-detail.php" class="thumbnail">
-                    <img src="../../img/temp-img/product1.jpg" alt="">
+                    <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
             </div>
@@ -28,7 +28,7 @@
         <div class="col-lg-4">
             <div class="media-base">
                 <a href="case-detail.php" class="thumbnail">
-                    <img src="../../img/temp-img/product1.jpg" alt="">
+                    <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
             </div>
@@ -36,7 +36,7 @@
         <div class="col-lg-4">
             <div class="media-base">
                 <a href="case-detail.php" class="thumbnail">
-                    <img src="../../img/temp-img/product1.jpg" alt="">
+                    <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
             </div>

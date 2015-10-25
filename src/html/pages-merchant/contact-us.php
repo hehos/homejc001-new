@@ -18,7 +18,7 @@
         <h2>联系我们</h2>
         <div class="corp-cont corp-contact">
             <div class="cont-logo">
-                <img src="../../img/temp-img/corp-logo.jpg" alt=""/>
+                <img src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/>
             </div>
             <h5>成都馨居尚装饰设计工程有限公司(总部)</h5>
             <p>成都禾木艺景装饰工程有限公司创建设计工作室已有10年之余，属建筑装饰工程施工设计乙级，

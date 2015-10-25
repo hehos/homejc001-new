@@ -1,7 +1,20 @@
+@charset "UTF-8";
+/* 百科页面样式 */
+#header {
+  margin-bottom: 0; }
+
+#location {
+  border-bottom: 1px solid #eceeef; }
+
+.top-cates {
+  margin-left: -1%; }
+  .top-cates .cate {
+    float: left;
+    width: 32.333%;
+    margin-left: 1%; }
 
 
 
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJhaWtlLmNzcyIsInBhZ2VzLW1haW4vYmFpa2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxpQkFBaUI7QUFDakIsWUFBWTtBQ0laO0VBQVUsaUJBQWdCLEVBQUE7O0FBRTFCO0VBQ0UsaUNBQXNDLEVBQUE7O0FBR3hDO0VBQ0UsaUJBQWdCLEVBQUE7RUFDaEI7SUFDRSxZQUFXO0lBQ1gsZUFBYztJQUNkLGdCQUFlLEVBQUEiLCJmaWxlIjoicGFnZXMtbWFpbi9iYWlrZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAY2hhcnNldCBcIlVURi04XCI7XG4vKiDnmb7np5HpobXpnaLmoLflvI8gKi9cbiNoZWFkZXIge1xuICBtYXJnaW4tYm90dG9tOiAwOyB9XG5cbiNsb2NhdGlvbiB7XG4gIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZWNlZWVmOyB9XG5cbi50b3AtY2F0ZXMge1xuICBtYXJnaW4tbGVmdDogLTElOyB9XG4gIC50b3AtY2F0ZXMgLmNhdGUge1xuICAgIGZsb2F0OiBsZWZ0O1xuICAgIHdpZHRoOiAzMi4zMzMlO1xuICAgIG1hcmdpbi1sZWZ0OiAxJTsgfVxuXG5cbiIsIkBpbXBvcnQgXCIuLi92YXJpYWJsZXNcIjtcclxuQGltcG9ydCBcIi4uL21peGluc1wiO1xyXG5cclxuLyog55m+56eR6aG16Z2i5qC35byPICovXHJcblxyXG4jaGVhZGVyIHsgbWFyZ2luLWJvdHRvbTogMDsgfVxyXG5cclxuI2xvY2F0aW9uIHtcclxuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgJGdyYXktbGlnaHRlcjtcclxufVxyXG5cclxuLnRvcC1jYXRlcyB7XHJcbiAgbWFyZ2luLWxlZnQ6IC0xJTtcclxuICAuY2F0ZSB7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIHdpZHRoOiAzMi4zMzMlO1xyXG4gICAgbWFyZ2luLWxlZnQ6IDElO1xyXG4gIH1cclxufSJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwYWdlcy1tYWluL2JhaWtlLmNzcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyIsInNvdXJjZXNDb250ZW50IjpbXX0= */
-
-/*# sourceMappingURL=../map/pages-main/baike.css.map */
+/*# sourceMappingURL=../../map/pages-main/baike.css?v=a9cbb24d4c.map */

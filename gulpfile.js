@@ -19,8 +19,10 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload'),
     runSequence = require('run-sequence'),
     inject = require('gulp-inject-string'),
-    replace = require('gulp-replace'); // 字符串替换插件
-
+    replace = require('gulp-replace'), // 字符串替换插件
+    // 以下两个插件是更新版本号的
+    rev = require('gulp-rev'),
+    revCollector = require('gulp-rev-collector');
 
 var pkg = require('./package.json');
 
@@ -31,7 +33,8 @@ var o = {
 var cf = {
     src: {
         file: {
-            scss: ['src/scss/**/*.scss'],
+            scss: ['src/scss/**/*.scss', '!src/scss/widgets/**/*.scss'],
+            css: 'src/css/**/*.css',
             commCss: 'src/css/*.css',
             pageCss: 'src/css/*/*.css',
             js: 'src/js/**/*.js',
@@ -41,20 +44,32 @@ var cf = {
             spriteScss: 'src/scss/_' + o.spriteName + '.scss',
             font: 'src/font/*',
             html: 'src/html/**/*',
-            vendor: 'src/vendor/**/*'
+            vendor: 'src/vendor/**/*',
+            rev: 'src/rev/**/*.json'
         },
-        dir: { 
+        dir: {
+            root: 'src/',
             scss: 'src/scss/',
             css: 'src/css/',
+            map: 'src/map/',
             js: 'src/js/',
             img: 'src/img/',
+            html: 'src/html/',
             sprite: 'src/img/myicon/',
             font: 'src/font/'
+        },
+        rev: {
+            root: 'src/rev/',
+            css: 'src/rev/css/',
+            font: 'src/rev/font/',
+            img: 'src/rev/img/',
+            js: 'src/rev/js/'
         }
     },
     dist: {
         file: {
-            css: 'dist/css/**/*.css'
+            css: 'dist/css/**/*.css',
+            html: 'dist/html/**/*'
         },
         dir: {
 			root: 'dist',
@@ -81,36 +96,52 @@ var cf = {
 
 // ==============================
 // style
+// 编译样式及获得css文件的版本号
 gulp.task('sass', ['cleanCss'], function () {
     return sass(cf.src.file.scss, { sourcemap: true })
         .on('error', sass.logError)
+        .pipe(rev())
         .pipe(autoprefixer({
             browsers: cf.autoprefixerBrowsers,
             cascade: false
         }))
-
         .pipe(sourcemaps.write())
-        .pipe(sourcemaps.write('map', {
+        .pipe(sourcemaps.write('../map', {
             includeContent: false,
             sourceRoot: 'scss'
         }))
-
         .pipe(gulp.dest(cf.src.dir.css))
 
+        .pipe(rev.manifest())
+        .pipe(gulp.dest(cf.src.rev.css));
+});
+
+// 生成css文件内容的版本号 如：background: url('../img/one.jpg?v=28bd4f6d18');
+gulp.task('versionCss', function () {
+    return gulp.src([
+        cf.src.file.rev,
+        cf.src.file.css
+    ])
+        .pipe(revCollector())
+        .pipe(gulp.dest(cf.src.dir.css));
+});
+// 压缩css及生成css的版本号
+gulp.task('minifycss',  function () {
+    return gulp.src(cf.src.file.css)
         .pipe(minifycss({compatibility: 'ie8'}))
         .pipe(rename({
-            suffix: '.min',
-            extname: '.css'
+            suffix: '.min'
         }))
-
-
-        .pipe(gulp.dest(cf.dist.dir.css));
+        .pipe(gulp.dest(cf.dist.dir.css))
 });
+
+
 gulp.task('sprite', function () {
     // Generate our spritesheet
     var spriteData = gulp.src(cf.src.file.myicons).pipe(spritesmith({
         imgName: '../img/' + o.spriteName + '.png',
         cssName: o.spriteName + '.css',
+        padding: 2,
         cssOpts: {
             cssSelector: function (sprite) {
                 return o.spritePrefix + sprite.name;  // 自定义className前缀
@@ -121,28 +152,44 @@ gulp.task('sprite', function () {
     spriteData.img.pipe(gulp.dest(cf.src.dir.img));
     // output path for the CSS
     spriteData.css.pipe(rename({
-        prefix: "_",
+        prefix: "__",
         extname: ".scss"
     })).pipe(gulp.dest(cf.src.dir.scss));
 });
 gulp.task('font', ['cleanFont'], function () {
     return gulp.src(cf.src.file.font)
-        .pipe(gulp.dest(cf.dist.dir.font));
+        .pipe(rev())
+        .pipe(gulp.dest(cf.dist.dir.font))
+        .pipe(rev.manifest())
+        .pipe(gulp.dest(cf.src.rev.font));
 });
 
 gulp.task('style', function() {
-    runSequence('sprite', ['sass', 'font']);
+    runSequence('sass', 'versionCss', 'minifycss');
+});
+gulp.task('', function() {
+    runSequence('sass', 'versionCss', 'minifycss');
 });
 
 // ==============================
 // js
 gulp.task('js', ['cleanJs'], function () {
     return gulp.src(cf.src.file.js)
+        .pipe(rev())
         .pipe(jshint())
         .pipe(uglify())
-        .pipe(gulp.dest(cf.dist.dir.js));
+        .pipe(gulp.dest(cf.dist.dir.js))
+        .pipe(rev.manifest())
+        .pipe(gulp.dest(cf.src.rev.js));
 });
-
+gulp.task('versionJs', function () {
+    return gulp.src([
+        cf.src.file.rev,
+        cf.src.file.js
+    ])
+        .pipe(revCollector())
+        .pipe(gulp.dest(cf.src.dir.js));
+});
 // ==============================
 // 图片
 gulp.task('img', ['cleanImg'], function () {
@@ -151,7 +198,10 @@ gulp.task('img', ['cleanImg'], function () {
             progressive: true,
             svgoPlugins: [{removeViewBox: false}]
         }))
-        .pipe(gulp.dest(cf.dist.dir.img));
+        .pipe(rev())
+        .pipe(gulp.dest(cf.dist.dir.img))
+        .pipe(rev.manifest())
+        .pipe(gulp.dest(cf.src.rev.img));
 });
 
 // ==============================
@@ -162,7 +212,15 @@ gulp.task('html', ['cleanHtml'], function () {
         .pipe(replace('.css', '.min.css'))
         .pipe(gulp.dest(cf.dist.dir.html));
 });
-
+// 生成html文件的版本号
+gulp.task('versionHtml', function () {
+    return gulp.src([
+        cf.src.file.rev,
+        cf.src.file.html
+    ])
+        .pipe(revCollector())
+        .pipe(gulp.dest(cf.src.dir.html));
+});
 
 // vendor
 gulp.task('vendor', ['cleanVendor'], function () {
@@ -170,14 +228,15 @@ gulp.task('vendor', ['cleanVendor'], function () {
         .pipe(gulp.dest(cf.dist.dir.vendor));
 });
 
+
 // ==============================
 // 清理
 gulp.task('clean', function() {
-    return gulp.src(cf.dist.dir.root, {read: false})
+    return gulp.src([cf.dist.dir.root, cf.src.rev.root], {read: false})
         .pipe(clean());
 });
 gulp.task('cleanCss', function() {
-    return gulp.src([cf.dist.dir.css, cf.src.dir.css], {read: false})
+    return gulp.src([cf.dist.dir.css, cf.src.dir.css, cf.src.dir.map], {read: false})
         .pipe(clean());
 });
 gulp.task('cleanFont', function() {
@@ -209,7 +268,10 @@ gulp.task('cleanVendor', function() {
 // watch
 gulp.task('watch', function() {
     // watch scss
-    gulp.watch(cf.src.file.scss, ['sass']);
+    gulp.watch(cf.src.file.scss, ['style']);
+
+    // watch css
+    gulp.watch(cf.src.file.css, ['minifycss']);
 
     // watch font
     gulp.watch(cf.src.file.font, ['font']);
@@ -218,7 +280,9 @@ gulp.task('watch', function() {
     gulp.watch(cf.src.file.myicons, ['sprite']);
 
     // watch img
-    gulp.watch(cf.src.file.img, ['img']);
+    gulp.watch(cf.src.file.img, function() {
+        runSequence('img', ['versionCss', 'versionHtml', 'versionJs']);
+    });
 
     // watch js
     gulp.watch(cf.src.file.js, ['js']);
@@ -233,7 +297,7 @@ gulp.task('watch', function() {
 
 // 预设任务
 gulp.task('default', ['clean'], function() {
-    runSequence('style', 'img', ['vendor', 'js', 'html']);
+    runSequence(['sprite', 'vendor'], ['img', 'font'], ['js', 'style'], 'html');
 });
 
 

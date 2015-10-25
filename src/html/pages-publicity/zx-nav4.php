@@ -11,22 +11,22 @@
     <div class="cont-nav zx-page">
         <div class="item">
             <a href="zx-nav1.php">
-                <img src="../../img/pages-publicity/zx-nav-1.jpg" alt=""/>
+                <img src="../../img/pages-publicity/zx-nav-1.jpg?v=aee88aafe9" alt=""/>
             </a>
         </div>
         <div class="item">
             <a href="zx-nav2.php">
-                <img src="../../img/pages-publicity/zx-nav-2.jpg" alt=""/>
+                <img src="../../img/pages-publicity/zx-nav-2.jpg?v=dec75ea9fd" alt=""/>
             </a>
         </div>
         <div class="item">
             <a href="zx-nav3.php">
-                <img src="../../img/pages-publicity/zx-nav-3.jpg" alt=""/>
+                <img src="../../img/pages-publicity/zx-nav-3.jpg?v=5965242162" alt=""/>
             </a>
         </div>
         <div class="item on last">
             <a href="zx-nav4.php">
-                <img src="../../img/pages-publicity/zx-nav-4-on.jpg" alt=""/>
+                <img src="../../img/pages-publicity/zx-nav-4-on.jpg?v=4dd5e832c0" alt=""/>
             </a>
         </div>
     </div>
@@ -57,7 +57,7 @@
             </form>
 
             <p class="call-hintTxt">拨打热线，快速了解九正家居定制平台</p>
-            <p class="call"><img src="../../img/pages-publicity/call.jpg" alt=""/>400-6464-001</p>
+            <p class="call"><img src="../../img/pages-publicity/call.jpg?v=2de087666b" alt=""/>400-6464-001</p>
         </div>
     </div>
 
@@ -105,8 +105,8 @@
         </div>
     </div>
 
-    <img src="../../img/pages-publicity/zx-nav4-img1.jpg" alt=""/>
-    <img src="../../img/pages-publicity/zx-nav4-img2.jpg" alt=""/>
+    <img src="../../img/pages-publicity/zx-nav4-img1.jpg?v=8f5d343235" alt=""/>
+    <img src="../../img/pages-publicity/zx-nav4-img2.jpg?v=f752223648" alt=""/>
 </div>
 
 </body>

@@ -1,6 +1,7 @@
 npm init
 
-npm install gulp-autoprefixer --save-dev
+npm install gulp-rev-collector \
+    gulp-rev --save-dev
 
 npm install \
     gulp \
@@ -24,4 +25,3 @@ npm install \
     --save-dev
 
 
-重装系统的提交

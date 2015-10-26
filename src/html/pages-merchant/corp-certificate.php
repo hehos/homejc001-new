@@ -19,7 +19,7 @@
         <div class="col-lg-3">
             <div class="media-base">
                 <a href="" class="thumbnail">
-                    <img src="../../img/temp-img/corp-zhengshu.jpg?v=41ca4136b1" alt="">
+                    <img src="../../img/temp-img/corp-zhengshu.jpg" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
             </div>
@@ -27,7 +27,7 @@
         <div class="col-lg-3">
             <div class="media-base">
                 <a href="" class="thumbnail">
-                    <img src="../../img/temp-img/corp-zhengshu.jpg?v=41ca4136b1" alt="">
+                    <img src="../../img/temp-img/corp-zhengshu.jpg" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
             </div>
@@ -35,7 +35,7 @@
         <div class="col-lg-3">
             <div class="media-base">
                 <a href="" class="thumbnail">
-                    <img src="../../img/temp-img/corp-zhengshu.jpg?v=41ca4136b1" alt="">
+                    <img src="../../img/temp-img/corp-zhengshu.jpg" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
             </div>
@@ -43,7 +43,7 @@
         <div class="col-lg-3">
             <div class="media-base">
                 <a href="" class="thumbnail">
-                    <img src="../../img/temp-img/corp-zhengshu.jpg?v=41ca4136b1" alt="">
+                    <img src="../../img/temp-img/corp-zhengshu.jpg" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
             </div>

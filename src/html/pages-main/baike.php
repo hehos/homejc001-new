@@ -23,7 +23,7 @@
 <div class="container">
     <!--  顶部广告  -->
     <div class="row ad-box">
-        <a href=""><img src="../../img/bk-ad1.jpg?v=cbb88779ee" alt="/"/></a>
+        <a href=""><img src="../../img/bk-ad1.jpg" alt="/"/></a>
     </div>
 
     <!--  顶部百科分类  -->
@@ -239,7 +239,7 @@
 
             <!--  广告  -->
             <div class="ad-box">
-                <a href=""><img src="../../img/bk-ad2.jpg?v=05c1acce39" alt="/"/></a>
+                <a href=""><img src="../../img/bk-ad2.jpg" alt="/"/></a>
             </div>
 
             <!--  热点关注、最新发布  -->
@@ -264,7 +264,7 @@
 
             <!--  广告  -->
             <div class="ad-box">
-                <a href=""><img src="../../img/bk-ad3.jpg?v=ed19b1f238" alt="/"/></a>
+                <a href=""><img src="../../img/bk-ad3.jpg" alt="/"/></a>
             </div>
 
             <!--  热门品牌  -->

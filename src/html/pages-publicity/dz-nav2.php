@@ -11,17 +11,17 @@
     <div class="cont-nav">
         <div class="item">
             <a href="dz-nav1.php">
-                <img src="../../img/pages-publicity/dz-nav-1.jpg?v=839a9391c7" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-1.jpg" alt=""/>
             </a>
         </div>
         <div class="item on">
             <a href="dz-nav2.php">
-                <img src="../../img/pages-publicity/dz-nav-2-on.jpg?v=d17bc074a3" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-2-on.jpg" alt=""/>
             </a>
         </div>
         <div class="item last">
             <a href="dz-nav3.php">
-                <img src="../../img/pages-publicity/dz-nav-3.jpg?v=64230a69e4" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-3.jpg" alt=""/>
             </a>
         </div>
     </div>
@@ -54,17 +54,17 @@
 
             <p class="call-hintTxt">拨打热线，快速了解九正家居定制平台</p>
 
-            <p class="call"><img src="../../img/pages-publicity/call.jpg?v=2de087666b" alt=""/>400-6464-001</p>
+            <p class="call"><img src="../../img/pages-publicity/call.jpg" alt=""/>400-6464-001</p>
         </div>
     </div>
 
 
-    <img src="../../img/pages-publicity/dz-nav2-img1.jpg?v=720bc43292" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav2-img1.jpg" alt=""/>
 
-    <img src="../../img/pages-publicity/dz-nav2-img2.jpg?v=cdfa6c6e22" alt=""/>
-    <img src="../../img/pages-publicity/dz-nav2-img3.jpg?v=4cfec15c46" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav2-img2.jpg" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav2-img3.jpg" alt=""/>
 
-    <img src="../../img/pages-publicity/dz-nav2-img4.jpg?v=18ba10c9a7" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav2-img4.jpg" alt=""/>
 
 </div>
 

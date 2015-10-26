@@ -37,6 +37,7 @@ var cf = {
             css: 'src/css/**/*.css',
             commCss: 'src/css/*.css',
             pageCss: 'src/css/*/*.css',
+            script: 'src/script/**/*.js',
             js: 'src/js/**/*.js',
             img: ['src/img/**/*', '!src/img/myicon/*.*'],
             myicons: 'src/img/myicon/*.png',
@@ -44,6 +45,7 @@ var cf = {
             spriteScss: 'src/scss/_' + o.spriteName + '.scss',
             font: 'src/font/*',
             html: 'src/html/**/*',
+            pages: 'src/pages/**/*',
             vendor: 'src/vendor/**/*',
             rev: 'src/rev/**/*.json'
         },
@@ -52,9 +54,11 @@ var cf = {
             scss: 'src/scss/',
             css: 'src/css/',
             map: 'src/map/',
+            script: 'src/script/',
             js: 'src/js/',
             img: 'src/img/',
             html: 'src/html/',
+            pages: 'src/pages/',
             sprite: 'src/img/myicon/',
             font: 'src/font/'
         },
@@ -78,6 +82,7 @@ var cf = {
             img: 'dist/img',
             font: 'dist/font',
             html: 'dist/html',
+            pages: 'dist/pages',
             vendor: 'dist/vendor'
         }
     },
@@ -97,7 +102,7 @@ var cf = {
 // ==============================
 // style
 // 编译样式及获得css文件的版本号
-gulp.task('sass', ['cleanCss'], function () {
+gulp.task('sass', function () {
     return sass(cf.src.file.scss, { sourcemap: true })
         .on('error', sass.logError)
         .pipe(rev())
@@ -116,26 +121,23 @@ gulp.task('sass', ['cleanCss'], function () {
         .pipe(gulp.dest(cf.src.rev.css));
 });
 
-// 生成css文件内容的版本号 如：background: url('../img/one.jpg?v=28bd4f6d18');
+// 生成css文件内容的版本号及压缩发布
+// 版本号生成效果 如：background: url('../img/one.jpg?v=28bd4f6d18');
 gulp.task('versionCss', function () {
-    return gulp.src([
-        cf.src.file.rev,
-        cf.src.file.css
-    ])
+    return gulp.src([cf.src.file.rev, cf.src.file.css])
         .pipe(revCollector())
-        .pipe(gulp.dest(cf.src.dir.css));
-});
-// 压缩css及生成css的版本号
-gulp.task('minifycss',  function () {
-    return gulp.src(cf.src.file.css)
+        .pipe(gulp.dest(cf.src.dir.css))
         .pipe(minifycss({compatibility: 'ie8'}))
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest(cf.dist.dir.css))
+        .pipe(gulp.dest(cf.dist.dir.css));
+});
+gulp.task('css', ['cleanCss'], function(cb) {
+    runSequence('sass', 'versionCss', cb);
 });
 
-
+// sprite
 gulp.task('sprite', function () {
     // Generate our spritesheet
     var spriteData = gulp.src(cf.src.file.myicons).pipe(spritesmith({
@@ -156,6 +158,7 @@ gulp.task('sprite', function () {
         extname: ".scss"
     })).pipe(gulp.dest(cf.src.dir.scss));
 });
+// font
 gulp.task('font', ['cleanFont'], function () {
     return gulp.src(cf.src.file.font)
         .pipe(rev())
@@ -164,32 +167,27 @@ gulp.task('font', ['cleanFont'], function () {
         .pipe(gulp.dest(cf.src.rev.font));
 });
 
-gulp.task('style', function() {
-    runSequence('sass', 'versionCss', 'minifycss');
-});
-gulp.task('', function() {
-    runSequence('sass', 'versionCss', 'minifycss');
-});
-
 // ==============================
 // js
-gulp.task('js', ['cleanJs'], function () {
-    return gulp.src(cf.src.file.js)
+gulp.task('script', function () {
+    return gulp.src(cf.src.file.script)
         .pipe(rev())
         .pipe(jshint())
-        .pipe(uglify())
-        .pipe(gulp.dest(cf.dist.dir.js))
+        .pipe(gulp.dest(cf.src.dir.js))
         .pipe(rev.manifest())
         .pipe(gulp.dest(cf.src.rev.js));
 });
 gulp.task('versionJs', function () {
-    return gulp.src([
-        cf.src.file.rev,
-        cf.src.file.js
-    ])
+    return gulp.src([cf.src.file.rev, cf.src.file.js])
         .pipe(revCollector())
-        .pipe(gulp.dest(cf.src.dir.js));
+        .pipe(gulp.dest(cf.src.dir.js))
+        .pipe(uglify())
+        .pipe(gulp.dest(cf.dist.dir.js));
 });
+gulp.task('js', ['cleanJs'], function(cb) {
+    runSequence('script', 'versionJs', cb);
+});
+
 // ==============================
 // 图片
 gulp.task('img', ['cleanImg'], function () {
@@ -207,19 +205,13 @@ gulp.task('img', ['cleanImg'], function () {
 // ==============================
 // html
 gulp.task('html', ['cleanHtml'], function () {
-    return gulp.src(cf.src.file.html)
+    return gulp.src([cf.src.file.rev, cf.src.file.html])
+        .pipe(revCollector())
+        .pipe(replace('/html/', '/pages/'))
+        .pipe(gulp.dest(cf.src.dir.pages))
         .pipe(replace('/src/', '/dist/'))
         .pipe(replace('.css', '.min.css'))
-        .pipe(gulp.dest(cf.dist.dir.html));
-});
-// 生成html文件的版本号
-gulp.task('versionHtml', function () {
-    return gulp.src([
-        cf.src.file.rev,
-        cf.src.file.html
-    ])
-        .pipe(revCollector())
-        .pipe(gulp.dest(cf.src.dir.html));
+        .pipe(gulp.dest(cf.dist.dir.pages));
 });
 
 // vendor
@@ -232,15 +224,19 @@ gulp.task('vendor', ['cleanVendor'], function () {
 // ==============================
 // 清理
 gulp.task('clean', function() {
-    return gulp.src([cf.dist.dir.root, cf.src.rev.root], {read: false})
+    return gulp.src([cf.dist.dir.root], {read: false})
         .pipe(clean());
 });
+gulp.task('clean2', function() {
+    gulp.start(['cleanCss', 'cleanFont', 'cleanJs', 'cleanImg', 'cleanHtml', 'cleanVendor']);
+});
+
 gulp.task('cleanCss', function() {
-    return gulp.src([cf.dist.dir.css, cf.src.dir.css, cf.src.dir.map], {read: false})
+    return gulp.src([cf.dist.dir.css, cf.src.dir.css, cf.src.dir.map, cf.src.rev.css], {read: false})
         .pipe(clean());
 });
 gulp.task('cleanFont', function() {
-    return gulp.src([cf.dist.dir.font], {read: false})
+    return gulp.src([cf.dist.dir.font, cf.src.dir.font], {read: false})
         .pipe(clean());
 });
 //gulp.task('cleanSprite', function() {
@@ -248,19 +244,19 @@ gulp.task('cleanFont', function() {
 //        .pipe(clean());
 //});
 gulp.task('cleanJs', function() {
-    return gulp.src(cf.dist.dir.js, {read: false})
+    return gulp.src([cf.dist.dir.js, cf.src.dir.js, cf.src.rev.js], {read: false})
         .pipe(clean());
 });
 gulp.task('cleanImg', function() {
-    return gulp.src(cf.dist.dir.img, {read: false})
+    return gulp.src([cf.dist.dir.img, cf.src.rev.img], {read: false})
         .pipe(clean());
 });
 gulp.task('cleanHtml', function() {
-    return gulp.src(cf.dist.dir.html, {read: false})
+    return gulp.src([cf.dist.dir.pages, cf.src.dir.pages], {read: false})
         .pipe(clean());
 });
 gulp.task('cleanVendor', function() {
-    return gulp.src(cf.dist.dir.vendor, {read: false})
+    return gulp.src([cf.dist.dir.vendor], {read: false})
         .pipe(clean());
 });
 
@@ -268,10 +264,7 @@ gulp.task('cleanVendor', function() {
 // watch
 gulp.task('watch', function() {
     // watch scss
-    gulp.watch(cf.src.file.scss, ['style']);
-
-    // watch css
-    gulp.watch(cf.src.file.css, ['minifycss']);
+    gulp.watch(cf.src.file.scss, ['css']);
 
     // watch font
     gulp.watch(cf.src.file.font, ['font']);
@@ -280,25 +273,35 @@ gulp.task('watch', function() {
     gulp.watch(cf.src.file.myicons, ['sprite']);
 
     // watch img
-    gulp.watch(cf.src.file.img, function() {
-        runSequence('img', ['versionCss', 'versionHtml', 'versionJs']);
-    });
+    gulp.watch(cf.src.file.img, ['img']);
 
     // watch js
-    gulp.watch(cf.src.file.js, ['js']);
+    gulp.watch(cf.src.file.script, ['js']);
 
     // watch html
     gulp.watch(cf.src.file.html, ['html']);
 
     // watch vendor
     gulp.watch(cf.src.file.vendor, ['vendor']);
+
+    // watch rev  监听版本号
+    gulp.watch(cf.src.file.rev, function() {
+        runSequence(['js', 'css'], 'html');
+    });
 });
 
 
 // 预设任务
 gulp.task('default', ['clean'], function() {
-    runSequence(['sprite', 'vendor'], ['img', 'font'], ['js', 'style'], 'html');
+    runSequence(['sprite', 'vendor'], ['img', 'font'], ['css', 'js'], 'html');
 });
+
+//gulp.task('default', ['clean'], function() {
+//    runSequence(['sprite', 'vendor'], ['img', 'font'],
+//        'cleanCss', 'sass', 'versionCss',  // css 同步执行
+//        'cleanJs', 'script', 'versionJs',  // js 同步执行
+//        'html');
+//});
 
 
 

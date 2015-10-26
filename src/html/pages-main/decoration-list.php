@@ -158,7 +158,7 @@
             <div class="firm-list margin-b-21">
                 <div class="media-firmitem">
                     <div class="media-left">
-                        <a class="thumbnail" href=""><img src="../../img/temp-img/logo-corp2.jpg?v=951e9afda8" alt=""/></a>
+                        <a class="thumbnail" href=""><img src="../../img/temp-img/logo-corp2.jpg" alt=""/></a>
                     </div>
                     <div class="media-body">
                         <h4 class="media-title"><a href="">成都禾木艺景装饰工程有限公司</a></h4>
@@ -183,7 +183,7 @@
 
                 <div class="media-firmitem">
                     <div class="media-left">
-                        <a class="thumbnail" href=""><img src="../../img/temp-img/logo-corp2.jpg?v=951e9afda8" alt=""/></a>
+                        <a class="thumbnail" href=""><img src="../../img/temp-img/logo-corp2.jpg" alt=""/></a>
                     </div>
                     <div class="media-body">
                         <h4 class="media-title"><a href="">成都禾木艺景装饰工程有限公司</a></h4>
@@ -288,13 +288,13 @@
             <div class="margin-b-13 side-firm-list">
                 <h3>装修公司</h3>
                 <div class="media-base-left">
-                    <a class="img" href=""><img src="../../img/temp-img/logo-corp2.jpg?v=951e9afda8" alt=""/></a>
+                    <a class="img" href=""><img src="../../img/temp-img/logo-corp2.jpg" alt=""/></a>
                     <div class="txt">
                         <p>成都创美居装饰工程有限公司 - 成都装修公司 成都创美居装饰工程有限公司</p>
                     </div>
                 </div>
                 <div class="media-base-left">
-                    <a class="img" href=""><img src="../../img/temp-img/logo-corp2.jpg?v=951e9afda8" alt=""/></a>
+                    <a class="img" href=""><img src="../../img/temp-img/logo-corp2.jpg" alt=""/></a>
                     <div class="txt">
                         <p>成都创美居装饰工程有限公司 - 成都装修公司 成都创美居装饰工程有限公司</p>
                     </div>
@@ -303,7 +303,7 @@
 
             <!--  广告区  -->
             <div class="side-adv">
-                <a href=""><img src="../../img/pages-decoration/zx-side-adv1.jpg?v=86ecdaac98" alt=""/></a>
+                <a href=""><img src="../../img/pages-decoration/zx-side-adv1.jpg" alt=""/></a>
             </div>
         </div>
     </div>

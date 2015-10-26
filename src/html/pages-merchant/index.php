@@ -26,10 +26,10 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item carousel-item active">
-                        <a href=""><img src="../../img/pages-merchant/banner1.jpg?v=9efa0de820?v=778a40e37b" alt=""/></a>
+                        <a href=""><img src="../../img/pages-merchant/banner1.jpg" alt=""/></a>
                     </div>
                     <div class="item carousel-item">
-                        <a href=""><img src="../../img/pages-merchant/banner1.jpg?v=9efa0de820?v=778a40e37b" alt=""/></a>
+                        <a href=""><img src="../../img/pages-merchant/banner1.jpg" alt=""/></a>
                     </div>
                 </div>
 
@@ -161,7 +161,7 @@
                     </div>
                 </div>
 
-                <script src="http://192.168.0.188/homejc001-new/src/js/scroll-vertical.js?v=ac6696f350"></script>
+                <script src="http://192.168.0.188/homejc001-new/src/js/scroll-vertical.js"></script>
                 <script>
                     $(".scrolltable-warp").scrollTable({rows: 6});
                 </script>
@@ -198,7 +198,7 @@
              <div class="col-lg-4">
                  <div class="media-base">
                      <a href="" class="thumbnail">
-                         <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                         <img src="../../img/temp-img/product1.jpg" alt="">
                      </a>
                      <h4 class="media-title"><a href="">图片标题</a></h4>
                      <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
@@ -208,7 +208,7 @@
              <div class="col-lg-4">
                  <div class="media-base">
                      <a href="" class="thumbnail">
-                         <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                         <img src="../../img/temp-img/product1.jpg" alt="">
                      </a>
                      <h4 class="media-title"><a href="">图片标题</a></h4>
                      <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
@@ -218,7 +218,7 @@
              <div class="col-lg-4">
                  <div class="media-base">
                      <a href="" class="thumbnail">
-                         <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                         <img src="../../img/temp-img/product1.jpg" alt="">
                      </a>
                      <h4 class="media-title"><a href="">图片标题</a></h4>
                      <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
@@ -228,7 +228,7 @@
              <div class="col-lg-4">
                  <div class="media-base">
                      <a href="" class="thumbnail">
-                         <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                         <img src="../../img/temp-img/product1.jpg" alt="">
                      </a>
                      <h4 class="media-title"><a href="">图片标题</a></h4>
                      <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
@@ -249,7 +249,7 @@
             <div class="col-lg-4">
                 <div class="media-base">
                     <a href="" class="thumbnail">
-                        <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                        <img src="../../img/temp-img/product1.jpg" alt="">
                     </a>
                     <h4 class="media-title"><a href="">图片标题</a></h4>
                     <p class="media-explain">案例简单介绍</p>
@@ -258,7 +258,7 @@
             <div class="col-lg-4">
                 <div class="media-base">
                     <a href="" class="thumbnail">
-                        <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                        <img src="../../img/temp-img/product1.jpg" alt="">
                     </a>
                     <h4 class="media-title"><a href="">图片标题</a></h4>
                     <p class="media-explain">案例简单介绍</p>
@@ -267,7 +267,7 @@
             <div class="col-lg-4">
                 <div class="media-base">
                     <a href="" class="thumbnail">
-                        <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                        <img src="../../img/temp-img/product1.jpg" alt="">
                     </a>
                     <h4 class="media-title"><a href="">图片标题</a></h4>
                     <p class="media-explain">案例简单介绍</p>

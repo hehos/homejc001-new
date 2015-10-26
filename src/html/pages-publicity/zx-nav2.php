@@ -11,22 +11,22 @@
     <div class="cont-nav zx-page">
         <div class="item">
             <a href="zx-nav1.php">
-                <img src="../../img/pages-publicity/zx-nav-1.jpg?v=aee88aafe9" alt=""/>
+                <img src="../../img/pages-publicity/zx-nav-1.jpg" alt=""/>
             </a>
         </div>
         <div class="item on">
             <a href="zx-nav2.php">
-                <img src="../../img/pages-publicity/zx-nav-2-on.jpg?v=4e1fe5b354" alt=""/>
+                <img src="../../img/pages-publicity/zx-nav-2-on.jpg" alt=""/>
             </a>
         </div>
         <div class="item">
             <a href="zx-nav3.php">
-                <img src="../../img/pages-publicity/zx-nav-3.jpg?v=5965242162" alt=""/>
+                <img src="../../img/pages-publicity/zx-nav-3.jpg" alt=""/>
             </a>
         </div>
         <div class="item last">
             <a href="zx-nav4.php">
-                <img src="../../img/pages-publicity/zx-nav-4.jpg?v=f250220ec9" alt=""/>
+                <img src="../../img/pages-publicity/zx-nav-4.jpg" alt=""/>
             </a>
         </div>
     </div>
@@ -57,11 +57,11 @@
             </form>
 
             <p class="call-hintTxt">拨打热线，快速了解九正家居装修平台</p>
-            <p class="call"><img src="../../img/pages-publicity/call.jpg?v=2de087666b" alt=""/>400-6464-001</p>
+            <p class="call"><img src="../../img/pages-publicity/call.jpg" alt=""/>400-6464-001</p>
         </div>
     </div>
 
-    <img src="../../img/pages-publicity/zx-nav2-img1.jpg?v=721fd17d41" alt=""/>
+    <img src="../../img/pages-publicity/zx-nav2-img1.jpg" alt=""/>
 
     <div>
         <div class="title">
@@ -122,14 +122,14 @@
         </div>
     </div>
 
-    <script src="http://192.168.0.188/homejc001-new/src/js/scroll-vertical.js?v=ac6696f350"></script>
+    <script src="http://192.168.0.188/homejc001-new/src/js/scroll-vertical.js"></script>
     <script>
         $(".scrolltable-warp").scrollTable();
     </script>
 
-    <img src="../../img/pages-publicity/zx-nav2-img2.jpg?v=cf50ba2861" alt=""/>
-    <img src="../../img/pages-publicity/zx-nav2-img3.jpg?v=ff52dbda14" alt=""/>
-    <img src="../../img/pages-publicity/zx-nav2-img4.jpg?v=f4149b6a38" alt=""/>
+    <img src="../../img/pages-publicity/zx-nav2-img2.jpg" alt=""/>
+    <img src="../../img/pages-publicity/zx-nav2-img3.jpg" alt=""/>
+    <img src="../../img/pages-publicity/zx-nav2-img4.jpg" alt=""/>
 </div>
 </body>
 </html>

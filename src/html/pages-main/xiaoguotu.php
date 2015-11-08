@@ -20,13 +20,20 @@
 
     <!--  顶部条件筛选  -->
     <div class="row">
+
         <div class="filter-box2">
             <div class="filter-head ">
                 <ol class="breadcrumb-arrow location">
-                    <li><a href="http://homenew.9z.cn/">首页</a></li>
-                    <li><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi">商家</a></li>
+                    <li><a href="">建材产品</a></li>
+                    <li><a href="">门窗</a></li>
+                    <li><a href="">木门</a></li>
                 </ol>
-                <span class="right-info">共<em>4</em>条</span>
+                <ul class="label-close filtered">
+                    <li class="label"><a href="">都江堰市<i>×</i></a></li>
+                    <li class="label"><a href="">崇州市金<i>×</i></a></li>
+                    <li class="label"><a href="">堂县郫县<i>×</i></a></li>
+                </ul>
+                <span class="right-info">共<em>308</em>件相关产品</span>
             </div>
             <div class="filter-body">
                 <div class="filter-item">
@@ -36,36 +43,145 @@
                         </div>
                         <div class="layout-body">
                             <ul>
-                                <li class="label on"><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=0">不限</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2363">锦江区</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2364">青羊区</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2365">金牛区</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2366">武侯区</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2367">成华区</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2368">龙泉驿区</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2369">青白江区</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2370">新都区</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2371">金堂县</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2372">双流县</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2373">温江县</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2374">郫县</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2375">大邑县</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2376">蒲江县</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2377">新津县</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2378">都江堰市</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2379">彭州市</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2380">邛崃市</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2381">崇州市</a></li>
-                                <li class="label "><a href="http://homenew.9z.cn/index.php?path=/cshop-dingzhi&amp;rid=2782">高新区</a></li>
+                                <li class="label on"><a href="">都江堰市</a></li>
+                                <li class="label"><a href="">彭州市</a></li>
+                                <li class="label"><a href="">邛崃市</a></li>
+                                <li class="label"><a href="">崇州市金</a></li>
+                                <li class="label"><a href="">堂县郫县</a></li>
+                                <li class="label"><a href="">新津县</a></li>
+                                <li class="label"><a href="">双流县</a></li>
+                                <li class="label"><a href="">蒲江县</a></li>
+                                <li class="label"><a href="">大邑县</a></li>
+                                <li class="label"><a href="">成华</a></li>
+                                <li class="label"><a href="">金牛</a></li>
+                                <li class="label"><a href="">双流县</a></li>
+                                <li class="label"><a href="">蒲江县</a></li>
+                                <li class="label"><a href="">大邑县</a></li>
+                                <li class="label"><a href="">成华</a></li>
+                                <li class="label"><a href="">金牛</a></li>
                             </ul>
+                        </div>
+                        <div class="layout-right">
+                            <div class="label-control">
+                                <a href="" class="label-on">更多<i class="icon-angle-down"></i></a>
+                                <a href="" class="label-off">隐藏<i class="icon-angle-up"></i></a>
+                                <a href="" class="label-checkbox">多选<i class="icon-choice-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-item">
+                    <div class="label-filter">
+                        <div class="layout-left">
+                            <span class="label-title">服务区域</span>
+                        </div>
+                        <div class="layout-body">
+                            <ul>
+                                <li class="label on"><a href="">都江堰市</a></li>
+                                <li class="label"><a href="">彭州市</a></li>
+                                <li class="label"><a href="">邛崃市</a></li>
+                                <li class="label"><a href="">崇州市金</a></li>
+                                <li class="label"><a href="">堂县郫县</a></li>
+                                <li class="label"><a href="">新津县</a></li>
+                                <li class="label"><a href="">双流县</a></li>
+                                <li class="label"><a href="">蒲江县</a></li>
+                                <li class="label"><a href="">大邑县</a></li>
+                                <li class="label"><a href="">成华</a></li>
+                                <li class="label"><a href="">金牛</a></li>
+                                <li class="label"><a href="">双流县</a></li>
+                                <li class="label"><a href="">蒲江县</a></li>
+                                <li class="label"><a href="">大邑县</a></li>
+                                <li class="label"><a href="">成华</a></li>
+                                <li class="label"><a href="">金牛</a></li>
+                            </ul>
+                        </div>
+                        <div class="layout-right">
+                            <div class="label-control on">
+                                <a href="" class="label-on">更多<i class="icon-angle-down"></i></a>
+                                <a href="" class="label-off">隐藏<i class="icon-angle-up"></i></a>
+                                <a href="" class="label-checkbox">多选<i class="icon-choice-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-item">
+                    <div class="label-filter">
+                        <div class="layout-left">
+                            <span class="label-title">服务区域</span>
+                        </div>
+                        <div class="layout-body">
+                            <ul>
+                                <li class="label selected"><a href="">都江堰市</a></li>
+                                <li class="label selected"><a href="">彭州市</a></li>
+                                <li class="label"><a href="">邛崃市</a></li>
+                                <li class="label"><a href="">崇州市金</a></li>
+                                <li class="label"><a href="">堂县郫县</a></li>
+                                <li class="label"><a href="">新津县</a></li>
+                                <li class="label"><a href="">双流县</a></li>
+                                <li class="label"><a href="">蒲江县</a></li>
+                                <li class="label"><a href="">大邑县</a></li>
+                                <li class="label"><a href="">成华</a></li>
+                                <li class="label"><a href="">金牛</a></li>
+                                <li class="label"><a href="">双流县</a></li>
+                                <li class="label"><a href="">蒲江县</a></li>
+                                <li class="label"><a href="">大邑县</a></li>
+                                <li class="label"><a href="">成华</a></li>
+                                <li class="label"><a href="">金牛</a></li>
+                            </ul>
+                            <div class="checkbox-btn-box">
+                                <a class="label-confirm" href="">确定</a>
+                                <a class="label-cancel" href="">取消</a>
+                            </div>
+                        </div>
+                        <div class="layout-right">
+                            <div class="label-control on">
+                                <a href="" class="label-on">更多<i class="icon-angle-down"></i></a>
+                                <a href="" class="label-off">隐藏<i class="icon-angle-up"></i></a>
+                                <a href="" class="label-checkbox">多选<i class="icon-choice-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-item colors">
+                    <div class="label-filter">
+                        <div class="layout-left">
+                            <span class="label-title">颜色</span>
+                        </div>
+                        <div class="layout-body">
+                            <ul>
+                                <li class="label"></li>
+                                <li class="label"></li>
+                                <li class="label"></li>
+                                <li class="label"></li>
+                                <li class="label"></li>
+                                <li class="label"></li>
+                                <li class="label"></li>
+                                <li class="label"></li>
+                            </ul>
+                            <div class="checkbox-btn-box">
+                                <a class="label-confirm" href="">确定</a>
+                                <a class="label-cancel" href="">取消</a>
+                            </div>
+                        </div>
+                        <div class="layout-right">
+                            <div class="label-control on">
+                                <a href="" class="label-on">更多<i class="icon-angle-down"></i></a>
+                                <a href="" class="label-off">隐藏<i class="icon-angle-up"></i></a>
+                                <a href="" class="label-checkbox">多选<i class="icon-choice-plus"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="more-type">
+                <a href="" class="box-on">更多<i class="icon-angle-down"></i></a>
+                <a href="" class="box-off">收起<i class="icon-angle-up"></i></a>
+            </div>
         </div>
     </div>
 
-    <!--  顶部条件筛选  -->
+    <!--  效果图列表  -->
     <div class="row">
         <div class="filter-title">
             <h3>更多图片</h3>
@@ -74,9 +190,44 @@
                 找到<em>成都装修公司</em>相关<em>105</em>家，当前在<em>1/188</em>页
             </div>
         </div>
+        <div class="xiaoguotu-list">
+            <div class="media-base">
+                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
+                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+            </div>
+            <div class="media-base">
+                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
+                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+            </div>
+            <div class="media-base">
+                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
+                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+            </div>
+            <div class="media-base">
+                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
+                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+            </div>
+            <div class="media-base">
+                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
+                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+            </div>
+            <div class="media-base">
+                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
+                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+            </div>
+        </div>
     </div>
 
 
+
+    <!--  底部友情信息  -->
+    <?php include "../bottom-links.php"; ?>
 </div>
 
 <?php include "../footer.php"; ?>

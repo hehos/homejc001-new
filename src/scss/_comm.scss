@@ -54,11 +54,11 @@ body .container {
 }
 
 // global 左右主栏和侧栏的布局及宽度
-.main-left {
+.main-left, .layout-main {
   float: left;
   width: percentage((1200-320)/1200);
 }
-.side-right {
+.side-right, .layout-side {
   float: right;
   width: percentage((320 - 19)/1200);
   margin-left: 19px;

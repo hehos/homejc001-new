@@ -70,10 +70,10 @@
         </div>
     </div>
 
-    <!--  页面主题内容  -->
+    <!--  页面主体内容  -->
     <div class="row clearfix">
         <!--  左侧列表  -->
-        <div class="index-baike-main pull-left">
+        <div class="layout-main pull-left">
             <div class="baike-list">
                 <div class="media-newsitem">
                     <div class="media-left">
@@ -150,7 +150,7 @@
         </div>
 
         <!--  右侧内容   -->
-        <div class="index-baike-side">
+        <div class="layout-side pull-right">
             <div class="yuyue-form">
                 <div class="form-tab row">
                     <ul>
@@ -376,7 +376,6 @@
 
 
     <!--  底部友情信息  -->
-
     <?php include "../bottom-links.php"; ?>
 </div>
 

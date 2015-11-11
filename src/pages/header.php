@@ -51,7 +51,13 @@
         <div class="container">
             <ul class="header-nav nav-base row">
                 <li class="nav-item on"><a href="http://192.168.0.188/homejc001-new/src/pages/pages-main/index.php">首页</a></li>
-                <li class="nav-item has-icon"><a href="http://192.168.0.188/homejc001-new/src/pages/pages-publicity/dz-nav1.php">定制家居<i class="myicon-hot"></i></a></li>
+                <li class="nav-item has-subnav has-icon">
+                    <a href="http://192.168.0.188/homejc001-new/src/pages/pages-publicity/dz-nav1.php">
+                        定制家居<i class="icon-angle-up"></i><i class="icon-angle-down"></i><i class="myicon-hot"></i></a>
+                    <ol class="subnav">
+                        <li><a href="http://192.168.0.188/homejc001-new/src/pages/pages-main/decoration-list.php">找定制商家</a></li>
+                    </ol>
+                </li>
                 <li class="nav-item has-subnav">
                     <a href="">效果图<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">
@@ -61,7 +67,8 @@
                     </ol>
                 </li>
                 <li class="nav-item has-subnav">
-                    <a href="">装修攻略<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
+                    <a href="http://192.168.0.188/homejc001-new/src/pages/pages-main/baike.php">
+                        装修攻略<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">
                         <li><a href="">装修日记</a></li>
                         <li><a href="">学装修</a></li>

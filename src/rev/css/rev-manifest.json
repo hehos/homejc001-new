@@ -1,13 +1,13 @@
 {
-  "all.css": "all.css?v=7310aad557",
-  "comm.css": "comm.css?v=7310aad557",
-  "old-comm.css": "old-comm.css?v=29c27ecaa5",
-  "pages-main/baike.css": "pages-main/baike.css?v=a9cbb24d4c",
+  "all.css": "all.css?v=601c4c0e32",
+  "comm.css": "comm.css?v=601c4c0e32",
+  "old-comm.css": "old-comm.css?v=8ac8f62a6c",
+  "pages-main/baike.css": "pages-main/baike.css?v=ac7685a634",
   "pages-main/decoration.css": "pages-main/decoration.css?v=682ca3d728",
   "pages-main/index.css": "pages-main/index.css?v=b9df8b6985",
   "pages-member/member.css": "pages-member/member.css?v=b2d4fad3fb",
-  "pages-merchant/merchant.css": "pages-merchant/merchant.css?v=ea46597e8d",
+  "pages-merchant/merchant.css": "pages-merchant/merchant.css?v=b107d3412c",
   "pages-publicity/publicity.css": "pages-publicity/publicity.css?v=8890bc74ef",
   "sprite.css": "sprite.css?v=bec090c481",
-  "test/testGulp.css": "test/testGulp.css?v=fcb89151c7"
+  "test/testGulp.css": "test/testGulp.css?v=a1febb6618"
 }

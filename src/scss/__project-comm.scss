@@ -17,7 +17,9 @@
 a:hover, a:focus {
   text-decoration: underline;
 }
-
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+  border-color: $activeColor;
+}
 body .container {
   width: 1200px;
   max-width: none;
@@ -26,12 +28,12 @@ body .container {
 // global 左右主栏和侧栏的布局及宽度
 .main-left, .layout-main {
   float: left;
-  width: percentage((1200-320)/1200);
+  width: percentage((1200 - 300) / 1200);
+  padding-right: 20px;
 }
 .side-right, .layout-side {
   float: right;
-  width: percentage((320 - 19)/1200);
-  margin-left: 19px;
+  width: percentage((300) / 1200);
 }
 // sprite comm style
 [class^="myicon-"],

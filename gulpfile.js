@@ -236,7 +236,7 @@ gulp.task('cleanCss', function() {
         .pipe(clean());
 });
 gulp.task('cleanFont', function() {
-    return gulp.src([cf.dist.dir.font, cf.src.dir.font], {read: false})
+    return gulp.src([cf.dist.dir.font], {read: false})
         .pipe(clean());
 });
 //gulp.task('cleanSprite', function() {
@@ -286,7 +286,7 @@ gulp.task('watch', function() {
 
     // watch rev  监听版本号
     gulp.watch(cf.src.file.rev, function() {
-        runSequence(['js', 'css'], 'html');
+        runSequence(['versionJs', 'versionCss'], 'html');
     });
 });
 

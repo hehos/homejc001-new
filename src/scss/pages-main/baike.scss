@@ -3,17 +3,205 @@
 
 /* 百科页面样式 */
 
+// em 颜色
+.index-baike-list, #location, .hot-photos {
+  em {
+    margin: 0 3px;
+    color: $activeColor;
+  }
+}
+.index-baike-list em { font-weight: bold; }
+
 #header { margin-bottom: 0; }
 
 #location {
+  color: $gray;
   border-bottom: 1px solid $gray-lighter;
-}
+  .on {
+    color: $gray-dark;
+    font-weight: bold;
+  }
+} 
 
-.top-cates {
-  margin-left: -1%;
+// 百科主页
+.index-top-cates {
+  margin-left: -0.7%;
   .cate {
     float: left;
-    width: 32.333%;
-    margin-left: 1%;
+    width: percentage(1/3) - 0.7%;
+    padding: pxToEm(14px) 0;
+    margin-left: 0.7%;
+    background-color: lighten($gray-lightest, 1%);
+    border: 1px solid $gray-lighter;
   }
+  .left-glyph {
+    text-align: center;
+    padding: 0 pxToEm(29px);
+    vertical-align: middle;
+    border-right: 1px solid $gray-lighter;
+    color: $activeColor;
+    p {
+      white-space: nowrap;
+      margin-top: 10px;
+      font-size: pxToEm(16px);
+      font-weight: bold;
+    }
+  }
+  .label-cate {
+    padding: 0 pxToEm(25px);
+    .label { padding: 0; }
+  }
+  .label-title {
+    padding: 0  0 0.4em;
+    color: darken($gray-light, 5%);
+  }
+}
+.index-baike-list {
+  $mediaPB: 2.8em;
+  padding: pxToEm(15px) pxToEm(24px);
+  border: 1px solid $gray-lighter;
+  .media-newsitem {
+    padding-bottom: $mediaPB;
+    border-bottom: 1px dashed $gray-lighter;
+  }
+  .media-title {
+    font-weight: normal;
+    font-size: 1.45em;
+    margin-bottom: .8em;
+  }
+  .thumbnail {
+    padding: 1px;
+    border: 1px solid $gray-lighter;
+  }
+  .img-title {
+    line-height: 24px;
+    text-align: center;
+    margin-top: 1px;
+    font-size: pxToEm(12px);
+    background-color: lighten($gray-lightest, 1%);
+  }
+  .media-text { line-height: pxToEm(30px); }
+  .media-other i { margin: 0 0 0 5px; }
+  .labels {
+    line-height: 1.8;
+    margin-bottom: 1em;
+    overflow: hidden;
+    font-size: pxToEm(12px);
+    color: $gray-dark;
+    a {
+      float: left;
+      margin-right: 4px;
+      padding: 0 .8em;
+      border: 1px solid $darkGrayBd;
+      border-radius: 10px;
+      background-color: lighten($gray-lighter, 2%);
+    }
+  }
+  .media-newsitem .media-other {
+    bottom: -($mediaPB - .8em);
+  }
+}
+
+// layout-side
+// 预约表单
+
+.yuyue-form {
+  background-color: $gray-lightest;
+  .form-tab li {
+    &:hover, &.on { background-color: $body-bg; }
+  }
+}
+.cont-box {
+  padding: pxToEm(6px) pxToEm(18px);
+  border: 1px solid $gray-lighter;
+  .title-bar {
+    border-bottom: 1px solid $gray-lighter;
+    .title { font-size: pxToEm(16px); }
+  }
+  .cont-block {
+    margin-top: pxToEm(10px);
+  }
+}
+// 热门标签
+.hot-labels {
+  .label-bar { padding: 0; }
+  .label {
+    @include text-truncate();
+    max-width: 10em;
+    padding: .6em pxToEm(10px);
+    background-color: $gray-lightest;
+    margin-bottom: pxToEm(10px);
+    margin-right: pxToEm(10px);
+  }
+}
+
+// 热点、最新
+.rd-zx-tabs {
+  .tabs-base {
+    font-size: pxToEm(16px);
+    li {
+      width: 50%;
+      &.on, &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+  .list-group-item {
+    margin-bottom: 0;
+    border-bottom: 1px dashed $gray-lighter;
+    color: $gray;
+  }
+}
+
+// 热门品牌
+.hot-brands {
+  .label-bar {
+    line-height: 1.4;
+    padding: pxToEm(10px) pxToEm(6px);
+    border-bottom: 1px solid $gray-lighter;
+  }
+  .label { margin-right: 1.2em; }
+  .item-labels {
+    @include text-truncate();
+    padding: pxToEm(10px) pxToEm(6px);
+    line-height: 1;
+    color: $gray;
+    span {
+      display: inline-block;
+      padding: 0 12px;
+      &:first-child {
+        font-weight: bold;
+        padding-left: 0;
+        border-right: 1px solid $gray-lighter;
+      }
+    }
+  }
+  .item {
+    .icon-minus, .label-bar { display: none; }
+    &.on {
+      .item-labels {
+        background-color: $gray-lighter;
+        span:first-child { color: $activeColor; }
+      }
+      .icon-plus { display: none; }
+      .icon-minus { display: inline-block; }
+      .label-bar {
+        display: block;
+        height: auto;
+      }
+    }
+  }
+}
+
+.hot-photos {
+  .cont-block {
+    @include clearfix();
+  }
+  .media-base {
+    float: left;
+    width: 50%;
+    padding: 0 1em;
+    margin-bottom: pxToEm(10px);
+  }
+  .media-explain { font-size: pxToEm(12px); }
 }

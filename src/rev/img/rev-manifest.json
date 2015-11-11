@@ -2,11 +2,6 @@
   "banner1.jpg": "banner1.jpg?v=9efa0de820",
   "banner2.jpg": "banner2.jpg?v=625610985e",
   "banner3.jpg": "banner3.jpg?v=12b9f882f0",
-  "bk-ad1.jpg": "bk-ad1.jpg?v=cbb88779ee",
-  "bk-ad2.jpg": "bk-ad2.jpg?v=05c1acce39",
-  "bk-ad3.jpg": "bk-ad3.jpg?v=ed19b1f238",
-  "bk-img1.jpg": "bk-img1.jpg?v=b1f6abdcc6",
-  "bk-img2.jpg": "bk-img2.jpg?v=43fcae64d3",
   "bz1-anquan.png": "bz1-anquan.png?v=01e02107ea",
   "bz2-zhiliang.png": "bz2-zhiliang.png?v=39243acf60",
   "bz3-shouhou.png": "bz3-shouhou.png?v=933d723a2d",
@@ -79,6 +74,11 @@
   "pages-publicity/zx-nav4-img1.jpg": "pages-publicity/zx-nav4-img1.jpg?v=8f5d343235",
   "pages-publicity/zx-nav4-img2.jpg": "pages-publicity/zx-nav4-img2.jpg?v=f752223648",
   "sprite.png": "sprite.png?v=f3cf781c6e",
+  "temp-img/bk-ad1.jpg": "temp-img/bk-ad1.jpg?v=cbb88779ee",
+  "temp-img/bk-ad2.jpg": "temp-img/bk-ad2.jpg?v=05c1acce39",
+  "temp-img/bk-ad3.jpg": "temp-img/bk-ad3.jpg?v=ed19b1f238",
+  "temp-img/bk-img1.jpg": "temp-img/bk-img1.jpg?v=b1f6abdcc6",
+  "temp-img/bk-img2.jpg": "temp-img/bk-img2.jpg?v=43fcae64d3",
   "temp-img/corp-logo.jpg": "temp-img/corp-logo.jpg?v=f54c01872f",
   "temp-img/corp-zhengshu.jpg": "temp-img/corp-zhengshu.jpg?v=41ca4136b1",
   "temp-img/ddd.jpg": "temp-img/ddd.jpg?v=ad10ac9b43",
@@ -92,6 +92,6 @@
   "temp-img/product1.jpg": "temp-img/product1.jpg?v=bd99c5a26b",
   "temp-img/product2.jpg": "temp-img/product2.jpg?v=98bf8b017f",
   "temp-img/sort1.jpg": "temp-img/sort1.jpg?v=5e551b21a2",
-  "top-nav-icon.png": "top-nav-icon.png?v=0e683815c1",
-  "zx-side-adv1.jpg": "zx-side-adv1.jpg?v=86ecdaac98"
+  "temp-img/zx-side-ad1.jpg": "temp-img/zx-side-ad1.jpg?v=86ecdaac98",
+  "top-nav-icon.png": "top-nav-icon.png?v=0e683815c1"
 }

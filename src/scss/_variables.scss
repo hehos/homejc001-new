@@ -8,10 +8,11 @@ $themeBg:                       $body-bg;
 $activeColor:                   #bd0401;
 $activeColor2:                  #91b81d;
 $linkColor:                     $activeColor2;
-
+$btnColor:                      #fd8a17;
 // gray
-$grayBorder:                    #ddd;
+$grayBorder:                    $gray-lighter;
 
+$darkGrayBd:                   #dddddd;
 
 // font-size
 $baseFontSize:                  $font-size-root;

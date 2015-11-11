@@ -42,7 +42,6 @@ $activeColor: $activeColor;
     }
   }
   .title {
-    font-weight: 400;
     font-size: $font-size-h2;
   }
   .subtitle {
@@ -53,6 +52,8 @@ $activeColor: $activeColor;
     padding-left: 1em;
     color: $gray-light;
     i {
+      display: inline-block;
+      margin-bottom: 3px;
       margin-left: .2em;
       font-size: 1.2em;
       vertical-align: middle;

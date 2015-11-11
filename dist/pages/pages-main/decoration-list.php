@@ -303,7 +303,7 @@
 
             <!--  广告区  -->
             <div class="side-adv">
-                <a href=""><img src="../../img/pages-decoration/zx-side-adv1.jpg?v=86ecdaac98" alt=""/></a>
+                <a href=""><img src="../../img/pages-decoration/zx-side-adv1.jpg" alt=""/></a>
             </div>
         </div>
     </div>

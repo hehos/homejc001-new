@@ -42,7 +42,7 @@
 
     <!--  begin 产品详细、右测产品  -->
     <div class="row case-otherInfo">
-        <div class="col-lg-9">
+        <div class="main-info">
             <div class="otherInfo">
                 <h3 class="info-title">案例详情展示</h3>
                 <div class="details-cont">
@@ -50,7 +50,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3">
+        <div class="side-info">
             <div class="side-product">
                 <div class="title-bar">
                     <h2 class="title"><a href="">更多案例</a></h2>

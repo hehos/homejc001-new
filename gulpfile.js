@@ -47,7 +47,9 @@ var cf = {
             html: 'src/html/**/*',
             pages: 'src/pages/**/*',
             vendor: 'src/vendor/**/*',
-            rev: 'src/rev/**/*.json'
+            rev: 'src/rev/**/*.json',
+            revImg: 'src/rev/img/*.json',
+            revFont: 'src/rev/font/*.json',
         },
         dir: {
             root: 'src/',
@@ -124,7 +126,7 @@ gulp.task('sass', function () {
 // 生成css文件内容的版本号及压缩发布
 // 版本号生成效果 如：background: url('../img/one.jpg?v=28bd4f6d18');
 gulp.task('versionCss', function () {
-    return gulp.src([cf.src.file.rev, cf.src.file.css])
+    return gulp.src([cf.src.file.revImg, cf.src.file.revFont, cf.src.file.css])
         .pipe(revCollector())
         .pipe(gulp.dest(cf.src.dir.css))
         .pipe(minifycss({compatibility: 'ie8'}))

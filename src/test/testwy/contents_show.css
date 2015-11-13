@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*..............header..............*/
+#header{
+	height: 125px;
+	margin: 0 auto;
+	background: #f9f9f9 url("../images/book_s_banner_02_02.jpg") top center;
+	background-repeat: no-repeat;
+}
+#header .top{
+	width: 962px;
+	height: 68px;
+	margin: 0 auto;
+}
+.top img{ float: left; padding: 10px 0 0 22px; margin-right: 20px;}
+.top h1{
+	color: #c30228;
+	font-size: 36px;
+	padding: 9px 0;
+	-webkit-text-shadow: 1px 2px 2px #333;
+	-moz-text-shadow: 1px 2px 2px #333;
+	text-shadow: 1px 2px 2px #333;
+	filter:glow(color=black, strength=1);
+	*zoom:1;
+}
+/*................搜索样式.................*/
+.Search-box {
+	width: 220px;
+	position: absolute;
+	margin: -35px 0 0 746px;
+}
+input[type=text],
+input[type=password] {
+	font-size: 0.75em;
+	outline: none;
+	color: #777;
+	font-style: oblique;
+	background-color: #f9f9f9;
+	border: 1px solid #73041A;
+	-webkit-box-shadow:inset 0 1px 5px rgba(#de002c,#de002c,#de002c,.15);
+	-moz-box-shadow:inset 0 1px 5px rgba(#de002c,#de002c,#de002c,.15);
+	box-shadow:inset 0 1px 5px rgba(#de002c,#de002c,#de002c,.15);
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	vertical-align: middle;
+	float: left;
+}
+.button {
+	position: absolute;
+	display: inline-block;
+	font-size: 0.75em;
+	font-weight: bold;
+	color: #fff;
+	background-color: #73041A;
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-left: 5px;
+}
+.button:hover,
+.button:active {
+	background-color: #de002c;
+	border-color: #73041A;
+}
+.button:active {
+	border-color: #de002c;
+	background-image: none;
+	box-shadow: inset 0 3px 5px rgba(0,0,0,.15);
+}
+.button:focus,
+input[type=text]:focus,
+input[type=password]:focus {
+	outline: none;
+	border-color: #73041A;
+	box-shadow: inset 0 1px 2px rgba(237, 127, 149, 0.5), 0 0 5px rgba(221, 0, 44, 0.5);
+}
+
+#search input[type=text] {
+	font-size: 0.75em;
+	padding: 2px 0 2px 4px;
+	width: 167px;
+	height: 26px;
+}
+#search .button {
+	width: 43px;
+	height: 26px;
+}
+/*...............搜索结束..................*/
+
+#header .bottom{
+	height: 57px;
+	background: #912231;
+	color: #fff;
+}
+.bottom .bottom-box{
+	width: 962px;
+	height: 57px;
+	background: #AE0627;
+	margin: 0 auto;
+}
+.bottom-box h2{
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 57px;
+	padding: 0 20px 0 22px;
+	float: left;
+}
+.bottom-box h4{
+	font-size: 14px;
+	line-height: 57px;
+	padding-top: 10px;
+}
+
+
+#content{ margin: 0; padding: 0;}
+#content .container{
+	width: 962px;
+	height:680px;
+	background: #f9f9f9;
+	margin: 20px auto;
+	border: 1px solid #c30228;
+}
+
+/*...............左侧列表区.................*/
+.container .left{
+	width: 240px;
+	float: left;
+	margin-right: 10px;
+}
+.left ul h3{
+	width: 239px;
+	height: 44px;
+	background: url("../images/book_show_dh.png") left no-repeat;
+	text-align: left;
+	line-height: 44px;
+	padding: 10px 0 0 80px;
+	color: #fefefe;
+	font-size: 1em;
+	font-weight: 600;
+	display: inline-block;
+	overflow: hidden;
+	margin-left: -11px;
+}
+
+        .titlelink{
+            cursor:pointer;
+            display: block;
+            width: 117px;
+            border-bottom: 1px solid #c30228;
+            border-left: 1px solid #c30228;
+            text-align: left;
+            font-size: 1em;
+            font-weight: 600;
+            line-height: 2em;
+            margin:  0 70px;
+            padding: 0 20px;
+            position: relative;
+            top: -9px;
+            color:#c30228;
+            text-decoration:none;
+        }
+
+        .titlelink{ background:#fff;}
+		li.hover .titlelink{background: #c30228;color: #fff;}
+
+
+/*..............右侧内容区................*/
+.container .right{
+	width: 692px;
+	float: left;
+}
+
+/*..............select option..............*/
+.right .select_box { width:212px; position:absolute; margin: 20px 0 0 482px;}
+.right .select_box span{
+	width: 8px;
+	height: 8px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	background: #c30228;
+	position: absolute;
+	margin: 8px;
+	left: 0;
+}
+.right .select_box input { cursor:pointer; display:block; line-height:25px; width:212px; height:25px; overflow:hidden;border:1px solid #c03228; font-size:0.75em; font-weight: 100; color: #c03228; padding-left:30px; background:url("../images/select_03.png") no-repeat 190px center;}
+.right .select_box dl { width:212px; position:absolute; left:0; top:25px; border:1px solid #c03228; color:#c03228; overflow: hidden; display:none; background:#fff; z-index:99999;}
+.right .select_box dl dt { display:block; height:30px; font-size:0.75em; overflow:hidden; line-height:30px; padding-left:5px; width:100%;cursor:pointer;}
+
+
+.right .block{
+	width: 692px;
+	height: 465px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	background: #f9f9f9;
+	margin-top: 75px;
+}
+.block .con-li,.block .con-video{
+	width: 692px;
+	font-size: 0.75em;
+	border-bottom: 1px solid #c30228;
+}
+.block .con-li span{
+	background: #c30228;
+	width: 10px;
+	height: 30px;
+	float: left;
+	margin-right: 20px;
+}
+.block .con-li a{
+	color: #c30228;
+	line-height: 30px;
+}
+.block .con-li dd{
+	width: 660px;
+	float: right;
+	color: #000;
+	border-bottom: 1px solid #c30228;
+	padding-top: 10px;
+}
+.block .con-li dd a{ color: #000}
+.block .con-li dd span{
+	width: 30px;
+	float: right;
+	background: none;
+}
+.block .con-li dd a:hover{
+	color: #c30228;
+}
+/*............分页区..................*/
+.block .page{
+	height: 34px;
+	width: 692px;
+	border-top: 1px solid #c30228;
+	text-align: right;
+	color: #c30228;
+	position: absolute;
+	top: 640px;
+}
+.block .page i{
+	background: #c30228;
+	width: 10px;
+	height: 34px;
+	float: right;
+	margin-left: 20px;
+}
+.block .page a{
+	font-size: 0.75em;
+	color: #000;
+}
+.block .page a:hover{
+	color: #c30228;
+	text-decoration: underline;
+	cursor: pointer;
+}
+/*..................右侧内容区视频区..................*/
+.right .con-video{
+	width: 692px;
+	border-bottom: 1px solid #c30228;
+	font-size: 0.75em;
+}
+.right .con-video dt span{
+	width: 10px;
+	height: 30px;
+	background: #c30228;
+	float: left;
+	margin-right: 20px;
+}
+.right .con-video dt a{
+	line-height: 30px;
+	color: #c30228;
+}
+.right .con-video dd{
+	width: 134px;
+	height: 125px;
+	border: 1px solid #c30228;
+	margin: 30px 0 0 30px;
+	float: left;
+}
+.right .con-video dd img{
+	width: 134px;
+	height: 102px;
+}
+.right .con-video dd span{
+	width: 134px;
+	padding: 0 0 5px 35px;
+	color: #c30228;
+}
+
+
+
+
+
+/*......................底部区域......................*/
+#footer{
+	height: 68px;
+	margin: 0 auto;
+	position: relative;
+}
+#footer .f-img{
+	border-bottom: 15px solid #c30228;
+	box-shadow: inset 0 0 3px 0 #000;
+	height: 68px;
+	margin: 0 auto;
+	background: url("../images/book_s_banner_02_02.jpg") center center no-repeat;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	-o-transform:scaleY(-1);
+	transform:scaleY(-1);
+	/*IE*/
+	filter:FlipV;
+}
+#footer img{
+	float: left;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: -60px;
+}
+#footer p{
+	position: absolute;
+	margin-left: 280px;
+	margin-top: -50px;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=7d2196d57c"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=272cbb1bfd"/>
 </head>
 <body>
 <?php include "../header.php"; ?>
@@ -81,7 +81,7 @@
             <div class="index-baike-list">
                 <div class="media-newsitem">
                     <div class="media-left padding-r-29">
-                        <a href="http://192.168.0.188/homejc001-new/src/pages/pages-main/baike-detail.php" class="thumbnail"><img src="../../img/temp-img/bk-img1.jpg?v=b1f6abdcc6" alt=""/></a>
+                        <a href="http://192.168.0.188/homejc001-new/src/pages/pages-main/baike-detail.php" class="thumbnail"><img src="../../img/temp-img/bk-img1.jpg?v=ae140044ee" alt=""/></a>
                         <p class="img-title">共有<em>4</em>张精美图片</p>
                     </div>
                     <div class="media-body">
@@ -97,7 +97,7 @@
                 </div>
                 <div class="media-newsitem">
                     <div class="media-left padding-r-29">
-                        <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img1.jpg?v=b1f6abdcc6" alt=""/></a>
+                        <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img1.jpg?v=ae140044ee" alt=""/></a>
                         <p class="img-title">共有<em>4</em>张精美图片</p>
                     </div>
                     <div class="media-body">

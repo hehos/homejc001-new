@@ -59,7 +59,7 @@
                     </ol>
                 </li>
                 <li class="nav-item has-subnav">
-                    <a href="">效果图<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
+                    <a href="http://192.168.0.188/homejc001-new/dist/pages/pages-main/xiaoguotu.php">效果图<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">
                         <li><a href="">家居美图</a></li>
                         <li><a href="">家居美图</a></li>

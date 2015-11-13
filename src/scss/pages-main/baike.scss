@@ -21,7 +21,7 @@
     color: $gray-dark;
     font-weight: bold;
   }
-} 
+}
 
 // 百科主页
 .index-top-cates {
@@ -92,7 +92,7 @@
       float: left;
       margin-right: 4px;
       padding: 0 .8em;
-      border: 1px solid $darkGrayBd;
+      border: 1px solid $grayBdDark;
       border-radius: 10px;
       background-color: lighten($gray-lighter, 2%);
     }
@@ -124,11 +124,15 @@
 }
 // 热门标签
 .hot-labels {
-  .label-bar { padding: 0; }
+  .label-bar {
+    padding: 0;
+    line-height: 3;
+  }
   .label {
     @include text-truncate();
     max-width: 10em;
-    padding: .6em pxToEm(10px);
+    padding-left: pxToEm(10px);
+    padding-right: pxToEm(10px);
     background-color: $gray-lightest;
     margin-bottom: pxToEm(10px);
     margin-right: pxToEm(10px);
@@ -204,4 +208,45 @@
     margin-bottom: pxToEm(10px);
   }
   .media-explain { font-size: pxToEm(12px); }
+}
+
+// 详细页
+.newstype-detail {
+  border: 1px solid $gray-lighter;
+}
+
+
+.correlation-cont {
+  background-color: $gray-lighter;
+  padding: 0 12px 12px;
+  .title-bar {
+    .title {
+      color: $activeColor;
+      font-size: pxToEm(16px);
+    }
+  }
+  .cont-line {
+    padding: pxToEm(15px) pxToEm(45px - 27px);
+    background-color: $body-bg;
+    border-bottom: 1px dashed $gray-lighter;
+  }
+  .media-base, .list-group {
+    float: left;
+    width: percentage(1 / 3);
+    padding: 0 pxToEm(27px);
+  }
+  .media-base {
+    margin: 0;
+    padding: 0 pxToEm(27px);
+    .thumbnail {
+      height: 142px;
+      line-height: middleImg(142px, 2px);
+    }
+  }
+  .media-title { text-align: center; }
+  .list-dot .list-group-item:before {
+    @include caret-right(3px, $activeColor);
+    background-color: transparent;
+    margin-top: -3px;
+  }
 }

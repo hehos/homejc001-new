@@ -1,6 +1,6 @@
 .filter-box1, .filter-box2 {
   position: relative;
-  color: #666;
+  color: $gray;
   border-bottom: none;
   font-size: pxToEm(12px);
 
@@ -8,6 +8,10 @@
     @include clearfix();
     line-height: $labelHt * 1em;
     padding: 1em;
+    .label {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
 
   .location, .filtered, .right-info {

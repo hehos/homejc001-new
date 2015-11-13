@@ -1,13 +1,14 @@
 {
-  "all.css": "all.css?v=601c4c0e32",
-  "comm.css": "comm.css?v=601c4c0e32",
-  "old-comm.css": "old-comm.css?v=8ac8f62a6c",
-  "pages-main/baike.css": "pages-main/baike.css?v=ac7685a634",
+  "all.css": "all.css?v=3619384eae",
+  "comm.css": "comm.css?v=3619384eae",
+  "old-comm.css": "old-comm.css?v=bd7865397e",
+  "pages-main/baike.css": "pages-main/baike.css?v=272cbb1bfd",
   "pages-main/decoration.css": "pages-main/decoration.css?v=682ca3d728",
   "pages-main/index.css": "pages-main/index.css?v=b9df8b6985",
+  "pages-main/tu.css": "pages-main/tu.css?v=bc7f166340",
   "pages-member/member.css": "pages-member/member.css?v=b2d4fad3fb",
-  "pages-merchant/merchant.css": "pages-merchant/merchant.css?v=b107d3412c",
+  "pages-merchant/merchant.css": "pages-merchant/merchant.css?v=3dafb77754",
   "pages-publicity/publicity.css": "pages-publicity/publicity.css?v=8890bc74ef",
   "sprite.css": "sprite.css?v=bec090c481",
-  "test/testGulp.css": "test/testGulp.css?v=a1febb6618"
+  "test/testGulp.css": "test/testGulp.css?v=d7447dce7e"
 }

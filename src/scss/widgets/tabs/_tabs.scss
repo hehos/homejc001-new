@@ -13,7 +13,7 @@
     line-height: 3em;
     & > a {
       display: block;
-      font-size: 16em/14;
+      font-size: pxToEm(16px);
       font-family: "Microsoft YaHei", tahoma, arial, simsun;
 
       &:hover, &:active, &:focus { text-decoration: none; }

@@ -33,6 +33,14 @@
     @return $val / 1rem;
   }
 }
+@function middleImg($val, $border) {
+  @if $border {
+    @return 0.9892857142857143 * ($val - $border);
+  } @else {
+    @return 0.9892857142857143 * $val;
+  }
+}
+
 // my add mixins
 // ---- from amazeui -----
 // =============================================================================

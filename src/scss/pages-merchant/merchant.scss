@@ -3,9 +3,10 @@
 
 
 $themeBg: lighten($gray-lighter, 5%);
-
+$pageW:   1190;
 // ====================================
 // comm
+body .container { width: $pageW * 1px; }
 .title-bar {
   padding-bottom: 1em;
   .title {
@@ -64,7 +65,9 @@ $themeBg: lighten($gray-lighter, 5%);
 }
 .corp-contact .cont-logo {
   width: 225px;
-  padding: 5px;
+  padding: 4px 6px;
+  height: 145px;
+  line-height: 132px;
   border: 1px solid $gray-lighter;
 }
 
@@ -80,9 +83,12 @@ $themeBg: lighten($gray-lighter, 5%);
   width: percentage(1/6);
   padding-top: 2em;
   background-color: $themeBg;
-  li:hover, li.on {
-    background-color: darken($themeBg, 2%);
-    i { border-color: $activeColor; }
+  li {
+    padding-left: pxToEm(22px);
+    &:hover, &.on {
+      background-color: darken($themeBg, 2%);
+      i { border-color: $activeColor; }
+    }
   }
   i {
     display: inline-block;
@@ -316,6 +322,7 @@ table {
     margin-bottom: 2em;
     p {
       line-height: 2em;
+      margin-bottom: 1.5em;
     }
   }
   .corp-contact {
@@ -353,19 +360,16 @@ table {
 }
 .case-info, .product-info {
   .media-info {
-    width: 41.5%;
+    width: percentage(568 / $pageW);
+    padding-right: 68px;
   }
   .info {
-    width: percentage(1-0.415);
+    width: percentage(($pageW - 568) / $pageW);
   }
 
   .img {
     padding: 2px;
     border: 1px solid darken($gray-lighter, 5%)
-  }
-  img { width: 100%; }
-  .info {
-    padding-left: 2em;
   }
   h4 {
     font-size: 1.6em;
@@ -391,6 +395,15 @@ table {
 .product-info .btn-row { margin-bottom: 1em; }
 
 .case-otherInfo, .product-otherInfo {
+  .main-info {
+    float: left;
+    width: percentage(930 / $pageW);
+    padding-right:  29px;
+  }
+  .side-info {
+    float: right;
+    width: percentage(($pageW - 930) / $pageW);
+  }
   margin-top: 2em;
   .info-title {
     font-size: 1.3em;

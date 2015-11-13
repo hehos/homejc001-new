@@ -12,10 +12,10 @@
       width: .2em;
       height: .2em;
       margin-top: -1px;
-      background-color: #666;
+      background-color: $gray-light;
     }
     &.active:before {
-      background-color: #fff;
+      background-color: $body-bg;
     }
   }
 }

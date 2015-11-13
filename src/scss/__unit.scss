@@ -1,7 +1,8 @@
 // 字体颜色原件
 .fc-red { color: $activeColor; }
 .fc-green { color: $linkColor; }
-
+// 边框
+.main-border { border: 1px solid $gray-lighter; }
 
 // 元素距离
 // margin-t, margin-r, margin-b, margin-l 表示margin上、右、下、左

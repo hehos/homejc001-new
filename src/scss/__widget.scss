@@ -27,6 +27,8 @@
 // ===========================================
 // label
 @import "widgets/label/label";
+@import "widgets/label/label-bar";
+@import "widgets/label/label-small";
 @import "widgets/label/label-filter";
 @import "widgets/label/label-close";
 @import "widgets/label/label-cate";
@@ -144,3 +146,66 @@
     }
   }
 }
+
+//  新闻详细页组件
+.newstype-detail {
+  padding: 0 pxToEm(25px);
+  .hd-title {
+    font-size: pxToEm(24px);
+    padding: 1em 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
+    border-bottom: 1px solid $gray-lighter;
+  }
+  .top-sub-info {
+    margin-bottom: 1em;
+    color: lighten($gray-light, 0%);
+    em {
+      color: $activeColor;
+      font-weight: bold;
+      margin: 0 3px;
+    }
+    .span {
+      display: inline-block;
+      margin-right: 2em;
+    }
+  }
+  .top-sub-right-info {
+    ul {
+      display: inline-block;
+      margin-left: 3px;
+    }
+    li {
+      display: inline-block;
+      margin-right: 2px;
+    }
+  }
+
+  .detail-info {
+    margin-top: 1em;
+    line-height: 2.2em;
+    .title {
+      font-weight: bold;
+      margin: 1em 0;
+    }
+    p {
+      text-indent: 2em;
+      margin-bottom: 1.5em;
+    }
+    .img {margin: 1em 1.2em; }
+  }
+  .labels {
+    margin: 10px 0;
+    border-top: 1px solid $gray-lighter;
+  }
+
+  .page-neighbor {
+    line-height: 3em;
+    margin-top: 20px;
+    font-size: pxToEm(12px);
+    border-top: 1px solid $gray-lighter;
+    em { color: $activeColor; }
+  }
+}
+

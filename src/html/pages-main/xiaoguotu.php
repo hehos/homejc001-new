@@ -2,7 +2,8 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href=""/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/tu.css"/>
+
 </head>
 <body>
 <?php include "../header.php"; ?>
@@ -10,11 +11,11 @@
 <div class="container">
 
     <!--  顶部广告  -->
-    <div class="row ad-box">
-        <a href=""><img src="" alt=""/></a>
+    <div class="row ad-box margin-b-11">
+        <a href=""><img src="../../img/temp-img/tu-ad1.jpg" alt="/"/></a>
     </div>
-    <div class="row ad-box">
-        <a href=""><img src="" alt=""/></a>
+    <div class="row ad-box margin-b-18">
+        <a href=""><img src="../../img/temp-img/tu-ad2.jpg" alt="/"/></a>
     </div>
 
 
@@ -143,20 +144,26 @@
                     </div>
                 </div>
                 <div class="filter-item colors">
-                    <div class="label-filter">
+                    <div class="label-filter colors">
                         <div class="layout-left">
-                            <span class="label-title">颜色</span>
+                            <span class="label-title">颜色：</span>
                         </div>
                         <div class="layout-body">
                             <ul>
-                                <li class="label"></li>
-                                <li class="label"></li>
-                                <li class="label"></li>
-                                <li class="label"></li>
-                                <li class="label"></li>
-                                <li class="label"></li>
-                                <li class="label"></li>
-                                <li class="label"></li>
+                                <li class="label cl1"></li>
+                                <li class="label cl2"></li>
+                                <li class="label cl3"></li>
+                                <li class="label cl4"></li>
+                                <li class="label cl5"></li>
+                                <li class="label cl6"></li>
+                                <li class="label cl7"></li>
+                                <li class="label cl8"></li>
+                                <li class="label cl9"></li>
+                                <li class="label cl10"></li>
+                                <li class="label cl11"></li>
+                                <li class="label cl12"></li>
+                                <li class="label cl13"></li>
+                                <li class="label cl14"></li>
                             </ul>
                             <div class="checkbox-btn-box">
                                 <a class="label-confirm" href="">确定</a>
@@ -183,7 +190,7 @@
 
     <!--  效果图列表  -->
     <div class="row">
-        <div class="filter-title">
+        <div class="filter-title margin-b-15 ">
             <h3>更多图片</h3>
             <span>更多喜欢</span>
             <div class="right-info">
@@ -220,6 +227,26 @@
                 <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
                 <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                 <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+            </div>
+        </div>
+
+        <div class="paging-bar divide">
+            <div class="paging-list">
+                <a class="prev" href="">上一页</a>
+                <a href="">1</a>
+                <a class="current" href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <a href="">5</a>
+                <a class="omit" href="">...</a>
+                <a href="">100</a>
+                <a href="">101</a>
+                <a class="next" href="">下一页</a>
+            </div>
+            <div class="paging-form">
+                <span>共<em>100</em>页</span>
+                <span>到<input maxlength="6" type="number"/>页</span>
+                <span><button>确定</button></span>
             </div>
         </div>
     </div>

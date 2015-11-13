@@ -1,0 +1,9 @@
+@import "../variables";
+@import "../mixins";
+
+// 效果图样式
+
+.filter-box2 {
+  .filter-body { border-bottom-color: $activeColor; }
+  .more-type a { border-color: $activeColor; }
+}

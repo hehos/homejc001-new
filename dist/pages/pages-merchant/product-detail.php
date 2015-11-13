@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-merchant/merchant.min.css?v=b107d3412c"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-merchant/merchant.min.css?v=3dafb77754"/>
 </head>
 <body>
 <?php include "header2.php"; ?>
@@ -42,7 +42,7 @@
 
     <!--  begin 产品详细、右测产品  -->
     <div class="row product-otherInfo">
-        <div class="col-lg-9">
+        <div class="main-info">
             <div class="otherInfo">
                 <div class="details-nav info-title">
                     <ul class="tabs-nav3">
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3">
+        <div class="side-info">
             <div class="side-product">
                 <div class="title-bar">
                     <h2 class="title"><a href="">热销产品</a></h2>

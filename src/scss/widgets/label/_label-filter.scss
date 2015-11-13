@@ -3,7 +3,11 @@
 .label-filter {
   @include label-bar();
 
-  .label-title { margin-top: 1px; }
+  .layout-left, .layout-body, .layout-right {
+    padding-top: .4em;
+    padding-bottom: .4em;
+  }
+  .label-title { border-top: 1px solid transparent; }
   .label {
     a {
       display: block;
@@ -24,10 +28,6 @@
         }
       }
     }
-  }
-  .layout-body {
-    padding-top: .4em;
-    padding-bottom: .4em;
   }
   .layout-right { padding-right: 1em; }
   .checkbox-btn-box, .label-control {
@@ -59,7 +59,7 @@
   }
   .checkbox-btn-box {
     text-align: center;
-    padding-bottom: 1.2em;
+    margin: 1em 0;
     .label-confirm, .label-cancel {
       padding: 0 pxToEm(10px);
     }
@@ -68,6 +68,32 @@
       background-color: $activeColor;
       border-color: $activeColor;
       &:hover { color: $body-bg; }
+    }
+  }
+
+  &.colors {
+    .label {
+      &:before {
+        display: inline-block;
+        content: "";
+        width: 35px;
+      }
+      margin-right: pxToEm(10px);
+      border: 1px solid $grayBorder;
+      &.cl1 { background-color: #FFFFFF; }
+      &.cl2 { background-color: #fefbc8; }
+      &.cl3 { background-color: #c2f8fa; }
+      &.cl4 { background-color: #a98042; }
+      &.cl5 { background-color: #fbf71a; }
+      &.cl6 { background-color: #000000; }
+      &.cl7 { background-color: #19bd1e; }
+      &.cl8 { background-color: #fc0d13; }
+      &.cl9 { background-color: #0000fe; }
+      &.cl10 { background-color: #bebdbb; }
+      &.cl11 { background-color: #a85706; }
+      &.cl12 { background-color: #c53fec; }
+      &.cl13 { background-color: #f48d28; }
+      &.cl14 { background-color: #ffc0cb; }
     }
   }
 }

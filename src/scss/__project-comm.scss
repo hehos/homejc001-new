@@ -42,7 +42,26 @@ body .container {
   vertical-align: middle;
 }
 
-
+// 过滤条标题
+.filter-title {
+  line-height: (44/14) + em;
+  padding: 0 1em;
+  background-color: #f9f9f9;
+  border: 1px solid $gray-lighter;
+  h3, em {
+    display: inline-block;
+    color: $activeColor;
+  }
+  h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  em { margin: 0 .8em; }
+  .right-info {
+    float: right;
+    font-size: .87em;
+  }
+}
 
 
 // global banner form

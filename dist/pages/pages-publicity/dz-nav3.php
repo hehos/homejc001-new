@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-publicity/publicity.min.css?v=8890bc74ef"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-publicity/publicity-8890bc74ef.min.css"/>
 </head>
 <body class="publicity">
 <?php include "header.php" ?>
@@ -11,17 +11,17 @@
     <div class="cont-nav">
         <div class="item">
             <a href="dz-nav1.php">
-                <img src="../../img/pages-publicity/dz-nav-1.jpg?v=839a9391c7" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-1-839a9391c7.jpg" alt=""/>
             </a>
         </div>
         <div class="item">
             <a href="dz-nav2.php">
-                <img src="../../img/pages-publicity/dz-nav-2.jpg?v=af6d2a8a95" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-2-af6d2a8a95.jpg" alt=""/>
             </a>
         </div>
         <div class="item last on">
             <a href="dz-nav3.php">
-                <img src="../../img/pages-publicity/dz-nav-3-on.jpg?v=2783040925" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-3-on-2783040925.jpg" alt=""/>
             </a>
         </div>
     </div>
@@ -54,7 +54,7 @@
 
             <p class="call-hintTxt">拨打热线，快速了解九正家居定制平台</p>
 
-            <p class="call"><img src="../../img/pages-publicity/call.jpg?v=2de087666b" alt=""/>400-6464-001</p>
+            <p class="call"><img src="../../img/pages-publicity/call-2de087666b.jpg" alt=""/>400-6464-001</p>
         </div>
     </div>
 
@@ -102,8 +102,8 @@
         </div>
     </div>
 
-    <img src="../../img/pages-publicity/dz-nav3-img1.jpg?v=cd28668ffb" alt=""/>
-    <img src="../../img/pages-publicity/dz-nav3-img2.jpg?v=d237019072" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav3-img1-cd28668ffb.jpg" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav3-img2-d237019072.jpg" alt=""/>
 </div>
 
 <?php include "../../footer.php" ?>

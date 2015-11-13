@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/tu.css?v=bc7f166340"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/tu-2adeac157e.css"/>
 
 </head>
 <body>
@@ -12,10 +12,10 @@
 
     <!--  顶部广告  -->
     <div class="row ad-box margin-b-11">
-        <a href=""><img src="../../img/temp-img/tu-ad1.jpg?v=fdc48c9afa" alt="/"/></a>
+        <a href=""><img src="../../img/temp-img/tu-ad1-fdc48c9afa.jpg" alt="/"/></a>
     </div>
     <div class="row ad-box margin-b-18">
-        <a href=""><img src="../../img/temp-img/tu-ad2.jpg?v=af15edf138" alt="/"/></a>
+        <a href=""><img src="../../img/temp-img/tu-ad2-af15edf138.jpg" alt="/"/></a>
     </div>
 
 
@@ -197,39 +197,80 @@
                 找到<em>成都装修公司</em>相关<em>105</em>家，当前在<em>1/188</em>页
             </div>
         </div>
+
         <div class="xiaoguotu-list">
-            <div class="media-base">
-                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
-                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
-                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-            </div>
-            <div class="media-base">
-                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
-                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
-                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-            </div>
-            <div class="media-base">
-                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
-                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
-                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-            </div>
-            <div class="media-base">
-                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
-                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
-                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-            </div>
-            <div class="media-base">
-                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
-                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
-                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-            </div>
-            <div class="media-base">
-                <a href="" class="thumbnail"><img src="demo.svg" alt=""></a>
-                <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
-                <p class="media-explain"><a class="like-btn"><i></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+            <div id="waterfall-warp1">
+                <div class="media-base on">
+                    <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall1-8976449762.jpg" alt=""></a>
+                    <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                    <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                </div>
+                <div class="media-base">
+                    <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall2-25658642e6.jpg" alt=""></a>
+                    <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                    <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+                </div>
+                <div class="media-base">
+                    <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall3-5395e92079.jpg" alt=""></a>
+                    <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                    <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+                </div>
+                <div class="media-base">
+                    <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall4-ea9e157c5e.jpg" alt=""></a>
+                    <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                    <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+                </div>
+                <div class="media-base">
+                    <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall5-74c9c44234.jpg" alt=""></a>
+                    <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                    <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+                </div>
+                <div class="media-base">
+                    <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6-5839d9d47e.jpg" alt=""></a>
+                    <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                    <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+                </div>
+                <div class="media-base">
+                    <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6-5839d9d47e.jpg" alt=""></a>
+                    <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                    <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+                </div>
+                <div class="media-base">
+                    <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6-5839d9d47e.jpg" alt=""></a>
+                    <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
+                    <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
+                </div>
             </div>
         </div>
 
+
+        <script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+        <script src="../../js/jquery-df276cfac0.waterfall.js"></script>
+        <script>
+            $("#waterfall-warp1").waterfall({
+                itemClass: ".media-base",
+                minColCount: 2,
+                spacingHeight: 10,
+                spacingWidth: 0,
+                resizeable: true
+                // 通过ajax按需加载
+//	    ajaxCallback: function(success, end) {
+//	        var data = {"data": [
+//	            { "src": "03.jpg" }, { "src": "04.jpg" }, { "src": "02.jpg" }, { "src": "05.jpg" }, { "src": "01.jpg" }, { "src": "06.jpg" }
+//	        ]};
+//	        var str = "";
+//	        var templ = '<div class="box" style="opacity:0;filter:alpha(opacity=0);"><div class="pic"><img src="img/{{src}}" /></div></div>'
+//
+//	        for(var i = 0; i < data.data.length; i++) {
+//	            str += templ.replace("{{src}}", data.data[i].src);
+//	        }
+//	        $(str).appendTo($("#div1"));
+//	        success();
+//	        end();
+//	    }
+            });
+        </script>
         <div class="paging-bar divide">
             <div class="paging-list">
                 <a class="prev" href="">上一页</a>

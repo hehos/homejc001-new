@@ -7,3 +7,64 @@
   .filter-body { border-bottom-color: $activeColor; }
   .more-type a { border-color: $activeColor; }
 }
+
+#waterfall-warp1 {
+  margin: auto;
+  position: relative;
+}
+.xiaoguotu-list {
+  padding: 16px 14px;
+  background-color: $gray-lightest;
+  .media-base {
+    float: left;
+    width: 25%;
+    padding: 8px;
+    box-shadow: 0 0 8px #ccc;
+    background-color: $body-bg;
+    .media-title {
+      padding: pxToEm(5px) 0;
+      margin-bottom: .3em;
+    }
+    em {
+      color: $activeColor;
+      margin: 0 3px;
+    }
+    .media-explain {
+      font-size: pxToEm(12px);
+      text-align: right;
+    }
+    img {
+      width: 100%;
+    }
+    .like-btn {
+      float: left;
+      line-height: 1.8em;
+      padding: 0 1.2em;
+      border: 1px solid $grayBorder;
+      border-radius: 7px;
+      background-color: $body-bg;
+      border: 1px solid $body-bg;
+    }
+    .collect-btn {
+      display: none;
+      position: absolute;
+      top: pxToEm(10px);
+      right: pxToEm(10px);
+      line-height: 2em;
+      padding: 0 1em;
+      background-color: $linkColor;
+      color: $body-bg;
+    }
+    &:hover, &.on {
+      box-shadow: 0 0 10px #999;
+      background-color: darken($gray-lightest, 1%);
+      .collect-btn {
+        display: inline-block;
+      }
+    }
+
+  }
+
+
+}
+

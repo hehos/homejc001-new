@@ -6,14 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>jQuery响应式Pinterest样式无限动态加载图片瀑布流特效|DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/default.css">-->
 	<style>
         * {
             margin: 0;
+            box-sizing: border-box;
         }
 
+        .bgcolor-3 { width: 1200px; }
+
         #div1 {
-            width: 1200px;
             margin: auto;
             position: relative;
         }
@@ -92,20 +94,21 @@
 	    spacingHeight: 10,
         spacingWidth: 0,
 	    resizeable: true,
-	    ajaxCallback: function(success, end) {
-	        var data = {"data": [
-	            { "src": "03.jpg" }, { "src": "04.jpg" }, { "src": "02.jpg" }, { "src": "05.jpg" }, { "src": "01.jpg" }, { "src": "06.jpg" }
-	        ]};
-	        var str = "";
-	        var templ = '<div class="box" style="opacity:0;filter:alpha(opacity=0);"><div class="pic"><img src="img/{{src}}" /></div></div>'
-
-	        for(var i = 0; i < data.data.length; i++) {
-	            str += templ.replace("{{src}}", data.data[i].src);
-	        }
-	        $(str).appendTo($("#div1"));
-	        success();
-	        end();
-	    }
+        // 通过ajax按需加载
+//	    ajaxCallback: function(success, end) {
+//	        var data = {"data": [
+//	            { "src": "03.jpg" }, { "src": "04.jpg" }, { "src": "02.jpg" }, { "src": "05.jpg" }, { "src": "01.jpg" }, { "src": "06.jpg" }
+//	        ]};
+//	        var str = "";
+//	        var templ = '<div class="box" style="opacity:0;filter:alpha(opacity=0);"><div class="pic"><img src="img/{{src}}" /></div></div>'
+//
+//	        for(var i = 0; i < data.data.length; i++) {
+//	            str += templ.replace("{{src}}", data.data[i].src);
+//	        }
+//	        $(str).appendTo($("#div1"));
+//	        success();
+//	        end();
+//	    }
 	});
 	</script>
 </body>

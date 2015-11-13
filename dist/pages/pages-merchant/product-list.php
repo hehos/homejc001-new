@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-merchant/merchant.min.css?v=3dafb77754"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-merchant/merchant-3dafb77754.min.css"/>
 </head>
 <body>
 <?php include "header2.php"; ?>
@@ -12,7 +12,7 @@
         <div class="col-lg-4">
             <div class="media-base">
                 <a href="product-detail.php" class="thumbnail">
-                    <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                    <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
                 <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
@@ -22,7 +22,7 @@
         <div class="col-lg-4">
             <div class="media-base">
                 <a href="product-detail.php" class="thumbnail">
-                    <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                    <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
                 <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
@@ -32,7 +32,7 @@
         <div class="col-lg-4">
             <div class="media-base">
                 <a href="product-detail.php" class="thumbnail">
-                    <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                    <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
                 <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
@@ -42,7 +42,7 @@
         <div class="col-lg-4">
             <div class="media-base">
                 <a href="product-detail.php" class="thumbnail">
-                    <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                    <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
                 </a>
                 <h4 class="media-title"><a href="">图片标题</a></h4>
                 <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>

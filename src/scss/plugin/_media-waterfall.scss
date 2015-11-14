@@ -1,0 +1,23 @@
+// 瀑布流插件
+
+.media-waterfall {
+  $groupDist: 2%;
+  margin-left: -$groupDist;
+  @include clearfix();
+
+  .items-group {
+    float: left;
+    margin-left: $groupDist;
+    width: percentage(1 / 4) - $groupDist;
+  }
+
+  li, .media-item {
+    visibility: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  @for $i from 2 through 8 {
+    &.media-col#{$i} .items-group { width: percentage(1 / $i) - $groupDist; }
+  }
+}

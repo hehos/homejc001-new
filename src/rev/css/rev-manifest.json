@@ -1,14 +1,15 @@
 {
-  "all.css": "all-3619384eae.css",
-  "comm.css": "comm-3619384eae.css",
-  "old-comm.css": "old-comm-bd7865397e.css",
-  "pages-main/baike.css": "pages-main/baike-30829d541d.css",
-  "pages-main/decoration.css": "pages-main/decoration-682ca3d728.css",
-  "pages-main/index.css": "pages-main/index-b9df8b6985.css",
-  "pages-main/tu.css": "pages-main/tu-2adeac157e.css",
-  "pages-member/member.css": "pages-member/member-b2d4fad3fb.css",
-  "pages-merchant/merchant.css": "pages-merchant/merchant-3dafb77754.css",
-  "pages-publicity/publicity.css": "pages-publicity/publicity-8890bc74ef.css",
-  "sprite.css": "sprite-bec090c481.css",
-  "test/testGulp.css": "test/testGulp-d7447dce7e.css"
+  "all.css": "all.css?v=6d533ced85",
+  "comm.css": "comm.css?v=6d533ced85",
+  "old-comm.css": "old-comm.css?v=bd7865397e",
+  "pages-main/baike.css": "pages-main/baike.css?v=30829d541d",
+  "pages-main/decoration.css": "pages-main/decoration.css?v=682ca3d728",
+  "pages-main/index.css": "pages-main/index.css?v=b9df8b6985",
+  "pages-main/tu.css": "pages-main/tu.css?v=d40bf8b2b2",
+  "pages-member/member.css": "pages-member/member.css?v=b2d4fad3fb",
+  "pages-merchant/merchant.css": "pages-merchant/merchant.css?v=3dafb77754",
+  "pages-publicity/publicity.css": "pages-publicity/publicity.css?v=8890bc74ef",
+  "plugins.css": "plugins.css?v=6a2ef721b4",
+  "sprite.css": "sprite.css?v=bec090c481",
+  "test/testGulp.css": "test/testGulp.css?v=d7447dce7e"
 }

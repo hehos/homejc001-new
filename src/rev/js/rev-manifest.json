@@ -1,6 +1,7 @@
 {
-  "HotSlider.js": "HotSlider-bbe702fe73.js",
-  "comm.js": "comm-c9d2c91799.js",
-  "jquery.waterfall.js": "jquery-df276cfac0.waterfall.js",
-  "scroll-vertical.js": "scroll-vertical-71597548f8.js"
+  "HotSlider.js": "HotSlider.js?v=bbe702fe73",
+  "comm.js": "comm.js?v=c9d2c91799",
+  "jquery.waterfall.js": "jquery.waterfall.js?v=df276cfac0",
+  "media-waterfall.js": "media-waterfall.js?v=f13af4eea1",
+  "scroll-vertical.js": "scroll-vertical.js?v=71597548f8"
 }

@@ -16,26 +16,24 @@
   padding: 16px 14px;
   background-color: $gray-lightest;
   .media-base {
-    float: left;
-    width: 25%;
     padding: 8px;
     box-shadow: 0 0 8px #ccc;
     background-color: $body-bg;
     .media-title {
       padding: pxToEm(5px) 0;
       margin-bottom: .3em;
+      b {
+        color: $gray-light;
+        margin-right: 5px;
+      }
     }
-    em {
-      color: $activeColor;
-      margin: 0 3px;
-    }
+    em, .like-btn i {margin: 0 3px; }
+    em { color: $activeColor; }
     .media-explain {
       font-size: pxToEm(12px);
       text-align: right;
     }
-    img {
-      width: 100%;
-    }
+    .thumbnail { border: none; }
     .like-btn {
       float: left;
       line-height: 1.8em;
@@ -43,28 +41,32 @@
       border: 1px solid $grayBorder;
       border-radius: 7px;
       background-color: $body-bg;
-      border: 1px solid $body-bg;
+      i { color: darken($grayBorder, 5%); }
+      &:hover { color: $activeColor; }
+      &:hover, &.on {
+        i { color: $activeColor; }
+      }
     }
     .collect-btn {
       display: none;
       position: absolute;
-      top: pxToEm(10px);
-      right: pxToEm(10px);
+      top: pxToEm(18px);
+      right: pxToEm(18px);
       line-height: 2em;
       padding: 0 1em;
       background-color: $linkColor;
+      border: 1px solid $body-bg;
       color: $body-bg;
     }
-    &:hover, &.on {
+
+    &:hover {
       box-shadow: 0 0 10px #999;
-      background-color: darken($gray-lightest, 1%);
+      background-color: darken($gray-lightest, 2%);
       .collect-btn {
         display: inline-block;
       }
     }
 
   }
-
-
 }
 

@@ -85,7 +85,7 @@
                         <p class="img-title">共有<em>4</em>张精美图片</p>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-title"><a href="">装修前期 收房验房的9大注意事项</a></h4>
+                        <h4 class="media-title"><a href="http://192.168.0.188/homejc001-new/src/pages/pages-main/baike-detail.php">装修前期 收房验房的9大注意事项</a></h4>
                         <p class="labels"><a>收房知识</a><a>收房</a><a>装修准备</a></p>
                         <p class="media-text">故不登高山，不知天之高也；不临深溪，不知地之厚也；不闻先王之遗言，不知学问之大也。
                             干、越、夷、貉之子，生而同声，长而异俗，教使之然也。诗曰：“嗟尔君子，无恒安息。

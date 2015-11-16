@@ -2,6 +2,9 @@
  * 瀑布流插件
  * @parameters
  *
+ * 注：1，懒加载是模拟，不是真实的懒加载。
+ *    2，animation，initNum 参数现在懒加载模式下启用。
+ *
   */
 
 (function($, f) {
@@ -71,18 +74,19 @@
             var itemsGroup = _.itemsGroup;
             var endIdx = 0;
 
-            // 判断是否为懒加载计算批次加载的起始下标
+            // 计算不同加载方式时 的终止下标并从新计算初始下标
             if(_.o.lazy) {
                 if(islazyInit) { // 如果是懒加载的第一次渲染dom
-                    endIdx = _.o.initNum;// 如果是懒加载，第一次加载初始化数量。
+                    endIdx = _.o.initNum; // 如果是懒加载，第一次加载初始化数量。
                 } else {
-                    endIdx = startIdx + _.o.cols <= items.length ?
-                    startIdx + _.o.cols : items.length;
+                    endIdx = startIdx + _.o.cols;
+                    _.startIdx = endIdx = (endIdx <= items.length) ?endIdx : items.length;
                 }
             } else {
                 endIdx = $(items).length;
             }
 
+            // 将 items 按逻辑的加入 itemsGroup 中
             for(var i = startIdx; i < endIdx; i++) {
                 var am = _.o.animation;
 
@@ -111,10 +115,10 @@
             }
             // 懒加载的第一次加载。
             _.addItem(items, 0, true);
+            // 第一次加载后，改变起始下标
+            _.startIdx = _.o.initNum;
             // 下面的逻辑是处理初始化加载后的页面内容高度小于浏览器窗口高度时，页面滚动懒加载失效问题。
             while(true) {
-                // 第一次加载后，改变起始下标
-                _.startIdx = _.o.initNum;
 
                 var clientHeight = elWrap.height();
                 var oHeight = el.height();
@@ -125,11 +129,6 @@
                  * 加载完所有item停止循环的自动加载。
                  * */
                 if(oHeight <= clientHeight && _.startIdx < items.length) {
-                    if(_.startIdx + _.o.cols < items.length) {
-                        _.o.initNum += _.o.cols;
-                    } else {
-                        _.o.initNum = items.length;
-                    }
                     _.addItem(items, _.startIdx);
                 } else {
 
@@ -146,6 +145,7 @@
                 }
             }
 
+            // 滚动懒加载事件
             $(elWrap).scroll(function() {
                 // 滚动的条到页面顶部的偏移量(也即是容器内容顶部隐藏的高度)
                 var scrollTop = elWrap.scrollTop();

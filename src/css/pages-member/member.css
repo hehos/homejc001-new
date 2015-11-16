@@ -50,7 +50,7 @@
 .corp-intro {
   padding: 1.2em;
   margin-bottom: 20px;
-  background-image: url("../../img/pages-member/corp-intro-bg.png?v=0757bdc312?v=0757bdc312?v=0757bdc312?v=0757bdc312?v=0757bdc312?v=0757bdc312");
+  background-image: url("../../img/pages-member/corp-intro-bg.png?v=0757bdc312");
   background-position: right bottom;
   background-repeat: no-repeat; }
   .corp-intro .logo {
@@ -102,13 +102,13 @@
       .money-info .left .num span, .money-info .right .num span {
         margin-right: 5px; }
   .money-info .left {
-    background-image: url("../../img/pages-member/cw-bao-bg.png?v=2bd2268893?v=2bd2268893?v=2bd2268893?v=2bd2268893?v=2bd2268893?v=2bd2268893"); }
+    background-image: url("../../img/pages-member/cw-bao-bg.png?v=2bd2268893"); }
     .money-info .left .num span {
       font-weight: bold;
       font-size: 1.1em; }
   .money-info .right {
     border-left: 1px solid #eceeef;
-    background-image: url("../../img/pages-member/cw-yue-bg.png?v=070f7710b7?v=070f7710b7?v=070f7710b7?v=070f7710b7?v=070f7710b7?v=070f7710b7"); }
+    background-image: url("../../img/pages-member/cw-yue-bg.png?v=070f7710b7"); }
 
 .finance-detail {
   padding: 0 24px;

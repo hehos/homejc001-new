@@ -226,9 +226,9 @@
     }
   }
   .cont-line {
-    padding: pxToEm(15px) pxToEm(45px - 27px);
+    padding: pxToEm(15px) pxToEm(45px - 27px) pxToEm(10px);
     background-color: $body-bg;
-    border-bottom: 1px dashed $gray-lighter;
+    border-bottom: 1px dashed $grayBorder;
   }
   .media-base, .list-group {
     float: left;

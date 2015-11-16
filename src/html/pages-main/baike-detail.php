@@ -98,7 +98,7 @@
                 <!-- 上一篇、下一篇 -->
                 <div class="page-neighbor">
                     <span class="prev"><em>上一篇：</em><a href="">卧室衣柜怎么装？衣柜尺寸不可不说的秘密</a></span>
-                    <span class="next pull-right"><em>下一篇：</em><a href=""></a>家装隐蔽工程验收哪些？隐蔽工程验收标准</span>
+                    <span class="next pull-right"><em>下一篇：</em><a href="">家装隐蔽工程验收哪些？隐蔽工程验收标准</a></span>
                 </div>
             </div>
 

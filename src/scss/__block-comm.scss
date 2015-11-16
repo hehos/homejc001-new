@@ -220,7 +220,10 @@ $headerTopFontSize: 12px;
     margin-bottom: -1px;
     a { border-color: $grayBorder; }
     &.on, &:hover {
-      a { border-bottom-color: $body-bg; }
+      a {
+        border-bottom-color: $body-bg;
+        background-color: $gray-lightest;
+      }
     }
     > a {
       padding: 0 pxToEm(20px);

@@ -35,6 +35,7 @@
     border: 1px solid $gray-lighter;
   }
   .left-glyph {
+    height: pxToEm(69px);
     text-align: center;
     padding: 0 pxToEm(29px);
     vertical-align: middle;
@@ -49,7 +50,10 @@
   }
   .label-cate {
     padding: 0 pxToEm(25px);
-    .label { padding: 0; }
+    .label {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
   .label-title {
     padding: 0  0 0.4em;
@@ -65,7 +69,6 @@
     border-bottom: 1px dashed $gray-lighter;
   }
   .media-title {
-    font-weight: normal;
     font-size: 1.45em;
     margin-bottom: .8em;
   }
@@ -142,7 +145,6 @@
 // 热点、最新
 .rd-zx-tabs {
   .tabs-base {
-    font-size: pxToEm(16px);
     li {
       width: 50%;
       &.on, &:hover {
@@ -152,8 +154,12 @@
   }
   .list-group-item {
     margin-bottom: 0;
-    border-bottom: 1px dashed $gray-lighter;
+    border-bottom: 1px dashed $grayBorder;
     color: $gray;
+    font-size: pxToEm(12px);
+    .right-info {
+      color: $gray;
+    }
   }
 }
 
@@ -167,7 +173,7 @@
   .label { margin-right: 1.2em; }
   .item-labels {
     @include text-truncate();
-    padding: pxToEm(10px) pxToEm(6px);
+    padding: pxToEm(12px) pxToEm(6px);
     line-height: 1;
     color: $gray;
     span {
@@ -179,12 +185,16 @@
         border-right: 1px solid $gray-lighter;
       }
     }
+    .right-info {
+      font-size: pxToEm(12px);
+      color: $gray-light;
+    }
   }
   .item {
     .icon-minus, .label-bar { display: none; }
     &.on {
       .item-labels {
-        background-color: $gray-lighter;
+        background-color: $gray-lightest;
         span:first-child { color: $activeColor; }
       }
       .icon-plus { display: none; }
@@ -248,5 +258,10 @@
     @include caret-right(3px, $activeColor);
     background-color: transparent;
     margin-top: -3px;
+  }
+
+  .list-dot .list-group-item {
+    padding-top: 3px;
+    padding-bottom: 3px;
   }
 }

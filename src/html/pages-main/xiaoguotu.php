@@ -204,91 +204,91 @@
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall1.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall2.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall3.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall4.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall5.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
                 <div class="media-base media-item">
                     <a href="" class="thumbnail"><img src="../../img/temp-img/tu-waterfall6.jpg" alt=""></a>
                     <h4 class="media-title"><a href=""><b>#厨房#</b>简约风格</a></h4>
                     <p class="media-explain"><a class="like-btn"><i class="icon-heart"></i>我喜欢<em>88</em></a>图集<em>10</em>张图片</p>
-                    <a class="collect-btn" href=""><i class="icon-plus-sign"></i>收藏图片</a>
+                    <a class="collect-btn" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                 </div>
             </div>
         </div>

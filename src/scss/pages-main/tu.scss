@@ -63,7 +63,11 @@
       box-shadow: 0 0 10px #999;
       background-color: darken($gray-lightest, 2%);
       .collect-btn {
+        font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
         display: inline-block;
+        i {
+          margin-right: 3px;
+        }
       }
     }
 

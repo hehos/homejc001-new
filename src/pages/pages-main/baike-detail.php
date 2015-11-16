@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=276199b7dc"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=ca3147f5b0"/>
 
 </head>
 <body>
@@ -150,25 +150,25 @@
                 </div>
                 <div class="clearfix cont-line">
                     <div class="list-group list-dot">
-                        <a href="#" class="list-group-item">Cras justo odio</a>
-                        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group-item">Morbi leo risus</a>
-                        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group-item">Vestibulum at eros</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
                     </div>
                     <div class="list-group list-dot">
-                        <a href="#" class="list-group-item">Cras justo odio</a>
-                        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group-item">Morbi leo risus</a>
-                        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group-item">Vestibulum at eros</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
                     </div>
                     <div class="list-group list-dot">
-                        <a href="#" class="list-group-item">Cras justo odio</a>
-                        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group-item">Morbi leo risus</a>
-                        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group-item">Vestibulum at eros</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
+                        <a href="#" class="list-group-item">商品房验收有哪些标准 商品房验房注意事项</a>
                     </div>
                 </div>
             </div>

@@ -33,7 +33,7 @@
     @return $val / 1rem;
   }
 }
-@function middleImg($val, $border) {
+@function middleImg($val, $border: false) {
   @if $border {
     @return 0.9892857142857143 * ($val - $border);
   } @else {

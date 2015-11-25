@@ -158,7 +158,7 @@
             <div class="firm-list margin-b-21">
                 <div class="media-firmitem">
                     <div class="media-left">
-                        <a class="thumbnail" href=""><img src="../../img/temp-img/logo-corp2.jpg" alt=""/></a>
+                        <a class="thumbnail" href="http://192.168.0.188/homejc001-new/src/pages/pages-merchant/index.php"><img src="../../img/temp-img/logo-corp2.jpg" alt=""/></a>
                     </div>
                     <div class="media-body">
                         <h4 class="media-title"><a href="">成都禾木艺景装饰工程有限公司</a></h4>
@@ -183,7 +183,7 @@
 
                 <div class="media-firmitem">
                     <div class="media-left">
-                        <a class="thumbnail" href=""><img src="../../img/temp-img/logo-corp2.jpg" alt=""/></a>
+                        <a class="thumbnail" href="http://192.168.0.188/homejc001-new/src/pages/pages-merchant/index.php"><img src="../../img/temp-img/logo-corp2.jpg" alt=""/></a>
                     </div>
                     <div class="media-body">
                         <h4 class="media-title"><a href="">成都禾木艺景装饰工程有限公司</a></h4>

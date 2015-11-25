@@ -3,15 +3,17 @@
 
 
 $themeBg: lighten($gray-lighter, 5%);
-$pageW:   1190;
 // ====================================
 // comm
-body .container { width: $pageW * 1px; }
 .title-bar {
   padding-bottom: 1em;
   .title {
     font-size: 2em;
   }
+}
+
+.index-title-bar {
+  margin-top: pxToEm(20px);
 }
 
 // Override bootstrap
@@ -26,8 +28,6 @@ body .container { width: $pageW * 1px; }
     padding-right: 1em;
   }
   .thumbnail {
-    height: 250px;
-    line-height: 246px;
     text-align: center;
     &:hover, &:focus {
       border-color: $activeColor;
@@ -41,15 +41,38 @@ body .container { width: $pageW * 1px; }
 
 
 // set element size
-.media-base .thumbnail {
-  height: 250px;
+.case {
+  [class^="col-"], [class*=" col-"] {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
-.main-warp .media-base .thumbnail {
-  height: 190px;
+.product, .case {
+  .media-base {
+    .thumbnail {
+      height: 279px;
+      line-height: middleImg(279px, 2px);
+    }
+    .media-title {
+      padding-right: 75px;
+    }
+  }
 }
 
-.case-info .img { height: 370px; }
-.product-info .img { height: 380px; }
+// 详细页
+.main-warp .media-base .thumbnail {
+  height: 206px;
+  line-height: middleImg(206px, 2px);
+}
+
+.case-info .img {
+  height: 370px;
+  line-height: middleImg(370px, 2px);
+}
+.product-info .img {
+  height: 380px;
+  line-height: middleImg(380px, 2px);
+}
 .cont-logo {
   text-align: center;
   border: 1px solid $gray-lighter;
@@ -172,17 +195,6 @@ table {
 }
 
 // header
-.header-top {
-  color: lighten($gray, 10%);
-  .member-in {
-    i , .exit { color: $activeColor; }
-    i {
-      vertical-align: middle;
-      font-size: 1.2em;
-      margin-right: 5px;
-    }
-  }
-}
 
 .header-center, .header-bottom {
   .container { position: relative; }
@@ -280,11 +292,12 @@ table {
   .title-bar .other-info {
     line-height: 1.4;
     height: 1.4em;
-    margin-top: 1.2em;
+    margin-top: 1.6em;
+    margin-left: 15px;
     background-color: $activeColor;
     color: #fff;
     padding: 0 6px;
-    font-family: serif;
+    font-family: $smallFont;
   }
   table {
     width: 100%;
@@ -350,21 +363,19 @@ table {
 
 
 // 案例、产品详细页
-.page-path {
-  color: $gray;
+#location {
   i {
     font-size: 1.2em;
     margin-right: 3px;
   }
-  .active { color: $gray-dark; }
 }
 .case-info, .product-info {
   .media-info {
-    width: percentage(568 / $pageW);
+    width: percentage(568 / 1200);
     padding-right: 68px;
   }
   .info {
-    width: percentage(($pageW - 568) / $pageW);
+    width: percentage((1200 - 568) / 1200);
   }
 
   .img {
@@ -395,15 +406,6 @@ table {
 .product-info .btn-row { margin-bottom: 1em; }
 
 .case-otherInfo, .product-otherInfo {
-  .main-info {
-    float: left;
-    width: percentage(930 / $pageW);
-    padding-right:  29px;
-  }
-  .side-info {
-    float: right;
-    width: percentage(($pageW - 930) / $pageW);
-  }
   margin-top: 2em;
   .info-title {
     font-size: 1.3em;
@@ -412,6 +414,9 @@ table {
   .otherInfo {
     .details-cont {
       padding: 1.5em;
+      + .details-cont {
+        display: none;
+      }
     }
   }
 

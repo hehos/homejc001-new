@@ -1,4 +1,5 @@
 // Override bootstrap style
+.form-control { border-radius: 0; }
 .carousel.slide {
   .icon-angle-left, .icon-angle-right {
     display: inline-block;
@@ -35,6 +36,17 @@ body .container {
   float: right;
   width: percentage((300) / 1200);
 }
+// 详细页的左右
+.main-info {
+  float: left;
+  width: percentage(930 / 1200);
+  padding-right:  29px;
+}
+.side-info {
+  float: right;
+  width: percentage((1200 - 930) / 1200);
+}
+
 // sprite comm style
 [class^="myicon-"],
 [class*=" myicon-"] {
@@ -42,9 +54,39 @@ body .container {
   vertical-align: middle;
 }
 
+// modify widget
+.filter-box2 .layout-left {
+  font-size: 1.2em;
+  vertical-align: middle;
+  .label-title {
+    font-weight: bold;
+    color: lighten($gray-light, 5%);
+  }
+}
+.label-filter .label.on {
+  color: inherit;
+  font-weight: bold;
+}
+
+// 位置面包屑
+#location {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .breadcrumb-arrow {
+    color: $gray;
+    .on {
+      color: $gray-dark;
+      font-weight: bold;
+    }
+  }
+}
+
+
 // 过滤条标题
 .filter-title {
-  line-height: (44/14) + em;
+  line-height: pxToEm(44px);
   padding: 0 1em;
   background-color: #f9f9f9;
   border: 1px solid $gray-lighter;
@@ -56,6 +98,11 @@ body .container {
     font-size: 1.2em;
     font-weight: bold;
   }
+  .more {
+    display: inline-block;
+    margin-left: pxToEm(20px);
+    color: $gray;
+  }
   em { margin: 0 .8em; }
   .right-info {
     float: right;
@@ -63,6 +110,18 @@ body .container {
   }
 }
 
+// 内容块的公共样式
+.cont-box {
+  padding: pxToEm(6px) pxToEm(18px);
+  border: 1px solid $gray-lighter;
+  .title-bar {
+    border-bottom: 1px solid $gray-lighter;
+    .title { font-size: pxToEm(16px); }
+  }
+  .cont-block {
+    margin-top: pxToEm(10px);
+  }
+}
 
 // global banner form
 .banner-media {
@@ -126,14 +185,14 @@ body .container {
     &.city {
       @include clearfix();
       margin-right: -3%;
-      select {
+      input, select {
         float: left;
         width: 30.33333%;
         margin-right: 3%;
       }
     }
     &.col-2 {
-      select { width: 47%; }
+      input, select { width: 47%; }
     }
   }
 
@@ -332,14 +391,14 @@ $poput-z-index: 10000;
     &.city {
       @include clearfix();
       margin-right: -3%;
-      select {
+      input, select {
         float: left;
         width: 30.33333%;
         margin-right: 3%;
       }
     }
     &.col-2 {
-      select { width: 47%; }
+      input, select { width: 47%; }
     }
   }
 
@@ -439,11 +498,20 @@ $poput-z-index: 10000;
   .g-right { width: 25%; }
 
   .form-line {
-    margin-bottom: .5em;
+    @include clearfix();
+    margin-top: 1em;
+    &:first-child { margin-top: 0; }
     input, select {
-      display: inline-block;
-      width: 47%;
+      float: left;
+      width: 48%;
       margin-right: 2%;
+      padding: 6px 12px;
+    }
+    &.city {
+      input, select {  width: percentage(1 / 3) - 2%; }
+    }
+    &.col-2 {
+      input, select { width: 47%; }
     }
   }
 
@@ -460,19 +528,21 @@ $poput-z-index: 10000;
       display: inline-block;
       width: 40%;
     }
-    .qrcode {
-      position: relative;
-      text-align: center;
-    }
-    .qrcode-cont {
-      position: absolute;
-      left: 2em;
-      top: -6em;
-      font-size: .85em;
-      color: $body-bg;
-    }
     .submit { margin-top: 1.5em; }
   }
+  .qrcode {
+    position: relative;
+    text-align: center;
+  }
+  .qrcode-cont {
+    position: absolute;
+    left: 2em;
+    top: -6em;
+    font-size: .85em;
+    color: $body-bg;
+    p { margin-top: 5px; }
+  }
+
   .open {
     position: fixed;
     left: -.7em;

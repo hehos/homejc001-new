@@ -2,23 +2,14 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-merchant/merchant.css?v=3dafb77754"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-merchant/merchant.css?v=7c2a28da18"/>
 </head>
 <body>
 <?php include "header2.php"; ?>
 
+<?php include "../location.php"; ?>
+
 <div class="container">
-    <!--  begin path  -->
-    <div class="page-path row">
-        <ol class="breadcrumb-arrow">
-            <li><a href="#"><i class="icon-home"></i>首页</a></li>
-            <li><a href="#">定制产品</a></li>
-            <li class="active">某某具体产品</li>
-        </ol>
-    </div>
-    <!--  end path  -->
-
-
     <!--  begin 产品信息  -->
     <div class="clearfix row case-info">
         <div class="pull-left media-info">

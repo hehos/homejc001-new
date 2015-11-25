@@ -2,23 +2,14 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=ca3147f5b0"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=6035438e40"/>
 
 </head>
 <body>
 <?php include "../header.php"; ?>
 
 <!--  页面位置  -->
-<div id="location" class="margin-b-13">
-    <div class="container">
-        <ol class="breadcrumb-arrow">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Library</a></li>
-            <li class="on">Data</li>
-            <li class="result"><span>共有<em>888</em>篇知识</span></li>
-        </ol>
-    </div>
-</div>
+<?php include "../location.php"; ?>
 
 <div class="container">
     <!--  广告  -->
@@ -76,7 +67,7 @@
                     </div>
                 </div>
 
-                <div class="label-small labels">
+                <div class="label-labs labels">
                     <div class="layout-left">
                         <span class="label-title">标签：</span>
                     </div>

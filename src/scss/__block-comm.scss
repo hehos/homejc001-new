@@ -5,12 +5,23 @@
 #header {
   .has-subnav, .header-select {
     i { margin-left: pxToEm(8px); }
-    .icon-angle-up { display: none; }
+    .icon-angle-up, .icon-caret-up  { display: none; }
     &:hover {
-      .icon-angle-up { display: inline-block; }
-      .icon-angle-down { display: none; }
+      .icon-angle-up, .icon-caret-up { display: inline-block; }
+      .icon-angle-down, .icon-caret-down { display: none; }
     }
   }
+  // 头部导航鼠标移上时图标颜色
+  .has-subnav {
+    &:hover, &.on {
+      [class^="icon-"], [class*=" icon-"] {
+        color: $body-bg;
+        border-color: $body-bg;
+      }
+    }
+  }
+
+  // hot，new的图标
   .has-icon {
     [class^="myicon-"], [class*=" myicon-"] {
       margin-top: pxToEm(3px);
@@ -53,6 +64,12 @@ $headerTopFontSize: 12px;
     line-height: 1;
     padding: (pxToEm(30px, $headerTopFontSize) - 1em) / 2 0;
     margin-right: 15px;
+    i, .exit { color: $activeColor; }
+    i {
+      vertical-align: middle;
+      font-size: 1.2em;
+      margin-right: 5px;
+    }
   }
   li {
     padding: 0 12px;
@@ -95,7 +112,7 @@ $headerTopFontSize: 12px;
   height: pxToEm(40px);
   line-height: pxToEm(34px);
   margin-right: pxToEm(20px);
-  padding-left: pxToEm(100px);
+  padding-left: pxToEm(106px);
   padding-right: pxToEm(80px);
   border: 3px solid $activeColor;
   .header-select, input, button {
@@ -109,9 +126,11 @@ $headerTopFontSize: 12px;
 
   .header-select {
     left: 0;
-    width: pxToEm(100px);
+    width: pxToEm(106px, 12px);
     text-align: center;
+    font-size: pxToEm(12px);
     border-right: 1px solid #eee;
+    background-color: $gray-lightest;
     a { text-decoration: none; }
     ul {
       position: absolute;
@@ -147,12 +166,17 @@ $headerTopFontSize: 12px;
     width: 100%;
     height: pxToEm(34px);
     padding: pxToEm((34px - 20px) / 2) pxToEm(10px);
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
   }
   input, button { border: none; }
 }
 
 // header-bottom
 .header-bottom {
+  border-width: 3px;
   .container {
     position: relative;
     background-color: lighten($gray-lightest, 1%);
@@ -163,12 +187,18 @@ $headerTopFontSize: 12px;
     right: pxToEm(10px);
   }
 
-  .header-nav {
-    a {
-      font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
-    }
+  [class^="icon-"], [class*=" icon-"] {
+    $iconColor: #777582;
+    display: inline-block;
+    width: pxToEm(14px);
+    height: pxToEm(14px);
+    line-height: middleImg(14px);
+    font-size: pxToEm(12px);
+    color: $iconColor;
+    border: 1px solid $iconColor;
+    border-radius: 50%;
   }
-
+  .header-nav a { font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu; }
 }
 
 

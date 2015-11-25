@@ -38,8 +38,8 @@
   display: inline-block;
   font-family: $smallFont;
 }
-[class^="u-btn"],
-[class*=" u-btn"] {
+[class^="u-btn-"],
+[class*=" u-btn-"] {
   &:hover { text-decoration: none; }
 }
 .u-circle-btn {
@@ -75,10 +75,18 @@
 }
 
 .u-btn-link {
+  position: relative;
   line-height: 24px;
   padding: 0 pxToEm(12px);
   background-color: $btnColor;
-  color: #FFFFFF;
+  color: $body-bg;
+  &.arrow {
+    &:after {
+      content: ">";
+      margin-left: pxToEm(6px);
+      font-family: $smallFont;
+    }
+  }
 }
 
 [class^="u-word-"], [class*=" u-word-"] {

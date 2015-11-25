@@ -1,0 +1,791 @@
+// 以下是直接 copy 的老的样式
+.m-listYouhui:after {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  content: ".";
+}
+.m-listYouhui li {
+  float: left;
+  margin: 15px 2%;
+  padding: 10px;
+  width: 48%;
+  border: 1px solid #dddddd;
+}
+.m-listYouhui li .img {
+  width: 100%;
+  height: 200px;
+}
+.m-listYouhui li .img img {
+  width: 100%;
+  height: 100%;
+}
+.m-listYouhui li.on,
+.m-listYouhui li:hover {
+  border: 2px solid #ff3600;
+  padding: 9px 10px;
+}
+.m-listYouhui li .txt {
+  line-height: 25px;
+  height: 50px;
+  overflow: hidden;
+  margin: 12px 0 10px;
+  font-size: 14px;
+}
+.m-listYouhui .priceRow .price {
+  font-size: 26px;
+  color: #fd3f01;
+  margin-right: 6px;
+  font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
+}
+.m-listYouhui .priceRow .initPrice {
+  text-decoration: line-through;
+}
+.m-listYouhui .priceRow .act {
+  float: right;
+  background: #ff4500;
+  height: 31px;
+  line-height: 31px;
+  padding: 0 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.m-listYouhui .priceRow .act i {
+  margin-right: 3px;
+}
+.m-listYouhui .priceRow .act.end {
+  background: #C2C0C0;
+}
+.m-listYouhui .otherRow {
+  text-align: right;
+  padding-top: 16px;
+  margin-top: 12px;
+  border-top: 1px dashed #cccccc;
+  color: #aeaeae;
+  font-size: 14px;
+}
+.m-listYouhui .otherRow i {
+  font-size: 16px;
+}
+
+.m-listYouhui2 li {
+  padding-top: 20px;
+  border-bottom: 1px solid #dddddd;
+}
+.m-listYouhui2 .img {
+  width: 100%;
+  max-height: 160px;
+  overflow: hidden;
+}
+.m-listYouhui2 img {
+  width: 100%;
+  height: auto;
+}
+.m-listYouhui2 p {
+  line-height: 27px;
+}
+.m-listYouhui2 .txt {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-top: 6px;
+}
+.m-listYouhui2 .priceRow {
+  padding-bottom: 6px;
+}
+.m-listYouhui2 .priceRow .price {
+  color: #ff4300;
+}
+.m-listYouhui2 .priceRow .price em {
+  font-size: 20px;
+}
+.m-listYouhui2 .priceRow .grayColor {
+  float: right;
+}
+
+.m-table1 {
+  width: 100%;
+  padding: 0 25px 14px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.m-table1 tr {
+  height: 36px;
+  line-height: 36px;
+}
+.m-table1 th,
+.m-table1 td {
+  text-align: left;
+}
+.m-table1 th {
+  color: #666666;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.m-table1 td {
+  color: #595959;
+}
+.m-table1 td.title a,
+.m-table1 td.title {
+  color: #3D8901;
+}
+.m-table1 td.stress {
+  color: red;
+}
+.m-table1 td.act {
+  display: inline-block;
+  text-align: center;
+}
+.m-table1 td.act a {
+  color: #FFFFFF;
+}
+.m-table1.wdye {
+  border-collapse: collapse;
+}
+.m-table1.wdye th,
+.m-table1.wdye td {
+  border: 1px solid #d3d3cb;
+  text-align: center;
+}
+.m-table1 {
+  padding: 0;
+}
+.m-table1.staff th,
+.m-table1.staff td {
+  padding: 3px;
+  vertical-align: middle;
+  text-align: center;
+}
+.m-table1.staff th img,
+.m-table1.staff td img {
+  height: 100px;
+  width: 100px;
+}
+.m-table1.staff th.staffAct,
+.m-table1.staff td.staffAct {
+  width: 100%;
+}
+.m-table1.staff th.staffAct a,
+.m-table1.staff td.staffAct a {
+  display: inline-block;
+  width: 51px;
+  box-sizing: border-box;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 2px;
+  padding: 0;
+  border-radius: 3px;
+}
+.m-table1.staff th:last-child,
+.m-table1.staff th:nth-child(5) {
+  width: 130px;
+}
+.m-table1.staff td:nth-child(5) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.m-table1.staff:nth-child(even) > td {
+  background: #f9f9f9;
+}
+.m-table1.staff th {
+  background: #A1A1A1;
+  color: #fff;
+  font-size: 14px;
+}
+.m-table1.staff td {
+  font-weight: normal;
+}
+.m-table1.index th {
+  color: #666666;
+  background: #fff;
+}
+.m-table1.index th,
+.m-table1.index td {
+  border: none;
+}
+.m-table1.popup tr {
+  height: 30px;
+  line-height: 30px;
+}
+.m-table1.popup th {
+  width: 30%;
+  text-align: right;
+  padding-right: 30px;
+}
+.m-table1.popup td {
+  text-align: left;
+}
+.m-table1.zwj td {
+  width: 50%;
+  padding: 0 15px;
+}
+.m-table1.zwj tr:nth-child(odd) td {
+  background: #f3f3f3;
+}
+.m-table1.zwj2 th {
+  background: #F4F4F4;
+}
+.m-table1.zwj2 tr + tr {
+  line-height: 58px;
+}
+.m-table1.zwj2 tr + tr td {
+  border-bottom: 1px dashed #e3e3e3;
+}
+.m-table1.zwj2 tr + tr i {
+  margin-bottom: 5px;
+  margin-right: 12px;
+}
+.m-table1.zwj2 tr + tr a:hover {
+  color: #01A469;
+  text-decoration: underline;
+}
+
+
+.paddingBox {
+  background: #fff;
+  padding: 25px 22px;
+}
+.grayColor {
+  color: #979797 !important;
+}
+.linkColor1 {
+  color: #02a8be !important;
+}
+.deleteLine {
+  text-decoration: line-through !important;
+}
+.warning {
+  color: #fe4502;
+  font-size: 12px;
+  vertical-align: sub;
+  margin-left: 10px;
+}
+.disabledBtn {
+  background: #eee !important;
+  cursor: not-allowed !important;
+  color: #555 !important;
+}
+.g-main {
+  float: right;
+  width: 714px;
+  padding-left: 10px;
+}
+.mainTitle {
+  line-height: 37px;
+  padding: 0 15px;
+  color: #666666;
+  font-family: sans-serif;
+  border: 1px solid #d4d5d0;
+}
+.mainTitle:after {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  content: ".";
+}
+.mainTitle .path {
+  float: left;
+}
+.mainTitle .path a {
+  display: inline-block;
+  margin: 0 8px;
+  vertical-align: top;
+}
+.mainTitle .resultNum {
+  float: right;
+}
+.mainTitle .resultNum em {
+  color: #ff4500;
+  font-weight: bold;
+}
+.g-cbox {
+  margin: 0;
+  padding: 0;
+}
+.couponDetail,
+.g-cbox {
+  background: #fff;
+  margin-bottom: 12px;
+}
+.couponDetail {
+  padding: 8px 18px 0;
+}
+.couponDetail .title {
+  padding-top: 23px;
+  line-height: 35px;
+}
+.couponDetail .title h2 {
+  font-size: 18px;
+  color: #010101;
+}
+.couponDetail .title p {
+  font-size: 14px;
+  color: #666666;
+}
+.couponDetail .info {
+  margin-top: 15px;
+  overflow: hidden;
+}
+.couponDetail .info img {
+  float: left;
+  width: 470px;
+  height: 290px;
+  margin-right: 18px;
+}
+.couponDetail .info .detail {
+  overflow: hidden;
+  line-height: 24px;
+}
+.couponDetail .info .detail .buyExplain {
+  margin-top: 6px;
+  font-size: 14px;
+}
+.couponDetail .info .detail .buyExplain strong {
+  font-size: 16px;
+}
+.couponDetail .info .detail .priceRow {
+  padding: 8px 0;
+  font-size: 14px;
+}
+.couponDetail .info .detail .price {
+  color: #fe4600;
+  font-weight: bold;
+  font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
+}
+.couponDetail .info .detail .price em {
+  font-size: 32px;
+  font-weight: bold;
+}
+.couponDetail .info .detail .discountNum {
+  display: inline-block;
+  padding: 0 6px;
+  height: 20px;
+  line-height: 20px;
+  background: #02a8be;
+  color: #fff;
+}
+.couponDetail .info .detail .spanDis1 span {
+  margin-right: 30px;
+}
+.couponDetail .info .detail .spanDis2,
+.couponDetail .info .detail .spanDis2 span {
+  color: #666666;
+}
+.couponDetail .info .detail .spanDis2 span {
+  margin-right: 20px;
+}
+.couponDetail .info .detail .spanDis2 span:first-child {
+  margin-right: 30px;
+}
+.couponDetail .info .detail .spanDis2 i {
+  margin-right: 3px;
+}
+.couponDetail .info .detail .bd {
+  border-top: 1px dotted #cccccc;
+}
+.couponDetail .info .detail .collect {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.couponDetail .info .detail .act {
+  padding: 15px 0;
+}
+.couponDetail .info .detail .act a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 44px;
+  background: #ff4500;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 5px;
+}
+.couponDetail .info .detail .countdown {
+  line-height: 23px;
+}
+.otherInfo:after {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  content: ".";
+}
+.otherInfo .left {
+  width: 700px;
+}
+.otherInfo .right {
+  width: 265px;
+  margin-left: 15px;
+}
+.other-coupon-info {
+  padding: 0 10px;
+}
+.other-coupon-info th {
+  font-size: 16px;
+}
+.other-coupon-info th + th {
+  text-align: center;
+}
+.other-coupon-info tr:first-child th + th {
+  color: #333333;
+}
+.other-coupon-info td {
+  background: #fafafa;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 9px solid #fff;
+}
+.other-coupon-info td a {
+  color: #01a8ba;
+  text-decoration: underline;
+}
+.other-coupon-info td + td {
+  text-align: center;
+}
+.other-coupon-info td:first-child {
+  padding-left: 10px;
+}
+.other-coupon-info td:first-child i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 10px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  background: #00a9be;
+}
+.otherInfo .couponInfo {
+  padding-bottom: 90px;
+  position: relative;
+}
+.otherInfo .couponInfo .title {
+  height: 37px;
+  line-height: 35px;
+  font-size: 14px;
+  border-bottom: 3px solid #bd0400;
+}
+.otherInfo .couponInfo .couponCont {
+  min-height: 564px;
+  padding: 10px 15px;
+  font-family: cursive;
+  font-size: 14px;
+  line-height: 28px;
+}
+.otherInfo .couponInfo .couponCont * {
+  box-sizing: content-box;
+}
+.otherInfo .couponInfo .couponCont strong {
+  vertical-align: baseline;
+  color: #666666;
+}
+.otherInfo .couponInfo .couponCont .contents img {
+  margin-top: 10px;
+  max-width: 100%;
+}
+.otherInfo .couponInfo .couponCont .imgText {
+  overflow: hidden;
+  margin: 0 -3%;
+}
+.otherInfo .couponInfo .couponCont .imgText li {
+  display: inline-block;
+  width: 28.8%;
+  margin: 10px 2% 15px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+.otherInfo .couponInfo .couponCont .imgText .img {
+  height: 100px;
+  width: 100%;
+}
+.otherInfo .couponInfo .couponCont .imgText img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.otherInfo .couponInfo .couponCont .imgText .imgTitle {
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.otherInfo .couponInfo .couponCont .imgText .txt {
+  max-height: 40px;
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 12px;
+  color: #5C5B5B;
+}
+.otherInfo .couponInfo .couponCont #d1 .spH #myMap {
+  width: 100%;
+  height: 300px;
+}
+.otherInfo .couponInfo .couponCont #d1 p:first-child strong {
+  line-height: 40px;
+  font-size: 18px;
+  color: #333333;
+}
+.otherInfo .couponInfo ul {
+  overflow: hidden;
+}
+.otherInfo .couponInfo .title li {
+  float: left;
+}
+.otherInfo .couponInfo .title li a {
+  padding: 0 14px;
+}
+.otherInfo .couponInfo .title li:after {
+  content: "";
+  width: 1px;
+  height: 26px;
+  border-left: 1px solid #cccccc;
+  display: inline-block;
+  vertical-align: middle;
+}
+.otherInfo .couponInfo .title li.on {
+  background: #bd0400;
+  color: #Fff;
+}
+.jieshiquan {
+  line-height: 29px;
+  padding: 8px 0;
+  text-align: center;
+  font-size: 18px;
+  border-top: 1px dashed #ddd;
+  color: #010101;
+  font-weight: bold;
+}
+.jieshiquan .phone {
+  display: inline-block;
+  margin-bottom: 3px;
+  color: #e70302;
+  font-size: 22px;
+  font-weight: bold;
+}
+.otherLook {
+  padding: 15px 19px;
+}
+.otherLook .title {
+  height: 26px;
+  line-height: 26px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  text-shadow: 0.2px 0.2px #b8b8b8;
+}
+.MainTitle h2 {
+  display: inline-block;
+  height: 52px;
+  line-height: 52px;
+  font-size: 24px;
+  color: #000000;
+  text-shadow: 0.3px 0.3px #a3a3a3;
+}
+.blockBg {
+  padding: 0 20px;
+  background: #f3ffff;
+  border: 1px solid #02a8be;
+}
+.couponCheck {
+  padding-top: 0;
+}
+.couponCheck .MainTitle {
+  padding: 15px 0 10px;
+}
+.couponCheck li {
+  line-height: 56px;
+  font-size: 14px;
+}
+.couponCheck li .txt {
+  width: 38%;
+  height: 40px;
+}
+.couponCheck li .txt.checkcode {
+  width: 15%;
+}
+.couponCheck li > label:first-child {
+  width: 10%;
+}
+.couponCheck li .reminder {
+  color: #99999b;
+}
+.couponCheck li .btn {
+  letter-spacing: 10px;
+}
+.orderFlowPage {
+  font-size: 14px;
+}
+.orderFlowPage i {
+  color: #666666;
+}
+.orderFlowPage .orderFlow {
+  margin-bottom: 20px;
+}
+.orderFlowPage .submitRow {
+  margin: 10px 0;
+}
+.orderFlowPage .bd {
+  height: 5px;
+  background: #cccccc;
+  margin: 20px 0;
+}
+.orderFlowPage .orderTable th,
+.orderFlowPage .orderTable td {
+  text-align: center;
+  font-size: 14px;
+}
+.orderFlowPage .orderTable th {
+  background: #f3f3f3;
+}
+.orderFlowPage .orderTable td {
+  padding: 10px 0;
+  border: 1px solid #e6e6e6;
+  border-width: 0 1px 1px 0;
+}
+.orderFlowPage .orderTable td a {
+  color: #00a9be;
+  text-decoration: underline;
+}
+.orderFlowPage .orderTable td em {
+  font-weight: bold;
+}
+.orderFlowPage .form {
+  line-height: 45px;
+}
+.orderFlowPage .form .txt {
+  height: 40px;
+  width: 300px;
+}
+.orderFlowPage .form .txt.addr {
+  width: 500px;
+}
+.orderFlowPage .form .tarea {
+  width: 600px;
+  height: 100px;
+}
+.orderFlowPage .form .moneyRow,
+.orderFlowPage .form .submitRow {
+  text-align: right;
+}
+.orderFlowPage .form .moneyRow {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+}
+.orderFlowPage .form .moneyRow em {
+  font-size: 26px;
+}
+.orderFlowPage .form .checkcode {
+  width: 80px;
+}
+.orderFlowPage .orderInfo {
+  line-height: 37px;
+  padding-top: 15px;
+}
+.orderFlowPage .orderInfo .payWay {
+  width: 60%;
+  padding-left: 10px;
+  background: #fffae4;
+}
+.orderFlowPage .orderInfo .txt span {
+  color: #000000;
+  font-weight: bold;
+}
+.orderFlowPage .orderInfo em {
+  margin: 0 10px;
+  font-weight: bold;
+}
+.orderFlowPage .otherPayWay {
+  color: #00a9bb;
+}
+.orderFlowPage .otherPayWay a {
+  text-decoration: underline;
+}
+.blockBg.zifu {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.blockBg.zifu .succeed,
+.blockBg.zifu .fail {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.blockBg.zifu .succeed,
+.blockBg.zifu a {
+  color: #00A166 !important;
+}
+.blockBg.zifu .succeed {
+  text-shadow: 1px 1px #00A166;
+}
+.blockBg.zifu .fail {
+  color: #a94442;
+}
+
+.blk4 .ttl {
+  line-height: 20px;
+  height: 35px;
+  margin: 0px;
+  border-style: none;
+  padding: 5px 10px 10px 0;
+}
+
+
+.blk4 .ttl h3 {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  border-style: none;
+  font-family: "新宋体";
+}
+
+.blk4 .ttl span {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.know2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #FFF;
+}
+.f12 {
+  font-size: 12px;
+}
+.know2 li {
+  height: 24px;
+  line-height: 24px;
+  padding-left: 30px;
+  padding-right: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #FFF;
+  background-image: url("../img/tu.gif");
+  background-repeat: no-repeat;
+  background-position: 0px -330px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+

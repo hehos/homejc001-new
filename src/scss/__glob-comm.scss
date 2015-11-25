@@ -2,10 +2,13 @@
 
 // =========================
 // begin  适合所有项目的通用性
+
+
 // global img
 .thumbnail, .img {
   display: block;
   text-align: center;
+  overflow: hidden;
   img {
     display: inline-block;
     vertical-align: middle;

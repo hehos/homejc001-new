@@ -15,12 +15,7 @@
 #header { margin-bottom: 0; }
 
 #location {
-  color: $gray;
   border-bottom: 1px solid $gray-lighter;
-  .on {
-    color: $gray-dark;
-    font-weight: bold;
-  }
 }
 
 // 百科主页
@@ -112,17 +107,6 @@
   background-color: $gray-lightest;
   .form-tab li {
     &:hover, &.on { background-color: $body-bg; }
-  }
-}
-.cont-box {
-  padding: pxToEm(6px) pxToEm(18px);
-  border: 1px solid $gray-lighter;
-  .title-bar {
-    border-bottom: 1px solid $gray-lighter;
-    .title { font-size: pxToEm(16px); }
-  }
-  .cont-block {
-    margin-top: pxToEm(10px);
   }
 }
 // 热门标签

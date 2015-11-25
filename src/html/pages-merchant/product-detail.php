@@ -7,16 +7,10 @@
 <body>
 <?php include "header2.php"; ?>
 
+<!--  begin path  -->
+<?php include "../location.php"; ?>
+<!--  end path  -->
 <div class="container">
-    <!--  begin path  -->
-    <div class="page-path row">
-        <ol class="breadcrumb-arrow">
-            <li><a href="#"><i class="icon-home"></i>首页</a></li>
-            <li><a href="#">定制产品</a></li>
-            <li class="active">某某具体产品</li>
-        </ol>
-    </div>
-    <!--  end path  -->
 
 
     <!--  begin 产品信息  -->
@@ -43,19 +37,39 @@
     <!--  begin 产品详细、右测产品  -->
     <div class="row product-otherInfo">
         <div class="main-info">
-            <div class="otherInfo">
+            <div data-product-detail-box class="otherInfo">
                 <div class="details-nav info-title">
-                    <ul class="tabs-nav3">
-                        <li class="on"><a href="">产品</a></li>
-                        <li><a href="">企业</a></li>
-                        <li><a href="">价格</a></li>
-                        <li><a href="">资讯</a></li>
+                    <ul class="tabs-nav3" data-detail-tabs>
+                        <li class="on"><a href="javascript:void(0);">详细内容</a></li>
+                        <li><a href="javascript:void(0);">定制流程</a></li>
                     </ul>
                 </div>
-                <div class="details-cont">
+                <div data-detail-item class="details-cont">
                     详细内容...
                 </div>
+                <div data-detail-item class="details-cont dz-flow" style="text-align: center;">
+                    <img src="../../img/pages-merchant/dz-flow_01.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_02.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_03.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_04.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_05.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_06.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_07.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_08.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_09.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_10.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_12.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_13.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_14.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_15.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_16.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_17.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_18.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_19.jpg" alt=""/>
+                    <img src="../../img/pages-merchant/dz-flow_20.jpg" alt=""/>
+                </div>
             </div>
+            <script src="../../js/pages-merchant/product-detail-tabs.js"></script>
         </div>
         <div class="side-info">
             <div class="side-product">

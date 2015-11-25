@@ -16,40 +16,6 @@
   }
 }
 
-.filter-box2 .layout-left {
-  font-size: 1.2em;
-  vertical-align: middle;
-  .label-title {
-    font-weight: bold;
-    color: lighten($gray-light, 5%);
-  }
-}
-.label-filter .label.on {
-  color: inherit;
-  font-weight: bold;
-}
-
-
-.filter-title {
-  line-height: (44/14) + em;
-  padding: 0 1em;
-  background-color: #f9f9f9;
-  border: 1px solid $gray-lighter;
-  h3, em {
-    display: inline-block;
-    color: $activeColor;
-  }
-  h3 {
-    font-size: 1.2em;
-    font-weight: bold;
-  }
-  em { margin: 0 .8em; }
-  .right-info {
-    float: right;
-    font-size: .87em; 
-  }
-}
-
 .firm-list {
   padding: 25px;
   border: 1px solid $gray-lighter;

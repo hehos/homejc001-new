@@ -2,14 +2,14 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-merchant/merchant.min.css?v=3dafb77754"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-merchant/merchant.min.css?v=7c2a28da18"/>
 </head>
 <body>
 <?php include "header.php"; ?>
 
 
-<?php include "popup-form-yuyue.php"; ?>
-<div id="mask"></div>
+<?php //include "popup-form-yuyue.php"; ?>
+<!--<div id="mask"></div>-->
 
 <div class="container">
     <!--  begin 头部banner  -->
@@ -103,7 +103,7 @@
     <!--  begin 量房、公司介绍  -->
     <div class="row clearfix liangfang-and-corp">
         <div class="pull-left liangfang-area">
-            <div class="title-bar">
+            <div class="title-bar index-title-bar">
                 <h2 class="title"><a href="">免费量房</a></h2>
                 <a class="other-info pull-left">点击申请 ></a>
                 <a class="more" href="">更多<i class=" icon-angle-right"></i></a>
@@ -168,7 +168,7 @@
             </div>
         </div>
         <div class="pull-right corp-area">
-            <div class="title-bar">
+            <div class="title-bar index-title-bar">
                 <h2 class="title"><a href="">公司介绍</a></h2>
             </div>
             <div class="corp-cont">
@@ -191,7 +191,7 @@
 
     <!--  begin 产品展示  -->
      <div class="row product">
-         <div class="title-bar">
+         <div class="title-bar index-title-bar">
              <h2 class="title"><a href="">免费量房</a></h2>
          </div>
          <div class="product-list">
@@ -242,7 +242,7 @@
 
     <!--  begin 案例展示  -->
     <div class="row case">
-        <div class="title-bar">
+        <div class="title-bar index-title-bar">
             <h2 class="title"><a href="">案例展示</a></h2>
         </div>
         <div class="case-list">

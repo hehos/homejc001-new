@@ -1,15 +1,16 @@
 {
-  "all.css": "all.css?v=5294740ef3",
-  "comm.css": "comm.css?v=5294740ef3",
-  "old-comm.css": "old-comm.css?v=bd7865397e",
-  "pages-main/baike.css": "pages-main/baike.css?v=ca3147f5b0",
-  "pages-main/decoration.css": "pages-main/decoration.css?v=682ca3d728",
+  "all.css": "all.css?v=d03440811d",
+  "comm.css": "comm.css?v=d03440811d",
+  "old-comm.css": "old-comm.css?v=4e4d0a3980",
+  "pages-huodong/huodong.css": "pages-huodong/huodong.css?v=b90eae2d94",
+  "pages-main/baike.css": "pages-main/baike.css?v=6035438e40",
+  "pages-main/decoration.css": "pages-main/decoration.css?v=9401166517",
   "pages-main/index.css": "pages-main/index.css?v=b9df8b6985",
   "pages-main/tu.css": "pages-main/tu.css?v=107edb7ad1",
   "pages-member/member.css": "pages-member/member.css?v=b2d4fad3fb",
-  "pages-merchant/merchant.css": "pages-merchant/merchant.css?v=3dafb77754",
+  "pages-merchant/merchant.css": "pages-merchant/merchant.css?v=7c2a28da18",
   "pages-publicity/publicity.css": "pages-publicity/publicity.css?v=8890bc74ef",
   "plugins.css": "plugins.css?v=6a2ef721b4",
-  "sprite.css": "sprite.css?v=bec090c481",
+  "sprite.css": "sprite.css?v=4816480687",
   "test/testGulp.css": "test/testGulp.css?v=d7447dce7e"
 }

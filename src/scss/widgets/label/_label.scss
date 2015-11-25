@@ -5,7 +5,7 @@
 .label-filter,
 .label-close,
 .label-cate,
-.label-small {
+.label-labs {
   &, & ul { @include clearfix(); }
   position: relative;
   line-height: $labelHt * 1em;

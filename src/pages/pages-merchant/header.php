@@ -1,5 +1,5 @@
 <div id="header">
-    <?php include "header-top.php"; ?>
+    <?php include "../header-top2.php"; ?>
     <div class="header-center">
         <div class="container">
             <div class="header-logo">

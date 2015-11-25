@@ -4,39 +4,9 @@
   border-bottom: none;
   font-size: pxToEm(12px);
 
-  .filter-head {
-    @include clearfix();
-    line-height: $labelHt * 1em;
-    padding: 1em;
-    .label {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-  }
-
-  .location, .filtered, .right-info {
-    padding: 0;
-  }
-  .location, .filtered {
-    float: left;
-  }
-  .right-info {
-    float: right;
-    color: #999;
-    em {
-      color: $activeColor;
-      padding: 0 .3em;
-    }
-  }
-
-
-  .location { padding-right: 1.5em; }
-
-  .filter-body { border: 1px solid $gray-lighter; }
-  .filter-item {
-    border-top: 1px solid $gray-lighter;
-    &:first-child { border-top: none; }
-  }
+  // clear depend widget style
+  .label-filter, .location, .filtered { padding: 0; }
+  .label-filter, .label-close { font-size: 1em; }
 
   .more-type {
     text-align: center;
@@ -60,4 +30,30 @@
       .box-off { display: inline-block; }
     }
   }
+}
+
+.filter-head {
+  @include clearfix();
+  line-height: $labelHt * 1em;
+  padding: 1em;
+  .label {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .location, .filtered { float: left; }
+  .location { padding-right: 1.5em; }
+  .right-info {
+    float: right;
+    color: #999;
+    em {
+      color: $activeColor;
+      padding: 0 .3em;
+    }
+  }
+}
+
+.filter-body { border: 1px solid $gray-lighter; }
+.filter-item {
+  border-top: 1px solid $gray-lighter;
+  &:first-child { border-top: none; }
 }

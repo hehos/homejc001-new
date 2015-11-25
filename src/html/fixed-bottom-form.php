@@ -10,10 +10,14 @@
                 <input class="form-control" type="text" placeholder="填写你的名称"/>
                 <input class="form-control" type="text" placeholder="填写你的电话"/>
             </div>
-            <div class="form-line">
+            <div class="form-line city">
                 <select class="form-control" name="" id="">
                     <option value="">四川</option>
                     <option value="">重庆</option>
+                </select>
+                <select class="form-control" name="" id="">
+                    <option value="">成都</option>
+                    <option value="">绵阳</option>
                 </select>
                 <select class="form-control" name="" id="">
                     <option value="">成都</option>

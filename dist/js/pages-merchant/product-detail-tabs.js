@@ -1,0 +1,1 @@
+$(function(){var a=$("[data-product-detail-box] [data-detail-tabs] li"),t=$("[data-product-detail-box] [data-detail-item]");a.click(function(){a.removeClass("on"),t.hide(),$(this).addClass("on");var d=$.inArray(this,a);$(t[d]).show()})});

@@ -67,8 +67,6 @@ $(document).ready(function(){
     });
 
 
-
-
     // 底部悬浮条 显示 与 隐藏  时刻逻辑
     $(window).bind("scroll",function(){
         if($(this).scrollTop() > 200) {

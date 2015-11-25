@@ -16,6 +16,7 @@
 @import "widgets/tabs/tabs-base";
 @import "widgets/tabs/tabs-nav1";
 @import "widgets/tabs/tabs-nav3";
+@import "widgets/tabs/tabs-nav4";
 
 // ===========================================
 // media
@@ -28,7 +29,7 @@
 // label
 @import "widgets/label/label";
 @import "widgets/label/label-bar";
-@import "widgets/label/label-small";
+@import "widgets/label/label-labs";
 @import "widgets/label/label-filter";
 @import "widgets/label/label-close";
 @import "widgets/label/label-cate";
@@ -37,6 +38,7 @@
 // list
 @import "widgets/list/list";
 @import "widgets/list/list-dot";
+@import "widgets/list/list-content";
 
 // ===========================================
 // app

@@ -1,19 +1,19 @@
 @import "list-config";
 
-.list-group-item {
-  border: none;
-  @include text-truncate();
-}
-.list-group-item:first-child,
-.list-group-item:last-child { border-radius: 0; }
-
-
 /* 组件样式提到组件的公共样式：组件下各种相似类型可能融合的情况 */
 /* 时间 */
 .list-group-item {
-  .time, .right-info {
+  @include text-truncate();
+
+  // override bootstrapt
+  border: none;
+
+  margin-bottom: 0;
+  &:first-child, &:last-child { border-radius: 0; }
+
+  .time {
     float: right;
-    color: lighten($gray-light, 8%);
+    color: #999;
     padding-left: pxToEm(14px);
   }
   &.active .time {

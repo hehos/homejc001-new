@@ -113,10 +113,7 @@ gulp.task('sass', function () {
             cascade: false
         }))
         .pipe(sourcemaps.write())
-        .pipe(sourcemaps.write('../map', {
-            includeContent: false,
-            sourceRoot: 'scss'
-        }))
+        .pipe(sourcemaps.write('../map'))
         .pipe(gulp.dest(cf.src.dir.css))
 
         .pipe(rev.manifest())
@@ -238,7 +235,7 @@ gulp.task('cleanCss', function() {
         .pipe(clean());
 });
 gulp.task('cleanFont', function() {
-    return gulp.src([cf.dist.dir.font], {read: false})
+    return gulp.src([cf.dist.dir.font, cf.src.rev.font], {read: false})
         .pipe(clean());
 });
 //gulp.task('cleanSprite', function() {

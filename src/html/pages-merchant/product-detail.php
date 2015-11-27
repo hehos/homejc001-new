@@ -8,7 +8,7 @@
 <?php include "header2.php"; ?>
 
 <!--  begin path  -->
-<?php include "../location.php"; ?>
+<?php include "../location-detail.php"; ?>
 <!--  end path  -->
 <div class="container">
 

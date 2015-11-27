@@ -15,35 +15,36 @@
 @import "../widget/blocks/tabs/tabs.scss";
 @import "../widget/blocks/tabs/tabs-base/tabs-base.scss";
 @import "../widget/blocks/tabs/tabs-nav1/tabs-nav1.scss";
+@import "../widget/blocks/tabs/tabs-nav2/tabs-nav2.scss";
 @import "../widget/blocks/tabs/tabs-nav3/tabs-nav3.scss";
 @import "../widget/blocks/tabs/tabs-nav4/tabs-nav4.scss";
 
 // ===========================================
 // media
 @import "../widget/blocks/media/media.scss";
-@import "../widget/blocks/media/media-base.scss";
-@import "../widget/blocks/media/media-firmlist.scss";
-@import "../widget/blocks/media/media-newsitem.scss";
+@import "../widget/blocks/media/media-base/media-base.scss";
+@import "../widget/blocks/media/media-firmlist/media-firmlist.scss";
+@import "../widget/blocks/media/media-newsitem/media-newsitem.scss";
 
 // ===========================================
 // label
 @import "../widget/blocks/label/label.scss";
-@import "../widget/blocks/label/label-bar.scss";
-@import "../widget/blocks/label/label-small.scss";
-@import "../widget/blocks/label/label-filter.scss";
-@import "../widget/blocks/label/label-close.scss";
-@import "../widget/blocks/label/label-cate.scss";
-
+@import "../widget/blocks/label/label-bar/label-bar.scss";
+@import "../widget/blocks/label/label-labs/label-labs.scss";
+@import "../widget/blocks/label/label-filter/label-filter.scss";
+@import "../widget/blocks/label/label-close/label-close.scss";
+@import "../widget/blocks/label/label-cate/label-cate.scss";
+ 
 // ===========================================
 // list
 @import "../widget/blocks/list/list.scss";
-@import "../widget/blocks/list/list-dot.scss";
-@import "../widget/blocks/list/list-content.scss";
+@import "../widget/blocks/list/list-dot/list-dot.scss";
+@import "../widget/blocks/list/list-content/list-content.scss";
 
 // ===========================================
 // app
-@import "../widget/blocks/apps/filterbox-alibaba.scss";
-@import "../widget/blocks/apps/filterbox-tubatu.scss";
+//@import "../widget/apps/filterbox/filterbox-alibaba/filterbox-alibaba.scss";
+@import "../widget/apps/filterbox/filterbox-tubatu/filterbox-tubatu.scss";
 
 // Added widget
 

@@ -295,38 +295,4 @@ gulp.task('default', ['clean'], function() {
     runSequence(['sprite', 'vendor'], ['img', 'font'], ['css', 'js'], 'html');
 });
 
-//gulp.task('default', ['clean'], function() {
-//    runSequence(['sprite', 'vendor'], ['img', 'font'],
-//        'cleanCss', 'sass', 'versionCss',  // css 同步执行
-//        'cleanJs', 'script', 'versionJs',  // js 同步执行
-//        'html');
-//});
 
-
-
-// ==================================
-// test
-
-gulp.task('push252', function() {
-    return gulp.src(cf.dist.dir.root)
-        .pipe(gulp.dest('/app'));
-});
-
-// html
-//gulp.task('testHtml', function () {
-//    return gulp.src(cf.src.file.html)
-//
-//        .pipe(inject.before('</head>', '<script src="http://localhost:35729/livereload.js"></script>'))
-//        .pipe(gulp.dest(cf.dist.dir.html))
-//        .pipe(livereload());
-//});
-//
-//// 监听
-//gulp.task('testWatch', function() {
-//    // 启动服务器
-//    livereload.listen();
-//
-//    gulp.watch('./html/*.html', ['html']);
-
-//});
-// ==================================

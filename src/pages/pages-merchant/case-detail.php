@@ -2,12 +2,12 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-merchant/merchant.css?v=7c2a28da18"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-merchant/merchant.css?v=f8d51966cb"/>
 </head>
 <body>
 <?php include "header2.php"; ?>
 
-<?php include "../location.php"; ?>
+<?php include "../location-detail.php"; ?>
 
 <div class="container">
     <!--  begin 产品信息  -->

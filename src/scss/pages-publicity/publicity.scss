@@ -65,6 +65,13 @@
 }
 
 // banner
+// override banner-form style
+.banner-form {
+  float: none;
+  .form-tab, .form-state, .form-tips, .form-line { margin-bottom: 1.4em;  }
+}
+
+
 .head-form {
   height: 456px;
   padding-left: 816px;
@@ -80,94 +87,15 @@
   &.zx-from2 { background: url("../../img/pages-publicity/zx-banner-bg2.jpg"); }
   &.zx-from3 { background: url("../../img/pages-publicity/zx-banner-bg3.jpg"); }
   &.zx-from4 { background: url("../../img/pages-publicity/zx-banner-bg4.jpg"); }
-  .form-cont {
+  .banner-cont {
     width: 340px;
     height: 456px - 54px;
     margin-top: 52px;
-    padding: 10px 30px 0;
+    padding: 20px 30px 0;
     text-align: center;
     background-color: #ffffff;
     border-bottom: 1px solid #ddd;
     box-shadow: 0 3px 3px #ddd;
-    .title {
-      font-size: 18px;
-      margin-top: 20px;
-      text-align: left;
-      font-family: "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体";
-      color: #000;
-    }
-    p { margin: 0; }
-    em {
-      color: #91b81d;
-    }
-    .current-num {
-      line-height: 28px;
-      margin-top: 10px;
-      background-color: #f6f6f6;
-    }
-    .chengluo {
-      color: #999999;
-      margin-top: 15px;
-      text-align: left;
-    }
-    .form-line {
-      margin: 22px 0;
-      input, button, select, textarea {
-        margin: 0;
-      }
-    }
-    input, button, select, textarea {
-      display: block;
-      width: 100%;
-      line-height: 32px;
-      border: 1px solid #ddd;
-      padding: 0 6px;
-      margin: 19px 0;
-    }
-    input, button, select { height: 32px; }
-    button { cursor: pointer; }
-    [type=submit], .submit {
-      height: 40px;
-      line-height: 40px;
-      background-color: #91b81d;
-      color: #fff;
-      font-size: 16px;
-    }
-    select { height: 28px; }
-    textarea {
-      line-height: 1.4;
-      padding-top: .5em;
-      padding-bottom: .5em;
-    }
-    .call-hintTxt {
-      color: #666;
-      margin-bottom: 5px;
-    }
-    .call {
-      font-weight: bold;
-      font-size: 28px;
-      color: #c20112;
-      img {
-        vertical-align: middle;
-        margin-bottom: 5px;
-        margin-right: 10px;
-      }
-    }
-    .city {
-      margin-right: -3%;
-      @include clearfix();
-      select {
-        float: left;
-        width: 30.333%;
-        margin-right: 3%;
-      }
-    }
-    .col-2 {
-      select {
-        width: 47%;
-        margin-right: 3%;
-      }
-    }
   }
 }
 

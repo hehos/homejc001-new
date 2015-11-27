@@ -2,7 +2,7 @@
 
 .breadcrumb, .breadcrumb-arrow, .breadcrumb-vertical {
   @include clearfix();
-  padding: 8px 4px;
+  padding: 8px 15px;
   background-color: transparent;
   margin-bottom: 0;
   border-radius: 0;
@@ -15,11 +15,11 @@
       &:before { display: none; }
       em { color: $activeColor; }
     }
-  }
-  li + li:before {
-    content: "/";
-    text-align: center;
-    font-family: "\5b8b\4f53";
+    & + li:before {
+      content: "/";
+      text-align: center;
+      font-family: "\5b8b\4f53";
+    }
   }
 }
 
@@ -37,6 +37,3 @@
 .breadcrumb-vertical {
   li + li:before { content: "|"; }
 }
-
-
-

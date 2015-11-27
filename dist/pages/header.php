@@ -55,10 +55,10 @@
                     </ol>
                 </li>
                 <li class="nav-item has-subnav has-icon">
-                    <a href="http://192.168.0.188/homejc001-new/dist/pages/pages-main/decoration-list.php">
+                    <a href="http://192.168.0.188/homejc001-new/dist/pages/pages-publicity/zx-nav1.php">
                         找装修<i class="icon-angle-up"></i><i class="icon-angle-down"></i><i class="myicon-new"></i></a>
                     <ol class="subnav">
-                        <li><a href="">装修公司</a></li>
+                        <li><a href="http://192.168.0.188/homejc001-new/dist/pages/pages-main/decoration-list.php">装修公司</a></li>
                         <li><a href="">设计师</a></li>
                     </ol>
                 </li>

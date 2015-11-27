@@ -363,12 +363,6 @@ table {
 
 
 // 案例、产品详细页
-#location {
-  i {
-    font-size: 1.2em;
-    margin-right: 3px;
-  }
-}
 .case-info, .product-info {
   .media-info {
     width: percentage(568 / 1200);
@@ -408,9 +402,9 @@ table {
 .case-otherInfo, .product-otherInfo {
   margin-top: 2em;
   .info-title {
-    font-size: 1.3em;
     background-color: $gray-lightest;
   }
+  .tabs-nav3 { font-size: pxToEm(18px); }
   .otherInfo {
     .details-cont {
       padding: 1.5em;

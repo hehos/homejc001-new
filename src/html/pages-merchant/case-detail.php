@@ -7,7 +7,7 @@
 <body>
 <?php include "header2.php"; ?>
 
-<?php include "../location.php"; ?>
+<?php include "../location-detail.php"; ?>
 
 <div class="container">
     <!--  begin 产品信息  -->

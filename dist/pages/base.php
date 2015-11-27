@@ -7,12 +7,35 @@
 <body>
 <?php include "../header.php"; ?>
 
-
+<!--  页面位置  -->
+<?php include "../location.php"; ?>
 
 <div class="container">
 
-</div>
+    <div class="row">
 
+    </div>
+    <div class="row">
+
+    </div>
+    <div class="row">
+
+    </div>
+
+    <!--  主体内容  -->
+    <div class="row clearfix">
+        <!--  左侧内容  -->
+        <div class="layout-main pull-left">
+
+        </div>
+        <!--  右侧内容   -->
+        <div class="layout-side pull-right">
+
+        </div>
+    </div>
+
+
+</div>
 
 <?php include "../footer.php"; ?>
 </body>

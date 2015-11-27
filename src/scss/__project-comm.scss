@@ -70,6 +70,8 @@ body .container {
 
 // 位置面包屑
 #location {
+  margin-bottom: 14px;
+  border-bottom: 1px solid $gray-lighter;
   .container {
     padding-left: 0;
     padding-right: 0;
@@ -80,6 +82,17 @@ body .container {
       color: $gray-dark;
       font-weight: bold;
     }
+  }
+  i {
+    font-size: 1.2em;
+    margin-right: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 3px;
+  }
+  &.detail {
+    border-bottom: none;
+    margin-bottom: 5px;
   }
 }
 
@@ -113,6 +126,7 @@ body .container {
 // 内容块的公共样式
 .cont-box {
   padding: pxToEm(6px) pxToEm(18px);
+  margin-bottom: 19px;
   border: 1px solid $gray-lighter;
   .title-bar {
     border-bottom: 1px solid $gray-lighter;
@@ -134,11 +148,11 @@ body .container {
   width: 25%;
 }
 
-.banner-form, .yuyue-form {
+.banner-form, .side-form {
   padding: 0 pxToEm(15px) pxToEm(10px);
   border: 1px solid $gray-lighter;
+  .form-tab, .form-state, .form-tips, .form-line { margin-bottom: 1em;  }
   .form-tab {
-    margin-bottom: 1em;
     position: relative;
     border-bottom: 2px solid $activeColor2;
     a { text-decoration: none; }
@@ -167,7 +181,6 @@ body .container {
     }
   }
   .form-state {
-    margin-bottom: .85em;
     line-height: pxToEm(27px);
     text-align: center;
     background-color: #f6f6f6;
@@ -177,10 +190,14 @@ body .container {
     }
   }
   .form-line {
-    margin-bottom: pxToEm(15px);
     input, select {
       border: 1px solid #dddddd;
       padding: pxToEm(6px) pxToEm(12px);
+    }
+    select {
+      height: auto;
+      padding-top: 4px;
+      padding-bottom: 4px;
     }
     &.city {
       @include clearfix();
@@ -196,17 +213,65 @@ body .container {
     }
   }
 
-  .form-hd, .form-bottom {
+  .form-tips, .form-bottom {
     color: $gray-light;
     font-size: pxToEm(12px);
     P { @include text-truncate; }
   }
-  .form-hd p { padding-bottom: .85em; }
   .form-bottom {
     p { margin-bottom: pxToEm(4px); }
     i { margin-right: .5em; }
   }
+  .form-bt-contact {
+    .call-hintTxt {
+      color: #666;
+      margin-bottom: 5px;
+    }
+    .call {
+      font-weight: bold;
+      font-size: 28px;
+      color: #c20112;
+      img {
+        vertical-align: middle;
+        margin-bottom: 5px;
+        margin-right: 10px;
+      }
+    }
+  }
 }
+
+.side-form {
+  $bg: #153e44;
+  $bdColor: #0c2427;
+
+  padding-bottom: 1.2em;
+  background-color: $bg;
+  background-image: url("../img/side-form-bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  .form-tab, .form-state, .form-tips, .form-line { margin-bottom: 1.5em;  }
+  .form-tab {
+    background-color: $gray-lightest;
+    border-bottom-color: $bdColor;
+    li {
+      &:hover, &.on {
+        background-color: $bg;
+        &, a { color: $body-bg; }
+        .arrows-down {
+          display: inline-block;
+          color: $bdColor;
+        }
+      }
+      + li { border-left: none; }
+    }
+  }
+  .form-tips, .form-bottom {
+    font-size: pxToEm(14px);
+    color: $body-bg;
+  }
+}
+
 
 .banner-media {
   img {

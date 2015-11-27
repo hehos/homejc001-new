@@ -24,6 +24,15 @@
     @return $px / $baseFontSize * 1rem;
   }
 }
+// 用于生成 line-height 值
+@function pxToNum($px, $newFontSize: false) {
+  @if $newFontSize {
+    @return $px / $newFontSize;
+  } @else {
+    @return $px / $baseFontSize;
+  }
+}
+
 @function toNum($val) {
   @if("px" == unit($val)) {
     @return $val / 1px;

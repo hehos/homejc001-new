@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/index.min.css?v=8437de957e"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/index.min.css?v=6b71165789"/>
 </head>
 <body>
 
@@ -116,31 +116,31 @@
                 <span class="left-btn">&lt;</span>
                 <span class="right-btn">&gt;</span>
                 <div class="hot-cate">
-                    <div class="media-big-img hot-item">
+                    <div class="media-base hot-item">
                         <a href="" class="img">
                             <img src="../../img/temp-img/product2.jpg?v=98bf8b017f" alt=""/>
                         </a>
-                        <div class="media-cont tran-layer">
+                        <div class="tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜1</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="media-btn u-circle-btn" href="">约我 <br/><i class=" icon-angle-down"></i></a>
                         </div>
                     </div>
-                    <div class="media-big-img hot-item">
+                    <div class="media-base hot-item">
                         <a href="" class="img">
                             <img src="../../img/temp-img/product2.jpg?v=98bf8b017f" alt=""/>
                         </a>
-                        <div class="media-cont tran-layer">
+                        <div class="tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜1</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="media-btn u-circle-btn" href="">约我 <br/><i class=" icon-angle-down"></i></a>
                         </div>
                     </div>
-                    <div class="media-big-img hot-item">
+                    <div class="media-base hot-item">
                         <a href="" class="img">
                             <img src="../../img/temp-img/product2.jpg?v=98bf8b017f" alt=""/>
                         </a>
-                        <div class="media-cont tran-layer">
+                        <div class="tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜1</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="media-btn u-circle-btn" href="">约我 <br/><i class=" icon-angle-down"></i></a>
@@ -148,31 +148,31 @@
                     </div>
                 </div>
                 <div class="hot-cate" style="display: none;">
-                    <div class="media-big-img hot-item">
+                    <div class="media-base hot-item">
                         <a href="" class="img">
                             <img src="../../img/temp-img/product2.jpg?v=98bf8b017f" alt=""/>
                         </a>
-                        <div class="media-cont tran-layer">
+                        <div class="tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜2</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="media-btn u-circle-btn" href="">约我 <br/><i class=" icon-angle-down"></i></a>
                         </div>
                     </div>
-                    <div class="media-big-img hot-item">
+                    <div class="media-base hot-item">
                         <a href="" class="img">
                             <img src="../../img/temp-img/product2.jpg?v=98bf8b017f" alt=""/>
                         </a>
-                        <div class="media-cont tran-layer">
+                        <div class="tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜2</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="media-btn u-circle-btn" href="">约我 <br/><i class=" icon-angle-down"></i></a>
                         </div>
                     </div>
-                    <div class="media-big-img hot-item">
+                    <div class="media-base hot-item">
                         <a href="" class="img">
                             <img src="../../img/temp-img/product2.jpg?v=98bf8b017f" alt=""/>
                         </a>
-                        <div class="media-cont tran-layer">
+                        <div class="tran-layer">
                             <h4 class="media-title"><a href="">实木定制木柜2</a></h4>
                             <p>价格区间：1580-1980元/延米</p>
                             <a class="media-btn u-circle-btn" href="">约我 <br/><i class=" icon-angle-down"></i></a>
@@ -275,11 +275,11 @@
         </div>
         <div class="xiaoguo-cont">
             <div class="xiaoguo-bigimg">
-                <div class="media-big-img xiaoguo-item">
+                <div class="media-base xiaoguo-item">
                     <a href="" class="img">
                         <img style="width: 463px; height: 340px" src="../../img/temp-img/good-big.jpg?v=aa13397856" alt=""/>
                     </a>
-                    <div class="media-cont tran-layer">
+                    <div class="tran-layer">
                         <h4 class="media-title"><a href="">中式设计</a></h4>
                         <p>防控打击防范借款人大煞风景卢卡斯的分</p>
                     </div>
@@ -364,76 +364,76 @@
             <div class="gonglue-cont-line line1 clearfix">
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
-                    <div class="media-txt-list">
+                    <div class="media-img-txtlist">
                         <a class="img" href=""><img src="../../img/gl-wenda1.jpg?v=fa49b10985" alt=""/></a>
-                        <div class="media-cont">
-                            <a href="">装修问答</a>
-                            <a href="">现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
-                            <a href="">瓷砖拼贴电视背景墙好看吗瓷砖拼贴电视背景墙好看吗</a>
-                            <a href="">请问地暖管安装方法是怎样的</a>
-                        </div>
+                        <ul class="txtlist">
+                            <li><a href="">装修问答</a></li>
+                            <li><a href="">现代简约实木床该怎么选择</a></li>
+                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
+                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
+                        </ul>
                     </div>
-                </div>
+                </div>  
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
-                    <div class="media-txt-list">
+                    <div class="media-img-txtlist">
                         <a class="img" href=""><img src="../../img/gl-wenda2.jpg?v=dd8909acb0" alt=""/></a>
-                        <div class="media-cont">
-                            <a href="">装修问答</a>
-                            <a href="">现代简约实木床该怎么选择</a>
-                            <a href="">瓷砖拼贴电视背景墙好看吗</a>
-                            <a href="">请问地暖管安装方法是怎样的</a>
-                        </div>
+                        <ul class="txtlist">
+                            <li><a href="">装修问答</a></li>
+                            <li><a href="">现代简约实木床该怎么选择</a></li>
+                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
+                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
-                    <div class="media-txt-list">
+                    <div class="media-img-txtlist">
                         <a class="img" href=""><img src="../../img/gl-wenda3.jpg?v=a55450abe1" alt=""/></a>
-                        <div class="media-cont">
-                            <a href="">装修问答</a>
-                            <a href="">现代简约实木床该怎么选择</a>
-                            <a href="">瓷砖拼贴电视背景墙好看吗</a>
-                            <a href="">请问地暖管安装方法是怎样的</a>
-                        </div>
+                        <ul class="txtlist">
+                            <li><a href="">装修问答</a></li>
+                            <li><a href="">现代简约实木床该怎么选择</a></li>
+                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
+                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="gonglue-cont-line line2 clearfix">
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
-                    <div class="media-txt-list">
+                    <div class="media-img-txtlist">
                         <a class="img" href=""><img src="../../img/gl-baike1.jpg?v=b9324e5c9d" alt=""/></a>
-                        <div class="media-cont">
-                            <a href="">装修问答</a>
-                            <a href="">现代简约实木床该怎么选择</a>
-                            <a href="">瓷砖拼贴电视背景墙好看吗</a>
-                            <a href="">请问地暖管安装方法是怎样的</a>
-                        </div>
+                        <ul class="txtlist">
+                            <li><a href="">装修问答</a></li>
+                            <li><a href="">现代简约实木床该怎么选择</a></li>
+                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
+                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
-                    <div class="media-txt-list">
+                    <div class="media-img-txtlist">
                         <a class="img" href=""><img src="../../img/gl-baike2.jpg?v=8d60d9b75b" alt=""/></a>
-                        <div class="media-cont">
-                            <a href="">装修问答</a>
-                            <a href="">现代简约实木床该怎么选择</a>
-                            <a href="">瓷砖拼贴电视背景墙好看吗</a>
-                            <a href="">请问地暖管安装方法是怎样的</a>
-                        </div>
+                        <ul class="txtlist">
+                            <li><a href="">装修问答</a></li>
+                            <li><a href="">现代简约实木床该怎么选择</a></li>
+                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
+                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修问答</h4>
-                    <div class="media-txt-list">
+                    <div class="media-img-txtlist">
                         <a class="img" href=""><img src="../../img/gl-baike3.jpg?v=958bdc5832" alt=""/></a>
-                        <div class="media-cont">
-                            <a href="">装修问答</a>
-                            <a href="">现代简约实木床该怎么选择</a>
-                            <a href="">瓷砖拼贴电视背景墙好看吗</a>
-                            <a href="">请问地暖管安装方法是怎样的</a>
-                        </div>
+                        <ul class="txtlist">
+                            <li><a href="">装修问答</a></li>
+                            <li><a href="">现代简约实木床该怎么选择</a></li>
+                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
+                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>

@@ -253,7 +253,7 @@
 
             <!--  广告区  -->
             <div class="side-adv">
-                <a href=""><img src="../../img/pages-decoration/zx-side-adv1.jpg" alt=""/></a>
+                <a href=""><img src="../../img/temp-img/zx-side-ad1.jpg?v=86ecdaac98" alt=""/></a>
             </div>
         </div>
     </div>

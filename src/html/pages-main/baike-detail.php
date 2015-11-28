@@ -27,7 +27,7 @@
                     <span class="span">来源：我爱我家</span>
                     <span class="span">发布日期：2015-3-8</span>
                     <span class="span">查看次数：<em>10000</em></span>
-                    <div class="pull-right top-sub-right-info">
+                    <div class="pull-right top-sub-info-right">
                         分享：<ul>
                             <li><a href=""><i class="icon-weibo"></i></a></li>
                             <li><a href=""><i class="icon-qq-space"></i></a></li>

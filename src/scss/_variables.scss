@@ -1,29 +1,3 @@
-@import "../bootstrap4/scss/variables";
+@import "../widget/scss/variables";
 
 
-
-// Color
-//
-// theme color var
-$globalBg:                      #f8f8f8;
-$themeBg:                       $body-bg;
-$activeColor:                   #bd0401;
-$activeColor2:                  #91b81d;
-$linkColor:                     $activeColor2;
-$btnColor:                      #fd8a17;
-// gray
-$grayBorder:                    #dddddd;
-$grayBdLight:                   $gray-lighter;
-
-// font-size
-$baseFontSize:                  $font-size-root;
-
-$font-size-h1:                  2em;
-$font-size-h2:                  1.8em;
-$font-size-h3:                  1.6em;
-$font-size-h4:                  1.4em;
-$font-size-h5:                  1.2em;
-$font-size-h6:                  1em;
-
-// font-family    \5b8b\4f53   是宋体
-$smallFont:                     "\5b8b\4f53", serif;

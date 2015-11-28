@@ -1,49 +1,54 @@
 // ===========================================
 // nav
-@import "widgets/nav/nav";
-@import "widgets/nav/nav-base";
+@import "../widget/blocks/nav/nav.scss";
+@import "../widget/blocks/nav/nav-base/nav-base.scss";
 
 // ===========================================
 // bar
-@import "widgets/bar/bar";
-@import "widgets/bar/title-bar";
-@import "widgets/bar/paging";
-@import "widgets/bar/breadcrumb";
+@import "../widget/blocks/bar/bar.scss";
+@import "../widget/blocks/bar/search-bar/search-bar.scss";
+@import "../widget/blocks/bar/title-bar/title-bar.scss";
+@import "../widget/blocks/bar/paging/paging.scss";
+@import "../widget/blocks/bar/breadcrumb/breadcrumb.scss";
 
 // ===========================================
 // tabs
-@import "widgets/tabs/tabs";
-@import "widgets/tabs/tabs-base";
-@import "widgets/tabs/tabs-nav1";
-@import "widgets/tabs/tabs-nav3";
-@import "widgets/tabs/tabs-nav4";
+@import "../widget/blocks/tabs/tabs.scss";
+@import "../widget/blocks/tabs/tabs-base/tabs-base.scss";
+@import "../widget/blocks/tabs/tabs-nav1/tabs-nav1.scss";
+@import "../widget/blocks/tabs/tabs-nav2/tabs-nav2.scss";
+@import "../widget/blocks/tabs/tabs-nav3/tabs-nav3.scss";
+@import "../widget/blocks/tabs/tabs-nav4/tabs-nav4.scss";
 
 // ===========================================
 // media
-@import "widgets/media/media";
-@import "widgets/media/media-base";
-@import "widgets/media/media-firmlist";
-@import "widgets/media/media-newsitem";
+@import "../widget/blocks/media/media.scss";
+@import "../widget/blocks/media/media-small-imgtxt/media-small-imgtxt.scss";  // todo 在html代码中使用该组件
+@import "../widget/blocks/media/media-base/media-base.scss";
+@import "../widget/blocks/media/media-img-txtlist/media-img-txtlist.scss";
+@import "../widget/blocks/media/media-firmlist/media-firmlist.scss";
+@import "../widget/blocks/media/media-newsitem/media-newsitem.scss";
 
 // ===========================================
 // label
-@import "widgets/label/label";
-@import "widgets/label/label-bar";
-@import "widgets/label/label-labs";
-@import "widgets/label/label-filter";
-@import "widgets/label/label-close";
-@import "widgets/label/label-cate";
-
+@import "../widget/blocks/label/label.scss";
+@import "../widget/blocks/label/label-bar/label-bar.scss";
+@import "../widget/blocks/label/label-labs/label-labs.scss";
+@import "../widget/blocks/label/label-filter/label-filter.scss";
+@import "../widget/blocks/label/label-close/label-close.scss";
+@import "../widget/blocks/label/label-cate/label-cate.scss";
+ 
 // ===========================================
 // list
-@import "widgets/list/list";
-@import "widgets/list/list-dot";
-@import "widgets/list/list-content";
+@import "../widget/blocks/list/list.scss";
+@import "../widget/blocks/list/list-dot/list-dot.scss";
+@import "../widget/blocks/list/list-content/list-content.scss";
 
 // ===========================================
 // app
-@import "widgets/apps/filterbox-alibaba";
-@import "widgets/apps/filterbox-tubatu";
+//@import "../widget/apps/filterbox/filterbox-alibaba/filterbox-alibaba.scss";
+@import "../widget/apps/filterbox/filterbox-tubatu/filterbox-tubatu.scss";
+@import "../widget/apps/new-detail/new-detail/new-detail.scss";
 
 // Added widget
 
@@ -104,111 +109,5 @@
 
 }
 
-// media
-.media-big-img {
-  .media-cont {
-    position: relative;
-    padding: pxToEm(20px);
-    &.tran-layer {
-      position: absolute;
-      p {
-        color: $gray;
-      }
-    }
-  }
 
-  .media-title {
-    font-size: pxToEm(24px);
-  }
-  p {
-    color: $gray-light;
-  }
-
-  .tran-layer {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    color: #ffffff;
-    @include background-color-rgba(#000, .7);
-    a:hover { color: inherit; }
-  }
-}
-
-.media-txt-list {
-  .img {
-    float: left;
-    margin-right: 1em;
-  }
-  .media-cont {
-    line-height: 1.9;
-    a {
-      display: block;
-      @include text-truncate();
-    }
-  }
-}
-
-//  新闻详细页组件
-.newstype-detail {
-  padding: 0 pxToEm(25px);
-  .hd-title {
-    font-size: pxToEm(24px);
-    padding: 1em 0;
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
-    border-bottom: 1px solid $gray-lighter;
-  }
-  .top-sub-info {
-    margin-bottom: 1em;
-    font-size: pxToEm(12px);
-    color: lighten($gray-light, 0%);
-    em {
-      color: $activeColor;
-      font-weight: bold;
-      margin: 0 3px;
-    }
-    .span {
-      display: inline-block;
-      margin-right: 2em;
-    }
-  }
-  .top-sub-right-info {
-    ul {
-      display: inline-block;
-      margin-left: 3px;
-    }
-    li {
-      display: inline-block;
-      margin-right: 2px;
-    }
-  }
-
-  .detail-info {
-    margin-top: 1em;
-    line-height: 2.2em;
-    .title {
-      font-weight: bold;
-      margin: 1em 0;
-    }
-    p {
-      text-indent: 2em;
-      margin-bottom: 1.5em;
-    }
-    .img {margin: 1em 1.2em; }
-  }
-  .labels {
-    margin: 10px 0;
-    border-top: 1px solid $gray-lighter;
-  }
-
-  .page-neighbor {
-    line-height: 3em;
-    margin-top: 20px;
-    font-size: pxToEm(12px);
-    border-top: 1px solid $gray-lighter;
-    em { color: $activeColor; }
-  }
-}
 

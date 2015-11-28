@@ -131,6 +131,15 @@
     }
   }
 }
+.hot-cate .hot-item, .xiaoguo-bigimg .xiaoguo-item {
+  .tran-layer {
+    padding: pxToEm(10px) pxToEm(15px);
+    font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
+  }
+  .media-title {
+    font-size: pxToEm(24px);
+  }
+}
 .hot-cate {
   @include clearfix();
   margin-right: -2%;
@@ -139,13 +148,15 @@
     float: left;
     width: 31.33333%;
     margin-right: 2%;
-  }
-  .media-big-img .tran-layer {
-    @include background-color-rgba(#ffffff, .7);
-  }
-  .media-cont, .media-title { font-weight: bold }
-  .media-title {
-    color: $gray-dark;
+    .tran-layer {
+      font-weight: bold;
+      @include background-color-rgba(#ffffff, .7);
+    }
+    .media-title { color: $gray-dark; }
+    p {
+      color: $gray;
+      font-size: pxToEm(16px);
+    }
   }
 }
 
@@ -250,16 +261,17 @@
   float: left;
   h4 {
     line-height: 1.2;
-    margin-bottom: pxToEm(10px);
+    margin-bottom: pxToEm(7px, 18px);
     padding-left: pxToEm(5px);
-    background-color: lighten($gray-lightest, 1%);
+    background-color: $gray-lightest;
     font-size: pxToEm(18px);
     font-family: "Microsoft Yahei", Tahoma, Arial, Helvetica, STHeiti;
   }
-  img { margin-top: .3em; }
-  .media-cont {
-    a { line-height: 2.4; }
+
+  .img { margin-top: 6px; }
+  .txtlist {
     font-size: pxToEm(12px);
+    line-height: 2.4;
   }
 }
 

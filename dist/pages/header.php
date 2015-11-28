@@ -10,20 +10,27 @@
                 </div>
             </div>
             <div class="header-search">
-                <form action="">
-                    <div class="header-search-box">
-                        <div class="header-select">
-                            <a class="header-select-sort" href="">效果图<i class="icon-caret-up"></i><i class="icon-caret-down"></i></a>
-                            <ul>
-                                <li><a href="">效果图</a></li>
-                                <li><a href="">家居建材</a></li>
-                                <li><a href="">家居产品</a></li>
-                            </ul>
+                <div class="search-bar">
+                    <div class="search-form-box">
+                        <div class="layout-left">
+                            <div class="search-dropdown">
+                                <a class="search-dropdown-trigger" href="">效果图<i class="icon-caret-up"></i><i class="icon-caret-down"></i></a>
+                                <ul class="search-dropdown-menu">
+                                    <li><a href="">装修公司</a></li>
+                                    <li><a href="">效果图</a></li>
+                                    <li><a href="">家居建材</a></li>
+                                    <li><a href="">家居产品</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <input type="text" placeholder="请输入关键字"/>
-                        <button>搜索</button>
+                        <div class="layout-body">
+                            <input class="search-txt" type="text" placeholder="请输入关键字">
+                        </div>
+                        <div class="layout-right">
+                            <button class="search-btn">搜索</button>
+                        </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>
@@ -52,6 +59,7 @@
                     <ol class="subnav">
                         <li><a href="">装修日记</a></li>
                         <li><a href="">学装修</a></li>
+                        <li><a href="http://192.168.0.188/homejc001-new/dist/pages/pages-main/ask.php">装修问答</a></li>
                     </ol>
                 </li>
                 <li class="nav-item has-subnav has-icon">

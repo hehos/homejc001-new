@@ -105,78 +105,24 @@ $headerTopFontSize: 12px;
   }
   h3 { font-size: pxToEm(16px); }
 }
-.header-search { margin-top: pxToEm(10px); }
-.header-search-box {
-  @include clearfix();
-  position: relative;
-  height: pxToEm(40px);
-  line-height: pxToEm(34px);
-  margin-right: pxToEm(20px);
-  padding-left: pxToEm(106px);
-  padding-right: pxToEm(80px);
-  border: 3px solid $activeColor;
-  .header-select, input, button {
-    float: left;
-  }
-  .header-select, button {
-    position: absolute;
-    top: 0;
-  }
-  ul, .header-search-input-text { display: none; }
 
-  .header-select {
-    left: 0;
+.header-search {
+  margin-top: pxToEm(12px);
+}
+.search-bar {
+  margin-right: pxToEm(20px);
+  .search-dropdown {
     width: pxToEm(106px, 12px);
-    text-align: center;
-    font-size: pxToEm(12px);
-    border-right: 1px solid #eee;
-    background-color: $gray-lightest;
-    a { text-decoration: none; }
-    ul {
-      position: absolute;
-      top: pxToEm(33px);
-      left: 0;
-      z-index: 10000;
-      width: 100%;
-      padding: pxToEm(6px) 0;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-top: none;
-    }
-    li {
-      line-height: pxToEm(30px);
-      padding: 0 pxToEm(5px);
-      padding: 0 .85em;
-      &:hover {
-        background-color: darken($body-bg, 5%);
-      }
-    }
-    &:hover ul {
-      display: block;
-    }
   }
-  button {
-    right: 0;
-    height: pxToEm(34px);
+  .search-btn {
     width: pxToEm(80px);
-    background-color: $activeColor;
-    color: #fff;
   }
-  input {
-    width: 100%;
-    height: pxToEm(34px);
-    padding: pxToEm((34px - 20px) / 2) pxToEm(10px);
-    &:focus {
-      box-shadow: none;
-      outline: none;
-    }
-  }
-  input, button { border: none; }
 }
 
 // header-bottom
 .header-bottom {
   border-width: 3px;
+  .nav-base-wrap { margin-top: pxToEm(10px); }
   .container {
     position: relative;
     background-color: lighten($gray-lightest, 1%);

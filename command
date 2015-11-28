@@ -25,4 +25,10 @@ npm install \
     --save-dev
 
 
-npm install node-sass --save-dev
+npm install \
+    gulp \
+    gulp-ruby-sass \
+    gulp-autoprefixer \
+    gulp-sourcemaps \
+    gulp-clean \
+    --save-dev

@@ -293,7 +293,7 @@
             </div>
         </div>
 
-        <script src="../../js/media-waterfall.js?v=a26705c2b3"></script>
+        <script src="../../js/media-waterfall.js?v=d2920d2b39"></script>
         <script>
             $(document).ready(function() {
                 $('#jz-media-waterfall').waterfall({

@@ -33,7 +33,7 @@ var o = {
 var cf = {
     src: {
         file: {
-            scss: ['src/scss/**/*.scss', '!src/scss/widgets/**/*.scss'],
+            scss: 'src/scss/**/*.scss',
             css: 'src/css/**/*.css',
             commCss: 'src/css/*.css',
             pageCss: 'src/css/*/*.css',

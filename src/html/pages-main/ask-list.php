@@ -23,7 +23,7 @@
         <div class="layout-main pull-left">
 
             <!--  搜索框  -->
-            <?php include "ask-wg-search.php"; ?> 
+            <?php include "ask-wg-search.php"; ?>
 
 
             <!--  问答列表  -->

@@ -1,5 +1,5 @@
 // header, footer
-#header { margin-bottom: 1.1em; }
+#header { margin-bottom: 19px; }
 
 // header icon
 #header {
@@ -108,16 +108,17 @@ $headerTopFontSize: 12px;
 
 .header-search {
   margin-top: pxToEm(12px);
-}
-.search-bar {
-  margin-right: pxToEm(20px);
-  .search-dropdown {
-    width: pxToEm(106px, 12px);
+  .search-bar {
+    margin-right: pxToEm(20px);
+    .search-dropdown {
+      width: pxToEm(106px, 12px);
+    }
+    .search-btn {
+      width: pxToEm(80px);
+    }
   }
-  .search-btn {
-    width: pxToEm(80px);
-  }
 }
+
 
 // header-bottom
 .header-bottom {

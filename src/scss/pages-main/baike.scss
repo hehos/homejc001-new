@@ -13,8 +13,6 @@
 }
 .index-baike-list em { font-weight: bold; }
 
-#header { margin-bottom: 0; }
-
 // 百科主页
 .index-top-cates {
   margin-left: -0.7%;
@@ -253,3 +251,69 @@
 
 // =================================
 // 问答相关页面
+
+// override widget style
+.ask-top-cate {
+  .tabs-nav1 > li > a { border-color: $gray-lighter; }
+  .cate-tabs {
+    background-color: $gray-lightest;
+    li {
+      &.on, &:hover {
+        color: $activeColor;
+        font-weight: bold;
+        background-color: $body-bg;
+      }
+    }
+  }
+  .cate-conts {
+    border: 1px solid $gray-lighter;
+    border-top: none;
+    .label { color: $gray; }
+  }
+  .label-bar {
+    padding-top: .4em;
+    padding-bottom: .4em;
+    + .label-bar {
+      display: none;
+    }
+  }
+}
+.ask-search-bar {
+  margin-bottom: 19px;
+  .search-bar .search-form-box {
+    line-height: pxToEm(43px);
+    .search-btn {
+      letter-spacing: normal;
+      padding-right: 1.8em;
+    }
+  }
+}
+
+.index-ask-daily {
+  .img {
+    width: pxToEm(333px);
+    height: pxToEm(266px);
+    line-height: middleImg(266px, 2px);
+    margin-right: pxToEm(19px);
+    margin-top: 0;
+    border: 1px solid $gray-lightest;
+  }
+  .txtlist {
+    line-height: 2.5;
+    .big-item {
+      padding-bottom: pxToEm(15px);
+      margin-bottom: 10px;
+      border-bottom: 1px solid $gray-lightest;
+      line-height: 1.4;
+      white-space: normal;
+    }
+
+    h4 {
+      margin-bottom: pxToEm(12px, 18px);
+      font-size: pxToEm(18px);
+      font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
+    }
+    p { color: $gray; }
+    em { color: $activeColor; }
+  }
+}

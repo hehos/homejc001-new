@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=3e92837218"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=bb39fa4149"/>
 </head>
 <body>
 <?php include "../header.php"; ?>
@@ -23,7 +23,7 @@
         <div class="layout-main pull-left">
 
             <!--  搜索框  -->
-            <?php include "ask-wg-search.php"; ?> 
+            <?php include "ask-wg-search.php"; ?>
 
 
             <!--  问答列表  -->

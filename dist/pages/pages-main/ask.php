@@ -2,18 +2,15 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/baike.min.css?v=3e92837218"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/baike.min.css?v=bb39fa4149"/>
 </head>
 <body>
 <?php include "../header.php"; ?>
 
-<!--  页面位置  -->
-<?php include "../location.php"; ?>
-
 <div class="container">
 
     <!--  头部分类  -->
-    <div class="row">
+    <div class="row margin-b-22">
         <?php include "ask-wg-cate.php"; ?>
     </div>
 
@@ -26,29 +23,36 @@
             <?php include "ask-wg-search.php"; ?>
 
 
+
             <!--  问答日报  -->
-            <div class="index-ask-hot">
-                <div class="title-bar fs2">
+            <div class="index-ask-daily">
+                <div class="title-bar fs1">
                     <h2 class="title">知道日报</h2>
                 </div>
 
                 <div class="ask-hot-cont">
                     <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="http://ui.home.jc001.cn/indexnew/img/gl-baike1.jpg?v=b9324e5c9d" alt=""></a>
+                        <a class="img" href=""><img src="../../img/temp-img/bk-ask-daily.jpg?v=53dccf3701" alt=""></a>
                         <ul class="txtlist">
-                            <li>
+                            <li class="big-item">
                                 <h4><a href="">哪些情况导致装修延期 工期延期怎样处理</a></h4>
                                 <p>硅藻泥的缺点是吸水性太好了，一碰到水就会吸进去，随即硅藻泥的缺点是吸水性太好了，
-                                    一碰到 泥就得变水泥了；所以墙面脏了，只能有针 <a href="">【查看详情】</a></p>
+                                    一碰到 泥就得变水泥了；所以墙面脏了，只能有针 <a href="">【<em>查看详情</em>】</a></p>
                             </li>
                             <li>
-                                <a href="">现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
+                                <a href=""><em>[配色知识]</em>现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
                             </li>
                             <li>
-                                <a href="">现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
+                                <a href=""><em>[配色知识]</em>现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
                             </li>
                             <li>
-                                <a href="">现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
+                                <a href=""><em>[配色知识]</em>现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
+                            </li>
+                            <li>
+                                <a href=""><em>[配色知识]</em>现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
+                            </li>
+                            <li>
+                                <a href=""><em>[配色知识]</em>现代简约实木床该怎么选择瓷砖拼贴电视背景墙好看吗</a>
                             </li>
                         </ul>
                     </div>
@@ -58,9 +62,9 @@
 
             <!--  最新回答  -->
             <div class="index-ask-new">
-                <div class="title-bar fs2">
+                <div class="title-bar fs1">
                     <h2 class="title">最新回答</h2>
-                    <a class="more" href="">更多<i class=" icon-angle-right"></i></a>
+                    <a class="more" href="">查看更多<i class=" icon-angle-right"></i></a>
                 </div>
                 <div class="ask-new-list">
                     <ul class="list-content">
@@ -90,7 +94,7 @@
 
             <!--  待解决问题  -->
             <div class="index-ask-at-issue">
-                <div class="title-bar fs2">
+                <div class="title-bar fs1">
                     <h2 class="title">待解决问题</h2>
                     <a class="more" href="">查看更多<i class=" icon-angle-right"></i></a>
                 </div>

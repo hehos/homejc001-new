@@ -70,6 +70,7 @@ body .container {
 
 // 位置面包屑
 #location {
+  margin-top: -19px;
   margin-bottom: 14px;
   border-bottom: 1px solid $gray-lighter;
   .container {
@@ -91,6 +92,7 @@ body .container {
     padding-bottom: 3px;
   }
   &.detail {
+    margin-top: 0;
     border-bottom: none;
     margin-bottom: 5px;
   }

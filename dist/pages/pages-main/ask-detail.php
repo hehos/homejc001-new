@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/baike.min.css?v=bb39fa4149"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/baike.min.css?v=af8a7ede45"/>
 </head>
 <body>
 <?php include "../header.php"; ?>
@@ -13,7 +13,7 @@
 <div class="container">
 
     <!--  头部分类  -->
-    <div class="row">
+    <div class="row margin-b-22">
         <?php include "ask-wg-cate.php"; ?>
     </div>
 
@@ -35,28 +35,24 @@
                     <span>浏览次数：20</span>
                     <span>提问时间：2015-10-29&nbsp;8:30</span>
                 </div>
-                <div class="ask-quiz-form">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="请输入您的回答..."></textarea>
+                <div class="ask-quiz-form margin-b-20">
+                    <textarea name="" id="" cols="30" rows="4" placeholder="请输入您的回答..."></textarea>
                     <div class="quiz-form-sub-info">
-                        <a href=""><i class="icon-picture-o"></i>插入图片</a>
-                        <div class="pull-right">还可以输入1500文字 <button class="btn btn-danger">提交回答</button></div>
+                        <a href="" class="pull-left margin-t-7"><i class="icon-picture-o"></i>插入图片</a>
+                        还可以输入<em>1500</em>文字<button class="u-btn-active margin-l-11">提交回答</button>
                     </div>
                 </div>
 
                 <div class="ask-details-list">
-                    <div class="title-bar fs2">
-                        <h2 class="title">建材产品</h2>
+                    <div class="title-bar">
+                        <h2 class="title">已有<em>8</em>条答案</h2>
                     </div>
                     <div class="detail-item">
-                        <div class="media media-bs">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="demo1.svg" alt="...">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">成都九盛建筑装饰工程有限公司成都九盛建筑装饰工程有限公司</h4>
-                                <p>
+                        <div class="media-small-imgtxt">
+                            <a href="" class="img"><img src="http://img.home.jc001.cn/logo/s/56/4a/564abf2b8f1e03f95d8b4641.jpg" alt=""/></a>
+                            <div class="media-txt">
+                                <h5 class="media-title"><a href="">成都九盛建筑装饰工程有限公司成都九盛建筑装饰工程有限公司</a></h5>
+                                <p class="media-explain">
                                     <span>类型：装修公司</span>
                                     <span>回答数：88888</span>
                                     <span>被采纳数：8888</span>
@@ -80,17 +76,14 @@
                             <span><i class="icon-flag-o"></i>举报</span>
                             <span><i class="icon-heart-o"></i>赞(0)</span>
                         </div>
+                        <span class="accepted-icon myicon-ask-accepted"></span>
                     </div>
                     <div class="detail-item">
-                        <div class="media media-bs">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="demo1.svg" alt="...">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">成都九盛建筑装饰工程有限公司成都九盛建筑装饰工程有限公司</h4>
-                                <p>
+                        <div class="media-small-imgtxt">
+                            <a href="" class="img"><img src="http://img.home.jc001.cn/logo/s/56/4a/564abf2b8f1e03f95d8b4641.jpg" alt=""/></a>
+                            <div class="media-txt">
+                                <h5 class="media-title"><a href="">成都九盛建筑装饰工程有限公司成都九盛建筑装饰工程有限公司</a></h5>
+                                <p class="media-explain">
                                     <span>类型：装修公司</span>
                                     <span>回答数：88888</span>
                                     <span>被采纳数：8888</span>

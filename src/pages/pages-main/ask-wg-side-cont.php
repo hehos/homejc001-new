@@ -4,18 +4,19 @@
 </div>
 
 <!--  问答表单  -->
-<div class="cont-box">
+<div class="cont-box ask-side-form">
     <div class="asked-num-block">
         <p class="ask-num"><b>8</b><b>8</b><b>8</b><b>8</b><b>8</b><b>8</b><b>8</b></p>
         <p class="ask-txt">位业主已在问吧找到答案</p>
     </div>
-    <div class="ask-textarea">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+    <div class="ask-textarea margin-b-13">
+        <textarea class="form-control" name="" id="" cols="30" rows="4"
+            placeholder="想要的问题？试试这里"></textarea>
     </div>
     <div class="ask-btn-row">
-        <input type="text"/>
+        <input class="" type="text"/>
         <img src="../../img/temp-img/yz-code.jpg?v=3e0997826e" alt=""/>
-        <button class="u-btn-main">免注册提问</button>
+        <button class="u-btn-active ask-btn">免注册提问</button>
     </div>
 </div>
 

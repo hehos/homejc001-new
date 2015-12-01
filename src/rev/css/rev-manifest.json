@@ -1,16 +1,17 @@
 {
-  "all.css": "all.css?v=6e99a7adf8",
-  "comm.css": "comm.css?v=6e99a7adf8",
-  "old-comm.css": "old-comm.css?v=621547a294",
+  "all.css": "all.css?v=4a64c9da00",
+  "comm.css": "comm.css?v=4a64c9da00",
+  "old-comm.css": "old-comm.css?v=3e13514d7c",
   "pages-huodong/huodong.css": "pages-huodong/huodong.css?v=b90eae2d94",
-  "pages-main/baike.css": "pages-main/baike.css?v=bb39fa4149",
+  "pages-main/baike.css": "pages-main/baike.css?v=af8a7ede45",
   "pages-main/decoration.css": "pages-main/decoration.css?v=d8ec64b236",
   "pages-main/index.css": "pages-main/index.css?v=6b71165789",
+  "pages-main/login.css": "pages-main/login.css?v=e49571b2e0",
   "pages-main/tu.css": "pages-main/tu.css?v=9e2e1cf880",
   "pages-member/member.css": "pages-member/member.css?v=b2d4fad3fb",
   "pages-merchant/merchant.css": "pages-merchant/merchant.css?v=f8d51966cb",
   "pages-publicity/publicity.css": "pages-publicity/publicity.css?v=46979ff8ed",
   "plugins.css": "plugins.css?v=6a2ef721b4",
-  "sprite.css": "sprite.css?v=7a225d981e",
+  "sprite.css": "sprite.css?v=6265844570",
   "test/testGulp.css": "test/testGulp.css?v=d7447dce7e"
 }

@@ -13,7 +13,7 @@
 <div class="container">
 
     <!--  头部分类  -->
-    <div class="row">
+    <div class="row margin-b-22">
         <?php include "ask-wg-cate.php"; ?>
     </div>
 
@@ -37,24 +37,36 @@
 
                 <div class="ask-list">
                     <ul class="list-content">
-                        <li class="list-group-item">
-                            <div class="right-info"><span><i></i>回答数：<em>20</em>条</span><span>发布于：<em>7</em>天前</span></div>
-                            <h4 class="list-group-item-title"><a href=""> <em>厨卫电器</em>厨房单水槽尺寸多少合适</a></h4>
+                        <li class="list-group-item solved">
+                            <div class="right-info">
+                                <span><i class="icon-pencil-square-o"></i>回答数：<em>20</em>条</span>
+                                <span><i class="icon-clock-o"></i>发布于：<em>7</em>天前</span>
+                            </div>
+                            <h4 class="list-group-item-title"><a href="http://192.168.0.188/homejc001-new/src/pages/pages-main/ask-detail.php"><em>已解决</em>厨房单水槽尺寸多少合适</a></h4>
                             <p class="list-group-item-text"><b>最新回答：</b>不锈钢水槽尺寸还是比较标准的，一般的尺寸就是单槽60*45cm、50*40cm是比较小型的；双槽的尺</p>
                         </li>
                         <li class="list-group-item">
-                            <div class="right-info"><span><i></i>回答数：<em>20</em>条</span><span>发布于：<em>7</em>天前</span></div>
-                            <h4 class="list-group-item-title"><a href="">[<em>厨卫电器</em>]厨房单水槽尺寸多少合适</a></h4>
+                            <div class="right-info">
+                                <span><i class="icon-pencil-square-o"></i>回答数：<em>20</em>条</span>
+                                <span><i class="icon-clock-o"></i>发布于：<em>7</em>天前</span>
+                            </div>
+                            <h4 class="list-group-item-title"><a href=""><em>未解决</em>厨房单水槽尺寸多少合适</a></h4>
                             <p class="list-group-item-text"><b>最新回答：</b>不锈钢水槽尺寸还是比较标准的，一般的尺寸就是单槽60*45cm、50*40cm是比较小型的；双槽的尺</p>
                         </li>
-                        <li class="list-group-item">
-                            <div class="right-info"><span><i></i>回答数：<em>20</em>条</span><span>发布于：<em>7</em>天前</span></div>
-                            <h4 class="list-group-item-title"><a href="">[<em>厨卫电器</em>]厨房单水槽尺寸多少合适</a></h4>
+                        <li class="list-group-item solved">
+                            <div class="right-info">
+                                <span><i class="icon-pencil-square-o"></i>回答数：<em>20</em>条</span>
+                                <span><i class="icon-clock-o"></i>发布于：<em>7</em>天前</span>
+                            </div>
+                            <h4 class="list-group-item-title"><a href=""><em>已解决</em>厨房单水槽尺寸多少合适</a></h4>
                             <p class="list-group-item-text"><b>最新回答：</b>不锈钢水槽尺寸还是比较标准的，一般的尺寸就是单槽60*45cm、50*40cm是比较小型的；双槽的尺</p>
                         </li>
-                        <li class="list-group-item">
-                            <div class="right-info"><span><i></i>回答数：<em>20</em>条</span><span>发布于：<em>7</em>天前</span></div>
-                            <h4 class="list-group-item-title"><a href="">[<em>厨卫电器</em>]厨房单水槽尺寸多少合适</a></h4>
+                        <li class="list-group-item solved">
+                            <div class="right-info">
+                                <span><i class="icon-pencil-square-o"></i>回答数：<em>20</em>条</span>
+                                <span><i class="icon-clock-o"></i>发布于：<em>7</em>天前</span>
+                            </div>
+                            <h4 class="list-group-item-title"><a href=""><em>已解决</em>厨房单水槽尺寸多少合适</a></h4>
                             <p class="list-group-item-text"><b>最新回答：</b>不锈钢水槽尺寸还是比较标准的，一般的尺寸就是单槽60*45cm、50*40cm是比较小型的；双槽的尺</p>
                         </li>
                     </ul>

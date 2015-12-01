@@ -1,0 +1,23 @@
+@import "../variables";
+@import "../mixins";
+
+@import "old-login";
+
+.g-wrap {
+  @include clearfix();
+  margin-top: 40px;
+}
+.otherLogin {
+  i { margin-right: 5px; }
+}
+
+.m-loginForm .Validform_checktip {
+  font-size: pxToEm(12px);
+  i {
+    font-size: pxToEm(18px);
+    vertical-align: middle;
+    margin-right: 5px;
+    color: #407b23;
+  }
+  &.error i { color: lighten($activeColor, 5%); }
+}

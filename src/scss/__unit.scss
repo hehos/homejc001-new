@@ -89,6 +89,15 @@
   }
 }
 
+.u-btn-active {
+  color: $body-bg;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: $activeColor;
+  border-color: $activeColor;
+  &:hover { background-color: darken($activeColor, 2%); }
+}
+
 [class^="u-word-"], [class*=" u-word-"] {
   $wordSize: 20;
   width: $wordSize + px;

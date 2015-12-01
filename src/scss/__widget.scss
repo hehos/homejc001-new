@@ -46,7 +46,7 @@
 
 // ===========================================
 // app
-//@import "../widget/apps/filterbox/filterbox-alibaba/filterbox-alibaba.scss";
+@import "../widget/apps/filterbox/filterbox-alibaba/filterbox-alibaba.scss";
 @import "../widget/apps/filterbox/filterbox-tubatu/_filterbox-tubatu.scss";
 @import "../widget/apps/new-detail/new-detail/_new-detail.scss";
 
@@ -106,7 +106,6 @@
     border-radius: 50%;
     background-color: $gray-lighter;
   }
-
 }
 
 

@@ -4,6 +4,12 @@
 // ===================================
 /* 百科相关页面样式 */
 
+.side-form .form-tips { text-align: center; }
+.layout-main .title-bar {
+  border-bottom: 1px solid $gray-lighter;
+  margin-bottom: 15px;
+}
+
 // em 颜色
 .index-baike-list, #location, .hot-photos {
   em {
@@ -254,17 +260,17 @@
 
 // override widget style
 .ask-top-cate {
-  .tabs-nav1 > li > a { border-color: $gray-lighter; }
-  .cate-tabs {
-    background-color: $gray-lightest;
-    li {
-      &.on, &:hover {
-        color: $activeColor;
-        font-weight: bold;
-        background-color: $body-bg;
-      }
+  .cate-tabs { background-color: $gray-lightest; }
+  .tabs-nav1 > li {
+    a { border-color: $gray-lighter; }
+    &.on a, &:hover a {
+      color: $activeColor;
+      font-weight: bold;
+      background-color: $body-bg;
+      border-bottom-color: transparent;
     }
   }
+
   .cate-conts {
     border: 1px solid $gray-lighter;
     border-top: none;
@@ -279,12 +285,18 @@
   }
 }
 .ask-search-bar {
-  margin-bottom: 19px;
-  .search-bar .search-form-box {
-    line-height: pxToEm(43px);
+  margin-bottom: 25px;
+  .search-bar {
+    .search-form-box {
+      border-color: $grayBorder;
+      line-height: pxToEm(43px);
+    }
     .search-btn {
       letter-spacing: normal;
       padding-right: 1.8em;
+      background-color: $grayBorder;
+      color: $gray-dark;
+      font-size: pxToEm(18px);
     }
   }
 }
@@ -299,7 +311,12 @@
     border: 1px solid $gray-lightest;
   }
   .txtlist {
-    line-height: 2.5;
+    line-height: 2.4;
+    h4 {
+      margin-bottom: pxToEm(12px, 18px);
+      font-size: pxToEm(18px);
+      font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
+    }
     .big-item {
       padding-bottom: pxToEm(15px);
       margin-bottom: 10px;
@@ -307,13 +324,227 @@
       line-height: 1.4;
       white-space: normal;
     }
-
-    h4 {
-      margin-bottom: pxToEm(12px, 18px);
-      font-size: pxToEm(18px);
-      font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
+    p {
+      line-height: 1.8;
+      color: $gray;
+      font-size: pxToEm(12px);
     }
-    p { color: $gray; }
     em { color: $activeColor; }
+  }
+}
+
+
+
+.index-ask-new, .ask-list-box {
+  em { color: $activeColor; }
+  b { color: $activeColor2; }
+  .list-group-item {
+    padding: pxToEm(26px) 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+  .list-group-item-title {
+    margin-bottom: pxToEm(19px);
+    font-size: pxToEm(16px);
+  }
+  .right-info {
+    font-size: pxToEm(12px);
+    span { margin-left: pxToEm(30px); }
+    em { font-weight: bold; }
+    i {
+      margin-right: pxToEm(5px);
+      vertical-align: middle;
+      font-size: pxToEm(16px);
+    }
+  }
+}
+.index-ask-new .title-bar { margin-bottom: 0; }
+
+.ask-list-box {
+  .list-group-item-title em {
+    display: inline-block;
+    margin-right: pxToEm(10px);
+    padding: 0 .8em;
+    font-size: pxToEm(14px, 16px);
+    line-height: 1.5;
+    border-radius: 10px;
+    color: $body-bg;
+    background-color: #ff6637;
+  }
+  .list-group-item.solved {
+    .list-group-item-title em { background-color: $activeColor2; }
+  }
+}
+ 
+
+.index-ask-at-issue {
+  .ask-at-issue-list { @include clearfix(); }
+  .issue-item {
+    float: left;
+    width: 50%;
+    padding: pxToEm(8px) 0;
+    .issue-state {
+      width: pxToEm(42px);
+      height: pxToEm(42px);
+      line-height: pxToEm(16px);
+      padding: pxToEm((42px - 32px) / 2) 0;
+      margin-right: pxToEm(23px);
+      margin-top: 3px;
+      text-align: center;
+      color: $body-bg;
+      background-color: $activeColor;
+    }
+    .issue-title { line-height: 2; }
+    .issue-explain {
+      color: $gray-light;
+      font-size: pxToEm(12px);
+    }
+  }
+}
+
+.ask-side-form {
+  .form-control {
+    display: inline-block;
+
+  }
+  background-color: $gray-lightest;
+  padding-top: pxToEm(13px);
+  .asked-num-block {
+    text-align: center;
+    padding: pxToEm(27px) pxToEm(17px);
+    background-color: $body-bg;
+    margin-bottom: pxToEm(15px);
+  }
+  .ask-num {
+    line-height: 1;
+    font-size: 28px;
+    color: $body-bg;
+    margin-bottom: 15px;
+    b {
+      padding: 0 4px;
+      background-color: #01af63;
+      margin-left: 3px;
+      border-radius: 3px;
+    }
+  }
+  .ask-txt { color: $gray-light; }
+  textarea { width: 100%; }
+  .ask-btn-row {
+    @include clearfix();
+    margin-bottom: pxToEm(10px);
+    > * {
+      float: left;
+      width: 28%;
+    }
+    .ask-btn {
+      width: 40%;
+      margin-left: 4%;
+    }
+    input, button { padding: pxToEm(4px) pxToEm(10px); }
+  }
+}
+
+.ask-list-tabs {
+  .tabs-base {
+    font-weight: bold;
+    color: $gray;
+    li a {
+      border-bottom: none;
+      margin-bottom: -2px;
+    }
+  }
+  .tabs-base { border-bottom: 2px solid $gray-lighter; }
+  .tabs-base > li {
+    &:hover, &.on {
+      a { border-bottom: 2px solid $activeColor; }
+    }
+  }
+}
+
+.ask-detail {
+  .ask-sub-info, .media-explain {
+    span {
+      margin-right: pxToEm(20px);
+      &:after {
+        content: "";
+        padding-right: pxToEm(20px);
+        border-right: 1px solid $gray-lighter;
+      }
+    }
+  }
+  h3 {
+    margin-bottom: pxToEm(20px);
+    font-size: pxToEm(18px);
+    font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
+  }
+  .ask-sub-info {
+    font-size: pxToEm(12px);
+    line-height: 1;
+    margin-bottom: pxToEm(14px, 12px);
+    color: $gray-light;
+    b { color: $gray-dark; }
+  }
+  .ask-quiz-form {
+    padding: pxToEm(30px) pxToEm(20px);
+    background-color: $gray-lightest;
+    textarea { width: 100%; }
+  }
+  .quiz-form-sub-info {
+    @include clearfix();
+    text-align: right;
+    margin-top: pxToEm(10px);
+    color: $gray-light;
+    i { margin-right: 5px; }
+    em { color: $btnColor; }
+  }
+}
+.ask-details-list {
+  .title-bar {
+    margin-bottom: 0;
+    em {
+      color: $activeColor;
+      margin: 0 8px;
+    }
+  }
+  .detail-item {
+    position: relative;
+    padding: pxToEm(35px) pxToEm(10px) pxToEm(10px);
+    border-bottom: 1px dashed $gray-lighter;
+  }
+
+  .media-small-imgtxt {
+    margin-bottom: pxToEm(25px);
+  }
+  .img {
+    width: pxToEm(56px);
+    height: 56px;
+    line-height: middleImg(56px, 2px);
+  }
+  .media-title {
+    font-size: pxToEm(14px);
+    margin-bottom: 1em;
+    color: #02ae66;
+  }
+  .media-explain {
+    font-size: pxToEm(12px);
+
+  }
+  .detail-cont {
+    line-height: 1.8;
+    color: $gray;
+  }
+  .bottom-sub-info {
+    margin-top: pxToEm(22px);
+    text-align: right;
+    color: $gray-light;
+    span { margin-left: pxToEm(15px); }
+    i {
+      margin-right: 3px;
+      color: $btnColor;
+    }
+  }
+  .accepted-icon {
+    position: absolute;
+    right: 30%;
+    top: 30px;
   }
 }

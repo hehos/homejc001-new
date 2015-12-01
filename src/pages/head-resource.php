@@ -14,7 +14,7 @@
 <!-- 公共样式 -->
 <!-- 字体图标样式 --> 
 <!-- commCss -->
-<link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/comm.css?v=6e99a7adf8"/>
+<link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/comm.css?v=4a64c9da00"/>
 
 
 <!-- 框架js -->

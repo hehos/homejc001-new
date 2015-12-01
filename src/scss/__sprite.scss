@@ -69,6 +69,12 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 110px;
   height: 29px;
 }
+.myicon-collect {
+  background-image: url(../img/sprite.png);
+  background-position: -352px -277px;
+  width: 16px;
+  height: 16px;
+}
 .myicon-head-liangfang {
   background-image: url(../img/sprite.png);
   background-position: 0px -348px;
@@ -92,6 +98,12 @@ Icon classes can be used entirely standalone. They are named after their origina
   background-position: -577px -308px;
   width: 28px;
   height: 18px;
+}
+.myicon-qq {
+  background-image: url(../img/sprite.png);
+  background-position: -334px -277px;
+  width: 16px;
+  height: 16px;
 }
 .myicon-qrcode-hongbao {
   background-image: url(../img/sprite.png);
@@ -117,11 +129,29 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 222px;
   height: 222px;
 }
+.myicon-sina-weibo {
+  background-image: url(../img/sprite.png);
+  background-position: -399px -178px;
+  width: 16px;
+  height: 16px;
+}
+.myicon-sina-weibo2 {
+  background-image: url(../img/sprite.png);
+  background-position: -399px -160px;
+  width: 16px;
+  height: 16px;
+}
 .myicon-sort {
   background-image: url(../img/sprite.png);
   background-position: -320px -297px;
   width: 24px;
   height: 20px;
+}
+.myicon-tc-weibo {
+  background-image: url(../img/sprite.png);
+  background-position: -399px -142px;
+  width: 16px;
+  height: 16px;
 }
 .myicon-top-logo {
   background-image: url(../img/sprite.png);
@@ -129,15 +159,21 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 40px;
   height: 29px;
 }
+.myicon-weixin {
+  background-image: url(../img/sprite.png);
+  background-position: -399px -124px;
+  width: 16px;
+  height: 16px;
+}
 .myicon-xiaoguo-cate1 {
   background-image: url(../img/sprite.png);
-  background-position: -308px -245px;
+  background-position: -288px -297px;
   width: 30px;
   height: 30px;
 }
 .myicon-xiaoguo-cate10 {
   background-image: url(../img/sprite.png);
-  background-position: -340px -245px;
+  background-position: -224px -297px;
   width: 30px;
   height: 30px;
 }
@@ -149,43 +185,43 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .myicon-xiaoguo-cate3 {
   background-image: url(../img/sprite.png);
-  background-position: -224px -297px;
+  background-position: -340px -245px;
   width: 30px;
   height: 30px;
 }
 .myicon-xiaoguo-cate4 {
   background-image: url(../img/sprite.png);
-  background-position: -256px -297px;
+  background-position: -308px -245px;
   width: 30px;
   height: 30px;
 }
 .myicon-xiaoguo-cate5 {
   background-image: url(../img/sprite.png);
-  background-position: -288px -297px;
+  background-position: -256px -297px;
   width: 30px;
   height: 30px;
 }
 .myicon-xiaoguo-cate6 {
   background-image: url(../img/sprite.png);
-  background-position: -340px -213px;
+  background-position: -372px -213px;
   width: 30px;
   height: 30px;
 }
 .myicon-xiaoguo-cate7 {
   background-image: url(../img/sprite.png);
-  background-position: -583px -191px;
+  background-position: -308px -213px;
   width: 30px;
   height: 30px;
 }
 .myicon-xiaoguo-cate8 {
   background-image: url(../img/sprite.png);
-  background-position: -308px -213px;
+  background-position: -340px -213px;
   width: 30px;
   height: 30px;
 }
 .myicon-xiaoguo-cate9 {
   background-image: url(../img/sprite.png);
-  background-position: -372px -213px;
+  background-position: -583px -191px;
   width: 30px;
   height: 30px;
 }

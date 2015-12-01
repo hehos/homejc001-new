@@ -54,6 +54,23 @@ $headerTopFontSize: 12px;
   li {
     margin-right: pxToEm(24px, $headerTopFontSize);
   }
+  i { margin-right: 3px; }
+  .weixin-QRCode {
+    position: relative;
+    .img {
+      display: none;
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      z-index: 10000;
+      padding: 10px;
+      margin-left: -(145px/2);
+      background-color: $body-bg;
+      border: 1px solid $grayBorder;
+    }
+    img { max-width: none; }
+    &:hover .img { display: inline-block; }
+  }
 }
 .header-top-right {
   float: right;

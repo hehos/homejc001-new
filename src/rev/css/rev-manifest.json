@@ -1,7 +1,7 @@
 {
-  "all.css": "all.css?v=4a64c9da00",
-  "comm.css": "comm.css?v=4a64c9da00",
-  "old-comm.css": "old-comm.css?v=3e13514d7c",
+  "all.css": "all.css?v=749d334c27",
+  "comm.css": "comm.css?v=749d334c27",
+  "old-comm.css": "old-comm.css?v=03fcea21da",
   "pages-huodong/huodong.css": "pages-huodong/huodong.css?v=b90eae2d94",
   "pages-main/baike.css": "pages-main/baike.css?v=af8a7ede45",
   "pages-main/decoration.css": "pages-main/decoration.css?v=d8ec64b236",
@@ -12,6 +12,6 @@
   "pages-merchant/merchant.css": "pages-merchant/merchant.css?v=f8d51966cb",
   "pages-publicity/publicity.css": "pages-publicity/publicity.css?v=46979ff8ed",
   "plugins.css": "plugins.css?v=6a2ef721b4",
-  "sprite.css": "sprite.css?v=6265844570",
+  "sprite.css": "sprite.css?v=7e89c2d3c2",
   "test/testGulp.css": "test/testGulp.css?v=d7447dce7e"
 }

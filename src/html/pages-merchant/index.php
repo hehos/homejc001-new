@@ -8,7 +8,7 @@
 <?php include "header.php"; ?>
 
 
-<?php //include "popup-form-yuyue.php"; ?>
+<?php include "popup-yuyue-form.php"; ?>
 <!--<div id="mask"></div>-->
 
 <div class="container">

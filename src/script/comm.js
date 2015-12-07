@@ -4,7 +4,7 @@
 
 $(document).ready(function(){
 
-    // ===============================================
+    // ==============================================
     // 全局的js
     // 处理IE浏览器input，textarea 文本提示
     if ((navigator.userAgent.indexOf('MSIE') >= 0)

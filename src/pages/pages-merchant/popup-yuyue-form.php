@@ -15,7 +15,7 @@
                     <input type="text" class="form-control" id="form2" placeholder="请输入">
                 </div>
             </div>
-            <div class="form-group vcode">
+            <div class="form-group">
                 <label for="form3" class=" form-control-label">所在城市：</label>
                 <div class="input-field city col-2">
                     <select class="form-control" name="" id="">

@@ -40,7 +40,7 @@ var cf = {
             script: 'src/script/**/*.js',
             js: 'src/js/**/*.js',
             img: ['src/img/**/*', '!src/img/myicon/*.*'],
-            myicons: 'src/img/myicon/*.png',
+            myicons: 'src/img/myicon/**/*.png',
             spriteImg: 'src/img/' + o.spriteName +'.png',
             spriteScss: 'src/scss/_' + o.spriteName + '.scss',
             font: 'src/font/*',

@@ -47,13 +47,6 @@ body .container {
   width: percentage((1200 - 930) / 1200);
 }
 
-// sprite comm style
-[class^="myicon-"],
-[class*=" myicon-"] {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 // modify widget
 .filter-box2 .layout-left {
   font-size: 1.2em;
@@ -139,6 +132,23 @@ body .container {
   }
 }
 
+// 滚动表格
+.scrolltable-warp {
+  tr {
+    th, td {
+      &:first-child, &:last-child {  }
+      &:first-child {
+        padding-left: 2em;
+        text-align: left;
+      }
+      &:last-child {
+        padding-right: 2em;
+        text-align: right;
+      }
+    }
+  }
+}
+
 // global banner form
 .banner-media {
   float: right;
@@ -150,7 +160,7 @@ body .container {
   width: 25%;
 }
 
-.banner-form, .side-form {
+.banner-form, .side-form, .side-form2 {
   padding: 0 pxToEm(15px) pxToEm(10px);
   border: 1px solid $gray-lighter;
   .form-tab, .form-state, .form-tips, .form-line { margin-bottom: 1em;  }
@@ -173,7 +183,7 @@ body .container {
     li {
       float: left;
       line-height: 1.6;
-      padding:  pxToEm(12px) pxToEm(6px);
+      padding:  12px 6px;  // 必须写绝对单位
       text-align: center;
       & + li { border-left: 1px solid #eee; }
       &:hover, &.on {
@@ -351,7 +361,7 @@ $poput-z-index: 10000;
   top: 50%;
   padding-bottom: 1em;
   .form-hd, .form-bd, .form-ft {
-    padding: 0 1.8em;
+    padding: 0 2em;
   }
   .form-hd {
     line-height: 3em;
@@ -395,12 +405,11 @@ $poput-z-index: 10000;
 // ====================
 // entity
 
-// popup
 .popup-yuyue-succeed {
   width: 550px;
   margin-left: - (550px / 2);
-  margin-top: - (520px / 2);
-  padding: 15px 23px;
+  margin-top: - (548px / 2);
+  padding: 15px 23px 30px;
   border: 5px solid #cccccc;
   background-color: $body-bg;
   .yuyue-succeed-hd, .qrcode-tips, .qrcode { text-align: center; }
@@ -429,8 +438,10 @@ $poput-z-index: 10000;
   }
 }
 
+// popup
 .popup-form-yuyue1,
-.popup-form-yuyue2 {
+.popup-form-yuyue2,
+.popup-yuyue-succeed2 {
   width: 400px;
   min-height: 300px;
   margin-left: -200px;
@@ -474,8 +485,6 @@ $poput-z-index: 10000;
       display: inline-block;
       width: 50%;
     }
-    img {
-      float: right; }
   }
   .safety {
     input {
@@ -492,11 +501,13 @@ $poput-z-index: 10000;
     }
   }
   .submit {
+    margin-top: .5em;
     margin-bottom: .3em;
     border: none;
   }
 }
 .popup-form-yuyue1 {
+  margin-top: -(341px / 2);
   .form-group {
     border: 1px solid lighten($gray-light, 30%);
     &.submit { border: none; }
@@ -544,35 +555,79 @@ $poput-z-index: 10000;
     font-size: .87em;
   }
 }
+.popup-yuyue-succeed2 {
+  width: 520px;
+  margin-left: -260px;
+  margin-top: -(506px / 2);
+  padding: 82px 100px 107px;
+  text-align: center;
+  color: $gray;
+  font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
 
+  .form-bd  { padding: 0; }
+  .form-control-label {
+    padding-left: 0;
+    text-align: left;
+    width: 5.6em;
+  }
+  .input-field { margin-left: 5.6em; }
+  .form-succeed-txt {
+    margin-bottom: .5em;
+    font-size: pxToEm(22px);
+    color: $activeColor;
+    font-weight: bold;
+  }
+  .form-succeed-tips {
+    margin-bottom: .5em;
+  }
+  .form-other-txt {
+    margin-bottom: 1.2em;
+    color: $gray-dark;
+    font-size: pxToEm(16px);
+    font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
+  }
+  input, select, button { border-color: $gray-light; }
+  .submit {
+    margin-top: 1em;
+    input, button { border-color: #ac2925; }
+  }
+}
 
 // fixed
 /* fixed */
 .fixed-bottom-form {
   display: none;
   margin-top: 2em;
-  padding: 1em 0;
+  padding: 19px 0;
+  text-align: center;
   overflow: visible;
+  border-top: 3px solid #fd6060;
   &, .open {
     transition: none;
     @include background-color-rgba(#000, .7);
   }
-  .g-left {
-    position: relative;
-    width: 40%;
+  .g-left, .g-center, .g-right {
+    display: inline-block;
+    text-align: left;
+    min-height: 10px;
   }
-  .g-center { width: 35%; }
-  .g-right { width: 25%; }
-
+  .g-left { min-width: 446px; }
+  .g-center {
+    width: 300px;
+    margin: 0 pxToEm(68px);
+  }
+  .g-right { min-width: 120px; }
   .form-line {
     @include clearfix();
-    margin-top: 1em;
+    margin-top: .8em;
     &:first-child { margin-top: 0; }
-    input, select {
+    input, select, input, button {
+      height: 30px;
       float: left;
-      width: 48%;
+      width: 52%;
       margin-right: 2%;
-      padding: 6px 12px;
+      padding: 4px 10px;
+      &:first-child { width: 44%; }
     }
     &.city {
       input, select {  width: percentage(1 / 3) - 2%; }
@@ -585,8 +640,7 @@ $poput-z-index: 10000;
   .g-left {
     .float-img {
       position: absolute;
-      top: -3em;
-      right: 4.5em;
+      bottom: 0;
     }
   }
 
@@ -597,19 +651,17 @@ $poput-z-index: 10000;
     }
     .submit { margin-top: 1.5em; }
   }
-  .qrcode {
-    position: relative;
-    text-align: center;
-  }
+  .qrcode { text-align: center; }
   .qrcode-cont {
     position: absolute;
-    left: 2em;
-    top: -6em;
-    font-size: .85em;
+    top: -13px;
     color: $body-bg;
-    p { margin-top: 5px; }
+    text-align: center;
+    p {
+      margin-top: 5px;
+      white-space: nowrap;
+    }
   }
-
   .open {
     position: fixed;
     left: -.7em;

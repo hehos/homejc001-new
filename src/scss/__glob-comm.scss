@@ -1,8 +1,12 @@
-@import "_block-comm";
-
 // =========================
 // begin  适合所有项目的通用性
 
+// sprite comm style
+[class^="myicon-"],
+[class*=" myicon-"] {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 // global img
 .thumbnail, .img {
@@ -26,6 +30,22 @@
 }
 /* 宽度自适应宽度 */
 .layout-body { width: 10000px; }
+
+input, button, select, textarea {
+  padding: pxToEm(6px) pxToEm(10px);
+  color: $gray;
+  border: 1px solid $grayBorder;
+}
+.form-unit-box {
+  position: relative;
+  input { padding-right: 2.4em; }
+  .unit {
+    position: absolute;
+    right: 0;
+    top: pxToEm(6px);
+    width: 2em;
+  }
+}
 
 // end
 // =========================

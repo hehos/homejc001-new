@@ -44,7 +44,7 @@ validation-status.json
 # SCSS-Lint
 scss-lint-report.xml
 
-# grunt-contrib-sass cache
+# sass cache
 .sass-cache
 
 # Folders to ignore

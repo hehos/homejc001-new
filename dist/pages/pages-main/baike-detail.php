@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/baike.min.css?v=af8a7ede45"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/baike.min.css?v=c7bdaf6313"/>
 
 </head>
 <body>
@@ -102,19 +102,19 @@
                 <div class="clearfix cont-line">
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg?v=ae140044ee" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg?v=ae140044ee" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg?v=ae140044ee" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
@@ -122,19 +122,19 @@
                 <div class="clearfix cont-line">
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg?v=ae140044ee" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg?v=ae140044ee" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg?v=ae140044ee" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>

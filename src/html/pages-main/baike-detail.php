@@ -102,19 +102,19 @@
                 <div class="clearfix cont-line">
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
@@ -122,19 +122,19 @@
                 <div class="clearfix cont-line">
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/bk-img1.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>

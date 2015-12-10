@@ -637,12 +637,8 @@ $poput-z-index: 10000;
     }
   }
 
-  .g-left {
-    .float-img {
-      position: absolute;
-      bottom: 0;
-    }
-  }
+  .float-img, .qrcode-cont { position: absolute; }
+  .float-img, .qrcode-cont { top: -13px; }
 
   .g-right {
     .qrcode, .submit {
@@ -654,7 +650,6 @@ $poput-z-index: 10000;
   .qrcode { text-align: center; }
   .qrcode-cont {
     position: absolute;
-    top: -13px;
     color: $body-bg;
     text-align: center;
     p {

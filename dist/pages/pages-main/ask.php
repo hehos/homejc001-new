@@ -2,7 +2,9 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/baike.min.css?v=af8a7ede45"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/baike.min.css?v=c7bdaf6313"/>
+
+    <script src="../../js/unslider.js?v=ebbc073b11"></script>
 </head>
 <body>
 <?php include "../header.php"; ?>
@@ -31,7 +33,43 @@
 
                 <div class="ask-hot-cont">
                     <div class="media-img-txtlist">
-                        <a class="img" href="http://192.168.0.188/homejc001-new/dist/pages/pages-main/ask-detail.php"><img src="../../img/temp-img/bk-ask-daily.jpg?v=53dccf3701" alt=""></a>
+                        <div class="banner slider">
+                            <ul class="items">
+                                <li>
+                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily.jpg?v=53dccf3701" alt=""/></a>
+                                    <p class="title"><a href="">图片标题图片标题图片标题图片标题图片标题图片标题图片标题</a></p>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily.jpg?v=53dccf3701" alt=""/></a>
+                                    <p class="title"><a href="">图片标题图片标题图片标题图片标题图片标题图片标题图片标题</a></p>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily.jpg?v=53dccf3701" alt=""/></a>
+                                    <p class="title"><a href="">图片标题图片标题图片标题图片标题图片标题图片标题图片标题</a></p>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily.jpg?v=53dccf3701" alt=""/></a>
+                                    <p class="title"><a href="">图片标题图片标题图片标题图片标题图片标题图片标题图片标题</a></p>
+                                </li>
+                            </ul>
+                            <ol class="dots">
+                                <li class="dot"></li>
+                            </ol>
+                            <div class="arrows">
+                                <div class="arrow prev">&lt;</div>
+                                <div class="arrow next">&gt;</div>
+                            </div>
+                        </div>
+                        <script>
+                            $('.banner').unslider({
+                                keys: true,
+                                autoplay: false,
+                                arrows: true,
+                                fluid: true,
+                                dots: true
+                            });
+
+                        </script>
                         <ul class="txtlist">
                             <li class="big-item">
                                 <h4><a href="">哪些情况导致装修延期 工期延期怎样处理</a></h4>

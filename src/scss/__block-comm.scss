@@ -33,28 +33,29 @@
 }
 
 // header-top
-$headerTopFontSize: 12px;
+$hTFS: 12px;
 .header-top {
-  font-size: pxToEm($headerTopFontSize);
-  line-height: pxToEm(30px, $headerTopFontSize);
+  font-size: pxToEm($hTFS);
+  line-height: pxToEm(30px, $hTFS);
   background-color: $gray-lightest;
   border-bottom: 1px solid #ddd;
   color: #999;
 }
 .header-top-left, .header-top-right {
-  .attention-ways, .member-in {
+  .attention-ways, .top-nav, .member-in {
     @include clearfix();
-    li {
-      float: left;
-    }
+    li { float: left; }
   }
 }
 .header-top-left {
   float: left;
   li {
-    margin-right: pxToEm(24px, $headerTopFontSize);
+    margin-right: pxToEm(24px, $hTFS);
+    &.on { color: $activeColor; }
   }
-  i { margin-right: 3px; }
+  .top-nav li { margin-right: pxToEm(48px, $hTFS); }
+  .top-nav i { margin-right: pxToEm(15px, $hTFS); }
+  .attention-ways i { margin-right: 3px; }
   .weixin-QRCode {
     position: relative;
     .img {
@@ -78,8 +79,8 @@ $headerTopFontSize: 12px;
     float: left;
   }
   .member-in {
-    line-height: 1;
-    padding: (pxToEm(30px, $headerTopFontSize) - 1em) / 2 0;
+    line-height: 1.2;
+    padding: (pxToEm(30px, $hTFS) - 1.2em) / 2 0;
     margin-right: 15px;
     i, .exit { color: $activeColor; }
     i {

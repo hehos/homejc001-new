@@ -1,11 +1,10 @@
 <div class="header-top">
     <div class="container">
         <div class="header-top-left">
-            <ul class="attention-ways">
-                <li><a href="http://192.168.0.188/homejc001-new/dist/pages/pages-main/index.php"><span class="myicon-top-logo"></span></a></li>
-                <li><a href="http://192.168.0.188/homejc001-new/dist/pages/pages-main/index.php">回到首页</a></li>
+            <ul class="top-nav">
+                <li><a href="http://192.168.0.188/homejc001-new/dist/pages/pages-main/index.php"><i class="myicon-top-logo"></i>回到首页</a></li>
                 <li><a href="">定制中心</a></li>
-                <li><a href="">效果图</a></li>
+                <li class="on"><a href="">效果图</a></li>
                 <li><a href="">装修攻略</a></li>
                 <li><a href="">找装修</a></li>
                 <li><a href="">找产品</a></li>

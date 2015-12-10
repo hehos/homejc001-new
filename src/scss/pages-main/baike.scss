@@ -219,6 +219,7 @@
   background-color: $gray-lighter;
   padding: 0 12px 12px;
   .title-bar {
+    margin-bottom: 0;
     .title {
       color: $activeColor;
       font-size: pxToEm(16px);
@@ -302,13 +303,12 @@
 }
 
 .index-ask-daily {
-  .img {
+  .slider {
+    float: left;
     width: pxToEm(333px);
     height: pxToEm(266px);
-    line-height: middleImg(266px, 2px);
     margin-right: pxToEm(19px);
     margin-top: 0;
-    border: 1px solid $gray-lightest;
   }
   .txtlist {
     line-height: 2.4;

@@ -1,6 +1,9 @@
 @import "../variables";
 @import "../mixins";
 
+
+@import "old-tu";
+
 // 效果图样式
 
 .filter-box2 {
@@ -47,22 +50,11 @@
         i { color: $activeColor; }
       }
     }
-    .collect-btn {
-      display: none;
-      position: absolute;
-      top: pxToEm(18px);
-      right: pxToEm(18px);
-      line-height: 2em;
-      padding: 0 1em;
-      background-color: $linkColor;
-      border: 1px solid $body-bg;
-      color: $body-bg;
-    }
 
     &:hover {
       box-shadow: 0 0 10px #999;
       background-color: darken($gray-lightest, 2%);
-      .collect-btn {
+      .u-btn-collect {
         font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
         display: inline-block;
         i {
@@ -74,3 +66,60 @@
   }
 }
 
+
+// 效果图详细页
+
+.tu-photo {
+  background-color: #4c4c4c;
+  color: #fff;
+  .title {
+    line-height: 4;
+    font-size: pxToEm(16px);
+    text-align: left;
+  }
+  .current, .listImg {
+    .prev, .next { font-size: 60px; }
+  }
+  .current {
+    width: 100%;
+    padding: 0 31px;
+    background-color: #3c3c3c;
+    .prev, .next {
+      height: 160px;
+      line-height: middleImg(160px);
+      color: $gray;
+      background-color: $body-bg;
+    }
+    .prev { left: 10px; }
+    .next { right: 10px; }
+    .img {
+      height: 584px - 64px;
+      line-height: middleImg(584px - 64px);
+    }
+    &:hover .u-btn-collect { display: inline-block; }
+  }
+  .m-photo { padding-right: 122px; }
+  .listImg {
+    text-align: center;
+    margin-right: -122px;
+    width: 122px;
+    .btnCtrl {
+      overflow: hidden;
+    }
+    i {
+      display: block;
+      margin-top: -20px;
+    }
+    .prev, .next {
+
+    }
+  }
+  .m-listImg, .m-listImg2 {
+    li { text-align: center; }
+  }
+
+  .album {
+    padding: 0 89px;
+    text-align: center;
+  }
+}

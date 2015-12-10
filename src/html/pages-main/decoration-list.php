@@ -231,8 +231,8 @@
         <!--  右测内容  -->
         <div class="side-right">
             <!--  预约表单  -->
-            <div class="side-form margin-b-19">
-                <?php include "../side-form.php"; ?>
+            <div class="side-form2 margin-b-19">
+                <?php include "../yuyue-form.php"; ?>
             </div>
             <!--  公司排行  -->
             <div class="margin-b-13 side-firm-list">

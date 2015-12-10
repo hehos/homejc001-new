@@ -98,6 +98,19 @@
   &:hover { background-color: darken($activeColor, 2%); }
 }
 
+.u-btn-collect {
+  display: none;
+  position: absolute;
+  top: pxToEm(18px);
+  right: pxToEm(18px);
+  line-height: 2em;
+  padding: 0 1em;
+  background-color: $linkColor;
+  border: 1px solid $body-bg;
+  color: $body-bg;
+  &:hover { text-decoration: none; }
+}
+
 [class^="u-word-"], [class*=" u-word-"] {
   $wordSize: 20;
   width: $wordSize + px;

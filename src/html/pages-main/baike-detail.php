@@ -94,7 +94,7 @@
             </div>
 
             <!--  相关文章   -->
-            <div class="correlation-cont margin-b-15">
+            <div class="correlation-imgtxt margin-b-15">
                 <div class="title-bar fs2">
                     <h2 class="title">相关文章</h2>
                     <a class="more" href="">更多<i class=" icon-angle-right"></i></a>

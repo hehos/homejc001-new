@@ -30,5 +30,5 @@
     </div>
     <div class="form-bt-contact">
         <p class="call-hintTxt">拨打热线，快速了解九正家居定制平台</p>
-        <p class="call"><img src="../../img/pages-publicity/call.jpg?v=2de087666b" alt=""/>400-6464-001</p>
+        <p class="call"><img src="../../img/pages-publicity/call-2de087666b.jpg" alt=""/>400-6464-001</p>
     </div>

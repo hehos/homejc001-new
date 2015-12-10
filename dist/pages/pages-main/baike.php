@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/baike.min.css?v=c7bdaf6313"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/baike-ca1a477174.min.css"/>
 </head>
 <body>
 <?php include "../header.php"; ?>
@@ -14,7 +14,7 @@
 <div class="container">
     <!--  顶部广告  -->
     <div class="row ad-box margin-b-14">
-        <a href=""><img src="../../img/temp-img/bk-ad1.jpg?v=cbb88779ee" alt="/"/></a>
+        <a href=""><img src="../../img/temp-img/bk-ad1-cbb88779ee.jpg" alt="/"/></a>
     </div>
 
     <!--  顶部百科分类  -->
@@ -73,7 +73,7 @@
             <div class="index-baike-list">
                 <div class="media-newsitem">
                     <div class="media-left padding-r-29">
-                        <a href="http://192.168.0.188/homejc001-new/dist/pages/pages-main/baike-detail.php" class="thumbnail"><img src="../../img/temp-img/bk-img1.jpg?v=ae140044ee" alt=""/></a>
+                        <a href="http://192.168.0.188/homejc001-new/dist/pages/pages-main/baike-detail.php" class="thumbnail"><img src="../../img/temp-img/bk-img1-ae140044ee.jpg" alt=""/></a>
                         <p class="img-title">共有<em>4</em>张精美图片</p>
                     </div>
                     <div class="media-body">
@@ -89,7 +89,7 @@
                 </div>
                 <div class="media-newsitem">
                     <div class="media-left padding-r-29">
-                        <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img1.jpg?v=ae140044ee" alt=""/></a>
+                        <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img1-ae140044ee.jpg" alt=""/></a>
                         <p class="img-title">共有<em>4</em>张精美图片</p>
                     </div>
                     <div class="media-body">
@@ -174,7 +174,7 @@
 
             <!--  广告  -->
             <div class="ad-box margin-b-19 ">
-                <a href=""><img src="../../img/temp-img/bk-ad2.jpg?v=05c1acce39" alt="/"/></a>
+                <a href=""><img src="../../img/temp-img/bk-ad2-05c1acce39.jpg" alt="/"/></a>
             </div>
 
             <!--  热点关注、最新发布  -->
@@ -199,7 +199,7 @@
 
             <!--  广告  -->
             <div class="ad-box margin-b-15">
-                <a href=""><img src="../../img/temp-img/bk-ad3.jpg?v=ed19b1f238" alt="/"/></a>
+                <a href=""><img src="../../img/temp-img/bk-ad3-ed19b1f238.jpg" alt="/"/></a>
             </div>
 
             <!--  热门品牌  -->
@@ -283,32 +283,32 @@
                 <div class="cont-block">
                     <div class="media-base">
                         <div class="photos">
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
                         </div>
                         <h4 class="media-title"><a href="">简约风格</a></h4>
                         <p class="media-explain">共有<em>10</em>张图片</p>
                     </div>
                     <div class="media-base">
                         <div class="photos">
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
                         </div>
                         <h4 class="media-title"><a href="">简约风格简约风格简约风格</a></h4>
                         <p class="media-explain">共有<em>10</em>张图片</p>
                     </div>
                     <div class="media-base">
                         <div class="photos">
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
                         </div>
                         <h4 class="media-title"><a href="">简约风格</a></h4>
                         <p class="media-explain">共有<em>10</em>张图片</p>
                     </div>
                     <div class="media-base">
                         <div class="photos">
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
                         </div>
                         <h4 class="media-title"><a href="">简约风格</a></h4>
                         <p class="media-explain">共有<em>10</em>张图片</p>

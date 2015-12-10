@@ -2,9 +2,9 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=c7bdaf6313"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike-ca1a477174.css"/>
 
-    <script src="../../js/unslider.js?v=ebbc073b11"></script>
+    <script src="../../js/unslider-ebbc073b11.js"></script>
 </head>
 <body>
 <?php include "../header.php"; ?>
@@ -36,19 +36,19 @@
                         <div class="banner slider">
                             <ul class="items">
                                 <li>
-                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily.jpg?v=53dccf3701" alt=""/></a>
+                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily-53dccf3701.jpg" alt=""/></a>
                                     <p class="title"><a href="">图片标题图片标题图片标题图片标题图片标题图片标题图片标题</a></p>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily.jpg?v=53dccf3701" alt=""/></a>
+                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily-53dccf3701.jpg" alt=""/></a>
                                     <p class="title"><a href="">图片标题图片标题图片标题图片标题图片标题图片标题图片标题</a></p>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily.jpg?v=53dccf3701" alt=""/></a>
+                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily-53dccf3701.jpg" alt=""/></a>
                                     <p class="title"><a href="">图片标题图片标题图片标题图片标题图片标题图片标题图片标题</a></p>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily.jpg?v=53dccf3701" alt=""/></a>
+                                    <a href="javascript:void(0);"><img src="../../img/temp-img/bk-ask-daily-53dccf3701.jpg" alt=""/></a>
                                     <p class="title"><a href="">图片标题图片标题图片标题图片标题图片标题图片标题图片标题</a></p>
                                 </li>
                             </ul>

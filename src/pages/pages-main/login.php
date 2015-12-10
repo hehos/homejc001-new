@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/login.css?v=e49571b2e0"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/login-e49571b2e0.css"/>
 </head>
 <body>
 <?php include "../header-top.php"; ?>
@@ -12,12 +12,12 @@
     <div class="row">
         <div class="goLogin">
             <a class="login-img" href="/" alt="九正家居">
-                <img src="../../img/logo.png?v=47570902f8" alt="">
+                <img src="../../img/logo-47570902f8.png" alt="">
             </a>
         </div>
         <div class="g-wrap f-cb">
             <div class="g-left f-fl">
-                <img src="../../img/login-img.jpg?v=49ac5702ac" alt="美好生活从这里开始">
+                <img src="../../img/login-img-49ac5702ac.jpg" alt="美好生活从这里开始">
             </div>
             <div class="g-right f-fr">
                 <h2>会员登录</h2>

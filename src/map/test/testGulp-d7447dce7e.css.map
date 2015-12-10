@@ -1,0 +1,1 @@
+{"version":3,"sources":["testGulp-d7447dce7e.css"],"names":[],"mappings":"AAAA;EACE,0BAA0B;EAC1B,0BAA0B,EAAE","file":"test/testGulp-d7447dce7e.css","sourcesContent":[".test {\n  border: 1px solid #dddddd;\n  background-color: #bd0401; }\n\n\n"],"sourceRoot":"/source/"}

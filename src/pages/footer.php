@@ -19,5 +19,5 @@
         <div id="qun" class=""></div>
     </div>
 </div>
-<script src="http://192.168.0.188/homejc001-new/src/js/comm.js?v=faa0b7c7b8"></script>
-<script src="http://192.168.0.188/homejc001-new/src/js/HotSlider.js?v=bbe702fe73"></script>
+<script src="http://192.168.0.188/homejc001-new/src/js/comm-faa0b7c7b8.js"></script>
+<script src="http://192.168.0.188/homejc001-new/src/js/HotSlider-bbe702fe73.js"></script>

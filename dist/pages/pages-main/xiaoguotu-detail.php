@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/tu.min.css?v=347ce237d4"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/tu-efef563bd3.min.css"/>
 </head>
 <body>
 <?php include "../header-top2.php"; ?>
@@ -11,17 +11,25 @@
     <!--  主体内容  -->
     <div class="row clearfix">
         <!--  页面位置  -->
-        <div class="">
-            <div class="pull-right">
-                <ul>
-                    <li><span class="myicon-weixin2"></span>
+        <div class="head-cont margin-t-17 clearfix">
+            <div id="location" class="detail pull-left">
+                <ol class="breadcrumb-arrow">
+                    <li><a href="#"><i class="icon-home"></i>首页</a></li>
+                    <li><a href="#">定制产品</a></li>
+                    <li class="on">某某具体产品</li>
+                    <li>第9张</li>
+                    <li class="result"><span>共有<em>9</em>张图片</span></li>
+                </ol>
+            </div>
+            <div class="pull-right right-cont">
+                <ul class="clearfix">
+                    <li class="weixin"><span class="myicon-weixin2"></span>
                         <span class="img"><i class="myicon-qrcode-wx"></i></span>
                     </li>
                     <li><i class="icon-star-o"></i>热度&nbsp;8888</li>
                     <li><i class="icon-heart-o"></i>我喜欢&nbsp;888</li>
                 </ul>
             </div>
-            <?php include "../location-detail.php"; ?>
         </div>
 
         <!--  左侧内容  -->
@@ -133,35 +141,60 @@
                     <a class="nextAlbum" href="http://home.jc001.cn/photo-show/aid-54357-id-237867.html#tu">下一图集</a>
                 </div>
             </div>
+            <div class="photo-share margin-b-27">
+                <a class="collect-btn" href="">收藏本页面+</a>
+            </div>
 
-            <div class="viewer_handles">
-                <div class="handles">
-                    <div class="txte f14"></div>
-                    <div class="coll">
-                            <span class="fl"><a href="javascript:void(0);"
-                                                onclick="window.external.AddFavorite(document.location.href,document.title)"
-                                                class="red f12">+ 收藏本页面</a></span>
-                           <span class="fr">
-                            <!-- Baidu Button BEGIN -->
-                            <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
-                                <a class="bds_qzone"></a>
-                                <a class="bds_tsina"></a>
-                                <a class="bds_tqq"></a>
-                                <a class="bds_renren"></a>
-                                <a class="bds_t163"></a>
-                                <a class="shareCount"></a>
-                            </div> <script type="text/javascript" id="bdshare_js"
-                                           data="type=tools&amp;uid=477273"></script> <script type="text/javascript"
-                                                                                              id="bdshell_js"></script> <script
-                                   type="text/javascript">
-                                   var bds_config = {'bdPic': 'http://img.home.jc001.cn/pic/thumb-image_albums_500x600/53/c4/53c4c65965689e4d0b009f3f.jpg'};
-                                   document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date() / 3600000)
-                               </script>
-                            <!-- Baidu Button END -->
-                           </span>
+            <!--  其他人还看过这些效果图   -->
+            <div class="correlation-imgtxt margin-b-15">
+                <div class="title-bar fs2">
+                    <h2 class="title">相关文章</h2>
+                    <a class="more" href="">更多<i class=" icon-angle-right"></i></a>
+                </div>
+                <div class="clearfix cont-line">
+                    <div class="media-base">
+                        <a href="" class="thumbnail">
+                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                        </a>
+                        <h4 class="media-title"><a href="">图片标题</a></h4>
+                    </div>
+                    <div class="media-base">
+                        <a href="" class="thumbnail">
+                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                        </a>
+                        <h4 class="media-title"><a href="">图片标题</a></h4>
+                    </div>
+                    <div class="media-base">
+                        <a href="" class="thumbnail">
+                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                        </a>
+                        <h4 class="media-title"><a href="">图片标题</a></h4>
+                    </div>
+                </div>
+                <div class="clearfix cont-line">
+                    <div class="media-base">
+                        <a href="" class="thumbnail">
+                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                        </a>
+                        <h4 class="media-title"><a href="">图片标题</a></h4>
+                    </div>
+                    <div class="media-base">
+                        <a href="" class="thumbnail">
+                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                        </a>
+                        <h4 class="media-title"><a href="">图片标题</a></h4>
+                    </div>
+                    <div class="media-base">
+                        <a href="" class="thumbnail">
+                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                        </a>
+                        <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                 </div>
             </div>
+
+            <img src="../../img/temp-img/comment-youyan-c9d5a57630.jpg" alt=""/>
+
         </div>
         <!--  右侧内容   -->
         <div class="layout-side pull-right">
@@ -171,18 +204,58 @@
             </div>
 
             <!--  广告区  -->
-            <div class="side-adv">
-                <a href=""><img src="../../img/temp-img/zx-side-ad1.jpg?v=86ecdaac98" alt=""/></a>
+            <div class="side-adv margin-b-20">
+                <a href=""><img src="../../img/temp-img/zx-side-ad1-86ecdaac98.jpg" alt=""/></a>
             </div>
+
+            <!--  热门标签  -->
+            <div class="margin-b-12 cont-box hot-labels">
+                <div class="title-bar fs2">
+                    <h2 class="title">热门标签</h2>
+                </div>
+                <div class="cont-block">
+                    <ul class="label-bar">
+                        <li class="label on"><a href="">手机配件品质馆手机配件品质馆</a></li>
+                        <li class="label"><a href="">iPhone6壳</a></li>
+                        <li class="label"><a href="">iPhone6贴膜</a></li>
+                        <li class="label"><a href="">手机套</a></li>
+                        <li class="label"><a href="">钢化玻璃膜</a></li>
+                        <li class="label"><a href="">移动电源</a></li>
+                        <li class="label"><a href="">数据线</a></li>
+                        <li class="label"><a href="">手机配件品质馆</a></li>
+                        <li class="label"><a href="">iPhone6壳</a></li>
+                        <li class="label"><a href="">iPhone6贴膜</a></li>
+                        <li class="label"><a href="">手机套</a></li>
+                        <li class="label"><a href="">钢化玻璃膜</a></li>
+                        <li class="label"><a href="">移动电源</a></li>
+                        <li class="label"><a href="">数据线</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--  广告区  -->
+            <div class="side-adv margin-b-15">
+                <a href=""><img src="../../img/temp-img/zx-side-ad1-86ecdaac98.jpg" alt=""/></a>
+            </div>
+
+            <!--  广告区  -->
+            <div class="side-adv margin-b-15">
+                <a href=""><img src="../../img/temp-img/zx-side-ad1-86ecdaac98.jpg" alt=""/></a>
+            </div>
+
         </div>
     </div>
 
+    <?php include "../bottom-links.php"; ?>
 
 </div>
+
+
 
 <?php include "../footer.php"; ?>
 
 
-<script src="../../js/photo.js?v=2c7a9085e5"></script>
+<script src="../../js/photo-2c7a9085e5.js"></script>
 </body>
 </html>

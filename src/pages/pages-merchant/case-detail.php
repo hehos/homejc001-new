@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-merchant/merchant.css?v=f8d51966cb"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-merchant/merchant-f8d51966cb.css"/>
 </head>
 <body>
 <?php include "header2.php"; ?>
@@ -14,7 +14,7 @@
     <div class="clearfix row case-info">
         <div class="pull-left media-info">
             <div class="img">
-                <img src="../../img/temp-img/detail-big-img.jpg?v=0599e64757" alt=""/>
+                <img src="../../img/temp-img/detail-big-img-0599e64757.jpg" alt=""/>
             </div>
         </div>
         <div class="pull-right info">
@@ -49,19 +49,19 @@
                 <div class="product-list">
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                            <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                            <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
+                            <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>

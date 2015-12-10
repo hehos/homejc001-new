@@ -1,9 +1,9 @@
 {
-  "HotSlider.js": "HotSlider.js?v=bbe702fe73",
-  "comm.js": "comm.js?v=faa0b7c7b8",
-  "media-waterfall.js": "media-waterfall.js?v=d2920d2b39",
-  "pages-merchant/product-detail-tabs.js": "pages-merchant/product-detail-tabs.js?v=efe6705728",
-  "photo.js": "photo.js?v=2c7a9085e5",
-  "scroll-vertical.js": "scroll-vertical.js?v=71597548f8",
-  "unslider.js": "unslider.js?v=ebbc073b11"
+  "HotSlider.js": "HotSlider-bbe702fe73.js",
+  "comm.js": "comm-faa0b7c7b8.js",
+  "media-waterfall.js": "media-waterfall-d2920d2b39.js",
+  "pages-merchant/product-detail-tabs.js": "pages-merchant/product-detail-tabs-efe6705728.js",
+  "photo.js": "photo-2c7a9085e5.js",
+  "scroll-vertical.js": "scroll-vertical-71597548f8.js",
+  "unslider.js": "unslider-ebbc073b11.js"
 }

@@ -69,9 +69,53 @@
 
 // 效果图详细页
 
+.head-cont {
+  line-height: 26px;
+  border: 1px solid $grayBorder;
+  .breadcrumb-arrow, .right-cont { padding: 8px 10px 6px; }
+  .right-cont {
+    i {
+      display: inline-block;
+      margin-bottom: 2px;
+      margin-right: 5px;
+      font-size: pxToEm(16px, 12px);
+      vertical-align: middle;
+    }
+    .img {
+      display: none;
+      position: absolute;
+      top: 26px;
+      left: 0;
+      z-index: 1000;
+      padding: 10px;
+      background-color: $body-bg;
+      border: 1px solid $grayBorder;
+    }
+    .weixin {
+      position: relative;
+      &:hover {
+        .img { display: inline-block; }
+      }
+    }
+    li {
+      float: left;
+      margin-left: 1em;
+      font-size: pxToEm(12px);
+      + li {
+        cursor: pointer;
+        padding: 0 .8em;
+        background-color: $activeColor;
+        color: $body-bg;
+        border-radius: 12px;
+      }
+    }
+  }
+}
+
 .tu-photo {
   background-color: #4c4c4c;
   color: #fff;
+  border-bottom: 1px solid transparent;
   .title {
     line-height: 4;
     font-size: pxToEm(16px);
@@ -120,6 +164,21 @@
 
   .album {
     padding: 0 89px;
+    margin: 15px 0;
     text-align: center;
+  }
+}
+
+.photo-share {
+  margin-top: pxToEm(10px);
+  margin-left: pxToEm(10px);
+  .collect-btn {
+    display: inline-block;
+    line-height: 1.6;
+    padding-left: 1em;
+    padding-right: .6em;
+    border-radius: .8em;
+    color: $body-bg;
+    background-color: $activeColor;
   }
 }

@@ -132,6 +132,65 @@ body .container {
   }
 }
 
+// 百科，效果图等详细页的相关图文
+.correlation-imgtxt {
+  background-color: $gray-lighter;
+  padding: 0 12px 12px;
+  .title-bar {
+    .title {
+      color: $activeColor;
+      font-size: pxToEm(16px);
+    }
+  }
+  .cont-line {
+    padding: pxToEm(15px) pxToEm(45px - 27px) pxToEm(10px);
+    background-color: $body-bg;
+    border-bottom: 1px dashed $grayBorder;
+  }
+  .media-base, .list-group {
+    float: left;
+    width: percentage(1 / 3);
+    padding: 0 pxToEm(27px);
+  }
+  .media-base {
+    margin: 0;
+    padding: 0 pxToEm(27px);
+    .thumbnail {
+      height: 142px;
+      line-height: middleImg(142px, 2px);
+    }
+  }
+  .media-title { text-align: center; }
+  .list-dot .list-group-item:before {
+    @include caret-right(3px, $activeColor);
+    background-color: transparent;
+    margin-top: -3px;
+  }
+
+  .list-dot .list-group-item {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+}
+
+// 侧栏的热门标签
+.hot-labels {
+  .label-bar {
+    padding: 0;
+    line-height: 3;
+  }
+  .label {
+    @include text-truncate();
+    max-width: 10em;
+    padding-left: pxToEm(10px);
+    padding-right: pxToEm(10px);
+    background-color: $gray-lightest;
+    margin-bottom: pxToEm(10px);
+    margin-right: pxToEm(10px);
+  }
+}
+
+
 // 滚动表格
 .scrolltable-warp {
   tr {

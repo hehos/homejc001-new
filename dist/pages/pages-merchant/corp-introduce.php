@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-merchant/merchant.min.css?v=f8d51966cb"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-merchant/merchant-f8d51966cb.min.css"/>
 </head>
 <body>
 <?php include "header2.php"; ?>
@@ -18,7 +18,7 @@
         <h2>公司介绍</h2>
         <div class="corp-cont corp-intro">
             <div class="cont-logo">
-                <img src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/>
+                <img src="../../img/temp-img/corp-logo-f54c01872f.jpg" alt=""/>
             </div>
             <p>成都禾木艺景装饰工程有限公司创建设计工作室已有10年之余，属建筑装饰工程施工设计乙级，
                 本公司注册资金100万元，主营住宅装饰装修和酒店、宾馆、会所、商场、展厅办公楼等公共空间设计和施工，

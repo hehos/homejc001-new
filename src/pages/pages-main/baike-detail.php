@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike-ca1a477174.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=ca1a477174"/>
 
 </head>
 <body>
@@ -14,7 +14,7 @@
 <div class="container">
     <!--  广告  -->
     <div class="row ad-box margin-b-14">
-        <a href=""><img src="../../img/temp-img/bk-ad1-cbb88779ee.jpg" alt="/"/></a>
+        <a href=""><img src="../../img/temp-img/bk-ad1.jpg?v=cbb88779ee" alt="/"/></a>
     </div>
 
     <!--  主体内容  -->
@@ -37,13 +37,13 @@
                 </div>
 
                 <!--  推广链接   -->
-                <img src="../../img/temp-img/bk-tuiguang4-786a2c5b5c.jpg" alt=""/>
+                <img src="../../img/temp-img/bk-tuiguang4.jpg?v=786a2c5b5c" alt=""/>
 
                 <div class="detail-info">
                     <p class="title"><strong>标题1</strong></p>
                     <p>客厅柜的设计一直是客厅设计的风向标，新的材质、意想不到的开启方式、多样性的实用功能细节，时刻为了满足日 益翻新的客
                         客厅柜的设计一直是客厅设计的风向标，新的材质、意想不到的开启方式、多样性的实用功能细节，时刻为了满足日 益翻新的客</p>
-                    <div class="img"><img src="../../img/temp-img/bk-new-img-45e7d768ae.jpg" alt=""/></div>
+                    <div class="img"><img src="../../img/temp-img/bk-new-img.jpg?v=45e7d768ae" alt=""/></div>
                     <p class="title"><strong>标题1</strong></p>
                     <p>客厅柜的设计一直是客厅设计的风向标，新的材质、意想不到的开启方式、多样性的实用功能细节，时刻为了满足日 益翻新的客
                         客厅柜的设计一直是客厅设计的风向标，新的材质、意想不到的开启方式、多样性的实用功能细节，时刻为了满足日 益翻新的客</p>
@@ -51,7 +51,7 @@
 
 
                 <!-- 百度链接... -->
-                <img src="../../img/temp-img/bk-tuiguang1-cd154eb429.jpg" alt=""/>
+                <img src="../../img/temp-img/bk-tuiguang1.jpg?v=cd154eb429" alt=""/>
                 <div class="paging-bar divide">
                     <div class="paging-list">
                         <a class="prev" href="">上一页</a>
@@ -85,7 +85,7 @@
                 </div>
 
                 <!-- 百度链接... -->
-                <img src="../../img/temp-img/bk-tuiguang2-b98db3caac.jpg" alt=""/>
+                <img src="../../img/temp-img/bk-tuiguang2.jpg?v=b98db3caac" alt=""/>
                 <!-- 上一篇、下一篇 -->
                 <div class="page-neighbor">
                     <span class="prev"><em>上一篇：</em><a href="">卧室衣柜怎么装？衣柜尺寸不可不说的秘密</a></span>
@@ -102,19 +102,19 @@
                 <div class="clearfix cont-line">
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
@@ -122,19 +122,19 @@
                 <div class="clearfix cont-line">
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt=""/>
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt=""/>
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
@@ -165,9 +165,9 @@
             </div>
 
             <!--  云推荐链接   -->
-            <img class="margin-b-15" src="../../img/temp-img/bk-tuiguang3-eac9cb22e9.jpg" alt=""/>
+            <img class="margin-b-15" src="../../img/temp-img/bk-tuiguang3.jpg?v=eac9cb22e9" alt=""/>
             <!--  有言评论   -->
-            <img class="main-border" src="../../img/temp-img/comment-youyan-c9d5a57630.jpg" alt=""/>
+            <img class="main-border" src="../../img/temp-img/comment-youyan.jpg?v=c9d5a57630" alt=""/>
         </div>
         <!--  右侧内容   -->
         <div class="layout-side pull-right">
@@ -204,7 +204,7 @@
 
             <!--  广告  -->
             <div class="ad-box margin-b-19 ">
-                <a href=""><img src="../../img/temp-img/bk-ad2-05c1acce39.jpg" alt="/"/></a>
+                <a href=""><img src="../../img/temp-img/bk-ad2.jpg?v=05c1acce39" alt="/"/></a>
             </div>
 
             <!--  热点关注、最新发布  -->
@@ -229,7 +229,7 @@
 
             <!--  广告  -->
             <div class="ad-box margin-b-15">
-                <a href=""><img src="../../img/temp-img/bk-ad3-ed19b1f238.jpg" alt="/"/></a>
+                <a href=""><img src="../../img/temp-img/bk-ad3.jpg?v=ed19b1f238" alt="/"/></a>
             </div>
 
             <!--  热门品牌  -->
@@ -313,32 +313,32 @@
                 <div class="cont-block">
                     <div class="media-base">
                         <div class="photos">
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
                         </div>
                         <h4 class="media-title"><a href="">简约风格</a></h4>
                         <p class="media-explain">共有<em>10</em>张图片</p>
                     </div>
                     <div class="media-base">
                         <div class="photos">
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
                         </div>
                         <h4 class="media-title"><a href="">简约风格简约风格简约风格</a></h4>
                         <p class="media-explain">共有<em>10</em>张图片</p>
                     </div>
                     <div class="media-base">
                         <div class="photos">
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
                         </div>
                         <h4 class="media-title"><a href="">简约风格</a></h4>
                         <p class="media-explain">共有<em>10</em>张图片</p>
                     </div>
                     <div class="media-base">
                         <div class="photos">
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
-                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2-43fcae64d3.jpg" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
+                            <a href="" class="thumbnail"><img src="../../img/temp-img/bk-img2.jpg?v=43fcae64d3" alt=""/></a>
                         </div>
                         <h4 class="media-title"><a href="">简约风格</a></h4>
                         <p class="media-explain">共有<em>10</em>张图片</p>

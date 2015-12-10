@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-merchant/merchant-f8d51966cb.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-merchant/merchant.css?v=f8d51966cb"/>
 </head>
 <body>
 <?php include "header.php"; ?>
@@ -26,10 +26,10 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item carousel-item active">
-                        <a href=""><img src="../../img/pages-merchant/banner1-778a40e37b.jpg" alt=""/></a>
+                        <a href=""><img src="../../img/pages-merchant/banner1.jpg?v=9efa0de820?v=778a40e37b" alt=""/></a>
                     </div>
                     <div class="item carousel-item">
-                        <a href=""><img src="../../img/pages-merchant/banner1-778a40e37b.jpg" alt=""/></a>
+                        <a href=""><img src="../../img/pages-merchant/banner1.jpg?v=9efa0de820?v=778a40e37b" alt=""/></a>
                     </div>
                 </div>
 
@@ -111,7 +111,7 @@
                     </div>
                 </div>
 
-                <script src="http://192.168.0.188/homejc001-new/src/js/scroll-vertical-71597548f8.js"></script>
+                <script src="http://192.168.0.188/homejc001-new/src/js/scroll-vertical.js?v=71597548f8"></script>
                 <script>
                     $(".scrolltable-warp").scrollTable({rows: 6});
                 </script>
@@ -148,7 +148,7 @@
              <div class="col-lg-4">
                  <div class="media-base">
                      <a href="" class="thumbnail">
-                         <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
+                         <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                      </a>
                      <h4 class="media-title"><a href="">图片标题</a></h4>
                      <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
@@ -158,7 +158,7 @@
              <div class="col-lg-4">
                  <div class="media-base">
                      <a href="" class="thumbnail">
-                         <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
+                         <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                      </a>
                      <h4 class="media-title"><a href="">图片标题</a></h4>
                      <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
@@ -168,7 +168,7 @@
              <div class="col-lg-4">
                  <div class="media-base">
                      <a href="" class="thumbnail">
-                         <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
+                         <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                      </a>
                      <h4 class="media-title"><a href="">图片标题</a></h4>
                      <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
@@ -178,7 +178,7 @@
              <div class="col-lg-4">
                  <div class="media-base">
                      <a href="" class="thumbnail">
-                         <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
+                         <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                      </a>
                      <h4 class="media-title"><a href="">图片标题</a></h4>
                      <p class="media-explain"><span class="pull-right">预算：30000元</span>风格：欧式风格</p>
@@ -199,7 +199,7 @@
             <div class="col-lg-4">
                 <div class="media-base">
                     <a href="" class="thumbnail">
-                        <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
+                        <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                     </a>
                     <h4 class="media-title"><a href="">图片标题</a></h4>
                     <p class="media-explain">案例简单介绍</p>
@@ -208,7 +208,7 @@
             <div class="col-lg-4">
                 <div class="media-base">
                     <a href="" class="thumbnail">
-                        <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
+                        <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                     </a>
                     <h4 class="media-title"><a href="">图片标题</a></h4>
                     <p class="media-explain">案例简单介绍</p>
@@ -217,7 +217,7 @@
             <div class="col-lg-4">
                 <div class="media-base">
                     <a href="" class="thumbnail">
-                        <img src="../../img/temp-img/product1-bd99c5a26b.jpg" alt="">
+                        <img src="../../img/temp-img/product1.jpg?v=bd99c5a26b" alt="">
                     </a>
                     <h4 class="media-title"><a href="">图片标题</a></h4>
                     <p class="media-explain">案例简单介绍</p>

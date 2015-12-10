@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-huodong/huodong-b90eae2d94.min.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-huodong/huodong.min.css?v=b90eae2d94"/>
 </head>
 <body>
 <?php include "../header.php"; ?>

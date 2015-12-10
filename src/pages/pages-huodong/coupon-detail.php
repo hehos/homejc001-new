@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-huodong/huodong-b90eae2d94.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-huodong/huodong.css?v=b90eae2d94"/>
 </head>
 <body>
 <?php include "../header.php"; ?>
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="pull-right media-info">
-                <img src="../../img/temp-img/yh-img2-d78ac6ca41.jpg" alt=""/>
+                <img src="../../img/temp-img/yh-img2.jpg?v=d78ac6ca41" alt=""/>
             </div>
             <div class="share-row" style="clear: both;">
                 <ul>
@@ -71,7 +71,7 @@
                     </ul>
                 </div>
                 <div class="details-cont">
-                    <img src="../../img/temp-img/yh-img1-8e0ba56e14.jpg" alt=""/>
+                    <img src="../../img/temp-img/yh-img1.jpg?v=8e0ba56e14" alt=""/>
                 </div>
             </div>
             <div class="other-coupon-info margin-t-23">

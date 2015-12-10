@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-huodong/huodong-b90eae2d94.min.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-huodong/huodong.min.css?v=b90eae2d94"/>
 </head>
 <body>
 <?php include "../header.php"; ?>
@@ -247,7 +247,7 @@
 
             <!--  广告区  -->
             <div class="side-adv">
-                <a href=""><img src="../../img/temp-img/zx-side-ad1-86ecdaac98.jpg" alt=""/></a>
+                <a href=""><img src="../../img/temp-img/zx-side-ad1.jpg?v=86ecdaac98" alt=""/></a>
             </div>
         </div>
     </div>

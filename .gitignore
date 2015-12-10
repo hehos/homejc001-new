@@ -50,6 +50,3 @@ scss-lint-report.xml
 # Folders to ignore
 bower_components
 node_modules
-
-#widget
-widget

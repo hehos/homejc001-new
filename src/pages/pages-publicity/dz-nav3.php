@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-publicity/publicity-46979ff8ed.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-publicity/publicity.css?v=46979ff8ed"/>
 </head>
 <body class="publicity">
 <?php include "../header.php" ?>
@@ -11,17 +11,17 @@
     <div class="cont-nav">
         <div class="item">
             <a href="dz-nav1.php">
-                <img src="../../img/pages-publicity/dz-nav-1-839a9391c7.jpg" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-1.jpg?v=839a9391c7" alt=""/>
             </a>
         </div>
         <div class="item">
             <a href="dz-nav2.php">
-                <img src="../../img/pages-publicity/dz-nav-2-af6d2a8a95.jpg" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-2.jpg?v=af6d2a8a95" alt=""/>
             </a>
         </div>
         <div class="item last on">
             <a href="dz-nav3.php">
-                <img src="../../img/pages-publicity/dz-nav-3-on-2783040925.jpg" alt=""/>
+                <img src="../../img/pages-publicity/dz-nav-3-on.jpg?v=2783040925" alt=""/>
             </a>
         </div>
     </div>
@@ -76,8 +76,8 @@
         </div>
     </div>
 
-    <img src="../../img/pages-publicity/dz-nav3-img1-cd28668ffb.jpg" alt=""/>
-    <img src="../../img/pages-publicity/dz-nav3-img2-d237019072.jpg" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav3-img1.jpg?v=cd28668ffb" alt=""/>
+    <img src="../../img/pages-publicity/dz-nav3-img2.jpg?v=d237019072" alt=""/>
 </div>
 
 <?php include "../../footer.php" ?>

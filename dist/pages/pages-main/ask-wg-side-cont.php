@@ -15,7 +15,7 @@
     </div>
     <div class="ask-btn-row">
         <input class="" type="text"/>
-        <img src="../../img/temp-img/yz-code-3e0997826e.jpg" alt=""/>
+        <img src="../../img/temp-img/yz-code.jpg?v=3e0997826e" alt=""/>
         <button class="u-btn-active ask-btn">免注册提问</button>
     </div>
 </div>
@@ -47,5 +47,5 @@
 
 <!--  广告  -->
 <div class="ad-box margin-b-19 ">
-    <a href=""><img src="../../img/temp-img/bk-ad2-05c1acce39.jpg" alt="/"/></a>
+    <a href=""><img src="../../img/temp-img/bk-ad2.jpg?v=05c1acce39" alt="/"/></a>
 </div>

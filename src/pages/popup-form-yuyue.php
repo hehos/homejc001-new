@@ -19,7 +19,7 @@
                 <label for="inputPassword3" class=" form-control-label">验证码：</label>
                 <div class="input-field">
                     <input type="text" class="form-control" id="inputPassword3" placeholder="请输入">
-                    <a href=""><img style="width: 90px" src="../../img/temp-img/yz-code-3e0997826e.jpg" alt=""/></a>
+                    <a href=""><img style="width: 90px" src="../../img/temp-img/yz-code.jpg?v=3e0997826e" alt=""/></a>
                 </div>
             </div>
             <div class="safety">

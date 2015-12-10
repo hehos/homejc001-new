@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/tu-efef563bd3.min.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/tu.min.css?v=efef563bd3"/>
 </head>
 <body>
 <?php include "../header-top2.php"; ?>
@@ -205,7 +205,7 @@
 
             <!--  广告区  -->
             <div class="side-adv margin-b-20">
-                <a href=""><img src="../../img/temp-img/zx-side-ad1-86ecdaac98.jpg" alt=""/></a>
+                <a href=""><img src="../../img/temp-img/zx-side-ad1.jpg?v=86ecdaac98" alt=""/></a>
             </div>
 
             <!--  热门标签  -->
@@ -236,12 +236,12 @@
 
             <!--  广告区  -->
             <div class="side-adv margin-b-15">
-                <a href=""><img src="../../img/temp-img/zx-side-ad1-86ecdaac98.jpg" alt=""/></a>
+                <a href=""><img src="../../img/temp-img/zx-side-ad1.jpg?v=86ecdaac98" alt=""/></a>
             </div>
 
             <!--  广告区  -->
             <div class="side-adv margin-b-15">
-                <a href=""><img src="../../img/temp-img/zx-side-ad1-86ecdaac98.jpg" alt=""/></a>
+                <a href=""><img src="../../img/temp-img/zx-side-ad1.jpg?v=86ecdaac98" alt=""/></a>
             </div>
 
         </div>
@@ -256,6 +256,6 @@
 <?php include "../footer.php"; ?>
 
 
-<script src="../../js/photo-2c7a9085e5.js"></script>
+<script src="../../js/photo.js?v=2c7a9085e5"></script>
 </body>
 </html>

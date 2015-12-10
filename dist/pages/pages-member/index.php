@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-member/member-b2d4fad3fb.min.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-member/member.min.css?v=b2d4fad3fb"/>
 </head>
 <body>
 <?php include "header.php"; ?>
@@ -27,7 +27,7 @@
         <div class="main-wrap pull-right">
             <div class="white-block corp-intro">
                 <div class="logo">
-                    <a href="http://192.168.0.188/homejc001-new/pages-merchant/index.php"><img src="../../img/temp-img/logo-member-6db6755afa.jpg" alt=""/></a>
+                    <a href="http://192.168.0.188/homejc001-new/pages-merchant/index.php"><img src="../../img/temp-img/logo-member.jpg?v=6db6755afa" alt=""/></a>
                 </div>
                 <div class="intro-cont">
                     <h4>九正科技公司</h4>

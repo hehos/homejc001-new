@@ -23,7 +23,6 @@
             <?php include "ask-wg-search.php"; ?>
 
 
-
             <!--  问答日报  -->
             <div class="index-ask-daily margin-b-17">
                 <div class="title-bar fs1">
@@ -32,7 +31,7 @@
 
                 <div class="ask-hot-cont">
                     <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/temp-img/bk-ask-daily.jpg" alt=""></a>
+                        <a class="img" href="http://192.168.0.188/homejc001-new/src/pages/pages-main/ask-detail.php"><img src="../../img/temp-img/bk-ask-daily.jpg" alt=""></a>
                         <ul class="txtlist">
                             <li class="big-item">
                                 <h4><a href="">哪些情况导致装修延期 工期延期怎样处理</a></h4>

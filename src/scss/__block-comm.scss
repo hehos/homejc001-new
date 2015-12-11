@@ -49,13 +49,23 @@ $hTFS: 12px;
 }
 .header-top-left {
   float: left;
+  .area-switch a {
+    margin-left: 5px;
+    color: $activeColor;
+  }
   li {
     margin-right: pxToEm(24px, $hTFS);
     &.on { color: $activeColor; }
   }
-  .top-nav li { margin-right: pxToEm(48px, $hTFS); }
+  // i element
+  .area-switch i {
+    font-size: pxToEm(14px, $hTFS);
+    color: darken($activeColor2, 10%);
+    vertical-align: middle;
+  }
   .top-nav i { margin-right: pxToEm(15px, $hTFS); }
   .attention-ways i { margin-right: 3px; }
+  .top-nav li { margin-right: pxToEm(48px, $hTFS); }
   .weixin-QRCode {
     position: relative;
     .img {

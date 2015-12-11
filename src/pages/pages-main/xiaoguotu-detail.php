@@ -153,20 +153,20 @@
                 </div>
                 <div class="clearfix cont-line">
                     <div class="media-base">
-                        <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                        <a href="" class="thumbnail"> 
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
@@ -174,26 +174,26 @@
                 <div class="clearfix cont-line">
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                     <div class="media-base">
                         <a href="" class="thumbnail">
-                            <img src="../../img/temp-img/other-img-0947438e03.jpg" alt="">
+                            <img src="../../img/temp-img/other-img.jpg?v=0947438e03" alt="">
                         </a>
                         <h4 class="media-title"><a href="">图片标题</a></h4>
                     </div>
                 </div>
             </div>
 
-            <img src="../../img/temp-img/comment-youyan-c9d5a57630.jpg" alt=""/>
+            <img src="../../img/temp-img/comment-youyan.jpg?v=c9d5a57630" alt=""/>
 
         </div>
         <!--  右侧内容   -->

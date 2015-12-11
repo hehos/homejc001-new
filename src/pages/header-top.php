@@ -3,7 +3,7 @@
         <div class="header-top-left">
             <ul class="attention-ways">
                 <li class="area-switch"><i class="icon-map-marker"></i><span>成都</span>
-                    <a href="http://192.168.0.188/homejc001-new/dist/pages/pages-main/region-switch.php">[切换]</a></li>
+                    <a href="http://192.168.0.188/homejc001-new/src/pages/pages-main/region-switch.php">[切换]</a></li>
                 <li><a href=""><i class="myicon-collect"></i>收藏九正家居</a></li>
                 <li><a href=""><i class="myicon-tc-weibo"></i>腾讯微博</a></li>
                 <li><a href=""><i class="myicon-sina-weibo"></i>新浪微博</a></li>
@@ -21,4 +21,4 @@
             <span class="service-phone">客户热线：400-6464-001</span>
         </div>
     </div>
-</div>
+</div>  

@@ -589,6 +589,8 @@ $poput-z-index: 10000;
 }
 
 // popup
+
+// 预约、预约成功弹出框
 .popup-form-yuyue1,
 .popup-form-yuyue2,
 .popup-yuyue-succeed2 {
@@ -741,6 +743,14 @@ $poput-z-index: 10000;
     margin-top: 1em;
     input, button { border-color: #ac2925; }
   }
+}
+
+// 地区弹出框
+.popup-region {
+  .region-head-cont { padding: 70px 0; }
+  .layout-body { width: auto; }
+  margin-top: -(290px / 2);
+  margin-left: -(593px / 2);
 }
 
 // fixed

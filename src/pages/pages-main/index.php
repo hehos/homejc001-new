@@ -7,7 +7,8 @@
 <body>
 
 
-<?php //include "../popup-form-yuyue.php"; ?>
+<?php include "../popup-form-yuyue.php"; ?>
+<?php include "../popup-region.php"; ?>
 <!-- 预约成功弹出提示 -->
 <?php //include "../popup-yuyue-succeed.php"; ?>
 <?php //include "../popup-yuyue-succeed2.php"; ?>

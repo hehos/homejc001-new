@@ -9,7 +9,8 @@
 @import "../widget/blocks/bar/search-bar/search-bar.scss";
 @import "../widget/blocks/bar/title-bar/title-bar.scss";
 @import "../widget/blocks/bar/paging/paging.scss";
-@import "../widget/blocks/bar/breadcrumb/breadcrumb.scss";
+@import "../widget/blocks/bar/breadcrumb/breadcrumb.scss"; 
+@import "../widget/blocks/bar/filter-bar/filter-bar.scss";
 
 // ===========================================
 // tabs
@@ -28,6 +29,7 @@
 @import "../widget/blocks/media/media-img-txtlist/media-img-txtlist.scss";
 @import "../widget/blocks/media/media-firmlist/media-firmlist.scss";
 @import "../widget/blocks/media/media-newsitem/media-newsitem.scss";
+@import "../widget/blocks/media/media-goods/media-goods.scss";
 
 // ===========================================
 // label

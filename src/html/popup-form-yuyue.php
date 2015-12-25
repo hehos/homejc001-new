@@ -15,11 +15,11 @@
                     <input type="text" class="form-control" id="inputPassword3" placeholder="请输入">
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group vcode">
                 <label for="inputPassword3" class=" form-control-label">验证码：</label>
                 <div class="input-field">
                     <input type="text" class="form-control" id="inputPassword3" placeholder="请输入">
-                    <a href=""><img style="width: 90px" src="../../img/temp-img/yz-code.jpg" alt=""/></a>
+                    <a href=""><img style="width: 90px" src="../img/temp-img/yz-code.jpg" alt=""/></a>
                 </div>
             </div>
             <div class="safety">

@@ -1,0 +1,47 @@
+@import "../variables";
+@import "../mixins";
+
+// 产品列表
+
+.goods-list {
+  $space-w: 19px;   // item之间的空隙
+  @include clearfix();
+  margin-right: -(percentage($space-w / 1200px));
+  .goods-item {
+    float: left;
+    margin-right: percentage($space-w / 1200px);
+    width: percentage((1 / 4) - ($space-w / 1200px));
+  }
+  .mediaImg-wrap, .mediaCont-wrap {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  .mediaImg-wrap {
+    padding-top: 7px;
+    .thumbnail {
+      height: 177px;
+      line-height: middleImg(177px);
+    }
+  }
+  .media-title { font-size: 1em; }
+  .media-cells {
+    &, .cell + .cell { border-color: $gray-lighter; }
+    text-align: center;
+    color: #999;
+    em { color: $activeColor; }
+    strong {
+      color: $gray-dark;
+      margin-left: 3px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+// 产品详细页

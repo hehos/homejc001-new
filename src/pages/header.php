@@ -20,7 +20,7 @@
                                     <li><a href="">效果图</a></li>
                                     <li><a href="">家居建材</a></li>
                                     <li><a href="">家居产品</a></li>
-                                </ul>
+                                </ul> 
                             </div>
                         </div>
                         <div class="layout-body">
@@ -71,7 +71,7 @@
                     </ol>
                 </li>
                 <li class="nav-item has-subnav">
-                    <a href="">找产品<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
+                    <a href="http://192.168.0.188/homejc001-new/src/pages/pages-main/goods-list.php">找产品<i class="icon-angle-up"></i><i class="icon-angle-down"></i></a>
                     <ol class="subnav">
                         <li><a href="">家居</a></li>
                         <li><a href="">家具</a></li>

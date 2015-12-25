@@ -46,7 +46,7 @@ var cf = {
             font: 'src/font/*',
             html: 'src/html/**/*',
             pages: 'src/pages/**/*',
-            vendor: 'src/vendor/**/*',
+            vendor: 'src/vendors/**/*',
             rev: 'src/rev/**/*.json',
             revImg: 'src/rev/img/*.json',
             revFont: 'src/rev/font/*.json',
@@ -85,7 +85,7 @@ var cf = {
             font: 'dist/font',
             html: 'dist/html',
             pages: 'dist/pages',
-            vendor: 'dist/vendor'
+            vendor: 'dist/vendors'
         }
     },
     autoprefixerBrowsers: [

@@ -34,7 +34,8 @@
         </div>
     </div>
 
-
+    <!--  底部友情信息  -->
+    <?php include "../bottom-links.php"; ?>
 </div>
 
 <?php include "../footer.php"; ?>

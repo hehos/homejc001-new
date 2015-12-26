@@ -7,15 +7,15 @@
 <body>
 
 
-<?php include "../popup-form-yuyue.php"; ?>
-<?php include "../popup-region.php"; ?>
+<?php //include "../popup-form-yuyue.php"; ?>
+<?php //include "../popup-region.php"; ?>
 <!-- 预约成功弹出提示 -->
 <?php //include "../popup-yuyue-succeed.php"; ?>
-<?php //include "../popup-yuyue-succeed2.php"; ?>
+<?php include "../popup-yuyue-succeed2.php"; ?>
 <!--<div id="mask"></div>-->
 <!-- 弹出表单 -->
-<?php include "../fixed-bottom-form.php"; ?>
-<?php include "../online-service.php"; ?>
+<?php //include "../fixed-bottom-form.php"; ?>
+<?php //include "../online-service.php"; ?>
 
 
 <?php include "../header.php"; ?>

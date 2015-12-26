@@ -38,30 +38,13 @@
   display: inline-block;
   font-family: $smallFont;
 }
+
 [class^="u-btn-"],
 [class*=" u-btn-"] {
   &:hover { text-decoration: none; }
 }
-.u-circle-btn {
-  width: pxToEm(50px);
-  height: pxToEm(50px);
-  line-height: 1.2;
-  padding: .8em 0 .6em;
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-  background-color: lighten($activeColor, 10%);
-  border-radius: 50%;
-  font-weight: bold;
-  &:hover { text-decoration: none; }
-  i {
-    display: inline-block;
-    margin-top: -.2em;
-    font-size: pxToEm(24px);
-  }
-}
 
-.u-main-btn,
+.u-main-btn, // 兼容Class
 .u-btn-main {
   background-color: $activeColor2;
   color: #ffffff;
@@ -133,3 +116,26 @@
 .u-word-ding { background-color: #fd4401; }
 .u-word-ren { background-color: #f5aa00; }
 .u-word-bao { background-color: #51cfff; }
+
+
+
+// 不具通用性的
+.u-circle-btn, // 兼容Class
+.u-btn-yue {
+  width: pxToEm(50px);
+  height: pxToEm(50px);
+  line-height: 1.2;
+  padding: .8em 0 .6em;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: lighten($activeColor, 10%);
+  border-radius: 50%;
+  font-weight: bold;
+  &:hover { text-decoration: none; }
+  i {
+    display: inline-block;
+    margin-top: -.2em;
+    font-size: pxToEm(24px);
+  }
+}

@@ -36,6 +36,7 @@ input, button, select, textarea {
   color: $gray;
   border: 1px solid $grayBorder;
 }
+// 有单位的输入框
 .form-unit-box {
   position: relative;
   input { padding-right: 2.4em; }
@@ -44,6 +45,17 @@ input, button, select, textarea {
     right: 0;
     top: pxToEm(6px);
     width: 2em;
+  }
+}
+// 数量增减输入框
+.form-ctrl-num {
+  line-height: 3em;
+  border: 1px solid $gray-lighter;
+  color: $gray-light;
+  input {
+    width: 3em;
+    border: solid $gray-lighter;
+    border-width: 0 1px;
   }
 }
 

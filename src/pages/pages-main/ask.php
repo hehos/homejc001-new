@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=ca1a477174"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=d36091443a"/>
 
     <script src="../../js/unslider.js?v=ebbc073b11"></script>
 </head>

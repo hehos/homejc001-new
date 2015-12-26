@@ -1,9 +1,9 @@
 {
-  "all.css": "all.css?v=19c7379534",
-  "comm.css": "comm.css?v=19c7379534",
-  "old-comm.css": "old-comm.css?v=a4065b0897",
+  "all.css": "all.css?v=0a99b161b2",
+  "comm.css": "comm.css?v=0a99b161b2",
+  "old-comm.css": "old-comm.css?v=1c6837e60c",
   "pages-huodong/huodong.css": "pages-huodong/huodong.css?v=b90eae2d94",
-  "pages-main/baike.css": "pages-main/baike.css?v=ca1a477174",
+  "pages-main/baike.css": "pages-main/baike.css?v=d36091443a",
   "pages-main/decoration.css": "pages-main/decoration.css?v=d8ec64b236",
   "pages-main/goods.css": "pages-main/goods.css?v=bcd25f094d",
   "pages-main/index.css": "pages-main/index.css?v=6b71165789",
@@ -13,6 +13,6 @@
   "pages-merchant/merchant.css": "pages-merchant/merchant.css?v=f8d51966cb",
   "pages-publicity/publicity.css": "pages-publicity/publicity.css?v=46979ff8ed",
   "plugins.css": "plugins.css?v=6a2ef721b4",
-  "sprite.css": "sprite.css?v=30f84b3589",
+  "sprite.css": "sprite.css?v=e9f9ef647a",
   "test/testGulp.css": "test/testGulp.css?v=d7447dce7e"
 }

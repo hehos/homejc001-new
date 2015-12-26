@@ -349,7 +349,7 @@ body .container {
     padding: 0;
     line-height: 3;
   }
-  .label {
+  .label-cell {
     @include text-truncate();
     max-width: 10em;
     padding-left: pxToEm(10px);
@@ -378,7 +378,7 @@ body .container {
     margin-top: pxToEm(12px);
     background: url("../img/map-bg.png") top right no-repeat;
     .label-bar { font-size: $baseFontSize; }
-    .label { font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu; }
+    .label-cell { font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu; }
   }
   .result-cont, .label-bar {
     margin-left: 53px;
@@ -398,7 +398,7 @@ body .container {
   }
 
   .hot-city-line {
-    em, .label { color: $btnColor; }
+    em, .label-cell { color: $btnColor; }
     .kaitong-num {
       display: inline-block;
       margin: pxToEm(7px, 12px);
@@ -408,7 +408,7 @@ body .container {
 
   .fast-find-line {
     .label-title { margin: .6em 0; }
-    .label { margin-right: 1em; }
+    .label-cell { margin-right: 1em; }
     select, button, input {
       font-size: pxToEm(16px, $baseFontSize);
       padding-top: 4px;
@@ -446,7 +446,7 @@ body .container {
       margin-top: 30px;
       margin-bottom: 30px;
     }
-    .label.on, .label:hover { color: $activeColor2; }
+    .label-cell.on, .label-cell:hover { color: $activeColor2; }
   }
 }
 

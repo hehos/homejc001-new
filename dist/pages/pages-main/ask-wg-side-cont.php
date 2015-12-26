@@ -27,20 +27,20 @@
     </div>
     <div class="cont-block">
         <ul class="label-bar">
-            <li class="label on"><a href="">手机配件品质馆手机配件品质馆</a></li>
-            <li class="label"><a href="">iPhone6壳</a></li>
-            <li class="label"><a href="">iPhone6贴膜</a></li>
-            <li class="label"><a href="">手机套</a></li>
-            <li class="label"><a href="">钢化玻璃膜</a></li>
-            <li class="label"><a href="">移动电源</a></li>
-            <li class="label"><a href="">数据线</a></li>
-            <li class="label"><a href="">手机配件品质馆</a></li>
-            <li class="label"><a href="">iPhone6壳</a></li>
-            <li class="label"><a href="">iPhone6贴膜</a></li>
-            <li class="label"><a href="">手机套</a></li>
-            <li class="label"><a href="">钢化玻璃膜</a></li>
-            <li class="label"><a href="">移动电源</a></li>
-            <li class="label"><a href="">数据线</a></li>
+            <li class="label-cell on"><a href="">手机配件品质馆手机配件品质馆</a></li>
+            <li class="label-cell"><a href="">iPhone6壳</a></li>
+            <li class="label-cell"><a href="">iPhone6贴膜</a></li>
+            <li class="label-cell"><a href="">手机套</a></li>
+            <li class="label-cell"><a href="">钢化玻璃膜</a></li>
+            <li class="label-cell"><a href="">移动电源</a></li>
+            <li class="label-cell"><a href="">数据线</a></li>
+            <li class="label-cell"><a href="">手机配件品质馆</a></li>
+            <li class="label-cell"><a href="">iPhone6壳</a></li>
+            <li class="label-cell"><a href="">iPhone6贴膜</a></li>
+            <li class="label-cell"><a href="">手机套</a></li>
+            <li class="label-cell"><a href="">钢化玻璃膜</a></li>
+            <li class="label-cell"><a href="">移动电源</a></li>
+            <li class="label-cell"><a href="">数据线</a></li>
         </ul>
     </div>
 </div>

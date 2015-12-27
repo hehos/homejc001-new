@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-huodong/huodong.css?v=b90eae2d94"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-huodong/huodong.css?v=f5b7ac412c"/>
 </head>
 <body>
 <?php include "../header.php"; ?>
@@ -61,7 +61,7 @@
     <!--  优惠卷的详细信息  -->
     <div class="row">
         <div class="layout-main pull-left">
-            <div class="coupon-detail">
+            <div class="goods-detail">
                 <div class="details-nav margin-b-30">
                     <ul class="tabs-nav4" data-detail-tabs="">
                         <li><a href="javascript:void(0);">本劵详情</a></li>

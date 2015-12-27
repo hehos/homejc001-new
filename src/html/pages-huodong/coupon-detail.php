@@ -61,7 +61,7 @@
     <!--  优惠卷的详细信息  -->
     <div class="row">
         <div class="layout-main pull-left">
-            <div class="coupon-detail">
+            <div class="goods-detail">
                 <div class="details-nav margin-b-30">
                     <ul class="tabs-nav4" data-detail-tabs="">
                         <li><a href="javascript:void(0);">本劵详情</a></li>

@@ -5,3 +5,5 @@ http://192.168.0.188/homejc001-new/src/pages/pages-main/decoration-list.php ï¼ˆç
 http://192.168.0.188/homejc001-new/src/pages/pages-main/baike.php
 
 http://192.168.0.188/homejc001-new/src/pages/pages-main/ask.php
+
+http://192.168.0.188/homejc001-new/src/pages/pages-huodong/tuan-list.php

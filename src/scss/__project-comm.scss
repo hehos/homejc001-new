@@ -120,6 +120,11 @@ body .container {
   }
 }
 
+// global 广告
+.ad-box img {
+  width: 100%;
+}
+
 // 内容块的公共样式
 .cont-box {
   padding: pxToEm(6px) pxToEm(18px);
@@ -342,6 +347,25 @@ body .container {
     padding-bottom: 3px;
   }
 }
+
+// 产品详细介绍
+.goods-detail {
+  .tabs-nav4 { font-size: pxToEm(18px); }
+  .tabs-nav4 > li {
+    width: 25%;
+  }
+}
+// 详细页面 右侧 图文
+.other-imgtxt, .side-other-imgtxt {
+  .media-goods { border-color: transparent transparent $grayBorder transparent; }
+}
+.other-imgtxt {
+
+}
+.side-other-imgtxt {
+
+}
+
 
 // 侧栏的热门标签
 .hot-labels {

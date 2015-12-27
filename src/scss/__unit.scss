@@ -95,19 +95,25 @@
 }
 
 [class^="u-word-"], [class*=" u-word-"] {
-  $wordSize: 20;
-  width: $wordSize + px;
-  height: $wordSize + px;
-  line-height: $wordSize + px;
+  $ws: 20px;
+  $ws2: 16px;
+  width: $ws;
+  height: $ws;
+  line-height: $ws - 1px;
   text-align: center;
-  line-height: $wordSize - 1 + px;
+  vertical-align: middle;
   border-radius: 50%;
-
+  color: #fff;
+  font-size: 12px;
+  &.square {
+    width: $ws2;
+    height: $ws2;
+    line-height: $ws2 - 1px;
+    border-radius: 3px;
+  }
 }
 
 .u-word-ying, .u-word-ding, .u-word-ren, .u-word-bao {
-  font-size: 12px;
-  color: #fff;
   &.gray {
     background-color: #999999;
   }
@@ -116,7 +122,7 @@
 .u-word-ding { background-color: #fd4401; }
 .u-word-ren { background-color: #f5aa00; }
 .u-word-bao { background-color: #51cfff; }
-
+.u-word-shang { background-color: #8c6356; }
 
 
 // 不具通用性的

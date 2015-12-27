@@ -119,27 +119,27 @@
                 </div>
             </div>
         </div>
-        <div class="filter-item colors">
-            <div class="label-filter colors">
+        <div class="filter-item colors2">
+            <div class="label-filter colors2">
                 <div class="layout-left">
                     <span class="label-title">颜色：</span>
                 </div>
                 <div class="layout-body">
                     <ul>
-                        <li class="label cl1"></li>
-                        <li class="label cl2"></li>
-                        <li class="label cl3"></li>
-                        <li class="label cl4"></li>
-                        <li class="label cl5"></li>
-                        <li class="label cl6"></li>
-                        <li class="label cl7"></li>
-                        <li class="label cl8"></li>
-                        <li class="label cl9"></li>
-                        <li class="label cl10"></li>
-                        <li class="label cl11"></li>
-                        <li class="label cl12"></li>
-                        <li class="label cl13"></li>
-                        <li class="label cl14"></li>
+                        <li class="label-cell cl1"></li>
+                        <li class="label-cell cl2"></li>
+                        <li class="label-cell cl3"></li>
+                        <li class="label-cell cl4"></li>
+                        <li class="label-cell cl5"></li>
+                        <li class="label-cell cl6"></li>
+                        <li class="label-cell cl7"></li>
+                        <li class="label-cell cl8"></li>
+                        <li class="label-cell cl9"></li>
+                        <li class="label-cell cl10"></li>
+                        <li class="label-cell cl11"></li>
+                        <li class="label-cell cl12"></li>
+                        <li class="label-cell cl13"></li>
+                        <li class="label-cell cl14"></li>
                     </ul>
                     <div class="checkbox-btn-box">
                         <a class="label-confirm" href="">确定</a>

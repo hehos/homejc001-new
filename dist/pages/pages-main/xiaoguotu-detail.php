@@ -39,15 +39,17 @@
                     <div class="current">
                         <a class="u-btn-collect" href=""><i class="icon-plus-circle"></i>收藏图片</a>
                         <h3 class="title">欧式半开放式厨房装潢图片 (5/8)</h3>
-                        <span class="prevSpan"></span>
-                        <a id="ImgPrev" class="prev"><i class="icon-angle-left"></i></a>
-                        <div class="img">
-                            <img class="pics" src="http://img.home.jc001.cn/pic/s/53/c4/53c4c65965689e4d0b009f3f.jpg"
-                                 alt="欧式半开放式厨房装潢图片" rel="386574"/>
-                        </div>
+                        <div id="photo-bigimg">
+                            <span class="prevSpan"></span>
+                            <a id="ImgPrev" class="prev"><i class="icon-angle-left"></i></a>
+                            <div class="img">
+                                <img class="pics" src="http://img.home.jc001.cn/pic/s/53/c4/53c4c65965689e4d0b009f3f.jpg"
+                                     alt="欧式半开放式厨房装潢图片" rel="386574"/>
+                            </div>
 
-                        <span class="nextSpan"></span>
-                        <a id="ImgNext" class="next"><i class="icon-angle-right"></i></a>
+                            <span class="nextSpan"></span>
+                            <a id="ImgNext" class="next"><i class="icon-angle-right"></i></a>
+                        </div>
                     </div>
                     <div id="listImg" class="listImg">
                         <p class="btnCtrl prev"><i class="icon-angle-up"></i></p>

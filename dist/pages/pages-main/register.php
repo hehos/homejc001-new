@@ -22,13 +22,17 @@
             <div class="g-right f-fr">
                 <div class="g-regNav">
                     <ul class="reg-tab">
-                        <li class="first on"><a href="/member.php?_a=reg_personal">个人用户</a></li>
+                        <li class="first"><a href="/member.php?_a=reg_personal">个人用户</a></li>
                         <li><a href="/member.php?_a=reg_designer">设计师</a></li>
-                        <li><a href="/member.php?_a=reg_company">企业用户</a></li>
+                        <li class="on"><a href="/member.php?_a=reg_company">企业用户</a></li>
                     </ul>
                 </div>
                 <form class="g-regForm" action="/member.php?_a=reg_personal&amp;" method="post">
                     <ul class="m-loginForm">
+                        <li style="text-align: center; padding-bottom: 10px;">
+                            <label><input type="radio"/>装修公司</label>
+                            <label><input type="radio"/>品牌会员</label>
+                        </li>
                         <li>
                             <input class="txt Validform_error" type="text" name="email" id="email" value="" placeholder="请输入邮箱" datatype="e" ajaxurl="/member.php?_a=reg_ajaxemail&amp;" errormsg="邮箱格式不合法！">
                             <span class="Validform_checktip error Validform_wrong" style="display: inline;"><i class="icon-minus-circle"></i>邮箱格式不合法！</span>
@@ -40,6 +44,17 @@
                         <li>
                             <input class="txt" type="text" name="nickname" id="nickname" value="" placeholder="请输入昵称" datatype="s4-14" errormsg="至少4个字符,最多14个字符！">
                             <span class="Validform_checktip"></span>
+                        </li>
+                        <li class="reg_area">
+                            <select name="" id="">
+                                <option value="">四川</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="">成都</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="">金牛区</option>
+                            </select>
                         </li>
                         <li>
                             <input class="txt checkcode" type="text" name="imgocde" id="imgocde" placeholder="请输验证码" datatype="*4-4" errormsg="请输入4位验证码！">

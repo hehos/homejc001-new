@@ -126,20 +126,19 @@
                 </div>
                 <div class="layout-body">
                     <ul>
-                        <li class="label-cell cl1"></li>
-                        <li class="label-cell cl2"></li>
-                        <li class="label-cell cl3"></li>
-                        <li class="label-cell cl4"></li>
-                        <li class="label-cell cl5"></li>
-                        <li class="label-cell cl6"></li>
-                        <li class="label-cell cl7"></li>
-                        <li class="label-cell cl8"></li>
-                        <li class="label-cell cl9"></li>
-                        <li class="label-cell cl10"></li>
-                        <li class="label-cell cl11"></li>
-                        <li class="label-cell cl12"></li>
-                        <li class="label-cell cl13"></li>
-                        <li class="label-cell cl14"></li>
+                        <li class="label-cell cl1"><a title="白色" href=""></a></li>
+                        <li class="label-cell cl2"><a title="黄色" href=""></a></li>
+                        <li class="label-cell cl3"><a href=""></a></li>
+                        <li class="label-cell cl4"><a href=""></a></li>
+                        <li class="label-cell cl5"><a href=""></a></li>
+                        <li class="label-cell cl6"><a href=""></a></li>
+                        <li class="label-cell cl7"><a href=""></a></li>
+                        <li class="label-cell cl8"><a href=""></a></li>
+                        <li class="label-cell cl9"><a href=""></a></li>
+                        <li class="label-cell cl10"><a href=""></a></li>
+                        <li class="label-cell cl11"><a href=""></a></li>
+                        <li class="label-cell cl12"><a href=""></a></li>
+                        <li class="label-cell cl13"><a href=""></a></li>
                     </ul>
                     <div class="checkbox-btn-box">
                         <a class="label-confirm" href="">确定</a>

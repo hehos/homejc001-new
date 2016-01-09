@@ -6,15 +6,17 @@
 </head>
 <body>
 
-
+<!-- 地区弹出框 -->
+<?php include "../popup-region.php"; ?>
+<!-- 预约表单 -->
 <?php //include "../popup-form-yuyue.php"; ?>
-<?php //include "../popup-region.php"; ?>
 <!-- 预约成功弹出提示 -->
 <?php //include "../popup-yuyue-succeed.php"; ?>
-<?php include "../popup-yuyue-succeed2.php"; ?>
+<?php //include "../popup-yuyue-succeed2.php"; ?>
 <!--<div id="mask"></div>-->
-<!-- 弹出表单 -->
-<?php //include "../fixed-bottom-form.php"; ?>
+<!-- 底部漂浮条 -->
+<?php include "../fixed-bottom-form.php"; ?>
+<!-- 右侧 QQ 客服 -->
 <?php //include "../online-service.php"; ?>
 
 

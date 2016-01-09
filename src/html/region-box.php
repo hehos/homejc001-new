@@ -8,11 +8,11 @@
             </div>
             <div class="layout-body">
                 <ul class="pull-left">
-                    <li class="label"><a href="">北京</a></li>
-                    <li class="label"><a href="">上海</a></li>
-                    <li class="label"><a href="">广州</a></li>
-                    <li class="label"><a href="">深圳</a></li>
-                    <li class="label"><a href="">南京</a></li>
+                    <li class="label-cell"><a href="">北京</a></li>
+                    <li class="label-cell"><a href="">上海</a></li>
+                    <li class="label-cell"><a href="">广州</a></li>
+                    <li class="label-cell"><a href="">深圳</a></li>
+                    <li class="label-cell"><a href="">南京</a></li>
                 </ul>
                 <span class="kaitong-num">共开通了 <em>250</em> 个城市</span>
             </div>
@@ -25,21 +25,21 @@
             </div>
             <div class="layout-body">
                 <ul>
-                    <li class="label on">
+                    <li class="label-cell on">
                         <select name="" id="">
                             <option value="">四川</option>
                             <option value="">广东</option>
                             <option value="">湖北</option>
                         </select>
                     </li>
-                    <li class="label">
+                    <li class="label-cell">
                         <select name="" id="">
                             <option value="">成都</option>
                             <option value="">广安</option>
                             <option value="">绵阳</option>
                         </select>
                     </li>
-                    <li class="label">
+                    <li class="label-cell">
                         <button class="submit">进入</button>
                     </li>
                 </ul>
@@ -85,11 +85,11 @@
             </div>
             <div class="layout-body">
                 <ul>
-                    <li class="label on"><a href="">北京</a></li>
-                    <li class="label"><a href="">上海</a></li>
-                    <li class="label"><a href="">广州</a></li>
-                    <li class="label"><a href="">深圳</a></li>
-                    <li class="label"><a href="">南京</a></li>
+                    <li class="label-cell on"><a href="">北京</a></li>
+                    <li class="label-cell"><a href="">上海</a></li>
+                    <li class="label-cell"><a href="">广州</a></li>
+                    <li class="label-cell"><a href="">深圳</a></li>
+                    <li class="label-cell"><a href="">南京</a></li>
                 </ul>
             </div>
         </div>
@@ -99,11 +99,11 @@
             </div>
             <div class="layout-body">
                 <ul>
-                    <li class="label on"><a href="">北京</a></li>
-                    <li class="label"><a href="">上海</a></li>
-                    <li class="label"><a href="">广州</a></li>
-                    <li class="label"><a href="">深圳</a></li>
-                    <li class="label"><a href="">南京</a></li>
+                    <li class="label-cell on"><a href="">北京</a></li>
+                    <li class="label-cell"><a href="">上海</a></li>
+                    <li class="label-cell"><a href="">广州</a></li>
+                    <li class="label-cell"><a href="">深圳</a></li>
+                    <li class="label-cell"><a href="">南京</a></li>
                 </ul>
             </div>
         </div>
@@ -113,11 +113,11 @@
             </div>
             <div class="layout-body">
                 <ul>
-                    <li class="label on"><a href="">北京</a></li>
-                    <li class="label"><a href="">上海</a></li>
-                    <li class="label"><a href="">广州</a></li>
-                    <li class="label"><a href="">深圳</a></li>
-                    <li class="label"><a href="">南京</a></li>
+                    <li class="label-cell on"><a href="">北京</a></li>
+                    <li class="label-cell"><a href="">上海</a></li>
+                    <li class="label-cell"><a href="">广州</a></li>
+                    <li class="label-cell"><a href="">深圳</a></li>
+                    <li class="label-cell"><a href="">南京</a></li>
                 </ul>
             </div>
         </div>
@@ -127,11 +127,11 @@
             </div>
             <div class="layout-body">
                 <ul>
-                    <li class="label on"><a href="">北京</a></li>
-                    <li class="label"><a href="">上海</a></li>
-                    <li class="label"><a href="">广州</a></li>
-                    <li class="label"><a href="">深圳</a></li>
-                    <li class="label"><a href="">南京</a></li>
+                    <li class="label-cell on"><a href="">北京</a></li>
+                    <li class="label-cell"><a href="">上海</a></li>
+                    <li class="label-cell"><a href="">广州</a></li>
+                    <li class="label-cell"><a href="">深圳</a></li>
+                    <li class="label-cell"><a href="">南京</a></li>
                 </ul>
             </div>
         </div>

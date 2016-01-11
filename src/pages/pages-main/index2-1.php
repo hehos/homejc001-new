@@ -101,7 +101,7 @@
 
     <!--  begin 定制流程  -->
     <div class="index-flow2 row">
-        <img src="../../img/flow.jpg?v=da90f0d6fc" alt=""/>
+        <img src="../../img/flow-1.png?v=4154f19c89" alt=""/>
     </div>
     <!--  end 定制流程  -->
 
@@ -374,8 +374,60 @@
                 </a>
                 <p>打破常规，才有好的设计</p>
                 <div class="inner-imgtxt">
-                    <img class="pull-left" src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/>
-                    <p>成都天怡美装饰工程有限公司</p>
+                    <a href="" class="img"><img class="pull-left" src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/></a>
+                    <p><a href="">成都天怡美装饰工程有限公司</a></p>
+                </div>
+                <a href="">立即预约</a>
+            </div>
+        </div>
+        <div class="corp-item">
+            <div class="media-base">
+                <a href="" class="thumb">
+                    <img src="../../img/temp-img/corp-room1.jpg?v=9fb1a7337c" alt=""/>
+                </a>
+                <p>打破常规，才有好的设计</p>
+                <div class="inner-imgtxt">
+                    <a href="" class="img"><img class="pull-left" src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/></a>
+                    <p><a href="">成都天怡美装饰工程有限公司</a></p>
+                </div>
+                <a href="">立即预约</a>
+            </div>
+        </div>
+        <div class="corp-item">
+            <div class="media-base">
+                <a href="" class="thumb">
+                    <img src="../../img/temp-img/corp-room1.jpg?v=9fb1a7337c" alt=""/>
+                </a>
+                <p>打破常规，才有好的设计</p>
+                <div class="inner-imgtxt">
+                    <a href="" class="img"><img class="pull-left" src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/></a>
+                    <p><a href="">成都天怡美装饰工程有限公司</a></p>
+                </div>
+                <a href="">立即预约</a>
+            </div>
+        </div>
+        <div class="corp-item">
+            <div class="media-base">
+                <a href="" class="thumb">
+                    <img src="../../img/temp-img/corp-room1.jpg?v=9fb1a7337c" alt=""/>
+                </a>
+                <p>打破常规，才有好的设计</p>
+                <div class="inner-imgtxt">
+                    <a href="" class="img"><img class="pull-left" src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/></a>
+                    <p><a href="">成都天怡美装饰工程有限公司</a></p>
+                </div>
+                <a href="">立即预约</a>
+            </div>
+        </div>
+        <div class="corp-item">
+            <div class="media-base">
+                <a href="" class="thumb">
+                    <img src="../../img/temp-img/corp-room1.jpg?v=9fb1a7337c" alt=""/>
+                </a>
+                <p>打破常规，才有好的设计</p>
+                <div class="inner-imgtxt">
+                    <a href="" class="img"><img class="pull-left" src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/></a>
+                    <p><a href="">成都天怡美装饰工程有限公司</a></p>
                 </div>
                 <a href="">立即预约</a>
             </div>

@@ -116,4 +116,16 @@
 }
 
 
+// 彩色过略条样式
+.label-filter {
+  &.colors, &.colors2 {
+    .label-cell {
+      &:before { display: none; }
+      a { width: 40px; }
+    }
+
+  }
+  &.colors .label-cell a { height: 16px; }
+  &.colors2 .label-cell a { height: 23px; }
+}
 

@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/index.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/index.min.css?v=6b71165789"/>
 </head>
 <body>
 
@@ -27,16 +27,16 @@
     <div class="banner slider">
         <ul class="items">
             <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner1.jpg" alt=""/></a>
+                <a href="javascript:void(0);"><img src="../../img/full-banner1.jpg?v=9efa0de820?v=7349843b8f" alt=""/></a>
             </li>
             <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner2.jpg" alt=""/></a>
+                <a href="javascript:void(0);"><img src="../../img/full-banner2.jpg?v=625610985e?v=5887de3e41" alt=""/></a>
             </li>
             <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner3.jpg" alt=""/></a>
+                <a href="javascript:void(0);"><img src="../../img/full-banner3.jpg?v=12b9f882f0?v=b21f0a7b35" alt=""/></a>
             </li>
             <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner4.jpg" alt=""/></a>
+                <a href="javascript:void(0);"><img src="../../img/full-banner4.jpg?v=c9605655ef" alt=""/></a>
             </li>
         </ul>
         <ol class="dots">
@@ -49,7 +49,7 @@
     </div>
 
 
-    <script type="text/javascript" src="../../js/unslider.js"></script>
+    <script type="text/javascript" src="../../js/unslider.js?v=ebbc073b11"></script>
     <script>
         $('.banner').unslider({
             keys: true,
@@ -101,7 +101,7 @@
 
     <!--  begin 定制流程  -->
     <div class="index-flow2 row">
-        <img src="../../img/flow.jpg" alt=""/>
+        <img src="../../img/flow-1.png?v=4154f19c89" alt=""/>
     </div>
     <!--  end 定制流程  -->
 
@@ -182,7 +182,7 @@
         </div>
         <div class="xiaoguo-cont">
             <div class="cate-box">
-                <a class="img" href=""><img src="../../img/xiaoguo-ad.jpg" alt=""/></a>
+                <a class="img" href=""><img src="../../img/xiaoguo-ad.jpg?v=53e8f7131e" alt=""/></a>
                 <ul class="label-bar">
                     <li class="label-cell on"><a href="">中式装修</a></li>
                     <li class="label-cell"><a href="">LOFT</a></li>
@@ -199,22 +199,22 @@
             <div class="small-media-box">
                 <ul>
                     <li>
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-small1.jpg" alt=""/></a>
+                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-small1.jpg?v=3b6d35202b" alt=""/></a>
                         <a href=""><i></i></a>
                     </li>
                     <li class="big">
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-big1.jpg" alt=""/></a>
+                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-big1.jpg?v=15be6e2523" alt=""/></a>
                     </li>
                     <li>
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-big1.jpg" alt=""/></a>
+                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-big1.jpg?v=15be6e2523" alt=""/></a>
                     </li>
                     <li class="big">
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-small1.jpg" alt=""/></a>
+                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-small1.jpg?v=3b6d35202b" alt=""/></a>
                     </li>
                 </ul>
             </div>
             <div class="big-media-box">
-                <a href=""><img src="../../img/temp-img/xiaoguo-big.jpg" alt=""/></a>
+                <a href=""><img src="../../img/temp-img/xiaoguo-big.jpg?v=7d42c4d1a3" alt=""/></a>
             </div>
         </div>
     </div>
@@ -232,7 +232,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修前</h4>
                     <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-wenda1.jpg" alt=""/></a>
+                        <a class="img" href=""><img src="../../img/gl-wenda1.jpg?v=fa49b10985" alt=""/></a>
                         <ul class="txtlist">
                             <li><a href="">装修问答</a></li>
                             <li><a href="">现代简约实木床该怎么选择</a></li>
@@ -244,7 +244,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修中</h4>
                     <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-wenda2.jpg" alt=""/></a>
+                        <a class="img" href=""><img src="../../img/gl-wenda2.jpg?v=dd8909acb0" alt=""/></a>
                         <ul class="txtlist">
                             <li><a href="">装修问答</a></li>
                             <li><a href="">现代简约实木床该怎么选择</a></li>
@@ -256,7 +256,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修后</h4>
                     <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-wenda3.jpg" alt=""/></a>
+                        <a class="img" href=""><img src="../../img/gl-wenda3.jpg?v=a55450abe1" alt=""/></a>
                         <ul class="txtlist">
                             <li><a href="">装修问答</a></li>
                             <li><a href="">现代简约实木床该怎么选择</a></li>
@@ -271,7 +271,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>装修流程</h4>
                     <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-baike1.jpg" alt=""/></a>
+                        <a class="img" href=""><img src="../../img/gl-baike1.jpg?v=b9324e5c9d" alt=""/></a>
                         <ul class="txtlist">
                             <li><a href="">装修问答</a></li>
                             <li><a href="">现代简约实木床该怎么选择</a></li>
@@ -283,7 +283,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>家装产品</h4>
                     <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-baike2.jpg" alt=""/></a>
+                        <a class="img" href=""><img src="../../img/gl-baike2.jpg?v=8d60d9b75b" alt=""/></a>
                         <ul class="txtlist">
                             <li><a href="">装修问答</a></li>
                             <li><a href="">现代简约实木床该怎么选择</a></li>
@@ -295,7 +295,7 @@
                 <div class="gonglue-cont-item col-lg-4">
                     <h4>家装设计</h4>
                     <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-baike3.jpg" alt=""/></a>
+                        <a class="img" href=""><img src="../../img/gl-baike3.jpg?v=958bdc5832" alt=""/></a>
                         <ul class="txtlist">
                             <li><a href="">装修问答</a></li>
                             <li><a href="">现代简约实木床该怎么选择</a></li>
@@ -319,12 +319,12 @@
         <div class="col-lg-4">
             <div class="media-base">
                 <a href="" class="thumb">
-                    <img src="../../img/temp-img/case1.jpg" alt=""/>
+                    <img src="../../img/temp-img/case1.jpg?v=2ddc7e882b" alt=""/>
                     <a class="hide-txt">查看详情</a>
                 </a>
                 <span class="pull-right"><i class="icon-heart"></i>888</span>
                 <div class="inner-imgtxt">
-                    <a class="img pull-left" href=""><img src="../../img/temp-img/case-avatar.jpg" alt=""/></a>
+                    <a class="img pull-left" href=""><img src="../../img/temp-img/case-avatar.jpg?v=afd4801b11" alt=""/></a>
                     <p>谢女士<em>188m²</em></p>
                     <p>中德英伦联邦/12-18万</p>
                 </div>
@@ -333,12 +333,12 @@
         <div class="col-lg-4">
             <div class="media-base">
                 <a href="" class="thumb">
-                    <img src="../../img/temp-img/case1.jpg" alt=""/>
+                    <img src="../../img/temp-img/case1.jpg?v=2ddc7e882b" alt=""/>
                     <a class="hide-txt">查看详情</a>
                 </a>
                 <span class="pull-right"><i class="icon-heart"></i>888</span>
                 <div class="inner-imgtxt">
-                    <a class="img pull-left" href=""><img src="../../img/temp-img/case-avatar.jpg" alt=""/></a>
+                    <a class="img pull-left" href=""><img src="../../img/temp-img/case-avatar.jpg?v=afd4801b11" alt=""/></a>
                     <p>谢女士<em>188m²</em></p>
                     <p>中德英伦联邦/12-18万</p>
                 </div>
@@ -347,12 +347,12 @@
         <div class="col-lg-4">
             <div class="media-base">
                 <a href="" class="thumb">
-                    <img src="../../img/temp-img/case1.jpg" alt=""/>
+                    <img src="../../img/temp-img/case1.jpg?v=2ddc7e882b" alt=""/>
                     <a class="hide-txt">查看详情</a>
                 </a>
                 <span class="pull-right"><i class="icon-heart"></i>888</span>
                 <div class="inner-imgtxt">
-                    <a class="img pull-left" href=""><img src="../../img/temp-img/case-avatar.jpg" alt=""/></a>
+                    <a class="img pull-left" href=""><img src="../../img/temp-img/case-avatar.jpg?v=afd4801b11" alt=""/></a>
                     <p>谢女士<em>188m²</em></p>
                     <p>中德英伦联邦/12-18万</p>
                 </div>
@@ -370,12 +370,64 @@
         <div class="corp-item">
             <div class="media-base">
                 <a href="" class="thumb">
-                    <img src="../../img/temp-img/corp-room1.jpg" alt=""/>
+                    <img src="../../img/temp-img/corp-room1.jpg?v=9fb1a7337c" alt=""/>
                 </a>
                 <p>打破常规，才有好的设计</p>
                 <div class="inner-imgtxt">
-                    <img class="pull-left" src="../../img/temp-img/corp-logo.jpg" alt=""/>
-                    <p>成都天怡美装饰工程有限公司</p>
+                    <a href="" class="img"><img class="pull-left" src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/></a>
+                    <p><a href="">成都天怡美装饰工程有限公司</a></p>
+                </div>
+                <a href="">立即预约</a>
+            </div>
+        </div>
+        <div class="corp-item">
+            <div class="media-base">
+                <a href="" class="thumb">
+                    <img src="../../img/temp-img/corp-room1.jpg?v=9fb1a7337c" alt=""/>
+                </a>
+                <p>打破常规，才有好的设计</p>
+                <div class="inner-imgtxt">
+                    <a href="" class="img"><img class="pull-left" src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/></a>
+                    <p><a href="">成都天怡美装饰工程有限公司</a></p>
+                </div>
+                <a href="">立即预约</a>
+            </div>
+        </div>
+        <div class="corp-item">
+            <div class="media-base">
+                <a href="" class="thumb">
+                    <img src="../../img/temp-img/corp-room1.jpg?v=9fb1a7337c" alt=""/>
+                </a>
+                <p>打破常规，才有好的设计</p>
+                <div class="inner-imgtxt">
+                    <a href="" class="img"><img class="pull-left" src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/></a>
+                    <p><a href="">成都天怡美装饰工程有限公司</a></p>
+                </div>
+                <a href="">立即预约</a>
+            </div>
+        </div>
+        <div class="corp-item">
+            <div class="media-base">
+                <a href="" class="thumb">
+                    <img src="../../img/temp-img/corp-room1.jpg?v=9fb1a7337c" alt=""/>
+                </a>
+                <p>打破常规，才有好的设计</p>
+                <div class="inner-imgtxt">
+                    <a href="" class="img"><img class="pull-left" src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/></a>
+                    <p><a href="">成都天怡美装饰工程有限公司</a></p>
+                </div>
+                <a href="">立即预约</a>
+            </div>
+        </div>
+        <div class="corp-item">
+            <div class="media-base">
+                <a href="" class="thumb">
+                    <img src="../../img/temp-img/corp-room1.jpg?v=9fb1a7337c" alt=""/>
+                </a>
+                <p>打破常规，才有好的设计</p>
+                <div class="inner-imgtxt">
+                    <a href="" class="img"><img class="pull-left" src="../../img/temp-img/corp-logo.jpg?v=f54c01872f" alt=""/></a>
+                    <p><a href="">成都天怡美装饰工程有限公司</a></p>
                 </div>
                 <a href="">立即预约</a>
             </div>
@@ -391,51 +443,51 @@
         <div class="brand-cont">
             <ul class="clearfix">
                 <li>
-                    <a href="http://192.168.0.188/homejc001-new/pages-merchant/index.php"><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href="http://192.168.0.188/homejc001-new/pages-merchant/index.php"><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                     <div class="title">红参</div>
                     </a></li>
                 <li>
-                    <a href=""><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href=""><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                         <div class="title">红参</div>
                     </a></li>
                 <li>
-                    <a href=""><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href=""><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                         <div class="title">红参</div>
                     </a></li>
                 <li>
-                    <a href=""><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href=""><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                         <div class="title">红参</div>
                     </a></li>
                 <li>
-                    <a href=""><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href=""><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                         <div class="title">红参</div>
                     </a></li>
                 <li>
-                    <a href=""><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href=""><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                         <div class="title">红参</div>
                     </a></li>
                 <li>
-                    <a href=""><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href=""><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                         <div class="title">红参</div>
                     </a></li>
                 <li>
-                    <a href=""><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href=""><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                         <div class="title">红参</div>
                     </a></li>
                 <li>
-                    <a href=""><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href=""><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                         <div class="title">红参</div>
                     </a></li>
                 <li>
-                    <a href=""><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href=""><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                         <div class="title">红参</div>
                     </a></li>
                 <li>
-                    <a href=""><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href=""><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                         <div class="title">红参</div>
                     </a></li>
                 <li>
-                    <a href=""><img src="../../img/temp-img/pingpai.jpg" alt=""/>
+                    <a href=""><img src="../../img/temp-img/pingpai.jpg?v=5aadf2b9b5" alt=""/>
                         <div class="title">红参</div>
                     </a></li>
             </ul>

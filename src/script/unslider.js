@@ -23,6 +23,10 @@
             easing: 'swing', // easing function to use for animation 自定义动画擦除效果
             autoplay: true,  // enable autoplay on initialisation  自动播放幻灯片
 
+            // 设置主元素的宽和高 todo
+            width: f,
+            height: f,
+
             // html className
             CLASSNAME_ITEMS: 'items',   // slides container selector
             CLASSNAME_ITEM: 'items li',    // slidable items selector

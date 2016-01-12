@@ -33,6 +33,18 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 116px;
   height: 84px;
 }
+.myicon-angle-left {
+  background-image: url(../img/sprite.png);
+  background-position: -388px -124px;
+  width: 23px;
+  height: 42px;
+}
+.myicon-angle-right {
+  background-image: url(../img/sprite.png);
+  background-position: -591px -272px;
+  width: 23px;
+  height: 42px;
+}
 .myicon-ask-accepted {
   background-image: url(../img/sprite.png);
   background-position: 0px -401px;
@@ -41,13 +53,13 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .myicon-bk-top-cate1 {
   background-image: url(../img/sprite.png);
-  background-position: -162px -401px;
+  background-position: -123px -401px;
   width: 37px;
   height: 35px;
 }
 .myicon-bk-top-cate2 {
   background-image: url(../img/sprite.png);
-  background-position: -123px -401px;
+  background-position: -162px -401px;
   width: 37px;
   height: 35px;
 }
@@ -71,7 +83,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .myicon-collect {
   background-image: url(../img/sprite.png);
-  background-position: -591px -272px;
+  background-position: -505px -328px;
   width: 16px;
   height: 16px;
 }
@@ -161,7 +173,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .myicon-sina-weibo {
   background-image: url(../img/sprite.png);
-  background-position: -591px -290px;
+  background-position: -523px -328px;
   width: 16px;
   height: 16px;
 }
@@ -173,7 +185,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .myicon-sort {
   background-image: url(../img/sprite.png);
-  background-position: -585px -348px;
+  background-position: -84px -438px;
   width: 24px;
   height: 20px;
 }
@@ -185,7 +197,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .myicon-top-logo {
   background-image: url(../img/sprite.png);
-  background-position: -388px -152px;
+  background-position: -233px -401px;
   width: 26px;
   height: 19px;
 }
@@ -197,7 +209,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .myicon-weixin2 {
   background-image: url(../img/sprite.png);
-  background-position: -388px -124px;
+  background-position: -585px -348px;
   width: 26px;
   height: 26px;
 }

@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/index.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/index2.css"/>
 </head>
 <body>
 
@@ -22,75 +22,12 @@
 
 <?php include "../header.php"; ?>
 
-<!--  begin 头部banner  -->
-<div class="index-full-banner">
-    <div class="banner slider">
-        <ul class="items">
-            <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner1.jpg" alt=""/></a>
-            </li>
-            <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner2.jpg" alt=""/></a>
-            </li>
-            <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner3.jpg" alt=""/></a>
-            </li>
-            <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner4.jpg" alt=""/></a>
-            </li>
-        </ul>
-        <ol class="dots">
-            <li class="dot"></li>
-        </ol>
-        <div class="arrows">
-            <div class="arrow prev"><</div>
-            <div class="arrow next">></div> 
-        </div>
-    </div>
 
 
-    <script type="text/javascript" src="../../js/unslider.js"></script>
-    <script>
-        $('.banner').unslider({
-            keys: true,
-            autoplay: false,
-            arrows: true,
-            fluid: true,
-            dots: true
-        });
-    </script>
 
-</div>
-<!--  end 头部banner  -->
-
+<?php include "full-banner.php"; ?>
 <div class="container">
-    <!--  begin 顶部报名条  -->
-    <div class="row">
-        <form action="">
-        <div class="yuyue-form-bar">
-            <input type="text" placeholder="请输入您的姓名"/>
-            <input type="text" placeholder="请输入您的电话号码"/>
-            <select name="" id="">
-                <option value="">省份</option>
-                <option value="">四川</option>
-                <option value="">广东</option>
-            </select>
-            <select name="" id="">
-                <option value="">城市/地区</option>
-                <option value="">成都</option>
-                <option value="">广州</option>
-            </select>
-            <label for="">
-                <input type="radio"/>装&nbsp;修
-            </label>
-            <label for="">
-                <input type="radio"/>定制家居
-            </label>
-            <button>免费预约</button> 
-        </div>
-        </form>
-    </div>
-    <!--  end 顶部报名条  -->
+    <?php include "head-yuyue-form.php"; ?>
 
     <!--  begin 顶部装修和定制切换  -->
     <div class="row">
@@ -106,256 +43,194 @@
     <!--  end 定制流程  -->
 
 
-    <!--  begin 0风险  -->
+    <!--  360°贴心服务  -->
     <div class="row">
+        <div>360°贴心服务，全面解决家具购买难题</div>
         <ul>
+            <li><a href="">
+                <h4>免费上门量尺</h4>
+                <p>1分钟发布申请，专业设计师精准测量尺寸</p>
+                </a></li>
             <li>
-                <div class="txt">
-                    <h5>免费上门量尺</h5>
-                    <p>免费上门、量房、报价</p>
-                </div>
-                <div class="active-txt">
-                    <h5>免费上门量尺</h5>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<a href="">详细>></a></p>
-                </div>
-                <span class="bg"></span>
-                <span class="active-bg"></span>
+                <a href=""><img src="../../img/temp-img/dingzhi1.jpg" alt=""/></a>
             </li>
+            <li><a href="">
+                <h4>满意后再付款</h4>
+                <p>满意后再付款，防止霸王条款，出现质量问题可先行赔付</p>
+                </a></li>
             <li>
-                <div class="txt">
-                    <h5>3套设计报价方案</h5>
-                    <p>选择性价比最高的商家</p>
-                </div>
-                <div class="active-txt">
-                    <h5>免费全程监管</h5>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<a href="">详细>></a></p>
-                </div>
-                <span class="bg"></span>
-                <span class="active-bg"></span>
+                <a href=""><img src="../../img/temp-img/dingzhi2.jpg" alt=""/></a>
             </li>
+
             <li>
-                <div class="txt">
-                    <h5>满意后再付款</h5>
-                    <p>保障您的权益</p>
-                </div>
-                <div class="active-txt">
-                    <h5>免费全程监管</h5>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<a href="">详细>></a></p>
-                </div>
-                <span class="bg"></span>
-                <span class="active-bg"></span>
+                <a href=""><img src="../../img/temp-img/dingzhi1.jpg" alt=""/></a>
             </li>
+            <li><a href="">
+                <h4>3套设计与报价方案</h4>
+                <p>价格质量全面对比，熟悉项目单价和内容，避免价格陷阱</p>
+                </a></li>
             <li>
-                <div class="txt">
-                    <h5>满意后再付款</h5>
-                    <p>保障您的权益</p>
-                </div>
-                <div class="active-txt">
-                    <h5>免费全程监管</h5>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<a href="">详细>></a></p>
-                </div>
-                <span class="bg"></span>
-                <span class="active-bg"></span>
+                <a href=""><img src="../../img/temp-img/dingzhi2.jpg" alt=""/></a>
             </li>
-            <li>
-                <div class="txt">
-                    <h5>售后保障</h5>
-                    <p>拒绝扯皮推诿、投诉无门</p>
-                </div>
-                <div class="active-txt">
-                    <h5>免费全程监管</h5>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<a href="">详细>></a></p>
-                </div>
-                <span class="bg"></span>
-                <span class="active-bg"></span>
-            </li>
+            <li><a href="">
+                <h4>拒绝扯皮推诿，投诉无门</h4>
+                <p>10秒提交投诉申请—12小时内九正受理投诉—15内定制厂家回应—36小时内协调出解决方案</p>
+                </a></li>
         </ul>
     </div>
-    <!--  end 0风险  -->
+    <!--  360°贴心服务  -->
 
-    <!--  begin 装修效果图  -->
-    <div class="index-xiaoguo2 row">
+    <!--  begin 功能定制  -->
+    <div class="index-dingzhi row">
         <div class="index-title title-bar">
-            <h2 class="title"><a href="">装修效果图</a></h2>
-            <span class="other-info pull-left">已有 32055909 位业主找到灵感</span>
-            <a class="more" href="">查看更多</a>
+            <h2 class="title"><a href="">功能定制</a></h2>
+            <span class="other-info pull-left">量身打造精致生活，每一款家具都可以因你而变</span>
+            <a class="more" href="">更多热门定制</a>
         </div>
-        <div class="xiaoguo-cont">
-            <div class="cate-box">
-                <a class="img" href=""><img src="../../img/xiaoguo-ad.jpg" alt=""/></a>
-                <ul class="label-bar">
-                    <li class="label-cell on"><a href="">中式装修</a></li>
-                    <li class="label-cell"><a href="">LOFT</a></li>
-                    <li class="label-cell"><a href="">现代简约</a></li>
-                    <li class="label-cell"><a href="">东南亚风格</a></li>
-                    <li class="label-cell"><a href="">美式乡村</a></li>
-                    <li class="label-cell"><a href="">儿童房</a></li>
-                    <li class="label-cell"><a href="">小户型</a></li>
-                    <li class="label-cell"><a href="">韩式主义</a></li>
-                    <li class="label-cell"><a href="">法式浪漫</a></li>
-                    <li class="label-cell"><a href="">地中海美宅</a></li>
-                </ul>
+        <div class="dingzhi-cont">
+            <ul>
+                <li>
+                    <a href="" class="img"><img src="../../img/temp-img/dingzhi2-1.jpg" alt=""/></a>
+                    <div class="">
+                        <h4>橱柜系列</h4>
+                        <p>美食也挑剔好环境</p>
+                        <a href="">点击查看</a>
+                    </div>
+                    <h4>橱柜系列</h4>
+                </li>
+                <li>
+                    <a href="" class="img"><img src="../../img/temp-img/dingzhi2-2.jpg" alt=""/></a>
+                    <div class="">
+                        <h4>橱柜系列</h4>
+                        <p>美食也挑剔好环境</p>
+                        <a href="">点击查看</a>
+                    </div>
+                    <h4>橱柜系列</h4>
+                </li>
+                <li>
+                    <a href="" class="img"><img src="../../img/temp-img/dingzhi2-2.jpg" alt=""/></a>
+                    <div class="">
+                        <h4>橱柜系列</h4>
+                        <p>美食也挑剔好环境</p>
+                        <a href="">点击查看</a>
+                    </div>
+                    <h4>橱柜系列</h4>
+                </li>
+                <li>
+                    <a href="" class="img"><img src="../../img/temp-img/dingzhi2-2.jpg" alt=""/></a>
+                    <div class="">
+                        <h4>橱柜系列</h4>
+                        <p>美食也挑剔好环境</p>
+                        <a href="">点击查看</a>
+                    </div>
+                    <h4>橱柜系列</h4>
+                </li>
+                <li>
+                    <a href="" class="img"><img src="../../img/temp-img/dingzhi2-2.jpg" alt=""/></a>
+                    <div class="">
+                        <h4>橱柜系列</h4>
+                        <p>美食也挑剔好环境</p>
+                        <a href="">点击查看</a>
+                    </div>
+                    <h4>橱柜系列</h4>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--  end 功能定制  -->
+
+    <!--  begin 家具效果图  -->
+    <div class="index-jiaju-xg row">
+        <div class="index-title title-bar">
+            <h2 class="title"><a href="">家具效果图</a></h2>
+            <span class="other-info pull-left">用定制美了整个家</span>
+        </div>
+        <div class="jiaju-xg-cont">
+            <div class="media-base">
+                <a href="" class="thumbnail">
+                    <img src="../../img/temp-img/xiaoguotu2-1.jpg" alt=""/>
+                </a>
+                <div class="tran-layer">
+                    <h4 class="media-title"><a href="">旋转楼梯</a></h4>
+                    <p class="media-explain">用心打磨&nbsp;成就经典</p>
+                </div>
             </div>
-            <div class="small-media-box">
-                <ul>
-                    <li>
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-small1.jpg" alt=""/></a>
-                        <a href=""><i></i></a>
-                    </li>
-                    <li class="big">
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-big1.jpg" alt=""/></a>
-                    </li>
-                    <li>
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-big1.jpg" alt=""/></a>
-                    </li>
-                    <li class="big">
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-small1.jpg" alt=""/></a>
-                    </li>
-                </ul>
+            <div class="media-base">
+                <a href="" class="thumbnail">
+                    <img src="../../img/temp-img/xiaoguotu2-2.jpg" alt=""/>
+                </a>
+                <div class="tran-layer">
+                    <h4 class="media-title"><a href="">小清新橱柜</a></h4>
+                    <p class="media-explain">好橱柜从细节开始</p>
+                </div>
             </div>
-            <div class="big-media-box">
-                <a href=""><img src="../../img/temp-img/xiaoguo-big.jpg" alt=""/></a>
+            <div class="media-base">
+                <a href="" class="thumbnail">
+                    <img src="../../img/temp-img/xiaoguotu2-3.jpg" alt=""/>
+                </a>
+                <div class="tran-layer">
+                    <h4 class="media-title"><a href="">美式实木库</a></h4>
+                    <p class="media-explain">引领优雅生活</p>
+                </div>
+            </div>
+            <div class="media-base">
+                <a href="" class="thumbnail">
+                    <img src="../../img/temp-img/xiaoguotu2-4.jpg" alt=""/>
+                </a>
+                <div class="tran-layer">
+                    <h4 class="media-title"><a href="">一体式书架</a></h4>
+                    <p class="media-explain">专为家用个性组合设计</p>
+                </div>
             </div>
         </div>
     </div>
-    <!--  end 装修效果图  -->
-
-    <!--  begin 装修攻略  -->
-    <div class="index-gonglue row">
-        <div class="index-title title-bar">
-            <h2 class="title"><a href="">装修攻略</a></h2>
-            <span class="other-info pull-left">已有 17840358 位业主学习到装修知识</span>
-        </div>
-        <div class="gonglue-cont">
-            <div class="gonglue-cont-line line1 clearfix">
-                <div class="title"><i class="myicon-gonglue1"></i><h5>装修百科</h5></div>
-                <div class="gonglue-cont-item col-lg-4">
-                    <h4>装修前</h4>
-                    <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-wenda1.jpg" alt=""/></a>
-                        <ul class="txtlist">
-                            <li><a href="">装修问答</a></li>
-                            <li><a href="">现代简约实木床该怎么选择</a></li>
-                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
-                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
-                        </ul>
-                    </div>
-                </div>  
-                <div class="gonglue-cont-item col-lg-4">
-                    <h4>装修中</h4>
-                    <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-wenda2.jpg" alt=""/></a>
-                        <ul class="txtlist">
-                            <li><a href="">装修问答</a></li>
-                            <li><a href="">现代简约实木床该怎么选择</a></li>
-                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
-                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="gonglue-cont-item col-lg-4">
-                    <h4>装修后</h4>
-                    <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-wenda3.jpg" alt=""/></a>
-                        <ul class="txtlist">
-                            <li><a href="">装修问答</a></li>
-                            <li><a href="">现代简约实木床该怎么选择</a></li>
-                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
-                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="gonglue-cont-line line2 clearfix">
-                <div class="title"><i class="myicon-gonglue2"></i><h5>你问我答</h5></div>
-                <div class="gonglue-cont-item col-lg-4">
-                    <h4>装修流程</h4>
-                    <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-baike1.jpg" alt=""/></a>
-                        <ul class="txtlist">
-                            <li><a href="">装修问答</a></li>
-                            <li><a href="">现代简约实木床该怎么选择</a></li>
-                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
-                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="gonglue-cont-item col-lg-4">
-                    <h4>家装产品</h4>
-                    <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-baike2.jpg" alt=""/></a>
-                        <ul class="txtlist">
-                            <li><a href="">装修问答</a></li>
-                            <li><a href="">现代简约实木床该怎么选择</a></li>
-                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
-                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="gonglue-cont-item col-lg-4">
-                    <h4>家装设计</h4>
-                    <div class="media-img-txtlist">
-                        <a class="img" href=""><img src="../../img/gl-baike3.jpg" alt=""/></a>
-                        <ul class="txtlist">
-                            <li><a href="">装修问答</a></li>
-                            <li><a href="">现代简约实木床该怎么选择</a></li>
-                            <li><a href="">瓷砖拼贴电视背景墙好看吗</a></li>
-                            <li><a href="">请问地暖管安装方法是怎样的</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!--  end 装修攻略  -->
+    <!--  end 家具效果图  -->
 
     <!--  begin 小区案例  -->
-    <div class="index-case row">
+    <div class="index-case2 row">
         <div class="index-title title-bar">
-            <h2 class="title"><a href="">装修攻略</a></h2>
-            <a class="more" href="">查看更多</a>
+            <h2 class="title"><a href="">小区案例</a></h2>
+            <span class="other-info pull-left">我们将竭尽全力与您携手共同打造您的梦想家具！</span>
+            <a class="more" href="">更多案例</a>
         </div>
-        <div class="col-lg-4">
-            <div class="media-base">
-                <a href="" class="thumb">
-                    <img src="../../img/temp-img/case1.jpg" alt=""/>
-                    <a class="hide-txt">查看详情</a>
-                </a>
-                <span class="pull-right"><i class="icon-heart"></i>888</span>
-                <div class="inner-imgtxt">
-                    <a class="img pull-left" href=""><img src="../../img/temp-img/case-avatar.jpg" alt=""/></a>
-                    <p>谢女士<em>188m²</em></p>
-                    <p>中德英伦联邦/12-18万</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="media-base">
-                <a href="" class="thumb">
-                    <img src="../../img/temp-img/case1.jpg" alt=""/>
-                    <a class="hide-txt">查看详情</a>
-                </a>
-                <span class="pull-right"><i class="icon-heart"></i>888</span>
-                <div class="inner-imgtxt">
-                    <a class="img pull-left" href=""><img src="../../img/temp-img/case-avatar.jpg" alt=""/></a>
-                    <p>谢女士<em>188m²</em></p>
-                    <p>中德英伦联邦/12-18万</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="media-base">
-                <a href="" class="thumb">
-                    <img src="../../img/temp-img/case1.jpg" alt=""/>
-                    <a class="hide-txt">查看详情</a>
-                </a>
-                <span class="pull-right"><i class="icon-heart"></i>888</span>
-                <div class="inner-imgtxt">
-                    <a class="img pull-left" href=""><img src="../../img/temp-img/case-avatar.jpg" alt=""/></a>
-                    <p>谢女士<em>188m²</em></p>
-                    <p>中德英伦联邦/12-18万</p>
-                </div>
+        <div class="case2-cont">
+            <div class="slider">
+                <ul class="items">
+                    <li><a href=""><img src="../../img/temp-img/slider-img1.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="../../img/temp-img/slider-img1.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="../../img/temp-img/slider-img1.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="../../img/temp-img/slider-img1.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="../../img/temp-img/slider-img1.jpg" alt=""/></a></li>
+                </ul>
+                <ul class="other-cont">
+                    <li>
+                        <img src="../../img/temp-img/slider-ctrl-img1.jpg" alt=""/>
+                        <p>张先生</p>
+                        <p>华润幸福里</p>
+                    </li>
+                    <li>
+                        <img src="../../img/temp-img/slider-ctrl-img1.jpg" alt=""/>
+                        <p>谢女士</p>
+                        <p>中德英伦联邦</p>
+                    </li>
+                    <li>
+                        <img src="../../img/temp-img/slider-ctrl-img1.jpg" alt=""/>
+                        <p>陈女士</p>
+                        <p>蓝光COO</p>
+                    </li>
+                    <li>
+                        <img src="../../img/temp-img/slider-ctrl-img1.jpg" alt=""/>
+                        <p>刘先生</p>
+                        <p>南城都汇御天下</p>
+                    </li>
+                    <li>
+                        <img src="../../img/temp-img/slider-ctrl-img1.jpg" alt=""/>
+                        <p>王女士</p>
+                        <p>中铁西域</p>
+                    </li>
+                </ul>
+                <a href="" class="ctrl ctrl-left"><i class="myicon-angle-left"></i></a>
+                <a href="" class="ctrl ctrl-right"><i class="myicon-angle-right"></i></a>
             </div>
         </div>
     </div>

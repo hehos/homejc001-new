@@ -1,0 +1,50 @@
+@import "../variables";
+@import "../mixins";
+
+.head-yuyue-form {
+  position: relative;
+  z-index: 100000;
+  margin-top: -36px;
+  padding: 18px 28px;
+  @include background-color-rgba(#000, 0.7);
+  font-size: 18px;
+  font-family: "Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu;
+  .form-control, .btn, .cate {
+    display: inline-block;
+    width: auto;
+    height: 72px;
+    padding: 24px 10px;
+    vertical-align: top;
+    border-width: 0 1px 0 0;
+    font-size: inherit;
+  }
+  .name, .phone { margin-left: 25px; }
+  .name { width: 170px; }
+  select.form-control {
+    margin-left: 15px;
+  }
+  .cate {
+    width: 216px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  label {
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    color: #dd2130;
+    font-weight: bold;
+    input { margin-right: 8px; }
+  }
+  .yuyue-form-cont {
+    background-color: #fff;
+  }
+  .submit {
+    float: right;
+    color: $body-bg;
+    background-color: #dd2130;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 20px;
+  }
+}

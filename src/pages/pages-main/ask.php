@@ -4,7 +4,7 @@
     <?php include "../head-resource.php"; ?>
     <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/baike.css?v=d36091443a"/>
 
-    <script src="../../js/unslider.js?v=ebbc073b11"></script>
+    <script src="../../js/unslider.js?v=bea70f4c3b"></script>
 </head>
 <body>
 <?php include "../header.php"; ?>

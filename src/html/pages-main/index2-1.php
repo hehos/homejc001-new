@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/index.css"/>
+    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/index2.css"/>
 </head>
 <body>
 
@@ -22,75 +22,11 @@
 
 <?php include "../header.php"; ?>
 
-<!--  begin 头部banner  -->
-<div class="index-full-banner">
-    <div class="banner slider">
-        <ul class="items">
-            <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner1.jpg" alt=""/></a>
-            </li>
-            <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner2.jpg" alt=""/></a>
-            </li>
-            <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner3.jpg" alt=""/></a>
-            </li>
-            <li>
-                <a href="javascript:void(0);"><img src="../../img/full-banner4.jpg" alt=""/></a>
-            </li>
-        </ul>
-        <ol class="dots">
-            <li class="dot"></li>
-        </ol>
-        <div class="arrows">
-            <div class="arrow prev"><</div>
-            <div class="arrow next">></div> 
-        </div>
-    </div>
 
 
-    <script type="text/javascript" src="../../js/unslider.js"></script>
-    <script>
-        $('.banner').unslider({
-            keys: true,
-            autoplay: false,
-            arrows: true,
-            fluid: true,
-            dots: true
-        });
-    </script>
-
-</div>
-<!--  end 头部banner  -->
-
+<?php include "full-banner.php"; ?>
 <div class="container">
-    <!--  begin 顶部报名条  -->
-    <div class="row">
-        <form action="">
-        <div class="yuyue-form-bar">
-            <input type="text" placeholder="请输入您的姓名"/>
-            <input type="text" placeholder="请输入您的电话号码"/>
-            <select name="" id="">
-                <option value="">省份</option>
-                <option value="">四川</option>
-                <option value="">广东</option>
-            </select>
-            <select name="" id="">
-                <option value="">城市/地区</option>
-                <option value="">成都</option>
-                <option value="">广州</option>
-            </select>
-            <label for="">
-                <input type="radio"/>装&nbsp;修
-            </label>
-            <label for="">
-                <input type="radio"/>定制家居
-            </label>
-            <button>免费预约</button> 
-        </div>
-        </form>
-    </div>
-    <!--  end 顶部报名条  -->
+    <?php include "head-yuyue-form.php"; ?>
 
     <!--  begin 顶部装修和定制切换  -->
     <div class="row">
@@ -109,66 +45,66 @@
     <!--  begin 0风险  -->
     <div class="row">
         <ul>
-            <li>
+            <li><a href="">
                 <div class="txt">
-                    <h5>免费上门量尺</h5>
+                    <h4>免费上门量尺</h4>
                     <p>免费上门、量房、报价</p>
                 </div>
                 <div class="active-txt">
-                    <h5>免费上门量尺</h5>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<a href="">详细>></a></p>
+                    <h4>免费上门量尺</h4>
+                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span>详细>></span></p>
                 </div>
                 <span class="bg"></span>
                 <span class="active-bg"></span>
-            </li>
-            <li>
+                </a></li>
+            <li><a href="">
                 <div class="txt">
-                    <h5>3套设计报价方案</h5>
-                    <p>选择性价比最高的商家</p>
+                    <h4>免费上门量尺</h4>
+                    <p>免费上门、量房、报价</p>
                 </div>
                 <div class="active-txt">
-                    <h5>免费全程监管</h5>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<a href="">详细>></a></p>
+                    <h4>免费上门量尺</h4>
+                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span>详细>></span></p>
                 </div>
                 <span class="bg"></span>
                 <span class="active-bg"></span>
-            </li>
-            <li>
+                </a></li>
+            <li><a href="">
                 <div class="txt">
-                    <h5>满意后再付款</h5>
-                    <p>保障您的权益</p>
+                    <h4>免费上门量尺</h4>
+                    <p>免费上门、量房、报价</p>
                 </div>
                 <div class="active-txt">
-                    <h5>免费全程监管</h5>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<a href="">详细>></a></p>
+                    <h4>免费上门量尺</h4>
+                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span>详细>></span></p>
                 </div>
                 <span class="bg"></span>
                 <span class="active-bg"></span>
-            </li>
-            <li>
+                </a></li>
+            <li><a href="">
                 <div class="txt">
-                    <h5>满意后再付款</h5>
-                    <p>保障您的权益</p>
+                    <h4>免费上门量尺</h4>
+                    <p>免费上门、量房、报价</p>
                 </div>
                 <div class="active-txt">
-                    <h5>免费全程监管</h5>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<a href="">详细>></a></p>
+                    <h4>免费上门量尺</h4>
+                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span>详细>></span></p>
                 </div>
                 <span class="bg"></span>
                 <span class="active-bg"></span>
-            </li>
-            <li>
+                </a></li>
+            <li><a href="">
                 <div class="txt">
-                    <h5>售后保障</h5>
-                    <p>拒绝扯皮推诿、投诉无门</p>
+                    <h4>免费上门量尺</h4>
+                    <p>免费上门、量房、报价</p>
                 </div>
                 <div class="active-txt">
-                    <h5>免费全程监管</h5>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<a href="">详细>></a></p>
+                    <h4>免费上门量尺</h4>
+                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span>详细>></span></p>
                 </div>
                 <span class="bg"></span>
                 <span class="active-bg"></span>
-            </li>
+                </a></li>
         </ul>
     </div>
     <!--  end 0风险  -->

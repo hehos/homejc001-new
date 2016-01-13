@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/dist/css/pages-main/index2.min.css?v=da194fd3d3"/>
+    <link rel="stylesheet" href="/homejc001-new/dist/css/pages-main/index2.min.css?v=1c34cef973"/>
 </head>
 <body>
 
@@ -28,12 +28,6 @@
 <div class="container">
     <?php include "head-yuyue-form.php"; ?>
 
-    <!--  begin 顶部装修和定制切换  -->
-    <div class="row">
-        <a href="">装修服务</a>
-        <a href="">定制家居</a>
-    </div>
-    <!--  end 顶部装修和定制切换  -->
 
     <!--  begin 定制流程  -->
     <div class="index-flow2 row">
@@ -43,68 +37,70 @@
 
 
     <!--  begin 0风险  -->
-    <div class="row">
-        <ul>
-            <li><a href="">
-                <div class="txt">
+    <div class="row index-0risk">
+        <h3>开启“0风险装修”新时代</h3>
+        <ul class="clearfix">
+            <li class="item on item0"><a href="">
+                <div class="cont">
                     <h4>免费上门量尺</h4>
                     <p>免费上门、量房、报价</p>
                 </div>
-                <div class="active-txt">
+                <div class="active-cont">
                     <h4>免费上门量尺</h4>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span>详细>></span></p>
-                </div>
-                <span class="bg"></span>
-                <span class="active-bg"></span>
-                </a></li>
-            <li><a href="">
-                <div class="txt">
-                    <h4>免费上门量尺</h4>
-                    <p>免费上门、量房、报价</p>
-                </div>
-                <div class="active-txt">
-                    <h4>免费上门量尺</h4>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span>详细>></span></p>
-                </div>
-                <span class="bg"></span>
-                <span class="active-bg"></span>
-                </a></li>
-            <li><a href="">
-                <div class="txt">
+                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span class="more">详细>></span></p>
+                </div></a>
+                <span class="bg-after"></span>
+                <span class="bg-before"></span>
+            </li>
+            <li class="item item1"><a href="">
+                <div class="cont">
                     <h4>免费上门量尺</h4>
                     <p>免费上门、量房、报价</p>
                 </div>
-                <div class="active-txt">
+                <div class="active-cont">
                     <h4>免费上门量尺</h4>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span>详细>></span></p>
-                </div>
-                <span class="bg"></span>
-                <span class="active-bg"></span>
-                </a></li>
-            <li><a href="">
-                <div class="txt">
-                    <h4>免费上门量尺</h4>
-                    <p>免费上门、量房、报价</p>
-                </div>
-                <div class="active-txt">
-                    <h4>免费上门量尺</h4>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span>详细>></span></p>
-                </div>
-                <span class="bg"></span>
-                <span class="active-bg"></span>
-                </a></li>
-            <li><a href="">
-                <div class="txt">
+                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span class="more">详细>></span></p>
+                </div></a>
+                <span class="bg-after"></span>
+                <span class="bg-before"></span>
+            </li>
+            <li class="item item2"><a href="">
+                <div class="cont">
                     <h4>免费上门量尺</h4>
                     <p>免费上门、量房、报价</p>
                 </div>
-                <div class="active-txt">
+                <div class="active-cont">
                     <h4>免费上门量尺</h4>
-                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span>详细>></span></p>
+                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span class="more">详细>></span></p>
+                </div></a>
+                <span class="bg-after"></span>
+                <span class="bg-before"></span>
+            </li>
+            <li class="item item3"><a href="">
+                <div class="cont">
+                    <h4>免费上门量尺</h4>
+                    <p>免费上门、量房、报价</p>
                 </div>
-                <span class="bg"></span>
-                <span class="active-bg"></span>
-                </a></li>
+                <div class="active-cont">
+                    <h4>免费上门量尺</h4>
+                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span class="more">详细>></span></p>
+                </div></a>
+                <span class="bg-after"></span>
+                <span class="bg-before"></span>
+            </li>
+            <li class="item item4"><a href="">
+                <div class="cont">
+                    <h4>免费上门量尺</h4>
+                    <p>免费上门、量房、报价</p>
+                </div>
+                <div class="active-cont">
+                    <h4>免费上门量尺</h4>
+                    <p>专业第三方监理分水电，泥木，油漆，竣工四节点验收...<span class="more">详细>></span></p>
+                </div>
+                </a>
+                <span class="bg-after"></span>
+                <span class="bg-before"></span>
+            </li>
         </ul>
     </div>
     <!--  end 0风险  -->

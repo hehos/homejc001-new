@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="http://192.168.0.188/homejc001-new/src/css/pages-main/index2.css?v=da194fd3d3"/>
+    <link rel="stylesheet" href="/homejc001-new/src/css/pages-main/index2.css?v=1c34cef973"/>
 </head>
 <body>
 
@@ -29,12 +29,6 @@
 <div class="container">
     <?php include "head-yuyue-form.php"; ?>
 
-    <!--  begin 顶部装修和定制切换  -->
-    <div class="row">
-        <a href="">装修服务</a>
-        <a href="">定制家居</a>
-    </div>
-    <!--  end 顶部装修和定制切换  -->
 
     <!--  begin 定制流程  -->
     <div class="index-flow2 row">
@@ -44,37 +38,37 @@
 
 
     <!--  360°贴心服务  -->
-    <div class="row">
-        <div>360°贴心服务，全面解决家具购买难题</div>
-        <ul>
-            <li><a href="">
+    <div class="row index-360server">
+        <h3>360°贴心服务，全面解决家具购买难题</h3>
+        <ul class="clearfix">
+            <li class="item on is-text"><a href="">
                 <h4>免费上门量尺</h4>
-                <p>1分钟发布申请，专业设计师精准测量尺寸</p>
+                <p class="txt">1分钟发布申请，专业设计师精准测量尺寸<span class="more">详细>></span></p>
                 </a></li>
-            <li>
-                <a href=""><img src="../../img/temp-img/dingzhi1.jpg?v=c157fb9e3a" alt=""/></a>
+            <li class="item">
+                <a class="img" href=""><img src="../../img/temp-img/dingzhi1.jpg?v=c157fb9e3a" alt=""/></a>
             </li>
-            <li><a href="">
+            <li class="item is-text"><a href="">
                 <h4>满意后再付款</h4>
-                <p>满意后再付款，防止霸王条款，出现质量问题可先行赔付</p>
+                <p class="txt">满意后再付款，防止霸王条款，出现质量问题可先行赔付<span class="more">详细>></span></p>
                 </a></li>
-            <li>
-                <a href=""><img src="../../img/temp-img/dingzhi2.jpg?v=c36bd8fc3e" alt=""/></a>
+            <li class="item">
+                <a class="img" href=""><img src="../../img/temp-img/dingzhi2.jpg?v=c36bd8fc3e" alt=""/></a>
             </li>
-
-            <li>
-                <a href=""><img src="../../img/temp-img/dingzhi1.jpg?v=c157fb9e3a" alt=""/></a>
+            <li class="item">
+                <a class="img" href=""><img src="../../img/temp-img/dingzhi1.jpg?v=c157fb9e3a" alt=""/></a>
             </li>
-            <li><a href="">
+            <li class="item is-text"><a href="">
                 <h4>3套设计与报价方案</h4>
-                <p>价格质量全面对比，熟悉项目单价和内容，避免价格陷阱</p>
+                <p class="txt">价格质量全面对比，熟悉项目单价和内容，避免价格陷阱<span class="more">详细>></span></p>
                 </a></li>
-            <li>
-                <a href=""><img src="../../img/temp-img/dingzhi2.jpg?v=c36bd8fc3e" alt=""/></a>
+            <li class="item">
+                <a class="img" href=""><img src="../../img/temp-img/dingzhi2.jpg?v=c36bd8fc3e" alt=""/></a>
             </li>
-            <li><a href="">
+            <li class="item is-text"><a href="">
                 <h4>拒绝扯皮推诿，投诉无门</h4>
-                <p>10秒提交投诉申请—12小时内九正受理投诉—15内定制厂家回应—36小时内协调出解决方案</p>
+                <p class="txt">10秒提交投诉申请—12小时内九正受理投诉—15内定制厂家回应—36小时内协调出解决方案
+                    <span class="more">详细>></span></p>
                 </a></li>
         </ul>
     </div>

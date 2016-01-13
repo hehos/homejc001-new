@@ -27,3 +27,10 @@
     </form>
 </div>
 <!--  end 顶部报名条  -->
+
+<!--  begin 顶部装修和定制切换  -->
+<div class="row head-cate-switch">
+    <a class="cate on" href="">装修服务</a>
+    <a class="cate" href="">定制家居</a>
+</div>
+<!--  end 顶部装修和定制切换  -->

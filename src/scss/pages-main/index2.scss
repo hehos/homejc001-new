@@ -3,12 +3,18 @@
 
 // variables
 $red1: #dd2130;
-$red2: $red2;
+$red2: #ec1b36;
 // comm
 // 标题
 .index-title {
-  border-bottom: 2px solid $red1;
-
+  margin-bottom: 24px;
+  a:hover { text-decoration: none; }
+  .title { font-size: 1.9em; }
+  .other-info, .more { color: #646464; }
+  .other-info {
+    line-height: 2;
+    margin-top: 1.3em;
+  }
 }
 
 
@@ -102,7 +108,6 @@ $red2: $red2;
     }
   }
 }
-
 .index-flow2 {
   text-align: center;
 }
@@ -247,4 +252,97 @@ $red2: $red2;
     overflow: hidden;
     font-size: 16px;
   }
+}
+
+// 装修效果图
+.index-xiaoguo-zx {
+  .index-title {
+    border-bottom: 2px solid #608f01;
+  }
+  .side-cate-box {
+    float: left;
+    width: percentage(235px / 1200px);
+  }
+  .label-bar {
+    padding-left: 16px;
+    margin-top: 11px;
+    margin-right: -15px;
+    .label-cell {
+      line-height: 2em;
+      margin: 7px 15px 7px 0;
+      padding-left: .5em;
+      padding-right: .5em;
+      border: 1px solid #d8d8d8;
+    }
+  }
+  .main-media-box {
+    float: right;
+    width: percentage((1200px - 235px) / 1200px);
+  }
+
+  .img-box {
+    position: relative;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    &:hover {
+      .mask-layer { display: block; }
+    }
+  }
+  .mask-layer {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .img-box-l .mask-layer { padding-top: 220px; }
+  // 宽
+  .img-box-m, .img-box-l { width: 375px; }
+  .img-box-s {
+    width: 185px;
+  }
+  // 高
+  .img-box-s, .img-box-m {
+    .img {
+      height: 238px;
+      line-height: middleImg(283px);
+    }
+  }
+  .img-box-l .img {
+    height: (238px * 2) + 10px;
+    line-height: middleImg((238px * 2) + 10px);
+  }
+}
+
+// 家居效果图
+.index-xiaoguo-jj {
+  .index-title {
+    border-bottom: 2px solid #3cb38d;
+  }
+}
+
+// 装修攻略
+.index-gonglue {
+
+}
+
+// 功能定制
+.index-dingzhi {
+
+}
+
+// 小区案例
+.index-case1 {
+
+}
+.index-case2 {
+
+}
+
+// 明星商家
+.index-corp {
+
+}
+
+// 家居品牌
+.index-brand {
+
 }

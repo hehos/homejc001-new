@@ -134,7 +134,7 @@
     <!--  end 功能定制  -->
 
     <!--  begin 家具效果图  -->
-    <div class="index-jiaju-xg row">
+    <div class="index-xiaoguo-jj row">
         <div class="index-title title-bar">
             <h2 class="title"><a href="">家具效果图</a></h2>
             <span class="other-info pull-left">用定制美了整个家</span>

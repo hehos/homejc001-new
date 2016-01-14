@@ -106,14 +106,14 @@
     <!--  end 0风险  -->
 
     <!--  begin 装修效果图  -->
-    <div class="index-xiaoguo2 row">
+    <div class="index-xiaoguo-zx row">
         <div class="index-title title-bar">
             <h2 class="title"><a href="">装修效果图</a></h2>
             <span class="other-info pull-left">已有 32055909 位业主找到灵感</span>
             <a class="more" href="">查看更多</a>
         </div>
-        <div class="xiaoguo-cont">
-            <div class="cate-box">
+        <div class="xiaoguo-cont clearfix">
+            <div class="side-cate-box">
                 <a class="img" href=""><img src="../../img/xiaoguo-ad.jpg" alt=""/></a>
                 <ul class="label-bar">
                     <li class="label-cell on"><a href="">中式装修</a></li>
@@ -128,25 +128,29 @@
                     <li class="label-cell"><a href="">地中海美宅</a></li>
                 </ul>
             </div>
-            <div class="small-media-box">
-                <ul>
-                    <li>
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-small1.jpg" alt=""/></a>
-                        <a href=""><i></i></a>
+            <div class="main-media-box">
+                <ul class="clearfix">
+                    <li class="img-box img-box-l">
+                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-l.jpg" alt=""/></a>
+                        <a class="mask-layer" href=""><i class="myicon-plus"></i></a>
                     </li>
-                    <li class="big">
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-big1.jpg" alt=""/></a>
+                    <li class="img-box img-box-m">
+                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-m.jpg" alt=""/></a>
+                        <a class="mask-layer" href=""><i class="myicon-plus"></i></a>
                     </li>
-                    <li>
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-big1.jpg" alt=""/></a>
+                    <li class="img-box img-box-s">
+                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-s.jpg" alt=""/></a>
+                        <a class="mask-layer" href=""><i class="myicon-plus"></i></a>
                     </li>
-                    <li class="big">
-                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-small1.jpg" alt=""/></a>
+                    <li class="img-box img-box-s">
+                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-s.jpg" alt=""/></a>
+                        <a class="mask-layer" href=""><i class="myicon-plus"></i></a>
+                    </li>
+                    <li class="img-box img-box-m">
+                        <a class="img" href=""><img src="../../img/temp-img/xiaoguo-m.jpg" alt=""/></a>
+                        <a class="mask-layer" href=""><i class="myicon-plus"></i></a>
                     </li>
                 </ul>
-            </div>
-            <div class="big-media-box">
-                <a href=""><img src="../../img/temp-img/xiaoguo-big.jpg" alt=""/></a>
             </div>
         </div>
     </div>
@@ -243,7 +247,7 @@
     <!--  end 装修攻略  -->
 
     <!--  begin 小区案例  -->
-    <div class="index-case row">
+    <div class="index-case1  row">
         <div class="index-title title-bar">
             <h2 class="title"><a href="">装修攻略</a></h2>
             <a class="more" href="">查看更多</a>
@@ -368,7 +372,7 @@
     <!--  end 明星商家  -->
 
     <!--  begin 家居品牌  -->
-    <div class="index-brand row">
+    <div class=" index-brand row">
         <div class="index-title title-bar">
             <h2 class="title"><a href="">家具品牌</a></h2>
         </div>

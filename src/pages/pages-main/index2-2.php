@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <?php include "../head-resource.php"; ?>
-    <link rel="stylesheet" href="/homejc001-new/src/css/pages-main/index2.css?v=1c34cef973"/>
+    <link rel="stylesheet" href="/homejc001-new/src/css/pages-main/index2.css?v=c99449cb4d"/>
 </head>
 <body>
 
@@ -134,7 +134,7 @@
     <!--  end 功能定制  -->
 
     <!--  begin 家具效果图  -->
-    <div class="index-jiaju-xg row">
+    <div class="index-xiaoguo-jj row">
         <div class="index-title title-bar">
             <h2 class="title"><a href="">家具效果图</a></h2>
             <span class="other-info pull-left">用定制美了整个家</span>
